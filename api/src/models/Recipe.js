@@ -8,11 +8,12 @@ module.exports = (sequelize) => {
     {
       id:{
         type: DataTypes.INTEGER,
-        allowNull: false,
-        primaryKey: true
+        primaryKey: true,
+        defaultValue: 785
       },
       name:{
         type: DataTypes.STRING,
+        unique: true,
         allowNull: false
       },
       image:{
@@ -23,13 +24,17 @@ module.exports = (sequelize) => {
         type: DataTypes.STRING,
         allowNull:false
       },
-      healthScore:{
-        type: DataTypes.INTEGER,
-        allowNull:false
+      health_score:{
+        type: DataTypes.INTEGER
       },
       steps:{
-        type: DataTypes.STRING,
-        allowNull:false
+        type: DataTypes.STRING
       }
-  });
+    },
+    { 
+      timestamps: false,
+      createdAt:false
+    }
+  );
 };
+
