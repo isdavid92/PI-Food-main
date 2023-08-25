@@ -9,7 +9,7 @@ module.exports = (sequelize) => {
       id:{
         type: DataTypes.INTEGER,
         primaryKey: true,
-        defaultValue: 785
+        autoIncrement: true
       },
       name:{
         type: DataTypes.STRING,
@@ -22,7 +22,7 @@ module.exports = (sequelize) => {
       },
       summary:{
         type: DataTypes.STRING,
-        allowNull:false
+        allowNull:true
       },
       health_score:{
         type: DataTypes.INTEGER
