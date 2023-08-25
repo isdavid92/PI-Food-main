@@ -4,8 +4,8 @@ require('dotenv').config();
 const { API_KEY } = process.env;
 const URL_BASE = 'https://api.spoonacular.com/recipes/';
 
-const getRecipeById = async (req, res) => {
-    const id = parseInt(req.params.id);
+const getRecipeByName = async (req, res) => {
+    const nameRecipe = parseInt(req.params.name);
 
     try {
         const response = await axios(`${URL_BASE}${id}/information?apiKey=${API_KEY}&addRecipeInformation=true`);
@@ -18,4 +18,4 @@ const getRecipeById = async (req, res) => {
     }
 };
 
-module.exports = getRecipeById;
+module.exports = getRecipeByName;
