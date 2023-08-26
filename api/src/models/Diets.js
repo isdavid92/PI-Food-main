@@ -7,7 +7,8 @@ module.exports = (sequelize) => {
       id:{
         type: DataTypes.INTEGER,
         allowNull: false,
-        primaryKey: true
+        primaryKey: true,
+        autoIncrement: true
       },
       name:{
         type: DataTypes.ENUM('glutenFree','ketogenic','vegetarian','lactoVegetarian','ovoVegetarian','vegan','pescetarian','paleo','primal','whole30'),

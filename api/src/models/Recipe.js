@@ -9,9 +9,9 @@ module.exports = (sequelize) => {
       id:{
         type: DataTypes.INTEGER,
         primaryKey: true,
-        autoIncrement: true
+        defaultValue: 1200000
       },
-      name:{
+      title:{
         type: DataTypes.STRING,
         unique: true,
         allowNull: false
