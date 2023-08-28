@@ -1,6 +1,5 @@
 const errorHandler = require('../utils/errors');
 const { Recipe, Diet } = require('../db');
-const dietsDefault = ['glutenFree','ketogenic','vegetarian','lactoVegetarian','ovoVegetarian','vegan','pescetarian','paleo','primal', 'LowFODMAP', 'whole30'];
 
 const postRecipe = async (req, res) => {
     try {
@@ -19,12 +18,12 @@ const postRecipe = async (req, res) => {
             return idDB + 2
         };
 
-        const dietsDB = await Diet.findAll();
-        if(!dietsDB.length){
-            for (let i = 0; i < dietsDefault.length; i++) {
-                await Diet.create({ name:dietsDefault[i] })
-            };
-        };
+        // const dietsDB = await Diet.findAll();
+        // if(!dietsDB.length){
+        //     for (let i = 0; i < dietsDefault.length; i++) {
+        //         await Diet.create({ name:dietsDefault[i] })
+        //     };
+        // };
         
         const { title, image, summary, health_score, steps, diets } = req.body;
         const id = await idDB();
