@@ -1,8 +1,8 @@
 const DataTypes = require('sequelize');
 module.exports = (sequelize) => {
   // defino el modelo
-  sequelize.define(
-    'diets',
+  const Diet = sequelize.define(
+    'diet',
     {
       id:{
         type: DataTypes.INTEGER,
@@ -11,8 +11,11 @@ module.exports = (sequelize) => {
         autoIncrement: true
       },
       name:{
-        type: DataTypes.ENUM('glutenFree','ketogenic','vegetarian','lactoVegetarian','ovoVegetarian','vegan','pescetarian','paleo','primal','whole30'),
+        type: DataTypes.STRING,
         allowNull: false
+      },
+      info:{
+        type: DataTypes.STRING
       }
     },
     { 

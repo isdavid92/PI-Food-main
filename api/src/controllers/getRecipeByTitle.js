@@ -7,6 +7,7 @@ const { Recipe } = require('../db');
 
 const getRecipeByTitle = async (req, res) => {
     const titleRecipe = req.params.title;
+
     const searchDB = async () => {
         const recipes = await Recipe.findAll();
         const result = recipes.filter((recipe) => {
@@ -28,11 +29,9 @@ const getRecipeByTitle = async (req, res) => {
         const response = await axios(`${URL_BASE}${titleRecipe}&number=25&apiKey=${API_KEY}`);
         const resultApi = response.data;
         const resultDB = await searchDB();
-        console.log(resultDB);
         
         const results = [...resultDB, ...resultApi];
         const resultFilter = filterResults(results);
-
 
         return res.status(200).json(resultFilter)
     } catch (error) {

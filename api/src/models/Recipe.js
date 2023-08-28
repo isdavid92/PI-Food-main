@@ -8,8 +8,7 @@ module.exports = (sequelize) => {
     {
       id:{
         type: DataTypes.INTEGER,
-        primaryKey: true,
-        defaultValue: 1200000
+        primaryKey: true
       },
       title:{
         type: DataTypes.STRING,
