@@ -16,7 +16,8 @@ const getRecipeById = async (req, res) => {
 
         const response = await axios(`${URL_BASE}${id}/information?apiKey=${API_KEY}&addRecipeInformation=true`);
         const { title, image, summary, healthScore, analyzedInstructions } = response.data;
-        const recipeApi = { id, title, image, summary, healthScore, analyzedInstructions };
+        const steps = analyzedInstructions[0].steps;
+        const recipeApi = { id, title, image, summary, healthScore, steps };
         
         return res.status(200).json(recipeApi)
     } catch (error) {
