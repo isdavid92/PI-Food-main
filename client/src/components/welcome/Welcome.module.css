@@ -1,0 +1,12 @@
+.form{
+    height: 100vh;
+    border: 0px;
+    background-image: url(./assets/img/welcomeImg.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+.container{
+    background-color: wheat;
+    size: auto;
+}
