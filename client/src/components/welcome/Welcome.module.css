@@ -1,12 +1,65 @@
 .form{
     height: 100vh;
-    border: 0px;
     background-image: url(./assets/img/welcomeImg.jpg);
     background-size:cover;
     background-position: center;
 }
 
 .container{
-    background-color: wheat;
-    size: auto;
+    
+    max-width:max-content;
+    margin: 0 auto;
+    transform: translateY(15em);
+}
+
+@font-face {
+    font-family: chef;
+    src: url('./assets/fonts/1/CelebrityChefDemoRegular.ttf');
+}
+.chef{
+    font-family: chef;
+    margin: 0 auto;
+    max-width:max-content;
+    font-size: 2em;
+}
+
+@font-face {
+    font-family: welcome;
+    src: url('./assets/fonts/2/Food\ Zone.ttf');
+}
+.welcome{
+    font-family: welcome;
+    margin: 0 auto;
+    max-width:max-content;
+    font-size: 7em;
+}
+
+@font-face {
+    font-family: name;
+    src: url('./assets/fonts/3/GREENFOOD\ PERSONAL\ USE.ttf');
+}
+.name{
+    font-family: name;
+    margin: 0 auto;
+    max-width:max-content;
+    font-size: 2em;
+}
+
+@font-face {
+    font-family: placeholder;
+    src: url('./assets/fonts/4/Foodlist-Regular.ttf');
+}
+.placeholder{
+    font-family: placeholder;
+    font-size: 1.5em;
+}
+
+.button{
+    width: 2.5em;
+    transform: translateY(11px) translateX(8px);
+    &:hover {
+        background-color: yellow;
+        cursor: pointer;
+        border-radius: 3em;
+    }
 }

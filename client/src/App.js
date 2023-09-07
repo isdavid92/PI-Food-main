@@ -1,8 +1,10 @@
 import style from './App.module.css';
 import { useState, useEffect } from 'react';
 import { Routes, Route, useLocation, useNavigate } from "react-router-dom";
+import Error404 from './components/error 404/Error404';
 import Welcome from './components/welcome/Welcome';
 import Nav from './components/nav/Nav';
+
 
 
 function App() {
@@ -13,14 +15,15 @@ function App() {
   const [ name, setName ] = useState('');
 
 
-  useEffect(() => {
-    !access && navigate('/');
-  }, [access]);
+  // useEffect(() => {
+  //   !access && navigate('/');
+  // }, [access]);
   
   const login = (name) => {
     setAccess(true);
     navigate('/home');
     setName(name);
+    console.log(name);
   };
 
 
@@ -32,7 +35,8 @@ function App() {
           <Nav name={name}/>
         </>}
       <Routes>
-        <Route path='/' element={<Welcome userName={login}/>}/>
+        <Route path='/' element={<Welcome login={login}/>}/>
+        <Route path='*' element={<Error404/>}/>
       </Routes>
     </div>
   );
