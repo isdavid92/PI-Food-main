@@ -1,14 +1,14 @@
 import axios from "axios";
-import { ADD_FAV, REMOVE_FAV, FILTER, ORDER } from "./actions_types";
+import { ADD_RECIPE, FILTER, ORDER } from "./actions_types";
 
-const URL = 'http://localhost:3001/rickandmorty/fav';
+const URL = 'http://localhost:3001/recipes';
 
-export const addFav = (character) => {
+export const addRecipe = (recipe) => {
     try {
         return async (dispatch) => {
-            const { data } = await axios.post(URL, character);
+            const { data } = await axios.post(URL, recipe);
             return dispatch({
-                        type: ADD_FAV,
+                        type: ADD_RECIPE,
                         payload: data
                     })
     
@@ -18,7 +18,7 @@ export const addFav = (character) => {
     }
 }
 
-export const removeFav = (id) => {
+export const removeRecipe = (id) => {
     try {
         return async (dispatch) => {
             const { data } = await axios.delete(`${URL}/${id}`);
@@ -32,14 +32,14 @@ export const removeFav = (id) => {
     }
 }
 
-export const filterCards = (gender) => {
+export const filterRecipes = (gender) => {
     return {
         type: FILTER,
         payload: gender
     }
 }
 
-export const orderCards = (orden) => {
+export const orderRecipes = (orden) => {
     return {
         type: ORDER,
         payload: orden

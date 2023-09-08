@@ -1,6 +1,6 @@
 .form{
-    height: 100vh;
     background-image: url(./assets/img/welcomeImg.jpg);
+    height: 100vh;
     background-size:cover;
     background-position: center;
 }
@@ -9,7 +9,7 @@
     
     max-width:max-content;
     margin: 0 auto;
-    transform: translateY(15em);
+    transform: translateY(12em);
 }
 
 @font-face {
@@ -20,7 +20,7 @@
     font-family: chef;
     margin: 0 auto;
     max-width:max-content;
-    font-size: 2em;
+    font-size: 3em;
 }
 
 @font-face {
@@ -31,7 +31,7 @@
     font-family: welcome;
     margin: 0 auto;
     max-width:max-content;
-    font-size: 7em;
+    font-size: 8em;
 }
 
 @font-face {
@@ -42,7 +42,7 @@
     font-family: name;
     margin: 0 auto;
     max-width:max-content;
-    font-size: 2em;
+    font-size: 3em;
 }
 
 @font-face {
@@ -52,6 +52,7 @@
 .placeholder{
     font-family: placeholder;
     font-size: 1.5em;
+    background-color: rgba(254, 197, 111, 0.5);
 }
 
 .button{

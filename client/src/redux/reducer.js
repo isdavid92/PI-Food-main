@@ -1,8 +1,9 @@
-import { ADD_FAV, REMOVE_FAV, FILTER, ORDER } from "./actions_types";
+import { ADD_RECIPE, REMOVE_RECIPE, FILTER, ORDER } from "./actions_types";
 
 const inicialState = {
-    myFavorites: [],
-    allCharacters: []
+    recipes: [],
+    allRecipes: [],
+    name:''
 }
 
 const reducer = (state = inicialState, { type, payload }) => {

@@ -6,7 +6,7 @@
 }
 
 .container{
-    transform: translateY(12em);
+    transform: translateY(10em);
 }
 
 .gif {
@@ -15,5 +15,10 @@
 }
 
 .button{
-    font-size: 1em;
+    width: 12em;
+    &:hover {
+        background-color: yellow;
+        cursor: pointer;
+        border-radius: 3em;
+    }
 }

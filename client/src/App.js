@@ -23,7 +23,6 @@ function App() {
     setAccess(true);
     navigate('/home');
     setName(name);
-    console.log(name);
   };
 
 
@@ -36,6 +35,7 @@ function App() {
         </>}
       <Routes>
         <Route path='/' element={<Welcome login={login}/>}/>
+        <Route path='/home' element={<Nav name={name}/>}/>
         <Route path='*' element={<Error404/>}/>
       </Routes>
     </div>
