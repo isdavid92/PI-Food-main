@@ -8,40 +8,40 @@ const inicialState = {
 
 const reducer = (state = inicialState, { type, payload }) => {
     switch (type) {
-        case ADD_FAV:
+        case ADD_RECIPE:
             return {
                 ...state,
-                myFavorites: payload,
-                allCharacters: payload
+                recipes: payload,
+                allRecipes: payload
             }
 
-        case REMOVE_FAV:
+        case REMOVE_RECIPE:
             return {
                 ...state,
-                myFavorites: payload,
-                allCharacters: payload
+                recipes: payload,
+                allRecipes: payload
             }
 
         case FILTER:
             if ( payload==="todos" ) {
                 return {
                 ...state,
-                allCharacters: [...state.allCharacters],
-                myFavorites: [...state.allCharacters]
+                allRecipes: [...state.allRecipes],
+                recipes: [...state.allRecipes]
                 }
             } else {
                 return {
                     ...state,
-                allCharacters: [...state.allCharacters],
-                myFavorites: state.allCharacters.filter(per => per.gender === payload)
+                allRecipes: [...state.allRecipes],
+                recipes: state.allRecipes.filter(per => per.gender === payload)
                 }
             }
 
         case ORDER:
             return {
                 ...state,
-                allCharacters: [...state.allCharacters],
-                myFavorites: state.myFavorites.sort((a, b) => payload === 'A' ? a.id - b.id : b.id - a.id)
+                allRecipes: [...state.allRecipes],
+                recipes: state.recipes.sort((a, b) => payload === 'A' ? a.id - b.id : b.id - a.id)
             }
 
         default:
