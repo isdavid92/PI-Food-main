@@ -1,4 +1,4 @@
-import { ADD_RECIPE, REMOVE_RECIPE, FILTER, ORDER } from "./actions_types";
+import { ADD_NAME, GET_RECIPES, ADD_RECIPE, REMOVE_RECIPE, FILTER, ORDER } from "./actions_types";
 
 const inicialState = {
     recipes: [],
@@ -8,6 +8,20 @@ const inicialState = {
 
 const reducer = (state = inicialState, { type, payload }) => {
     switch (type) {
+
+        case ADD_NAME:
+            return {
+                ...state,
+                name: payload,
+            }
+
+        case GET_RECIPES:
+            return {
+                ...state,
+                recipes: payload,
+                allRecipes: payload
+            }
+
         case ADD_RECIPE:
             return {
                 ...state,

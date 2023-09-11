@@ -1,21 +1,28 @@
-import axios from "axios";
-import { GET_RECIPE, ADD_RECIPE, REMOVE_RECIPE, FILTER, ORDER } from "./actions_types";
+import axios from 'axios';
+import { ADD_NAME, GET_RECIPES, ADD_RECIPE, REMOVE_RECIPE, FILTER, ORDER } from "./actions_types";
 
 const URL = 'http://localhost:3001/recipes';
+
+export const addName = (name) => {
+    try {
+        return async (dispatch) => {
+            return dispatch({
+                type: ADD_NAME,
+                payload: name
+            })
+        }
+    } catch (error) {
+        console.log(error);
+    } 
+}
 
 export const getRecipes = () => {
     try {
         return async (dispatch) => {
-            let id = 1;
-            const recipesApi = [];
-            while (data.length<=100) {
-                const { data } = await axios.get(`${URL}/${id}`);
-                if (data) recipesApi.push(data);
-                id++
-            }
+            const { data } = await axios.get(`${URL}`);
             return dispatch({
-                type: GET_RECIPE,
-                payload: recipesApi
+                type: GET_RECIPES,
+                payload: data
             })
         }
     } catch (error) {
@@ -26,10 +33,10 @@ export const getRecipes = () => {
 export const addRecipe = (recipe) => {
     try {
         return async (dispatch) => {
-            const { data } = await axios.post(URL, recipe);
+            // await axios.post(URL, recipe);
             return dispatch({
                         type: ADD_RECIPE,
-                        payload: data
+                        payload: recipe
                     })
     
         };

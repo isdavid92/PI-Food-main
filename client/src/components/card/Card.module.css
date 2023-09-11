@@ -1,0 +1,45 @@
+.card{
+  background-color: white;
+  height: 11em;
+  flex-basis: calc(28% - 50px);
+  margin: 5px;
+  padding: 0;
+}
+
+.info{
+  margin: auto;
+  width: min-content;
+  height: 11em;
+  
+  &:hover {
+    visibility: visible;
+    background-color: bisque;
+    height: auto;
+    cursor: pointer;
+    position: relative;
+}
+}
+
+.image{
+  width: 16.5em;
+}
+
+.nameDiets{
+  background-color: rgba(0,255,255, 0.5);
+  transform: translateY(-110%);
+}
+
+@font-face {
+  font-family: name;
+  src: url('./assets/fonts/5/2TEXAT\ BOLD\ PERSONAL\ USE___.otf');
+}
+.name{
+  font-family: name;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.diets{
+  margin: 0;
+  font-size: 1em;
+}

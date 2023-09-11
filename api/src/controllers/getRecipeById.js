@@ -3,7 +3,7 @@ const errorHandler = require('../utils/errors');
 require('dotenv').config();
 const { API_KEY } = process.env;
 const URL_BASE = 'https://api.spoonacular.com/recipes/';
-const { Recipe } = require('../db')
+const { Recipe } = require('../db');
 
 const getRecipeById = async (req, res) => {
     try {
@@ -14,7 +14,7 @@ const getRecipeById = async (req, res) => {
         });
         if (resultDB.length) return res.status(200).json(resultDB);
 
-        const response = await axios(`${URL_BASE}${id}/information?apiKey=${API_KEY}&addRecipeInformation=true`);
+        const response = await axios(`${URL_BASE}${id}/information?apiKey=${API_KEY}`);
         const { title, image, summary, healthScore, analyzedInstructions } = response.data;
         const steps = analyzedInstructions[0].steps;
         const recipeApi = { id, title, image, summary, healthScore, steps };

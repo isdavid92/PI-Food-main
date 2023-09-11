@@ -1,5 +1,5 @@
 .form{
-    background-image: url(./assets/img/welcomeImg.jpg);
+    background-image: url('./assets/img/welcomeImg.jpg');
     height: 100vh;
     background-size:cover;
     background-position: center;

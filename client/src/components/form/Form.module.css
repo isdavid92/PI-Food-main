@@ -1,0 +1,16 @@
+
+
+@font-face {
+    font-family: chef;
+    src: url('./assets/fonts/1/CelebrityChefDemoRegular.ttf');
+}
+.chef{
+    font-family: chef;
+    margin: 0 ;
+    margin-left: 1em;
+    margin-top: 1em;
+    max-width:max-content;
+    font-size: 2em;
+    color: yellow;
+    -webkit-text-stroke: 0.2px black;
+}

@@ -1,5 +1,5 @@
 const errorHandler = require('../utils/errors');
-const { Recipe, Diet } = require('../db');
+const { Recipe } = require('../db');
 const loadDBdiets = require('../utils/loadDBdiets');
 
 const postRecipe = async (req, res) => {
