@@ -5,19 +5,35 @@ import style from './Cards.module.css';
 
 const Cards = () => {
     const recipes = useSelector(state => state.allRecipes);
-    // let nineRecipes = [];
     const [ nineRecipes, setNineRecipes ] = useState([]);
+    const [ page, setPage ] = useState(1);
+    const numPages = Math.ceil(recipes.length/9)
+
 
     useEffect(() => {
-        setNineRecipes(recipes.slice(0,9))
-      }, []);
-    
-      console.log(recipes.length);
+        handleRender(page)
+      }, [page]);
 
     const handleRender = (pag) => {
         let pos1 = (0 + 9)*(pag-1);
         let pos2 = pos1 + 9;
         setNineRecipes(recipes.slice(pos1,pos2))
+    };
+
+    const handleArrow = (order) => {
+        let pag = page;
+        if (order==='<') {
+            if (pag===1) return;
+            setPage(pag-1)
+        } else {
+            if (pag===numPages) return;
+            setPage(pag+1)
+        }
+    }
+
+    const handleClassName = (pag) => {
+            if (page==pag) return style.shadeNumVis;
+            return style.shadeNum
     };
     
     return (
@@ -31,20 +47,23 @@ const Cards = () => {
                 })
             }
             </div>
+            <div className={style.shadePag}>
+                <h3 className={style.shadeArrow}>{'<<'}</h3>
+                {
+                    Array.from({length: numPages}, (_, i) => i + 1).map(num => (
+                        <h4 className={handleClassName(num)}>{num}</h4>
+                    ))
+                }
+                <h3 className={style.shadeArrow}>{'>>'}</h3>
+            </div>
             <div className={style.pag}>
-                <h3 className={style.num}>{'<<'}</h3>
-                <h4 className={style.num} onClick={() => handleRender(1)}>1</h4>
-                <h4 className={style.num} onClick={() => handleRender(2)}>2</h4>
-                <h4 className={style.num} onClick={() => handleRender(3)}>3</h4>
-                <h4 className={style.num} onClick={() => handleRender(4)}>4</h4>
-                <h4 className={style.num} onClick={() => handleRender(5)}>5</h4>
-                <h4 className={style.num} onClick={() => handleRender(6)}>6</h4>
-                <h4 className={style.num} onClick={() => handleRender(7)}>7</h4>
-                <h4 className={style.num} onClick={() => handleRender(8)}>8</h4>
-                <h4 className={style.num} onClick={() => handleRender(9)}>9</h4>
-                <h4 className={style.num} onClick={() => handleRender(10)}>10</h4>
-                <h4 className={style.num} onClick={() => handleRender(11)}>11</h4>
-                <h3 className={style.num}>{'>>'}</h3>
+                <h3 className={style.num} onClick={() => handleArrow('<')}>{'<<'}</h3>
+                {
+                    Array.from({length: numPages}, (_, i) => i + 1).map(num => (
+                        <h4 className={style.num} onClick={() => setPage(num)}>{num}</h4>
+                    ))
+                }
+                <h3 className={style.num} onClick={() => handleArrow('>')}>{'>>'}</h3>
             </div>
         </>
     )

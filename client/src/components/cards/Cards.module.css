@@ -5,18 +5,60 @@
     height: 73vh;
 }
 
-.pag{
-    background-color: rgba(17, 255, 0, 0.5);
+.shadePag{
     display: flex;
     margin: 10px auto auto auto;
-    width: 30%;
+    width: 40%;
+    position: relative;
+}
+
+.pag{
+    display: flex;
+    margin: 10px auto auto auto;
+    width: 40%;
+    transform: translateY(-126%);
+}
+
+@font-face {
+    font-family: pag;
+    src: url('./assets/fonts/4/Foodlist-Regular.ttf');
+}
+
+.shadeArrow{
+    color: red;
+    -webkit-text-stroke: 3px red;
+    filter: blur(3px);
+    width: max-content;
+    margin: 1px auto 1px auto;
+    font-family: pag;
+    font-size: 2em;
+}
+
+.shadeNumVis{
+    color: red;
+    -webkit-text-stroke: 3px red;
+    filter: blur(3px);
+    width: max-content;
+    margin: 1px auto 1px auto;
+    font-family: pag;
+    font-size: 2em;
+}
+
+.shadeNum{
+    width: max-content;
+    margin: 1px auto 1px auto;
+    font-family: pag;
+    font-size: 2em;
+    visibility: hidden;
 }
 
 .num{
-    background-color: rgba(0, 255, 255, .5);
     width: max-content;
     margin: 1px auto 1px auto;
+    font-family: pag;
+    font-size: 2em;
     &:hover {
         cursor: pointer;
+        user-select: none;
     }
 }

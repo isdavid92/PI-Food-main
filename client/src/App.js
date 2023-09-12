@@ -9,6 +9,7 @@ import Nav from './components/nav/Nav';
 import Cards from './components/cards/Cards';
 import Form from './components/form/Form';
 import recipeAux from './Auxi100'; //! >>API LOCAL PARA BORRAR<<
+import Detail from './components/detail/Detail';
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
         <Route path='/' element={<Welcome login={login}/>}/>
         <Route path='/home' element={<Cards/>}/>
         <Route path='/form' element={<Form/>}/>
+        <Route path='/detail' element={<Detail/>}/>
         <Route path='*' element={<Error404/>}/>
       </Routes>
     </div>

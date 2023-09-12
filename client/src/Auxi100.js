@@ -279,18 +279,18 @@ const aux = [
                 "riesling",
                 "sparkling rose"
             ],
-            "pairingText": "Sauvignon Blanc, Riesling, and Sparkling rosé are my top picks for Anchovies. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The Berlucchi Franciacorta '61 Extra Brut with a 4.3 out of 5 star rating seems like a good match. It costs about 34 dollars per bottle.",
+            "pairingText": "Sauvignon Blanc, Riesling, and Sparkling rosé are my top picks for Anchovies. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The Barefoot Bubbly Extra Dry with a 4.4 out of 5 star rating seems like a good match. It costs about 15 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 13029339,
-                    "title": "Berlucchi Franciacorta '61 Extra Brut",
-                    "description": "Extra Brut '61 is a tribute to the birth of Franciacorta in 1961—the year Berlucchi produced the first of this classic method sparkling wine. This fun and lively sparkler offers citrus fruit and a crisp, clean finish.Blend: 85% Chardonnay, 15% Pinot Nero*The label for Franciacorta '61 Extra Brut is in the process of changing. You may receive either of these two labels featured above. Specific labels cannot be requested.",
-                    "price": "$33.9900016784668",
-                    "imageUrl": "https://spoonacular.com/productImages/13029339-312x231.jpg",
-                    "averageRating": 0.8600000143051147,
-                    "ratingCount": 6.0,
-                    "score": 0.8073684353577464,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fsoter-vineyards-north-valley-reserve-pinot-noir-2012%2F147401"
+                    "id": 432028,
+                    "title": "Barefoot Bubbly Extra Dry",
+                    "description": "Barefoot Bubbly Extra Dry Champagne offers aromas of ripe apple complemented by hints of citrus. Toasty flavors complement the creamy, lingering finish. Best served chilled (36-40 °F), this bubbly is perfectly balanced with multiple layers of fruit to delight the palate.",
+                    "price": "$14.989999771118164",
+                    "imageUrl": "https://spoonacular.com/productImages/432028-312x231.jpg",
+                    "averageRating": 0.8799999952316284,
+                    "ratingCount": 4.0,
+                    "score": 0.8030769183085515,
+                    "link": "https://www.amazon.com/Barefoot-Bubbly-California-Extra-Sparkling/dp/B01AMM2ND2?tag=spoonacular-20"
                 }
             ]
         },
@@ -730,18 +730,18 @@ const aux = [
                 "riesling",
                 "sparkling rose"
             ],
-            "pairingText": "Sauvignon Blanc, Riesling, and Sparkling rosé are great choices for Anchovies. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The Bollinger Brut Special Cuvee with a 4.2 out of 5 star rating seems like a good match. It costs about 60 dollars per bottle.",
+            "pairingText": "Sauvignon Blanc, Riesling, and Sparkling rosé are great choices for Anchovies. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The Medici Ermete Concerto Lambrusco Reggiano with a 5 out of 5 star rating seems like a good match. It costs about 23 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 433020,
-                    "title": "Bollinger Brut Special Cuvee",
-                    "description": "A golden color, distinctive of black grape varieties. Very fine bubbles. On the nose, it has a beautiful aromatic complexity, ripe fruit and spicy aromas, with hints of roasted apples, apple compote and peaches. On the palate, there is a subtle combination of structure, length and vivacity. The bubbles are like velvet. Flavors of pear, brioche and spicy aromas, notes of fresh walnut.Pair with all fish, especially sushi and sashimi, shellfish such as shrimp, prawns, crayfish and grilled lobster, poultry and white meat, cashews, parmesan or prosciutto.",
-                    "price": "$59.9900016784668",
-                    "imageUrl": "https://spoonacular.com/productImages/433020-312x231.jpg",
-                    "averageRating": 0.8399999737739563,
-                    "ratingCount": 63.0,
-                    "score": 0.8347368158792194,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fbollinger-brut-special-cuvee%2F513"
+                    "id": 433011,
+                    "title": "Medici Ermete Concerto Lambrusco Reggiano",
+                    "description": "Intensely ruby red with pleasant aromas that are persistent and fruity. Dry but fruity at the same time. Soft and fresh on the palate.",
+                    "price": "$22.989999771118164",
+                    "imageUrl": "https://spoonacular.com/productImages/433011-312x231.jpg",
+                    "averageRating": 1.0,
+                    "ratingCount": 5.0,
+                    "score": 0.9375,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fmedici-ermete-concerto-lambrusco-reggiano-2014%2F147752"
                 }
             ]
         },
@@ -1231,18 +1231,18 @@ const aux = [
                 "riesling",
                 "sparkling rose"
             ],
-            "pairingText": "Sauvignon Blanc, Riesling, and Sparkling rosé are great choices for Anchovies. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The Medici Ermete Concerto Lambrusco Reggiano with a 5 out of 5 star rating seems like a good match. It costs about 23 dollars per bottle.",
+            "pairingText": "Sauvignon Blanc, Riesling, and Sparkling rosé are my top picks for Anchovies. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. One wine you could try is Taittinger Brut La Francaise. It has 4.3 out of 5 stars and a bottle costs about 45 dollars.",
             "productMatches": [
                 {
-                    "id": 433011,
-                    "title": "Medici Ermete Concerto Lambrusco Reggiano",
-                    "description": "Intensely ruby red with pleasant aromas that are persistent and fruity. Dry but fruity at the same time. Soft and fresh on the palate.",
-                    "price": "$22.989999771118164",
-                    "imageUrl": "https://spoonacular.com/productImages/433011-312x231.jpg",
-                    "averageRating": 1.0,
-                    "ratingCount": 5.0,
-                    "score": 0.9375,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fmedici-ermete-concerto-lambrusco-reggiano-2014%2F147752"
+                    "id": 436781,
+                    "title": "Taittinger Brut La Francaise",
+                    "description": "This Champagne is a blend of some 30 Chardonnay and Pinot Noir vineyards, respectively 40% and 60% of the total, from several harvests of perfectly ripened grapes.",
+                    "price": "$44.9900016784668",
+                    "imageUrl": "https://spoonacular.com/productImages/436781-312x231.jpg",
+                    "averageRating": 0.8600000143051147,
+                    "ratingCount": 17.0,
+                    "score": 0.8407692450743455,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Ftaittinger-brut-la-francaise%2F526"
                 }
             ]
         },
@@ -1713,18 +1713,18 @@ const aux = [
                 "riesling",
                 "sparkling rose"
             ],
-            "pairingText": "Anchovies works really well with Sauvignon Blanc, Riesling, and Sparkling rosé. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. You could try Medici Ermete Concerto Lambrusco Reggiano. Reviewers quite like it with a 5 out of 5 star rating and a price of about 23 dollars per bottle.",
+            "pairingText": "Anchovies works really well with Sauvignon Blanc, Riesling, and Sparkling rosé. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. You could try Famille Vincent Cremant de Bourgogne. Reviewers quite like it with a 4 out of 5 star rating and a price of about 24 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 433011,
-                    "title": "Medici Ermete Concerto Lambrusco Reggiano",
-                    "description": "Intensely ruby red with pleasant aromas that are persistent and fruity. Dry but fruity at the same time. Soft and fresh on the palate.",
-                    "price": "$22.989999771118164",
-                    "imageUrl": "https://spoonacular.com/productImages/433011-312x231.jpg",
-                    "averageRating": 1.0,
-                    "ratingCount": 5.0,
-                    "score": 0.9375,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fmedici-ermete-concerto-lambrusco-reggiano-2014%2F147752"
+                    "id": 13029551,
+                    "title": "Famille Vincent Cremant de Bourgogne",
+                    "description": "From the Chardonnay grapes this sparkler allies freshness, body, and smoothness. The Cremant Brut is dry and offers fine bubbles (1.5 Million/30 minutes - we counted them but you do not have to believe me for this!), hints of flowers at the nose, crisp and fruity on the palate. It is a great Classic for all festive occasions.",
+                    "price": "$23.989999771118164",
+                    "imageUrl": "https://spoonacular.com/productImages/13029551-312x231.jpg",
+                    "averageRating": 0.800000011920929,
+                    "ratingCount": 88.0,
+                    "score": 0.7962264270152686,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Ffamille-vincent-cremant-de-bourgogne%2F166470"
                 }
             ]
         },
@@ -1952,18 +1952,18 @@ const aux = [
                 "riesling",
                 "sparkling rose"
             ],
-            "pairingText": "Anchovies on the menu? Try pairing with Sauvignon Blanc, Riesling, and Sparkling rosé. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. One wine you could try is Perrier-Jouet Grand Brut. It has 4.3 out of 5 stars and a bottle costs about 57 dollars.",
+            "pairingText": "Sauvignon Blanc, Riesling, and Sparkling rosé are great choices for Anchovies. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. One wine you could try is Billecart-Salmon Blanc de Blancs Grand Cru. It has 4.7 out of 5 stars and a bottle costs about 80 dollars.",
             "productMatches": [
                 {
-                    "id": 430436,
-                    "title": "Perrier-Jouet Grand Brut",
-                    "description": "The striking freshness and vivacity of the floral and fruity fragrances (yellow fruits and fresh fruits) take root, before giving way to subtle notes of vanilla and butter, lending the wine a fruity and consistent character. The notes of cherry plum, lemon and bergamot orange emerge first, then make way for the flowers of fruit trees, such as lime and honeysuckle. These are followed by notes of butter, madeleine cakes and vanilla sugar. Lingering notes of grapefruit, white peaches, green pears, apple trees and green hazelnuts round off the taste.",
-                    "price": "$57.0",
-                    "imageUrl": "https://spoonacular.com/productImages/430436-312x231.jpg",
-                    "averageRating": 0.8600000143051147,
-                    "ratingCount": 36.0,
-                    "score": 0.8508257023785093,
-                    "link": "https://www.amazon.com/Perrier-Jou%C3%ABt-Champagne-France-Grand-750ml/dp/B072W5LQKS?tag=spoonacular-20"
+                    "id": 436961,
+                    "title": "Billecart-Salmon Blanc de Blancs Grand Cru",
+                    "description": "The fine mousse of delicate bubbles elegantly accompanies the glints of its gold color. A cuvée that will surprise you with its pure intensity of dry fruits aromas, almonds and fresh hazelnuts mixed with those of fruits of white flesh. The creamy sensation of the bubble associated to aromas of buttered brioche and mineral aromas. Persistent finish with a fresh and elegant sweetness.This great bottle will make a perfect marriage with caviar or fine oysters but also with grilled fish and seafood.",
+                    "price": "$79.98999786376953",
+                    "imageUrl": "https://spoonacular.com/productImages/436961-312x231.jpg",
+                    "averageRating": 0.9399999976158142,
+                    "ratingCount": 5.0,
+                    "score": 0.8774999976158142,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fbillecart-salmon-blanc-de-blancs-grand-cru%2F25061"
                 }
             ]
         },
@@ -2404,18 +2404,18 @@ const aux = [
                 "riesling",
                 "sparkling rose"
             ],
-            "pairingText": "Anchovies works really well with Sauvignon Blanc, Riesling, and Sparkling rosé. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The Louis Roederer Cristal Brut with a 4.6 out of 5 star rating seems like a good match. It costs about 299 dollars per bottle.",
+            "pairingText": "Anchovies on the menu? Try pairing with Sauvignon Blanc, Riesling, and Sparkling rosé. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. You could try Bollinger Brut Special Cuvee. Reviewers quite like it with a 4.2 out of 5 star rating and a price of about 60 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 434686,
-                    "title": "Louis Roederer Cristal Brut",
-                    "description": "Cristal, the jewel and tête de cuvée of Champagne Louis Roederer, was created in 1876 for the Tsar Alexander II of Russia. It remains faithful to its origin, inspired by elegance and purity. Cristal is produced with regimented standards of winemaking that require a rigorous selection of crus, vintages, grapes, and wine.\nCristal is produced using only the finest vintages from crus guaranteed to originate from the Louis Roederer vineyard. All the exceptional characteristics of the 2002 vintage have literally been captured in this Cristal 2002, which is generous and lush, revealing perfect balance between concentration and finesse, freshness and vinosity, intensity and refinement. In three words: proud, rich and luxurious.\nCristal 2002 is brilliant yellow with light amber highlights and has a beautiful mousse with fine cordon of persistent and regular bubbles. The nose is intense and delicate, revealing a clean and well-blended mixture of flavors of honey, cocoa, lightly toasted hazelnuts, candied citrus fruit. A savory explosion of ripe fruit on the attack, the wine reveals red fruit, white chocolate, caramel and Danish pastry, typical of Cristal. Its silky, concentrated texture relies on its intense, powerful and vinous structure, but maintains refinement. The palate builds up to attain a delicious sensation of well-blended harmony of flavors. A fresh finish with a hint of bitterness makes it almost crunchy.",
-                    "price": "$299.0",
-                    "imageUrl": "https://spoonacular.com/productImages/434686-312x231.jpg",
-                    "averageRating": 0.9200000166893005,
-                    "ratingCount": 14.0,
-                    "score": 0.8967442027358121,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Flouis-roederer-cristal-brut-2002%2F95156"
+                    "id": 433020,
+                    "title": "Bollinger Brut Special Cuvee",
+                    "description": "A golden color, distinctive of black grape varieties. Very fine bubbles. On the nose, it has a beautiful aromatic complexity, ripe fruit and spicy aromas, with hints of roasted apples, apple compote and peaches. On the palate, there is a subtle combination of structure, length and vivacity. The bubbles are like velvet. Flavors of pear, brioche and spicy aromas, notes of fresh walnut.Pair with all fish, especially sushi and sashimi, shellfish such as shrimp, prawns, crayfish and grilled lobster, poultry and white meat, cashews, parmesan or prosciutto.",
+                    "price": "$59.9900016784668",
+                    "imageUrl": "https://spoonacular.com/productImages/433020-312x231.jpg",
+                    "averageRating": 0.8399999737739563,
+                    "ratingCount": 63.0,
+                    "score": 0.8347368158792194,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fbollinger-brut-special-cuvee%2F513"
                 }
             ]
         },
@@ -2924,18 +2924,18 @@ const aux = [
                 "riesling",
                 "sparkling rose"
             ],
-            "pairingText": "Sauvignon Blanc, Riesling, and Sparkling rosé are my top picks for Anchovies. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. You could try Taittinger Brut La Francaise. Reviewers quite like it with a 4.3 out of 5 star rating and a price of about 45 dollars per bottle.",
+            "pairingText": "Sauvignon Blanc, Riesling, and Sparkling rosé are great choices for Anchovies. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The Blanc de Bleu Cuvee Mousseux with a 4.2 out of 5 star rating seems like a good match. It costs about 16 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 436781,
-                    "title": "Taittinger Brut La Francaise",
-                    "description": "This Champagne is a blend of some 30 Chardonnay and Pinot Noir vineyards, respectively 40% and 60% of the total, from several harvests of perfectly ripened grapes.",
-                    "price": "$44.9900016784668",
-                    "imageUrl": "https://spoonacular.com/productImages/436781-312x231.jpg",
-                    "averageRating": 0.8600000143051147,
-                    "ratingCount": 17.0,
-                    "score": 0.8407692450743455,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Ftaittinger-brut-la-francaise%2F526"
+                    "id": 436158,
+                    "title": "Blanc de Bleu Cuvee Mousseux",
+                    "description": "Blanc de Bleu is a premium California Chardonnay wine with an added hint of blueberries and is a delicate sparkling wine reserved for memorable celebrations. It offers seductive flavors and fresh aromatic effervescence - vividly pasteled with blueberries. All of this is contained in an impressively sexy bottle with tasteful flair.The fruit for Blanc de Bleu is grown in the quiet vineyards of Northern California, known for their cool and clear breezes - ideal conditions for the exclusive grapes and soils that accentuate the profoundly flavorful characteristics. This sparkling wine pairs well with appetizers, sushi and very light meals.",
+                    "price": "$15.989999771118164",
+                    "imageUrl": "https://spoonacular.com/productImages/436158-312x231.jpg",
+                    "averageRating": 0.8399999737739563,
+                    "ratingCount": 25.0,
+                    "score": 0.8268420790371142,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fblanc-de-bleu-cuvee-mousseux%2F140728"
                 }
             ]
         },
@@ -3262,18 +3262,18 @@ const aux = [
                 "riesling",
                 "sparkling rose"
             ],
-            "pairingText": "Anchovies works really well with Sauvignon Blanc, Riesling, and Sparkling rosé. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. One wine you could try is Perrier-Jouet Grand Brut. It has 4.3 out of 5 stars and a bottle costs about 57 dollars.",
+            "pairingText": "Anchovies works really well with Sauvignon Blanc, Riesling, and Sparkling rosé. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. You could try Billecart-Salmon Blanc de Blancs Grand Cru. Reviewers quite like it with a 4.7 out of 5 star rating and a price of about 80 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 430436,
-                    "title": "Perrier-Jouet Grand Brut",
-                    "description": "The striking freshness and vivacity of the floral and fruity fragrances (yellow fruits and fresh fruits) take root, before giving way to subtle notes of vanilla and butter, lending the wine a fruity and consistent character. The notes of cherry plum, lemon and bergamot orange emerge first, then make way for the flowers of fruit trees, such as lime and honeysuckle. These are followed by notes of butter, madeleine cakes and vanilla sugar. Lingering notes of grapefruit, white peaches, green pears, apple trees and green hazelnuts round off the taste.",
-                    "price": "$57.0",
-                    "imageUrl": "https://spoonacular.com/productImages/430436-312x231.jpg",
-                    "averageRating": 0.8600000143051147,
-                    "ratingCount": 36.0,
-                    "score": 0.8508257023785093,
-                    "link": "https://www.amazon.com/Perrier-Jou%C3%ABt-Champagne-France-Grand-750ml/dp/B072W5LQKS?tag=spoonacular-20"
+                    "id": 436961,
+                    "title": "Billecart-Salmon Blanc de Blancs Grand Cru",
+                    "description": "The fine mousse of delicate bubbles elegantly accompanies the glints of its gold color. A cuvée that will surprise you with its pure intensity of dry fruits aromas, almonds and fresh hazelnuts mixed with those of fruits of white flesh. The creamy sensation of the bubble associated to aromas of buttered brioche and mineral aromas. Persistent finish with a fresh and elegant sweetness.This great bottle will make a perfect marriage with caviar or fine oysters but also with grilled fish and seafood.",
+                    "price": "$79.98999786376953",
+                    "imageUrl": "https://spoonacular.com/productImages/436961-312x231.jpg",
+                    "averageRating": 0.9399999976158142,
+                    "ratingCount": 5.0,
+                    "score": 0.8774999976158142,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fbillecart-salmon-blanc-de-blancs-grand-cru%2F25061"
                 }
             ]
         },
@@ -3828,18 +3828,18 @@ const aux = [
                 "riesling",
                 "sparkling rose"
             ],
-            "pairingText": "Sauvignon Blanc, Riesling, and Sparkling rosé are my top picks for Anchovies. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The Iron Horse Wedding Cuvee with a 4.1 out of 5 star rating seems like a good match. It costs about 39 dollars per bottle.",
+            "pairingText": "Anchovies can be paired with Sauvignon Blanc, Riesling, and Sparkling rosé. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The NV Ruinart , Wine with a 5 out of 5 star rating seems like a good match. It costs about 89 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 436666,
-                    "title": "Iron Horse Wedding Cuvee",
-                    "description": "This is Iron Horse's most romantic bubbly. We describe it as dangerously, deliciously easy to drink, fruit forward, dry and elegant, with tiny bubbles and a remarkabley long finish.",
-                    "price": "$38.9900016784668",
-                    "imageUrl": "https://spoonacular.com/productImages/436666-312x231.jpg",
-                    "averageRating": 0.8199999928474426,
-                    "ratingCount": 34.0,
-                    "score": 0.810291254983365,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Firon-horse-wedding-cuvee-2013%2F235756"
+                    "id": 430390,
+                    "title": "NV Ruinart , Wine",
+                    "description": null,
+                    "price": "$88.98999786376953",
+                    "imageUrl": "https://spoonacular.com/productImages/430390-312x231.jpg",
+                    "averageRating": 1.0,
+                    "ratingCount": 1.0,
+                    "score": 0.75,
+                    "link": "https://www.amazon.com/Ruinart-Ros%C3%A9-Champagne-750-Wine/dp/B00UNV9TAI?tag=spoonacular-20"
                 }
             ]
         },
@@ -5036,18 +5036,18 @@ const aux = [
                 "riesling",
                 "sparkling rose"
             ],
-            "pairingText": "Anchovies works really well with Sauvignon Blanc, Riesling, and Sparkling rosé. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. One wine you could try is Billecart-Salmon Blanc de Blancs Grand Cru. It has 4.7 out of 5 stars and a bottle costs about 80 dollars.",
+            "pairingText": "Anchovies works really well with Sauvignon Blanc, Riesling, and Sparkling rosé. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The NV Ruinart , Wine with a 5 out of 5 star rating seems like a good match. It costs about 89 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 436961,
-                    "title": "Billecart-Salmon Blanc de Blancs Grand Cru",
-                    "description": "The fine mousse of delicate bubbles elegantly accompanies the glints of its gold color. A cuvée that will surprise you with its pure intensity of dry fruits aromas, almonds and fresh hazelnuts mixed with those of fruits of white flesh. The creamy sensation of the bubble associated to aromas of buttered brioche and mineral aromas. Persistent finish with a fresh and elegant sweetness.This great bottle will make a perfect marriage with caviar or fine oysters but also with grilled fish and seafood.",
-                    "price": "$79.98999786376953",
-                    "imageUrl": "https://spoonacular.com/productImages/436961-312x231.jpg",
-                    "averageRating": 0.9399999976158142,
-                    "ratingCount": 5.0,
-                    "score": 0.8774999976158142,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fbillecart-salmon-blanc-de-blancs-grand-cru%2F25061"
+                    "id": 430390,
+                    "title": "NV Ruinart , Wine",
+                    "description": null,
+                    "price": "$88.98999786376953",
+                    "imageUrl": "https://spoonacular.com/productImages/430390-312x231.jpg",
+                    "averageRating": 1.0,
+                    "ratingCount": 1.0,
+                    "score": 0.75,
+                    "link": "https://www.amazon.com/Ruinart-Ros%C3%A9-Champagne-750-Wine/dp/B00UNV9TAI?tag=spoonacular-20"
                 }
             ]
         },
@@ -5892,18 +5892,18 @@ const aux = [
                 "riesling",
                 "sparkling rose"
             ],
-            "pairingText": "Anchovies on the menu? Try pairing with Sauvignon Blanc, Riesling, and Sparkling rosé. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. One wine you could try is Medici Ermete Concerto Lambrusco Reggiano. It has 5 out of 5 stars and a bottle costs about 23 dollars.",
+            "pairingText": "Sauvignon Blanc, Riesling, and Sparkling rosé are my top picks for Anchovies. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. One wine you could try is Famille Vincent Cremant de Bourgogne. It has 4 out of 5 stars and a bottle costs about 24 dollars.",
             "productMatches": [
                 {
-                    "id": 433011,
-                    "title": "Medici Ermete Concerto Lambrusco Reggiano",
-                    "description": "Intensely ruby red with pleasant aromas that are persistent and fruity. Dry but fruity at the same time. Soft and fresh on the palate.",
-                    "price": "$22.989999771118164",
-                    "imageUrl": "https://spoonacular.com/productImages/433011-312x231.jpg",
-                    "averageRating": 1.0,
-                    "ratingCount": 5.0,
-                    "score": 0.9375,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fmedici-ermete-concerto-lambrusco-reggiano-2014%2F147752"
+                    "id": 13029551,
+                    "title": "Famille Vincent Cremant de Bourgogne",
+                    "description": "From the Chardonnay grapes this sparkler allies freshness, body, and smoothness. The Cremant Brut is dry and offers fine bubbles (1.5 Million/30 minutes - we counted them but you do not have to believe me for this!), hints of flowers at the nose, crisp and fruity on the palate. It is a great Classic for all festive occasions.",
+                    "price": "$23.989999771118164",
+                    "imageUrl": "https://spoonacular.com/productImages/13029551-312x231.jpg",
+                    "averageRating": 0.800000011920929,
+                    "ratingCount": 88.0,
+                    "score": 0.7962264270152686,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Ffamille-vincent-cremant-de-bourgogne%2F166470"
                 }
             ]
         },
@@ -6744,18 +6744,18 @@ const aux = [
                 "riesling",
                 "sparkling rose"
             ],
-            "pairingText": "Anchovies works really well with Sauvignon Blanc, Riesling, and Sparkling rosé. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The Iron Horse Wedding Cuvee with a 4.1 out of 5 star rating seems like a good match. It costs about 39 dollars per bottle.",
+            "pairingText": "Anchovies works really well with Sauvignon Blanc, Riesling, and Sparkling rosé. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The Barefoot Bubbly Extra Dry with a 4.4 out of 5 star rating seems like a good match. It costs about 15 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 436666,
-                    "title": "Iron Horse Wedding Cuvee",
-                    "description": "This is Iron Horse's most romantic bubbly. We describe it as dangerously, deliciously easy to drink, fruit forward, dry and elegant, with tiny bubbles and a remarkabley long finish.",
-                    "price": "$38.9900016784668",
-                    "imageUrl": "https://spoonacular.com/productImages/436666-312x231.jpg",
-                    "averageRating": 0.8199999928474426,
-                    "ratingCount": 34.0,
-                    "score": 0.810291254983365,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Firon-horse-wedding-cuvee-2013%2F235756"
+                    "id": 432028,
+                    "title": "Barefoot Bubbly Extra Dry",
+                    "description": "Barefoot Bubbly Extra Dry Champagne offers aromas of ripe apple complemented by hints of citrus. Toasty flavors complement the creamy, lingering finish. Best served chilled (36-40 °F), this bubbly is perfectly balanced with multiple layers of fruit to delight the palate.",
+                    "price": "$14.989999771118164",
+                    "imageUrl": "https://spoonacular.com/productImages/432028-312x231.jpg",
+                    "averageRating": 0.8799999952316284,
+                    "ratingCount": 4.0,
+                    "score": 0.8030769183085515,
+                    "link": "https://www.amazon.com/Barefoot-Bubbly-California-Extra-Sparkling/dp/B01AMM2ND2?tag=spoonacular-20"
                 }
             ]
         },
@@ -7287,18 +7287,18 @@ const aux = [
                 "shiraz",
                 "barbera wine"
             ],
-            "pairingText": "Sangiovese, Shiraz, and Barbera Wine are great choices for Pizza. The best wine for pizza depends on the toppings! Red sauce pizza will call for a red wine with some acidity, such as a barberan or sangiovese. Add pepperoni or sausage and you can go bolder with a syrah. The Medici Ermete Concerto Lambrusco Reggiano with a 5 out of 5 star rating seems like a good match. It costs about 23 dollars per bottle.",
+            "pairingText": "Pizza works really well with Sangiovese, Shiraz, and Barbera Wine. The best wine for pizza depends on the toppings! Red sauce pizza will call for a red wine with some acidity, such as a barberan or sangiovese. Add pepperoni or sausage and you can go bolder with a syrah. You could try Berlucchi Franciacorta '61 Extra Brut. Reviewers quite like it with a 4.3 out of 5 star rating and a price of about 34 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 433011,
-                    "title": "Medici Ermete Concerto Lambrusco Reggiano",
-                    "description": "Intensely ruby red with pleasant aromas that are persistent and fruity. Dry but fruity at the same time. Soft and fresh on the palate.",
-                    "price": "$22.989999771118164",
-                    "imageUrl": "https://spoonacular.com/productImages/433011-312x231.jpg",
-                    "averageRating": 1.0,
-                    "ratingCount": 5.0,
-                    "score": 0.9375,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fmedici-ermete-concerto-lambrusco-reggiano-2014%2F147752"
+                    "id": 13029339,
+                    "title": "Berlucchi Franciacorta '61 Extra Brut",
+                    "description": "Extra Brut '61 is a tribute to the birth of Franciacorta in 1961—the year Berlucchi produced the first of this classic method sparkling wine. This fun and lively sparkler offers citrus fruit and a crisp, clean finish.Blend: 85% Chardonnay, 15% Pinot Nero*The label for Franciacorta '61 Extra Brut is in the process of changing. You may receive either of these two labels featured above. Specific labels cannot be requested.",
+                    "price": "$33.9900016784668",
+                    "imageUrl": "https://spoonacular.com/productImages/13029339-312x231.jpg",
+                    "averageRating": 0.8600000143051147,
+                    "ratingCount": 6.0,
+                    "score": 0.8073684353577464,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fsoter-vineyards-north-valley-reserve-pinot-noir-2012%2F147401"
                 }
             ]
         },
@@ -7952,18 +7952,18 @@ const aux = [
                 "riesling",
                 "sparkling rose"
             ],
-            "pairingText": "Anchovies works really well with Sauvignon Blanc, Riesling, and Sparkling rosé. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. One wine you could try is Barefoot Bubbly Extra Dry. It has 4.4 out of 5 stars and a bottle costs about 15 dollars.",
+            "pairingText": "Anchovies works really well with Sauvignon Blanc, Riesling, and Sparkling rosé. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The Moet & Chandon White Star () with a 4.6 out of 5 star rating seems like a good match. It costs about 14 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 432028,
-                    "title": "Barefoot Bubbly Extra Dry",
-                    "description": "Barefoot Bubbly Extra Dry Champagne offers aromas of ripe apple complemented by hints of citrus. Toasty flavors complement the creamy, lingering finish. Best served chilled (36-40 °F), this bubbly is perfectly balanced with multiple layers of fruit to delight the palate.",
-                    "price": "$14.989999771118164",
-                    "imageUrl": "https://spoonacular.com/productImages/432028-312x231.jpg",
-                    "averageRating": 0.8799999952316284,
-                    "ratingCount": 4.0,
-                    "score": 0.8030769183085515,
-                    "link": "https://www.amazon.com/Barefoot-Bubbly-California-Extra-Sparkling/dp/B01AMM2ND2?tag=spoonacular-20"
+                    "id": 436684,
+                    "title": "Moet & Chandon White Star ()",
+                    "description": "White Star is a softer champagne. It is well balanced and harmonious, with subtle aromas of warm toast and gingerbread. The finish is sustained with a hint of honey.",
+                    "price": "$13.989999771118164",
+                    "imageUrl": "https://spoonacular.com/productImages/436684-312x231.jpg",
+                    "averageRating": 0.9200000166893005,
+                    "ratingCount": 10.0,
+                    "score": 0.8877419521731715,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fmoet-and-chandon-white-star-187ml%2F25889"
                 }
             ]
         },
@@ -8254,18 +8254,18 @@ const aux = [
                 "riesling",
                 "sparkling rose"
             ],
-            "pairingText": "Sauvignon Blanc, Riesling, and Sparkling rosé are great choices for Anchovies. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The Medici Ermete Concerto Lambrusco Reggiano with a 5 out of 5 star rating seems like a good match. It costs about 23 dollars per bottle.",
+            "pairingText": "Anchovies works really well with Sauvignon Blanc, Riesling, and Sparkling rosé. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. One wine you could try is Barefoot Bubbly Pink Moscato. It has 4.9 out of 5 stars and a bottle costs about 15 dollars.",
             "productMatches": [
                 {
-                    "id": 433011,
-                    "title": "Medici Ermete Concerto Lambrusco Reggiano",
-                    "description": "Intensely ruby red with pleasant aromas that are persistent and fruity. Dry but fruity at the same time. Soft and fresh on the palate.",
-                    "price": "$22.989999771118164",
-                    "imageUrl": "https://spoonacular.com/productImages/433011-312x231.jpg",
-                    "averageRating": 1.0,
-                    "ratingCount": 5.0,
-                    "score": 0.9375,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fmedici-ermete-concerto-lambrusco-reggiano-2014%2F147752"
+                    "id": 428175,
+                    "title": "Barefoot Bubbly Pink Moscato",
+                    "description": "Barefoot Bubbly Pink Moscato is sweet & juicy with explosive aromas and flavors. Best served chilled (36-40 degrees F), this bubbly has aromas and flavors of jasmine and Mandarin orange complemented by red raspberry, strawberry and pomegranate. Enjoy the creamy and juicy finish!",
+                    "price": "$14.989999771118164",
+                    "imageUrl": "https://spoonacular.com/productImages/428175-312x231.jpg",
+                    "averageRating": 0.9800000190734863,
+                    "ratingCount": 14.0,
+                    "score": 0.9567442051199979,
+                    "link": "https://www.amazon.com/Barefoot-Bubbly-California-Sparkling-Wine/dp/B01ATURGE8?tag=spoonacular-20"
                 }
             ]
         },
@@ -8656,18 +8656,18 @@ const aux = [
                 "sparkling wine",
                 "sparkling rose"
             ],
-            "pairingText": "Antipasti works really well with Sparkling Wine and Sparkling rosé. If you're serving a selection of appetizers, you can't go wrong with these. Both are very food friendly and complement a variety of flavors. The Famille Vincent Cremant de Bourgogne with a 4 out of 5 star rating seems like a good match. It costs about 24 dollars per bottle.",
+            "pairingText": "Sparkling Wine and Sparkling rosé are great choices for Antipasti. If you're serving a selection of appetizers, you can't go wrong with these. Both are very food friendly and complement a variety of flavors. The Berlucchi Franciacorta '61 Extra Brut with a 4.3 out of 5 star rating seems like a good match. It costs about 34 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 13029551,
-                    "title": "Famille Vincent Cremant de Bourgogne",
-                    "description": "From the Chardonnay grapes this sparkler allies freshness, body, and smoothness. The Cremant Brut is dry and offers fine bubbles (1.5 Million/30 minutes - we counted them but you do not have to believe me for this!), hints of flowers at the nose, crisp and fruity on the palate. It is a great Classic for all festive occasions.",
-                    "price": "$23.989999771118164",
-                    "imageUrl": "https://spoonacular.com/productImages/13029551-312x231.jpg",
-                    "averageRating": 0.800000011920929,
-                    "ratingCount": 88.0,
-                    "score": 0.7962264270152686,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Ffamille-vincent-cremant-de-bourgogne%2F166470"
+                    "id": 13029339,
+                    "title": "Berlucchi Franciacorta '61 Extra Brut",
+                    "description": "Extra Brut '61 is a tribute to the birth of Franciacorta in 1961—the year Berlucchi produced the first of this classic method sparkling wine. This fun and lively sparkler offers citrus fruit and a crisp, clean finish.Blend: 85% Chardonnay, 15% Pinot Nero*The label for Franciacorta '61 Extra Brut is in the process of changing. You may receive either of these two labels featured above. Specific labels cannot be requested.",
+                    "price": "$33.9900016784668",
+                    "imageUrl": "https://spoonacular.com/productImages/13029339-312x231.jpg",
+                    "averageRating": 0.8600000143051147,
+                    "ratingCount": 6.0,
+                    "score": 0.8073684353577464,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fsoter-vineyards-north-valley-reserve-pinot-noir-2012%2F147401"
                 }
             ]
         },
@@ -9147,18 +9147,18 @@ const aux = [
                 "riesling",
                 "sparkling rose"
             ],
-            "pairingText": "Anchovies works really well with Sauvignon Blanc, Riesling, and Sparkling rosé. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. You could try Bollinger Brut Special Cuvee. Reviewers quite like it with a 4.2 out of 5 star rating and a price of about 60 dollars per bottle.",
+            "pairingText": "Anchovies works really well with Sauvignon Blanc, Riesling, and Sparkling rosé. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The Billecart-Salmon Blanc de Blancs Grand Cru with a 4.7 out of 5 star rating seems like a good match. It costs about 80 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 433020,
-                    "title": "Bollinger Brut Special Cuvee",
-                    "description": "A golden color, distinctive of black grape varieties. Very fine bubbles. On the nose, it has a beautiful aromatic complexity, ripe fruit and spicy aromas, with hints of roasted apples, apple compote and peaches. On the palate, there is a subtle combination of structure, length and vivacity. The bubbles are like velvet. Flavors of pear, brioche and spicy aromas, notes of fresh walnut.Pair with all fish, especially sushi and sashimi, shellfish such as shrimp, prawns, crayfish and grilled lobster, poultry and white meat, cashews, parmesan or prosciutto.",
-                    "price": "$59.9900016784668",
-                    "imageUrl": "https://spoonacular.com/productImages/433020-312x231.jpg",
-                    "averageRating": 0.8399999737739563,
-                    "ratingCount": 63.0,
-                    "score": 0.8347368158792194,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fbollinger-brut-special-cuvee%2F513"
+                    "id": 436961,
+                    "title": "Billecart-Salmon Blanc de Blancs Grand Cru",
+                    "description": "The fine mousse of delicate bubbles elegantly accompanies the glints of its gold color. A cuvée that will surprise you with its pure intensity of dry fruits aromas, almonds and fresh hazelnuts mixed with those of fruits of white flesh. The creamy sensation of the bubble associated to aromas of buttered brioche and mineral aromas. Persistent finish with a fresh and elegant sweetness.This great bottle will make a perfect marriage with caviar or fine oysters but also with grilled fish and seafood.",
+                    "price": "$79.98999786376953",
+                    "imageUrl": "https://spoonacular.com/productImages/436961-312x231.jpg",
+                    "averageRating": 0.9399999976158142,
+                    "ratingCount": 5.0,
+                    "score": 0.8774999976158142,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fbillecart-salmon-blanc-de-blancs-grand-cru%2F25061"
                 }
             ]
         },
@@ -11854,18 +11854,18 @@ const aux = [
                 "riesling",
                 "sparkling rose"
             ],
-            "pairingText": "Anchovies on the menu? Try pairing with Sauvignon Blanc, Riesling, and Sparkling rosé. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The NV Ruinart , Wine with a 5 out of 5 star rating seems like a good match. It costs about 89 dollars per bottle.",
+            "pairingText": "Anchovies on the menu? Try pairing with Sauvignon Blanc, Riesling, and Sparkling rosé. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. One wine you could try is Perrier-Jouet Grand Brut. It has 4.3 out of 5 stars and a bottle costs about 57 dollars.",
             "productMatches": [
                 {
-                    "id": 430390,
-                    "title": "NV Ruinart , Wine",
-                    "description": null,
-                    "price": "$88.98999786376953",
-                    "imageUrl": "https://spoonacular.com/productImages/430390-312x231.jpg",
-                    "averageRating": 1.0,
-                    "ratingCount": 1.0,
-                    "score": 0.75,
-                    "link": "https://www.amazon.com/Ruinart-Ros%C3%A9-Champagne-750-Wine/dp/B00UNV9TAI?tag=spoonacular-20"
+                    "id": 430436,
+                    "title": "Perrier-Jouet Grand Brut",
+                    "description": "The striking freshness and vivacity of the floral and fruity fragrances (yellow fruits and fresh fruits) take root, before giving way to subtle notes of vanilla and butter, lending the wine a fruity and consistent character. The notes of cherry plum, lemon and bergamot orange emerge first, then make way for the flowers of fruit trees, such as lime and honeysuckle. These are followed by notes of butter, madeleine cakes and vanilla sugar. Lingering notes of grapefruit, white peaches, green pears, apple trees and green hazelnuts round off the taste.",
+                    "price": "$57.0",
+                    "imageUrl": "https://spoonacular.com/productImages/430436-312x231.jpg",
+                    "averageRating": 0.8600000143051147,
+                    "ratingCount": 36.0,
+                    "score": 0.8508257023785093,
+                    "link": "https://www.amazon.com/Perrier-Jou%C3%ABt-Champagne-France-Grand-750ml/dp/B072W5LQKS?tag=spoonacular-20"
                 }
             ]
         },
@@ -12352,18 +12352,18 @@ const aux = [
                 "sauvignon blanc",
                 "gruener veltliner"
             ],
-            "pairingText": "Salad on the menu? Try pairing with Chardonnay, Sauvignon Blanc, and Gruener Veltliner. Sauvignon Blanc and Gruner Veltliner both have herby notes that complement salads with enough acid to match tart vinaigrettes, while a Chardonnay can be a good pick for creamy salad dressings. You could try Louis Roederer Cristal Brut. Reviewers quite like it with a 4.6 out of 5 star rating and a price of about 299 dollars per bottle.",
+            "pairingText": "Salad can be paired with Chardonnay, Sauvignon Blanc, and Gruener Veltliner. Sauvignon Blanc and Gruner Veltliner both have herby notes that complement salads with enough acid to match tart vinaigrettes, while a Chardonnay can be a good pick for creamy salad dressings. You could try Bollinger Brut Special Cuvee. Reviewers quite like it with a 4.2 out of 5 star rating and a price of about 60 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 434686,
-                    "title": "Louis Roederer Cristal Brut",
-                    "description": "Cristal, the jewel and tête de cuvée of Champagne Louis Roederer, was created in 1876 for the Tsar Alexander II of Russia. It remains faithful to its origin, inspired by elegance and purity. Cristal is produced with regimented standards of winemaking that require a rigorous selection of crus, vintages, grapes, and wine.\nCristal is produced using only the finest vintages from crus guaranteed to originate from the Louis Roederer vineyard. All the exceptional characteristics of the 2002 vintage have literally been captured in this Cristal 2002, which is generous and lush, revealing perfect balance between concentration and finesse, freshness and vinosity, intensity and refinement. In three words: proud, rich and luxurious.\nCristal 2002 is brilliant yellow with light amber highlights and has a beautiful mousse with fine cordon of persistent and regular bubbles. The nose is intense and delicate, revealing a clean and well-blended mixture of flavors of honey, cocoa, lightly toasted hazelnuts, candied citrus fruit. A savory explosion of ripe fruit on the attack, the wine reveals red fruit, white chocolate, caramel and Danish pastry, typical of Cristal. Its silky, concentrated texture relies on its intense, powerful and vinous structure, but maintains refinement. The palate builds up to attain a delicious sensation of well-blended harmony of flavors. A fresh finish with a hint of bitterness makes it almost crunchy.",
-                    "price": "$299.0",
-                    "imageUrl": "https://spoonacular.com/productImages/434686-312x231.jpg",
-                    "averageRating": 0.9200000166893005,
-                    "ratingCount": 14.0,
-                    "score": 0.8967442027358121,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Flouis-roederer-cristal-brut-2002%2F95156"
+                    "id": 433020,
+                    "title": "Bollinger Brut Special Cuvee",
+                    "description": "A golden color, distinctive of black grape varieties. Very fine bubbles. On the nose, it has a beautiful aromatic complexity, ripe fruit and spicy aromas, with hints of roasted apples, apple compote and peaches. On the palate, there is a subtle combination of structure, length and vivacity. The bubbles are like velvet. Flavors of pear, brioche and spicy aromas, notes of fresh walnut.Pair with all fish, especially sushi and sashimi, shellfish such as shrimp, prawns, crayfish and grilled lobster, poultry and white meat, cashews, parmesan or prosciutto.",
+                    "price": "$59.9900016784668",
+                    "imageUrl": "https://spoonacular.com/productImages/433020-312x231.jpg",
+                    "averageRating": 0.8399999737739563,
+                    "ratingCount": 63.0,
+                    "score": 0.8347368158792194,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fbollinger-brut-special-cuvee%2F513"
                 }
             ]
         },
@@ -12968,18 +12968,18 @@ const aux = [
                 "riesling",
                 "sparkling rose"
             ],
-            "pairingText": "Sauvignon Blanc, Riesling, and Sparkling rosé are my top picks for Anchovies. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The Moet & Chandon White Star () with a 4.6 out of 5 star rating seems like a good match. It costs about 14 dollars per bottle.",
+            "pairingText": "Sauvignon Blanc, Riesling, and Sparkling rosé are great choices for Anchovies. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The Barefoot Bubbly Extra Dry with a 4.4 out of 5 star rating seems like a good match. It costs about 15 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 436684,
-                    "title": "Moet & Chandon White Star ()",
-                    "description": "White Star is a softer champagne. It is well balanced and harmonious, with subtle aromas of warm toast and gingerbread. The finish is sustained with a hint of honey.",
-                    "price": "$13.989999771118164",
-                    "imageUrl": "https://spoonacular.com/productImages/436684-312x231.jpg",
-                    "averageRating": 0.9200000166893005,
-                    "ratingCount": 10.0,
-                    "score": 0.8877419521731715,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fmoet-and-chandon-white-star-187ml%2F25889"
+                    "id": 432028,
+                    "title": "Barefoot Bubbly Extra Dry",
+                    "description": "Barefoot Bubbly Extra Dry Champagne offers aromas of ripe apple complemented by hints of citrus. Toasty flavors complement the creamy, lingering finish. Best served chilled (36-40 °F), this bubbly is perfectly balanced with multiple layers of fruit to delight the palate.",
+                    "price": "$14.989999771118164",
+                    "imageUrl": "https://spoonacular.com/productImages/432028-312x231.jpg",
+                    "averageRating": 0.8799999952316284,
+                    "ratingCount": 4.0,
+                    "score": 0.8030769183085515,
+                    "link": "https://www.amazon.com/Barefoot-Bubbly-California-Extra-Sparkling/dp/B01AMM2ND2?tag=spoonacular-20"
                 }
             ]
         },
@@ -13383,18 +13383,18 @@ const aux = [
                 "sparkling rose",
                 "trebbiano"
             ],
-            "pairingText": "Crostini works really well with Sparkling Wine, Chianti, and Verdicchio. If you're serving a selection of appetizers, you can't go wrong with these. Both are very food friendly and complement a variety of flavors. The Bollinger Brut Special Cuvee with a 4.2 out of 5 star rating seems like a good match. It costs about 60 dollars per bottle.",
+            "pairingText": "Crostini works really well with Sparkling Wine, Chianti, and Verdicchio. If you're serving a selection of appetizers, you can't go wrong with these. Both are very food friendly and complement a variety of flavors. One wine you could try is NV Ruinart , Wine. It has 5 out of 5 stars and a bottle costs about 89 dollars.",
             "productMatches": [
                 {
-                    "id": 433020,
-                    "title": "Bollinger Brut Special Cuvee",
-                    "description": "A golden color, distinctive of black grape varieties. Very fine bubbles. On the nose, it has a beautiful aromatic complexity, ripe fruit and spicy aromas, with hints of roasted apples, apple compote and peaches. On the palate, there is a subtle combination of structure, length and vivacity. The bubbles are like velvet. Flavors of pear, brioche and spicy aromas, notes of fresh walnut.Pair with all fish, especially sushi and sashimi, shellfish such as shrimp, prawns, crayfish and grilled lobster, poultry and white meat, cashews, parmesan or prosciutto.",
-                    "price": "$59.9900016784668",
-                    "imageUrl": "https://spoonacular.com/productImages/433020-312x231.jpg",
-                    "averageRating": 0.8399999737739563,
-                    "ratingCount": 63.0,
-                    "score": 0.8347368158792194,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fbollinger-brut-special-cuvee%2F513"
+                    "id": 430390,
+                    "title": "NV Ruinart , Wine",
+                    "description": null,
+                    "price": "$88.98999786376953",
+                    "imageUrl": "https://spoonacular.com/productImages/430390-312x231.jpg",
+                    "averageRating": 1.0,
+                    "ratingCount": 1.0,
+                    "score": 0.75,
+                    "link": "https://www.amazon.com/Ruinart-Ros%C3%A9-Champagne-750-Wine/dp/B00UNV9TAI?tag=spoonacular-20"
                 }
             ]
         },
@@ -13849,18 +13849,18 @@ const aux = [
                 "sauvignon blanc",
                 "gruener veltliner"
             ],
-            "pairingText": "Salad works really well with Chardonnay, Sauvignon Blanc, and Gruener Veltliner. Sauvignon Blanc and Gruner Veltliner both have herby notes that complement salads with enough acid to match tart vinaigrettes, while a Chardonnay can be a good pick for creamy salad dressings. The Barefoot Bubbly Extra Dry with a 4.4 out of 5 star rating seems like a good match. It costs about 15 dollars per bottle.",
+            "pairingText": "Salad on the menu? Try pairing with Chardonnay, Sauvignon Blanc, and Gruener Veltliner. Sauvignon Blanc and Gruner Veltliner both have herby notes that complement salads with enough acid to match tart vinaigrettes, while a Chardonnay can be a good pick for creamy salad dressings. You could try Taittinger Brut La Francaise. Reviewers quite like it with a 4.3 out of 5 star rating and a price of about 45 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 432028,
-                    "title": "Barefoot Bubbly Extra Dry",
-                    "description": "Barefoot Bubbly Extra Dry Champagne offers aromas of ripe apple complemented by hints of citrus. Toasty flavors complement the creamy, lingering finish. Best served chilled (36-40 °F), this bubbly is perfectly balanced with multiple layers of fruit to delight the palate.",
-                    "price": "$14.989999771118164",
-                    "imageUrl": "https://spoonacular.com/productImages/432028-312x231.jpg",
-                    "averageRating": 0.8799999952316284,
-                    "ratingCount": 4.0,
-                    "score": 0.8030769183085515,
-                    "link": "https://www.amazon.com/Barefoot-Bubbly-California-Extra-Sparkling/dp/B01AMM2ND2?tag=spoonacular-20"
+                    "id": 436781,
+                    "title": "Taittinger Brut La Francaise",
+                    "description": "This Champagne is a blend of some 30 Chardonnay and Pinot Noir vineyards, respectively 40% and 60% of the total, from several harvests of perfectly ripened grapes.",
+                    "price": "$44.9900016784668",
+                    "imageUrl": "https://spoonacular.com/productImages/436781-312x231.jpg",
+                    "averageRating": 0.8600000143051147,
+                    "ratingCount": 17.0,
+                    "score": 0.8407692450743455,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Ftaittinger-brut-la-francaise%2F526"
                 }
             ]
         },
@@ -15940,18 +15940,18 @@ const aux = [
                 "riesling",
                 "sparkling rose"
             ],
-            "pairingText": "Anchovies works really well with Sauvignon Blanc, Riesling, and Sparkling rosé. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The Billecart-Salmon Blanc de Blancs Grand Cru with a 4.7 out of 5 star rating seems like a good match. It costs about 80 dollars per bottle.",
+            "pairingText": "Sauvignon Blanc, Riesling, and Sparkling rosé are my top picks for Anchovies. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The Weinert Cavas de Weinert with a 4.7 out of 5 star rating seems like a good match. It costs about 26 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 436961,
-                    "title": "Billecart-Salmon Blanc de Blancs Grand Cru",
-                    "description": "The fine mousse of delicate bubbles elegantly accompanies the glints of its gold color. A cuvée that will surprise you with its pure intensity of dry fruits aromas, almonds and fresh hazelnuts mixed with those of fruits of white flesh. The creamy sensation of the bubble associated to aromas of buttered brioche and mineral aromas. Persistent finish with a fresh and elegant sweetness.This great bottle will make a perfect marriage with caviar or fine oysters but also with grilled fish and seafood.",
-                    "price": "$79.98999786376953",
-                    "imageUrl": "https://spoonacular.com/productImages/436961-312x231.jpg",
+                    "id": 436255,
+                    "title": "Weinert Cavas de Weinert",
+                    "description": "Deep ruby tone with purple sparkles springs up its stable and vigorous structure. Its tannic richness guarantees its longevity, but discreet ripe fruit prevails. A balanced full-bodied wine that has reminiscente fragrantes of oak on the long finish. A blend of Cabernet Sauvignon, Malbec and Merlot.",
+                    "price": "$25.989999771118164",
+                    "imageUrl": "https://spoonacular.com/productImages/436255-312x231.jpg",
                     "averageRating": 0.9399999976158142,
                     "ratingCount": 5.0,
                     "score": 0.8774999976158142,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fbillecart-salmon-blanc-de-blancs-grand-cru%2F25061"
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fweinert-cavas-de-weinert-2004%2F113527"
                 }
             ]
         },
@@ -16594,18 +16594,18 @@ const aux = [
                 "sauvignon blanc",
                 "gruener veltliner"
             ],
-            "pairingText": "Chardonnay, Sauvignon Blanc, and Gruener Veltliner are my top picks for Salad. Sauvignon Blanc and Gruner Veltliner both have herby notes that complement salads with enough acid to match tart vinaigrettes, while a Chardonnay can be a good pick for creamy salad dressings. The Iron Horse Wedding Cuvee with a 4.1 out of 5 star rating seems like a good match. It costs about 39 dollars per bottle.",
+            "pairingText": "Chardonnay, Sauvignon Blanc, and Gruener Veltliner are my top picks for Salad. Sauvignon Blanc and Gruner Veltliner both have herby notes that complement salads with enough acid to match tart vinaigrettes, while a Chardonnay can be a good pick for creamy salad dressings. You could try Weinert Cavas de Weinert. Reviewers quite like it with a 4.7 out of 5 star rating and a price of about 26 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 436666,
-                    "title": "Iron Horse Wedding Cuvee",
-                    "description": "This is Iron Horse's most romantic bubbly. We describe it as dangerously, deliciously easy to drink, fruit forward, dry and elegant, with tiny bubbles and a remarkabley long finish.",
-                    "price": "$38.9900016784668",
-                    "imageUrl": "https://spoonacular.com/productImages/436666-312x231.jpg",
-                    "averageRating": 0.8199999928474426,
-                    "ratingCount": 34.0,
-                    "score": 0.810291254983365,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Firon-horse-wedding-cuvee-2013%2F235756"
+                    "id": 436255,
+                    "title": "Weinert Cavas de Weinert",
+                    "description": "Deep ruby tone with purple sparkles springs up its stable and vigorous structure. Its tannic richness guarantees its longevity, but discreet ripe fruit prevails. A balanced full-bodied wine that has reminiscente fragrantes of oak on the long finish. A blend of Cabernet Sauvignon, Malbec and Merlot.",
+                    "price": "$25.989999771118164",
+                    "imageUrl": "https://spoonacular.com/productImages/436255-312x231.jpg",
+                    "averageRating": 0.9399999976158142,
+                    "ratingCount": 5.0,
+                    "score": 0.8774999976158142,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fweinert-cavas-de-weinert-2004%2F113527"
                 }
             ]
         },
@@ -17074,18 +17074,18 @@ const aux = [
                 "shiraz",
                 "barbera wine"
             ],
-            "pairingText": "Sangiovese, Shiraz, and Barbera Wine are my top picks for Pizza. The best wine for pizza depends on the toppings! Red sauce pizza will call for a red wine with some acidity, such as a barberan or sangiovese. Add pepperoni or sausage and you can go bolder with a syrah. The Famille Vincent Cremant de Bourgogne with a 4 out of 5 star rating seems like a good match. It costs about 24 dollars per bottle.",
+            "pairingText": "Pizzan on the menu? Try pairing with Sangiovese, Shiraz, and Barbera Wine. The best wine for pizza depends on the toppings! Red sauce pizza will call for a red wine with some acidity, such as a barberan or sangiovese. Add pepperoni or sausage and you can go bolder with a syrah. One wine you could try is NV Wilson Creek Almond Anniversary Edition. It has 5 out of 5 stars and a bottle costs about 22 dollars.",
             "productMatches": [
                 {
-                    "id": 13029551,
-                    "title": "Famille Vincent Cremant de Bourgogne",
-                    "description": "From the Chardonnay grapes this sparkler allies freshness, body, and smoothness. The Cremant Brut is dry and offers fine bubbles (1.5 Million/30 minutes - we counted them but you do not have to believe me for this!), hints of flowers at the nose, crisp and fruity on the palate. It is a great Classic for all festive occasions.",
-                    "price": "$23.989999771118164",
-                    "imageUrl": "https://spoonacular.com/productImages/13029551-312x231.jpg",
-                    "averageRating": 0.800000011920929,
-                    "ratingCount": 88.0,
-                    "score": 0.7962264270152686,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Ffamille-vincent-cremant-de-bourgogne%2F166470"
+                    "id": 430676,
+                    "title": "NV Wilson Creek Almond Anniversary Edition",
+                    "description": "This gold-medal winning champagne is also referred to as the \"OH MY GOSH\"® champagne. This white sparkling wine is naturally fermented, with just a hint of pure almond added so it's guaranteed to dazzle your guests. A must-have champagne to make any occasion extra special. Great with desserts, cuddling, hot tubs, picnics, fireplaces, brunches, and parties. Very popular at all the weddings here.",
+                    "price": "$21.950000762939453",
+                    "imageUrl": "https://spoonacular.com/productImages/430676-312x231.jpg",
+                    "averageRating": 1.0,
+                    "ratingCount": 1.0,
+                    "score": 0.75,
+                    "link": "https://www.amazon.com/Wilson-Creek-Almond-Sparkling-Anniversary/dp/B0131KZ3F2?tag=spoonacular-20"
                 }
             ]
         },
@@ -17515,7 +17515,7 @@ const aux = [
                 "sparkling wine",
                 "sparkling rose"
             ],
-            "pairingText": "Sparkling Wine and Sparkling rosé are my top picks for Antipasti. If you're serving a selection of appetizers, you can't go wrong with these. Both are very food friendly and complement a variety of flavors. The Iron Horse Wedding Cuvee with a 4.1 out of 5 star rating seems like a good match. It costs about 39 dollars per bottle.",
+            "pairingText": "Antipasti works really well with Sparkling Wine and Sparkling rosé. If you're serving a selection of appetizers, you can't go wrong with these. Both are very food friendly and complement a variety of flavors. The Iron Horse Wedding Cuvee with a 4.1 out of 5 star rating seems like a good match. It costs about 39 dollars per bottle.",
             "productMatches": [
                 {
                     "id": 436666,
@@ -18480,18 +18480,18 @@ const aux = [
                 "sparkling wine",
                 "sparkling rose"
             ],
-            "pairingText": "Antipasti works really well with Sparkling Wine and Sparkling rosé. If you're serving a selection of appetizers, you can't go wrong with these. Both are very food friendly and complement a variety of flavors. The Louis Roederer Cristal Brut with a 4.6 out of 5 star rating seems like a good match. It costs about 299 dollars per bottle.",
+            "pairingText": "Antipasti on the menu? Try pairing with Sparkling Wine and Sparkling rosé. If you're serving a selection of appetizers, you can't go wrong with these. Both are very food friendly and complement a variety of flavors. One wine you could try is Barefoot Bubbly Extra Dry. It has 4.4 out of 5 stars and a bottle costs about 15 dollars.",
             "productMatches": [
                 {
-                    "id": 434686,
-                    "title": "Louis Roederer Cristal Brut",
-                    "description": "Cristal, the jewel and tête de cuvée of Champagne Louis Roederer, was created in 1876 for the Tsar Alexander II of Russia. It remains faithful to its origin, inspired by elegance and purity. Cristal is produced with regimented standards of winemaking that require a rigorous selection of crus, vintages, grapes, and wine.\nCristal is produced using only the finest vintages from crus guaranteed to originate from the Louis Roederer vineyard. All the exceptional characteristics of the 2002 vintage have literally been captured in this Cristal 2002, which is generous and lush, revealing perfect balance between concentration and finesse, freshness and vinosity, intensity and refinement. In three words: proud, rich and luxurious.\nCristal 2002 is brilliant yellow with light amber highlights and has a beautiful mousse with fine cordon of persistent and regular bubbles. The nose is intense and delicate, revealing a clean and well-blended mixture of flavors of honey, cocoa, lightly toasted hazelnuts, candied citrus fruit. A savory explosion of ripe fruit on the attack, the wine reveals red fruit, white chocolate, caramel and Danish pastry, typical of Cristal. Its silky, concentrated texture relies on its intense, powerful and vinous structure, but maintains refinement. The palate builds up to attain a delicious sensation of well-blended harmony of flavors. A fresh finish with a hint of bitterness makes it almost crunchy.",
-                    "price": "$299.0",
-                    "imageUrl": "https://spoonacular.com/productImages/434686-312x231.jpg",
-                    "averageRating": 0.9200000166893005,
-                    "ratingCount": 14.0,
-                    "score": 0.8967442027358121,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Flouis-roederer-cristal-brut-2002%2F95156"
+                    "id": 432028,
+                    "title": "Barefoot Bubbly Extra Dry",
+                    "description": "Barefoot Bubbly Extra Dry Champagne offers aromas of ripe apple complemented by hints of citrus. Toasty flavors complement the creamy, lingering finish. Best served chilled (36-40 °F), this bubbly is perfectly balanced with multiple layers of fruit to delight the palate.",
+                    "price": "$14.989999771118164",
+                    "imageUrl": "https://spoonacular.com/productImages/432028-312x231.jpg",
+                    "averageRating": 0.8799999952316284,
+                    "ratingCount": 4.0,
+                    "score": 0.8030769183085515,
+                    "link": "https://www.amazon.com/Barefoot-Bubbly-California-Extra-Sparkling/dp/B01AMM2ND2?tag=spoonacular-20"
                 }
             ]
         },
@@ -18983,18 +18983,18 @@ const aux = [
                 "riesling",
                 "sparkling rose"
             ],
-            "pairingText": "Sauvignon Blanc, Riesling, and Sparkling rosé are my top picks for Anchovies. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. You could try Barefoot Bubbly Pink Moscato. Reviewers quite like it with a 4.9 out of 5 star rating and a price of about 15 dollars per bottle.",
+            "pairingText": "Sauvignon Blanc, Riesling, and Sparkling rosé are my top picks for Anchovies. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The Taittinger Brut La Francaise with a 4.3 out of 5 star rating seems like a good match. It costs about 45 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 428175,
-                    "title": "Barefoot Bubbly Pink Moscato",
-                    "description": "Barefoot Bubbly Pink Moscato is sweet & juicy with explosive aromas and flavors. Best served chilled (36-40 degrees F), this bubbly has aromas and flavors of jasmine and Mandarin orange complemented by red raspberry, strawberry and pomegranate. Enjoy the creamy and juicy finish!",
-                    "price": "$14.989999771118164",
-                    "imageUrl": "https://spoonacular.com/productImages/428175-312x231.jpg",
-                    "averageRating": 0.9800000190734863,
-                    "ratingCount": 14.0,
-                    "score": 0.9567442051199979,
-                    "link": "https://www.amazon.com/Barefoot-Bubbly-California-Sparkling-Wine/dp/B01ATURGE8?tag=spoonacular-20"
+                    "id": 436781,
+                    "title": "Taittinger Brut La Francaise",
+                    "description": "This Champagne is a blend of some 30 Chardonnay and Pinot Noir vineyards, respectively 40% and 60% of the total, from several harvests of perfectly ripened grapes.",
+                    "price": "$44.9900016784668",
+                    "imageUrl": "https://spoonacular.com/productImages/436781-312x231.jpg",
+                    "averageRating": 0.8600000143051147,
+                    "ratingCount": 17.0,
+                    "score": 0.8407692450743455,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Ftaittinger-brut-la-francaise%2F526"
                 }
             ]
         },
@@ -19305,18 +19305,18 @@ const aux = [
                 "riesling",
                 "pinot grigio"
             ],
-            "pairingText": "Sauvignon Blanc, Riesling, and Pinot Grigio are my top picks for Shrimp. These crisp white wines work well with shrimp prepared in a variety of ways, whether grilled, fried, or in garlic sauce. The Famille Vincent Cremant de Bourgogne with a 4 out of 5 star rating seems like a good match. It costs about 24 dollars per bottle.",
+            "pairingText": "Shrimp works really well with Sauvignon Blanc, Riesling, and Pinot Grigio. These crisp white wines work well with shrimp prepared in a variety of ways, whether grilled, fried, or in garlic sauce. One wine you could try is Iron Horse Wedding Cuvee. It has 4.1 out of 5 stars and a bottle costs about 39 dollars.",
             "productMatches": [
                 {
-                    "id": 13029551,
-                    "title": "Famille Vincent Cremant de Bourgogne",
-                    "description": "From the Chardonnay grapes this sparkler allies freshness, body, and smoothness. The Cremant Brut is dry and offers fine bubbles (1.5 Million/30 minutes - we counted them but you do not have to believe me for this!), hints of flowers at the nose, crisp and fruity on the palate. It is a great Classic for all festive occasions.",
-                    "price": "$23.989999771118164",
-                    "imageUrl": "https://spoonacular.com/productImages/13029551-312x231.jpg",
-                    "averageRating": 0.800000011920929,
-                    "ratingCount": 88.0,
-                    "score": 0.7962264270152686,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Ffamille-vincent-cremant-de-bourgogne%2F166470"
+                    "id": 436666,
+                    "title": "Iron Horse Wedding Cuvee",
+                    "description": "This is Iron Horse's most romantic bubbly. We describe it as dangerously, deliciously easy to drink, fruit forward, dry and elegant, with tiny bubbles and a remarkabley long finish.",
+                    "price": "$38.9900016784668",
+                    "imageUrl": "https://spoonacular.com/productImages/436666-312x231.jpg",
+                    "averageRating": 0.8199999928474426,
+                    "ratingCount": 34.0,
+                    "score": 0.810291254983365,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Firon-horse-wedding-cuvee-2013%2F235756"
                 }
             ]
         },
@@ -21058,18 +21058,18 @@ const aux = [
                 "sauvignon blanc",
                 "gruener veltliner"
             ],
-            "pairingText": "Chardonnay, Sauvignon Blanc, and Gruener Veltliner are great choices for Salad. Sauvignon Blanc and Gruner Veltliner both have herby notes that complement salads with enough acid to match tart vinaigrettes, while a Chardonnay can be a good pick for creamy salad dressings. One wine you could try is Famille Vincent Cremant de Bourgogne. It has 4 out of 5 stars and a bottle costs about 24 dollars.",
+            "pairingText": "Salad on the menu? Try pairing with Chardonnay, Sauvignon Blanc, and Gruener Veltliner. Sauvignon Blanc and Gruner Veltliner both have herby notes that complement salads with enough acid to match tart vinaigrettes, while a Chardonnay can be a good pick for creamy salad dressings. The Medici Ermete Concerto Lambrusco Reggiano with a 5 out of 5 star rating seems like a good match. It costs about 23 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 13029551,
-                    "title": "Famille Vincent Cremant de Bourgogne",
-                    "description": "From the Chardonnay grapes this sparkler allies freshness, body, and smoothness. The Cremant Brut is dry and offers fine bubbles (1.5 Million/30 minutes - we counted them but you do not have to believe me for this!), hints of flowers at the nose, crisp and fruity on the palate. It is a great Classic for all festive occasions.",
-                    "price": "$23.989999771118164",
-                    "imageUrl": "https://spoonacular.com/productImages/13029551-312x231.jpg",
-                    "averageRating": 0.800000011920929,
-                    "ratingCount": 88.0,
-                    "score": 0.7962264270152686,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Ffamille-vincent-cremant-de-bourgogne%2F166470"
+                    "id": 433011,
+                    "title": "Medici Ermete Concerto Lambrusco Reggiano",
+                    "description": "Intensely ruby red with pleasant aromas that are persistent and fruity. Dry but fruity at the same time. Soft and fresh on the palate.",
+                    "price": "$22.989999771118164",
+                    "imageUrl": "https://spoonacular.com/productImages/433011-312x231.jpg",
+                    "averageRating": 1.0,
+                    "ratingCount": 5.0,
+                    "score": 0.9375,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fmedici-ermete-concerto-lambrusco-reggiano-2014%2F147752"
                 }
             ]
         },
@@ -21390,18 +21390,18 @@ const aux = [
                 "sparkling wine",
                 "sparkling rose"
             ],
-            "pairingText": "Sparkling Wine and Sparkling rosé are my top picks for Antipasti. If you're serving a selection of appetizers, you can't go wrong with these. Both are very food friendly and complement a variety of flavors. The Louis Roederer Cristal Brut with a 4.6 out of 5 star rating seems like a good match. It costs about 299 dollars per bottle.",
+            "pairingText": "Sparkling Wine and Sparkling rosé are great choices for Antipasti. If you're serving a selection of appetizers, you can't go wrong with these. Both are very food friendly and complement a variety of flavors. One wine you could try is Weinert Cavas de Weinert. It has 4.7 out of 5 stars and a bottle costs about 26 dollars.",
             "productMatches": [
                 {
-                    "id": 434686,
-                    "title": "Louis Roederer Cristal Brut",
-                    "description": "Cristal, the jewel and tête de cuvée of Champagne Louis Roederer, was created in 1876 for the Tsar Alexander II of Russia. It remains faithful to its origin, inspired by elegance and purity. Cristal is produced with regimented standards of winemaking that require a rigorous selection of crus, vintages, grapes, and wine.\nCristal is produced using only the finest vintages from crus guaranteed to originate from the Louis Roederer vineyard. All the exceptional characteristics of the 2002 vintage have literally been captured in this Cristal 2002, which is generous and lush, revealing perfect balance between concentration and finesse, freshness and vinosity, intensity and refinement. In three words: proud, rich and luxurious.\nCristal 2002 is brilliant yellow with light amber highlights and has a beautiful mousse with fine cordon of persistent and regular bubbles. The nose is intense and delicate, revealing a clean and well-blended mixture of flavors of honey, cocoa, lightly toasted hazelnuts, candied citrus fruit. A savory explosion of ripe fruit on the attack, the wine reveals red fruit, white chocolate, caramel and Danish pastry, typical of Cristal. Its silky, concentrated texture relies on its intense, powerful and vinous structure, but maintains refinement. The palate builds up to attain a delicious sensation of well-blended harmony of flavors. A fresh finish with a hint of bitterness makes it almost crunchy.",
-                    "price": "$299.0",
-                    "imageUrl": "https://spoonacular.com/productImages/434686-312x231.jpg",
-                    "averageRating": 0.9200000166893005,
-                    "ratingCount": 14.0,
-                    "score": 0.8967442027358121,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Flouis-roederer-cristal-brut-2002%2F95156"
+                    "id": 436255,
+                    "title": "Weinert Cavas de Weinert",
+                    "description": "Deep ruby tone with purple sparkles springs up its stable and vigorous structure. Its tannic richness guarantees its longevity, but discreet ripe fruit prevails. A balanced full-bodied wine that has reminiscente fragrantes of oak on the long finish. A blend of Cabernet Sauvignon, Malbec and Merlot.",
+                    "price": "$25.989999771118164",
+                    "imageUrl": "https://spoonacular.com/productImages/436255-312x231.jpg",
+                    "averageRating": 0.9399999976158142,
+                    "ratingCount": 5.0,
+                    "score": 0.8774999976158142,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fweinert-cavas-de-weinert-2004%2F113527"
                 }
             ]
         },
@@ -21997,18 +21997,18 @@ const aux = [
                 "riesling",
                 "sparkling rose"
             ],
-            "pairingText": "Anchovies works really well with Sauvignon Blanc, Riesling, and Sparkling rosé. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The Louis Roederer Cristal Brut with a 4.6 out of 5 star rating seems like a good match. It costs about 299 dollars per bottle.",
+            "pairingText": "Sauvignon Blanc, Riesling, and Sparkling rosé are great choices for Anchovies. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. One wine you could try is Bollinger Brut Special Cuvee. It has 4.2 out of 5 stars and a bottle costs about 60 dollars.",
             "productMatches": [
                 {
-                    "id": 434686,
-                    "title": "Louis Roederer Cristal Brut",
-                    "description": "Cristal, the jewel and tête de cuvée of Champagne Louis Roederer, was created in 1876 for the Tsar Alexander II of Russia. It remains faithful to its origin, inspired by elegance and purity. Cristal is produced with regimented standards of winemaking that require a rigorous selection of crus, vintages, grapes, and wine.\nCristal is produced using only the finest vintages from crus guaranteed to originate from the Louis Roederer vineyard. All the exceptional characteristics of the 2002 vintage have literally been captured in this Cristal 2002, which is generous and lush, revealing perfect balance between concentration and finesse, freshness and vinosity, intensity and refinement. In three words: proud, rich and luxurious.\nCristal 2002 is brilliant yellow with light amber highlights and has a beautiful mousse with fine cordon of persistent and regular bubbles. The nose is intense and delicate, revealing a clean and well-blended mixture of flavors of honey, cocoa, lightly toasted hazelnuts, candied citrus fruit. A savory explosion of ripe fruit on the attack, the wine reveals red fruit, white chocolate, caramel and Danish pastry, typical of Cristal. Its silky, concentrated texture relies on its intense, powerful and vinous structure, but maintains refinement. The palate builds up to attain a delicious sensation of well-blended harmony of flavors. A fresh finish with a hint of bitterness makes it almost crunchy.",
-                    "price": "$299.0",
-                    "imageUrl": "https://spoonacular.com/productImages/434686-312x231.jpg",
-                    "averageRating": 0.9200000166893005,
-                    "ratingCount": 14.0,
-                    "score": 0.8967442027358121,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Flouis-roederer-cristal-brut-2002%2F95156"
+                    "id": 433020,
+                    "title": "Bollinger Brut Special Cuvee",
+                    "description": "A golden color, distinctive of black grape varieties. Very fine bubbles. On the nose, it has a beautiful aromatic complexity, ripe fruit and spicy aromas, with hints of roasted apples, apple compote and peaches. On the palate, there is a subtle combination of structure, length and vivacity. The bubbles are like velvet. Flavors of pear, brioche and spicy aromas, notes of fresh walnut.Pair with all fish, especially sushi and sashimi, shellfish such as shrimp, prawns, crayfish and grilled lobster, poultry and white meat, cashews, parmesan or prosciutto.",
+                    "price": "$59.9900016784668",
+                    "imageUrl": "https://spoonacular.com/productImages/433020-312x231.jpg",
+                    "averageRating": 0.8399999737739563,
+                    "ratingCount": 63.0,
+                    "score": 0.8347368158792194,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fbollinger-brut-special-cuvee%2F513"
                 }
             ]
         },
@@ -22563,18 +22563,18 @@ const aux = [
                 "riesling",
                 "sparkling rose"
             ],
-            "pairingText": "Sauvignon Blanc, Riesling, and Sparkling rosé are my top picks for Anchovies. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. You could try Medici Ermete Concerto Lambrusco Reggiano. Reviewers quite like it with a 5 out of 5 star rating and a price of about 23 dollars per bottle.",
+            "pairingText": "Sauvignon Blanc, Riesling, and Sparkling rosé are my top picks for Anchovies. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The Famille Vincent Cremant de Bourgogne with a 4 out of 5 star rating seems like a good match. It costs about 24 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 433011,
-                    "title": "Medici Ermete Concerto Lambrusco Reggiano",
-                    "description": "Intensely ruby red with pleasant aromas that are persistent and fruity. Dry but fruity at the same time. Soft and fresh on the palate.",
-                    "price": "$22.989999771118164",
-                    "imageUrl": "https://spoonacular.com/productImages/433011-312x231.jpg",
-                    "averageRating": 1.0,
-                    "ratingCount": 5.0,
-                    "score": 0.9375,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fmedici-ermete-concerto-lambrusco-reggiano-2014%2F147752"
+                    "id": 13029551,
+                    "title": "Famille Vincent Cremant de Bourgogne",
+                    "description": "From the Chardonnay grapes this sparkler allies freshness, body, and smoothness. The Cremant Brut is dry and offers fine bubbles (1.5 Million/30 minutes - we counted them but you do not have to believe me for this!), hints of flowers at the nose, crisp and fruity on the palate. It is a great Classic for all festive occasions.",
+                    "price": "$23.989999771118164",
+                    "imageUrl": "https://spoonacular.com/productImages/13029551-312x231.jpg",
+                    "averageRating": 0.800000011920929,
+                    "ratingCount": 88.0,
+                    "score": 0.7962264270152686,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Ffamille-vincent-cremant-de-bourgogne%2F166470"
                 }
             ]
         },
@@ -22885,18 +22885,18 @@ const aux = [
                 "sauvignon blanc",
                 "gruener veltliner"
             ],
-            "pairingText": "Chardonnay, Sauvignon Blanc, and Gruener Veltliner are great choices for Salad. Sauvignon Blanc and Gruner Veltliner both have herby notes that complement salads with enough acid to match tart vinaigrettes, while a Chardonnay can be a good pick for creamy salad dressings. One wine you could try is Perrier-Jouet Grand Brut. It has 4.3 out of 5 stars and a bottle costs about 57 dollars.",
+            "pairingText": "Chardonnay, Sauvignon Blanc, and Gruener Veltliner are great choices for Salad. Sauvignon Blanc and Gruner Veltliner both have herby notes that complement salads with enough acid to match tart vinaigrettes, while a Chardonnay can be a good pick for creamy salad dressings. You could try Taittinger Brut La Francaise. Reviewers quite like it with a 4.3 out of 5 star rating and a price of about 45 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 430436,
-                    "title": "Perrier-Jouet Grand Brut",
-                    "description": "The striking freshness and vivacity of the floral and fruity fragrances (yellow fruits and fresh fruits) take root, before giving way to subtle notes of vanilla and butter, lending the wine a fruity and consistent character. The notes of cherry plum, lemon and bergamot orange emerge first, then make way for the flowers of fruit trees, such as lime and honeysuckle. These are followed by notes of butter, madeleine cakes and vanilla sugar. Lingering notes of grapefruit, white peaches, green pears, apple trees and green hazelnuts round off the taste.",
-                    "price": "$57.0",
-                    "imageUrl": "https://spoonacular.com/productImages/430436-312x231.jpg",
+                    "id": 436781,
+                    "title": "Taittinger Brut La Francaise",
+                    "description": "This Champagne is a blend of some 30 Chardonnay and Pinot Noir vineyards, respectively 40% and 60% of the total, from several harvests of perfectly ripened grapes.",
+                    "price": "$44.9900016784668",
+                    "imageUrl": "https://spoonacular.com/productImages/436781-312x231.jpg",
                     "averageRating": 0.8600000143051147,
-                    "ratingCount": 36.0,
-                    "score": 0.8508257023785093,
-                    "link": "https://www.amazon.com/Perrier-Jou%C3%ABt-Champagne-France-Grand-750ml/dp/B072W5LQKS?tag=spoonacular-20"
+                    "ratingCount": 17.0,
+                    "score": 0.8407692450743455,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Ftaittinger-brut-la-francaise%2F526"
                 }
             ]
         },
@@ -23371,18 +23371,18 @@ const aux = [
                 "sparkling rose",
                 "trebbiano"
             ],
-            "pairingText": "Bruschetta can be paired with Sparkling Wine, Chianti, and Verdicchio. If you're serving a selection of appetizers, you can't go wrong with these. Both are very food friendly and complement a variety of flavors. The Medici Ermete Concerto Lambrusco Reggiano with a 5 out of 5 star rating seems like a good match. It costs about 23 dollars per bottle.",
+            "pairingText": "Bruschetta can be paired with Sparkling Wine, Chianti, and Verdicchio. If you're serving a selection of appetizers, you can't go wrong with these. Both are very food friendly and complement a variety of flavors. One wine you could try is Bollinger Brut Special Cuvee. It has 4.2 out of 5 stars and a bottle costs about 60 dollars.",
             "productMatches": [
                 {
-                    "id": 433011,
-                    "title": "Medici Ermete Concerto Lambrusco Reggiano",
-                    "description": "Intensely ruby red with pleasant aromas that are persistent and fruity. Dry but fruity at the same time. Soft and fresh on the palate.",
-                    "price": "$22.989999771118164",
-                    "imageUrl": "https://spoonacular.com/productImages/433011-312x231.jpg",
-                    "averageRating": 1.0,
-                    "ratingCount": 5.0,
-                    "score": 0.9375,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fmedici-ermete-concerto-lambrusco-reggiano-2014%2F147752"
+                    "id": 433020,
+                    "title": "Bollinger Brut Special Cuvee",
+                    "description": "A golden color, distinctive of black grape varieties. Very fine bubbles. On the nose, it has a beautiful aromatic complexity, ripe fruit and spicy aromas, with hints of roasted apples, apple compote and peaches. On the palate, there is a subtle combination of structure, length and vivacity. The bubbles are like velvet. Flavors of pear, brioche and spicy aromas, notes of fresh walnut.Pair with all fish, especially sushi and sashimi, shellfish such as shrimp, prawns, crayfish and grilled lobster, poultry and white meat, cashews, parmesan or prosciutto.",
+                    "price": "$59.9900016784668",
+                    "imageUrl": "https://spoonacular.com/productImages/433020-312x231.jpg",
+                    "averageRating": 0.8399999737739563,
+                    "ratingCount": 63.0,
+                    "score": 0.8347368158792194,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fbollinger-brut-special-cuvee%2F513"
                 }
             ]
         },
@@ -23810,18 +23810,18 @@ const aux = [
                 "riesling",
                 "sparkling rose"
             ],
-            "pairingText": "Anchovies on the menu? Try pairing with Sauvignon Blanc, Riesling, and Sparkling rosé. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The Louis Roederer Cristal Brut with a 4.6 out of 5 star rating seems like a good match. It costs about 299 dollars per bottle.",
+            "pairingText": "Anchovies can be paired with Sauvignon Blanc, Riesling, and Sparkling rosé. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The Barefoot Bubbly Extra Dry with a 4.4 out of 5 star rating seems like a good match. It costs about 15 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 434686,
-                    "title": "Louis Roederer Cristal Brut",
-                    "description": "Cristal, the jewel and tête de cuvée of Champagne Louis Roederer, was created in 1876 for the Tsar Alexander II of Russia. It remains faithful to its origin, inspired by elegance and purity. Cristal is produced with regimented standards of winemaking that require a rigorous selection of crus, vintages, grapes, and wine.\nCristal is produced using only the finest vintages from crus guaranteed to originate from the Louis Roederer vineyard. All the exceptional characteristics of the 2002 vintage have literally been captured in this Cristal 2002, which is generous and lush, revealing perfect balance between concentration and finesse, freshness and vinosity, intensity and refinement. In three words: proud, rich and luxurious.\nCristal 2002 is brilliant yellow with light amber highlights and has a beautiful mousse with fine cordon of persistent and regular bubbles. The nose is intense and delicate, revealing a clean and well-blended mixture of flavors of honey, cocoa, lightly toasted hazelnuts, candied citrus fruit. A savory explosion of ripe fruit on the attack, the wine reveals red fruit, white chocolate, caramel and Danish pastry, typical of Cristal. Its silky, concentrated texture relies on its intense, powerful and vinous structure, but maintains refinement. The palate builds up to attain a delicious sensation of well-blended harmony of flavors. A fresh finish with a hint of bitterness makes it almost crunchy.",
-                    "price": "$299.0",
-                    "imageUrl": "https://spoonacular.com/productImages/434686-312x231.jpg",
-                    "averageRating": 0.9200000166893005,
-                    "ratingCount": 14.0,
-                    "score": 0.8967442027358121,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Flouis-roederer-cristal-brut-2002%2F95156"
+                    "id": 432028,
+                    "title": "Barefoot Bubbly Extra Dry",
+                    "description": "Barefoot Bubbly Extra Dry Champagne offers aromas of ripe apple complemented by hints of citrus. Toasty flavors complement the creamy, lingering finish. Best served chilled (36-40 °F), this bubbly is perfectly balanced with multiple layers of fruit to delight the palate.",
+                    "price": "$14.989999771118164",
+                    "imageUrl": "https://spoonacular.com/productImages/432028-312x231.jpg",
+                    "averageRating": 0.8799999952316284,
+                    "ratingCount": 4.0,
+                    "score": 0.8030769183085515,
+                    "link": "https://www.amazon.com/Barefoot-Bubbly-California-Extra-Sparkling/dp/B01AMM2ND2?tag=spoonacular-20"
                 }
             ]
         },
@@ -24161,18 +24161,18 @@ const aux = [
                 "sauvignon blanc",
                 "gruener veltliner"
             ],
-            "pairingText": "Chardonnay, Sauvignon Blanc, and Gruener Veltliner are great choices for Salad. Sauvignon Blanc and Gruner Veltliner both have herby notes that complement salads with enough acid to match tart vinaigrettes, while a Chardonnay can be a good pick for creamy salad dressings. The Taittinger Brut La Francaise with a 4.3 out of 5 star rating seems like a good match. It costs about 45 dollars per bottle.",
+            "pairingText": "Chardonnay, Sauvignon Blanc, and Gruener Veltliner are my top picks for Salad. Sauvignon Blanc and Gruner Veltliner both have herby notes that complement salads with enough acid to match tart vinaigrettes, while a Chardonnay can be a good pick for creamy salad dressings. You could try Louis Roederer Cristal Brut. Reviewers quite like it with a 4.6 out of 5 star rating and a price of about 299 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 436781,
-                    "title": "Taittinger Brut La Francaise",
-                    "description": "This Champagne is a blend of some 30 Chardonnay and Pinot Noir vineyards, respectively 40% and 60% of the total, from several harvests of perfectly ripened grapes.",
-                    "price": "$44.9900016784668",
-                    "imageUrl": "https://spoonacular.com/productImages/436781-312x231.jpg",
-                    "averageRating": 0.8600000143051147,
-                    "ratingCount": 17.0,
-                    "score": 0.8407692450743455,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Ftaittinger-brut-la-francaise%2F526"
+                    "id": 434686,
+                    "title": "Louis Roederer Cristal Brut",
+                    "description": "Cristal, the jewel and tête de cuvée of Champagne Louis Roederer, was created in 1876 for the Tsar Alexander II of Russia. It remains faithful to its origin, inspired by elegance and purity. Cristal is produced with regimented standards of winemaking that require a rigorous selection of crus, vintages, grapes, and wine.\nCristal is produced using only the finest vintages from crus guaranteed to originate from the Louis Roederer vineyard. All the exceptional characteristics of the 2002 vintage have literally been captured in this Cristal 2002, which is generous and lush, revealing perfect balance between concentration and finesse, freshness and vinosity, intensity and refinement. In three words: proud, rich and luxurious.\nCristal 2002 is brilliant yellow with light amber highlights and has a beautiful mousse with fine cordon of persistent and regular bubbles. The nose is intense and delicate, revealing a clean and well-blended mixture of flavors of honey, cocoa, lightly toasted hazelnuts, candied citrus fruit. A savory explosion of ripe fruit on the attack, the wine reveals red fruit, white chocolate, caramel and Danish pastry, typical of Cristal. Its silky, concentrated texture relies on its intense, powerful and vinous structure, but maintains refinement. The palate builds up to attain a delicious sensation of well-blended harmony of flavors. A fresh finish with a hint of bitterness makes it almost crunchy.",
+                    "price": "$299.0",
+                    "imageUrl": "https://spoonacular.com/productImages/434686-312x231.jpg",
+                    "averageRating": 0.9200000166893005,
+                    "ratingCount": 14.0,
+                    "score": 0.8967442027358121,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Flouis-roederer-cristal-brut-2002%2F95156"
                 }
             ]
         },
@@ -26022,18 +26022,18 @@ const aux = [
                 "riesling",
                 "sparkling rose"
             ],
-            "pairingText": "Sauvignon Blanc, Riesling, and Sparkling rosé are my top picks for Anchovies. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. You could try Taittinger Brut La Francaise. Reviewers quite like it with a 4.3 out of 5 star rating and a price of about 45 dollars per bottle.",
+            "pairingText": "Sauvignon Blanc, Riesling, and Sparkling rosé are great choices for Anchovies. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. One wine you could try is Blanc de Bleu Cuvee Mousseux. It has 4.2 out of 5 stars and a bottle costs about 16 dollars.",
             "productMatches": [
                 {
-                    "id": 436781,
-                    "title": "Taittinger Brut La Francaise",
-                    "description": "This Champagne is a blend of some 30 Chardonnay and Pinot Noir vineyards, respectively 40% and 60% of the total, from several harvests of perfectly ripened grapes.",
-                    "price": "$44.9900016784668",
-                    "imageUrl": "https://spoonacular.com/productImages/436781-312x231.jpg",
-                    "averageRating": 0.8600000143051147,
-                    "ratingCount": 17.0,
-                    "score": 0.8407692450743455,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Ftaittinger-brut-la-francaise%2F526"
+                    "id": 436158,
+                    "title": "Blanc de Bleu Cuvee Mousseux",
+                    "description": "Blanc de Bleu is a premium California Chardonnay wine with an added hint of blueberries and is a delicate sparkling wine reserved for memorable celebrations. It offers seductive flavors and fresh aromatic effervescence - vividly pasteled with blueberries. All of this is contained in an impressively sexy bottle with tasteful flair.The fruit for Blanc de Bleu is grown in the quiet vineyards of Northern California, known for their cool and clear breezes - ideal conditions for the exclusive grapes and soils that accentuate the profoundly flavorful characteristics. This sparkling wine pairs well with appetizers, sushi and very light meals.",
+                    "price": "$15.989999771118164",
+                    "imageUrl": "https://spoonacular.com/productImages/436158-312x231.jpg",
+                    "averageRating": 0.8399999737739563,
+                    "ratingCount": 25.0,
+                    "score": 0.8268420790371142,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fblanc-de-bleu-cuvee-mousseux%2F140728"
                 }
             ]
         },
@@ -26996,18 +26996,18 @@ const aux = [
                 "albarino",
                 "gavi"
             ],
-            "pairingText": "Caesar Salad works really well with Pinot Grigio, Albarino, and Gavi. We recommend a crisp, dry white wine such as a Gavi, Albariño, or Pinot Grigio. These wines stand up to the pungent dressing and complement the other flavors. You could try Weinert Cavas de Weinert. Reviewers quite like it with a 4.7 out of 5 star rating and a price of about 26 dollars per bottle.",
+            "pairingText": "Caesar Salad works really well with Pinot Grigio, Albarino, and Gavi. We recommend a crisp, dry white wine such as a Gavi, Albariño, or Pinot Grigio. These wines stand up to the pungent dressing and complement the other flavors. One wine you could try is Bollinger Brut Special Cuvee. It has 4.2 out of 5 stars and a bottle costs about 60 dollars.",
             "productMatches": [
                 {
-                    "id": 436255,
-                    "title": "Weinert Cavas de Weinert",
-                    "description": "Deep ruby tone with purple sparkles springs up its stable and vigorous structure. Its tannic richness guarantees its longevity, but discreet ripe fruit prevails. A balanced full-bodied wine that has reminiscente fragrantes of oak on the long finish. A blend of Cabernet Sauvignon, Malbec and Merlot.",
-                    "price": "$25.989999771118164",
-                    "imageUrl": "https://spoonacular.com/productImages/436255-312x231.jpg",
-                    "averageRating": 0.9399999976158142,
-                    "ratingCount": 5.0,
-                    "score": 0.8774999976158142,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fweinert-cavas-de-weinert-2004%2F113527"
+                    "id": 433020,
+                    "title": "Bollinger Brut Special Cuvee",
+                    "description": "A golden color, distinctive of black grape varieties. Very fine bubbles. On the nose, it has a beautiful aromatic complexity, ripe fruit and spicy aromas, with hints of roasted apples, apple compote and peaches. On the palate, there is a subtle combination of structure, length and vivacity. The bubbles are like velvet. Flavors of pear, brioche and spicy aromas, notes of fresh walnut.Pair with all fish, especially sushi and sashimi, shellfish such as shrimp, prawns, crayfish and grilled lobster, poultry and white meat, cashews, parmesan or prosciutto.",
+                    "price": "$59.9900016784668",
+                    "imageUrl": "https://spoonacular.com/productImages/433020-312x231.jpg",
+                    "averageRating": 0.8399999737739563,
+                    "ratingCount": 63.0,
+                    "score": 0.8347368158792194,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fbollinger-brut-special-cuvee%2F513"
                 }
             ]
         },
@@ -28000,18 +28000,18 @@ const aux = [
                 "riesling",
                 "pinot grigio"
             ],
-            "pairingText": "Shrimp on the menu? Try pairing with Sauvignon Blanc, Riesling, and Pinot Grigio. These crisp white wines work well with shrimp prepared in a variety of ways, whether grilled, fried, or in garlic sauce. The Perrier-Jouet Grand Brut with a 4.3 out of 5 star rating seems like a good match. It costs about 57 dollars per bottle.",
+            "pairingText": "Sauvignon Blanc, Riesling, and Pinot Grigio are great choices for Shrimp. These crisp white wines work well with shrimp prepared in a variety of ways, whether grilled, fried, or in garlic sauce. The NV Wilson Creek Almond Anniversary Edition with a 5 out of 5 star rating seems like a good match. It costs about 22 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 430436,
-                    "title": "Perrier-Jouet Grand Brut",
-                    "description": "The striking freshness and vivacity of the floral and fruity fragrances (yellow fruits and fresh fruits) take root, before giving way to subtle notes of vanilla and butter, lending the wine a fruity and consistent character. The notes of cherry plum, lemon and bergamot orange emerge first, then make way for the flowers of fruit trees, such as lime and honeysuckle. These are followed by notes of butter, madeleine cakes and vanilla sugar. Lingering notes of grapefruit, white peaches, green pears, apple trees and green hazelnuts round off the taste.",
-                    "price": "$57.0",
-                    "imageUrl": "https://spoonacular.com/productImages/430436-312x231.jpg",
-                    "averageRating": 0.8600000143051147,
-                    "ratingCount": 36.0,
-                    "score": 0.8508257023785093,
-                    "link": "https://www.amazon.com/Perrier-Jou%C3%ABt-Champagne-France-Grand-750ml/dp/B072W5LQKS?tag=spoonacular-20"
+                    "id": 430676,
+                    "title": "NV Wilson Creek Almond Anniversary Edition",
+                    "description": "This gold-medal winning champagne is also referred to as the \"OH MY GOSH\"® champagne. This white sparkling wine is naturally fermented, with just a hint of pure almond added so it's guaranteed to dazzle your guests. A must-have champagne to make any occasion extra special. Great with desserts, cuddling, hot tubs, picnics, fireplaces, brunches, and parties. Very popular at all the weddings here.",
+                    "price": "$21.950000762939453",
+                    "imageUrl": "https://spoonacular.com/productImages/430676-312x231.jpg",
+                    "averageRating": 1.0,
+                    "ratingCount": 1.0,
+                    "score": 0.75,
+                    "link": "https://www.amazon.com/Wilson-Creek-Almond-Sparkling-Anniversary/dp/B0131KZ3F2?tag=spoonacular-20"
                 }
             ]
         },
@@ -29012,18 +29012,18 @@ const aux = [
                 "sparkling rose",
                 "trebbiano"
             ],
-            "pairingText": "Crostini works really well with Sparkling Wine, Chianti, and Verdicchio. If you're serving a selection of appetizers, you can't go wrong with these. Both are very food friendly and complement a variety of flavors. The Taittinger Brut La Francaise with a 4.3 out of 5 star rating seems like a good match. It costs about 45 dollars per bottle.",
+            "pairingText": "Crostini can be paired with Sparkling Wine, Chianti, and Verdicchio. If you're serving a selection of appetizers, you can't go wrong with these. Both are very food friendly and complement a variety of flavors. The Bollinger Brut Special Cuvee with a 4.2 out of 5 star rating seems like a good match. It costs about 60 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 436781,
-                    "title": "Taittinger Brut La Francaise",
-                    "description": "This Champagne is a blend of some 30 Chardonnay and Pinot Noir vineyards, respectively 40% and 60% of the total, from several harvests of perfectly ripened grapes.",
-                    "price": "$44.9900016784668",
-                    "imageUrl": "https://spoonacular.com/productImages/436781-312x231.jpg",
-                    "averageRating": 0.8600000143051147,
-                    "ratingCount": 17.0,
-                    "score": 0.8407692450743455,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Ftaittinger-brut-la-francaise%2F526"
+                    "id": 433020,
+                    "title": "Bollinger Brut Special Cuvee",
+                    "description": "A golden color, distinctive of black grape varieties. Very fine bubbles. On the nose, it has a beautiful aromatic complexity, ripe fruit and spicy aromas, with hints of roasted apples, apple compote and peaches. On the palate, there is a subtle combination of structure, length and vivacity. The bubbles are like velvet. Flavors of pear, brioche and spicy aromas, notes of fresh walnut.Pair with all fish, especially sushi and sashimi, shellfish such as shrimp, prawns, crayfish and grilled lobster, poultry and white meat, cashews, parmesan or prosciutto.",
+                    "price": "$59.9900016784668",
+                    "imageUrl": "https://spoonacular.com/productImages/433020-312x231.jpg",
+                    "averageRating": 0.8399999737739563,
+                    "ratingCount": 63.0,
+                    "score": 0.8347368158792194,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fbollinger-brut-special-cuvee%2F513"
                 }
             ]
         },
@@ -29617,18 +29617,18 @@ const aux = [
                 "sparkling wine",
                 "sparkling rose"
             ],
-            "pairingText": "Antipasti on the menu? Try pairing with Sparkling Wine and Sparkling rosé. If you're serving a selection of appetizers, you can't go wrong with these. Both are very food friendly and complement a variety of flavors. One wine you could try is Berlucchi Franciacorta '61 Extra Brut. It has 4.3 out of 5 stars and a bottle costs about 34 dollars.",
+            "pairingText": "Antipasti can be paired with Sparkling Wine and Sparkling rosé. If you're serving a selection of appetizers, you can't go wrong with these. Both are very food friendly and complement a variety of flavors. The Taittinger Brut La Francaise with a 4.3 out of 5 star rating seems like a good match. It costs about 45 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 13029339,
-                    "title": "Berlucchi Franciacorta '61 Extra Brut",
-                    "description": "Extra Brut '61 is a tribute to the birth of Franciacorta in 1961—the year Berlucchi produced the first of this classic method sparkling wine. This fun and lively sparkler offers citrus fruit and a crisp, clean finish.Blend: 85% Chardonnay, 15% Pinot Nero*The label for Franciacorta '61 Extra Brut is in the process of changing. You may receive either of these two labels featured above. Specific labels cannot be requested.",
-                    "price": "$33.9900016784668",
-                    "imageUrl": "https://spoonacular.com/productImages/13029339-312x231.jpg",
+                    "id": 436781,
+                    "title": "Taittinger Brut La Francaise",
+                    "description": "This Champagne is a blend of some 30 Chardonnay and Pinot Noir vineyards, respectively 40% and 60% of the total, from several harvests of perfectly ripened grapes.",
+                    "price": "$44.9900016784668",
+                    "imageUrl": "https://spoonacular.com/productImages/436781-312x231.jpg",
                     "averageRating": 0.8600000143051147,
-                    "ratingCount": 6.0,
-                    "score": 0.8073684353577464,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fsoter-vineyards-north-valley-reserve-pinot-noir-2012%2F147401"
+                    "ratingCount": 17.0,
+                    "score": 0.8407692450743455,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Ftaittinger-brut-la-francaise%2F526"
                 }
             ]
         },
@@ -32048,7 +32048,7 @@ const aux = [
                 "sauvignon blanc",
                 "gruener veltliner"
             ],
-            "pairingText": "Chardonnay, Sauvignon Blanc, and Gruener Veltliner are great choices for Salad. Sauvignon Blanc and Gruner Veltliner both have herby notes that complement salads with enough acid to match tart vinaigrettes, while a Chardonnay can be a good pick for creamy salad dressings. You could try Famille Vincent Cremant de Bourgogne. Reviewers quite like it with a 4 out of 5 star rating and a price of about 24 dollars per bottle.",
+            "pairingText": "Chardonnay, Sauvignon Blanc, and Gruener Veltliner are great choices for Salad. Sauvignon Blanc and Gruner Veltliner both have herby notes that complement salads with enough acid to match tart vinaigrettes, while a Chardonnay can be a good pick for creamy salad dressings. The Famille Vincent Cremant de Bourgogne with a 4 out of 5 star rating seems like a good match. It costs about 24 dollars per bottle.",
             "productMatches": [
                 {
                     "id": 13029551,
@@ -34059,18 +34059,18 @@ const aux = [
                 "sparkling rose",
                 "trebbiano"
             ],
-            "pairingText": "Sparkling Wine, Chianti, and Verdicchio are my top picks for Bruschetta. If you're serving a selection of appetizers, you can't go wrong with these. Both are very food friendly and complement a variety of flavors. The Iron Horse Wedding Cuvee with a 4.1 out of 5 star rating seems like a good match. It costs about 39 dollars per bottle.",
+            "pairingText": "Sparkling Wine, Chianti, and Verdicchio are my top picks for Bruschetta. If you're serving a selection of appetizers, you can't go wrong with these. Both are very food friendly and complement a variety of flavors. The Weinert Cavas de Weinert with a 4.7 out of 5 star rating seems like a good match. It costs about 26 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 436666,
-                    "title": "Iron Horse Wedding Cuvee",
-                    "description": "This is Iron Horse's most romantic bubbly. We describe it as dangerously, deliciously easy to drink, fruit forward, dry and elegant, with tiny bubbles and a remarkabley long finish.",
-                    "price": "$38.9900016784668",
-                    "imageUrl": "https://spoonacular.com/productImages/436666-312x231.jpg",
-                    "averageRating": 0.8199999928474426,
-                    "ratingCount": 34.0,
-                    "score": 0.810291254983365,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Firon-horse-wedding-cuvee-2013%2F235756"
+                    "id": 436255,
+                    "title": "Weinert Cavas de Weinert",
+                    "description": "Deep ruby tone with purple sparkles springs up its stable and vigorous structure. Its tannic richness guarantees its longevity, but discreet ripe fruit prevails. A balanced full-bodied wine that has reminiscente fragrantes of oak on the long finish. A blend of Cabernet Sauvignon, Malbec and Merlot.",
+                    "price": "$25.989999771118164",
+                    "imageUrl": "https://spoonacular.com/productImages/436255-312x231.jpg",
+                    "averageRating": 0.9399999976158142,
+                    "ratingCount": 5.0,
+                    "score": 0.8774999976158142,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fweinert-cavas-de-weinert-2004%2F113527"
                 }
             ]
         },
@@ -34705,18 +34705,18 @@ const aux = [
                 "sparkling wine",
                 "zinfandel"
             ],
-            "pairingText": "Riesling, Sparkling Wine, and Zinfandel are my top picks for Fried Green Tomato. In general, there are a few rules that will help you pair wine with southern food. Food-friendly riesling or sparkling white wine will work with many fried foods, while zinfandel is great with barbecued fare. The Perrier-Jouet Grand Brut with a 4.3 out of 5 star rating seems like a good match. It costs about 57 dollars per bottle.",
+            "pairingText": "Riesling, Sparkling Wine, and Zinfandel are great choices for Fried Green Tomato. In general, there are a few rules that will help you pair wine with southern food. Food-friendly riesling or sparkling white wine will work with many fried foods, while zinfandel is great with barbecued fare. One wine you could try is Taittinger Brut La Francaise. It has 4.3 out of 5 stars and a bottle costs about 45 dollars.",
             "productMatches": [
                 {
-                    "id": 430436,
-                    "title": "Perrier-Jouet Grand Brut",
-                    "description": "The striking freshness and vivacity of the floral and fruity fragrances (yellow fruits and fresh fruits) take root, before giving way to subtle notes of vanilla and butter, lending the wine a fruity and consistent character. The notes of cherry plum, lemon and bergamot orange emerge first, then make way for the flowers of fruit trees, such as lime and honeysuckle. These are followed by notes of butter, madeleine cakes and vanilla sugar. Lingering notes of grapefruit, white peaches, green pears, apple trees and green hazelnuts round off the taste.",
-                    "price": "$57.0",
-                    "imageUrl": "https://spoonacular.com/productImages/430436-312x231.jpg",
+                    "id": 436781,
+                    "title": "Taittinger Brut La Francaise",
+                    "description": "This Champagne is a blend of some 30 Chardonnay and Pinot Noir vineyards, respectively 40% and 60% of the total, from several harvests of perfectly ripened grapes.",
+                    "price": "$44.9900016784668",
+                    "imageUrl": "https://spoonacular.com/productImages/436781-312x231.jpg",
                     "averageRating": 0.8600000143051147,
-                    "ratingCount": 36.0,
-                    "score": 0.8508257023785093,
-                    "link": "https://www.amazon.com/Perrier-Jou%C3%ABt-Champagne-France-Grand-750ml/dp/B072W5LQKS?tag=spoonacular-20"
+                    "ratingCount": 17.0,
+                    "score": 0.8407692450743455,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Ftaittinger-brut-la-francaise%2F526"
                 }
             ]
         },
@@ -35210,18 +35210,18 @@ const aux = [
                 "albarino",
                 "gavi"
             ],
-            "pairingText": "Chicken Caesar Salad can be paired with Pinot Grigio, Albarino, and Gavi. We recommend a crisp, dry white wine such as a Gavi, Albariño, or Pinot Grigio. These wines stand up to the pungent dressing and complement the other flavors. One wine you could try is Weinert Cavas de Weinert. It has 4.7 out of 5 stars and a bottle costs about 26 dollars.",
+            "pairingText": "Chicken Caesar Salad on the menu? Try pairing with Pinot Grigio, Albarino, and Gavi. We recommend a crisp, dry white wine such as a Gavi, Albariño, or Pinot Grigio. These wines stand up to the pungent dressing and complement the other flavors. You could try Barefoot Bubbly Extra Dry. Reviewers quite like it with a 4.4 out of 5 star rating and a price of about 15 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 436255,
-                    "title": "Weinert Cavas de Weinert",
-                    "description": "Deep ruby tone with purple sparkles springs up its stable and vigorous structure. Its tannic richness guarantees its longevity, but discreet ripe fruit prevails. A balanced full-bodied wine that has reminiscente fragrantes of oak on the long finish. A blend of Cabernet Sauvignon, Malbec and Merlot.",
-                    "price": "$25.989999771118164",
-                    "imageUrl": "https://spoonacular.com/productImages/436255-312x231.jpg",
-                    "averageRating": 0.9399999976158142,
-                    "ratingCount": 5.0,
-                    "score": 0.8774999976158142,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fweinert-cavas-de-weinert-2004%2F113527"
+                    "id": 432028,
+                    "title": "Barefoot Bubbly Extra Dry",
+                    "description": "Barefoot Bubbly Extra Dry Champagne offers aromas of ripe apple complemented by hints of citrus. Toasty flavors complement the creamy, lingering finish. Best served chilled (36-40 °F), this bubbly is perfectly balanced with multiple layers of fruit to delight the palate.",
+                    "price": "$14.989999771118164",
+                    "imageUrl": "https://spoonacular.com/productImages/432028-312x231.jpg",
+                    "averageRating": 0.8799999952316284,
+                    "ratingCount": 4.0,
+                    "score": 0.8030769183085515,
+                    "link": "https://www.amazon.com/Barefoot-Bubbly-California-Extra-Sparkling/dp/B01AMM2ND2?tag=spoonacular-20"
                 }
             ]
         },
@@ -35518,7 +35518,7 @@ const aux = [
                 "riesling",
                 "sparkling rose"
             ],
-            "pairingText": "Anchovies on the menu? Try pairing with Sauvignon Blanc, Riesling, and Sparkling rosé. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The NV Ruinart , Wine with a 5 out of 5 star rating seems like a good match. It costs about 89 dollars per bottle.",
+            "pairingText": "Sauvignon Blanc, Riesling, and Sparkling rosé are my top picks for Anchovies. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The NV Ruinart , Wine with a 5 out of 5 star rating seems like a good match. It costs about 89 dollars per bottle.",
             "productMatches": [
                 {
                     "id": 430390,
@@ -35826,18 +35826,18 @@ const aux = [
                 "sparkling wine",
                 "sparkling rose"
             ],
-            "pairingText": "Antipasti works really well with Sparkling Wine and Sparkling rosé. If you're serving a selection of appetizers, you can't go wrong with these. Both are very food friendly and complement a variety of flavors. One wine you could try is Moet & Chandon White Star (). It has 4.6 out of 5 stars and a bottle costs about 14 dollars.",
+            "pairingText": "Antipasti works really well with Sparkling Wine and Sparkling rosé. If you're serving a selection of appetizers, you can't go wrong with these. Both are very food friendly and complement a variety of flavors. The Blanc de Bleu Cuvee Mousseux with a 4.2 out of 5 star rating seems like a good match. It costs about 16 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 436684,
-                    "title": "Moet & Chandon White Star ()",
-                    "description": "White Star is a softer champagne. It is well balanced and harmonious, with subtle aromas of warm toast and gingerbread. The finish is sustained with a hint of honey.",
-                    "price": "$13.989999771118164",
-                    "imageUrl": "https://spoonacular.com/productImages/436684-312x231.jpg",
-                    "averageRating": 0.9200000166893005,
-                    "ratingCount": 10.0,
-                    "score": 0.8877419521731715,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fmoet-and-chandon-white-star-187ml%2F25889"
+                    "id": 436158,
+                    "title": "Blanc de Bleu Cuvee Mousseux",
+                    "description": "Blanc de Bleu is a premium California Chardonnay wine with an added hint of blueberries and is a delicate sparkling wine reserved for memorable celebrations. It offers seductive flavors and fresh aromatic effervescence - vividly pasteled with blueberries. All of this is contained in an impressively sexy bottle with tasteful flair.The fruit for Blanc de Bleu is grown in the quiet vineyards of Northern California, known for their cool and clear breezes - ideal conditions for the exclusive grapes and soils that accentuate the profoundly flavorful characteristics. This sparkling wine pairs well with appetizers, sushi and very light meals.",
+                    "price": "$15.989999771118164",
+                    "imageUrl": "https://spoonacular.com/productImages/436158-312x231.jpg",
+                    "averageRating": 0.8399999737739563,
+                    "ratingCount": 25.0,
+                    "score": 0.8268420790371142,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fblanc-de-bleu-cuvee-mousseux%2F140728"
                 }
             ]
         },
@@ -36742,18 +36742,18 @@ const aux = [
                 "riesling",
                 "sparkling rose"
             ],
-            "pairingText": "Anchovies works really well with Sauvignon Blanc, Riesling, and Sparkling rosé. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. You could try NV Ruinart , Wine. Reviewers quite like it with a 5 out of 5 star rating and a price of about 89 dollars per bottle.",
+            "pairingText": "Anchovies works really well with Sauvignon Blanc, Riesling, and Sparkling rosé. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The Louis Roederer Cristal Brut with a 4.6 out of 5 star rating seems like a good match. It costs about 299 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 430390,
-                    "title": "NV Ruinart , Wine",
-                    "description": null,
-                    "price": "$88.98999786376953",
-                    "imageUrl": "https://spoonacular.com/productImages/430390-312x231.jpg",
-                    "averageRating": 1.0,
-                    "ratingCount": 1.0,
-                    "score": 0.75,
-                    "link": "https://www.amazon.com/Ruinart-Ros%C3%A9-Champagne-750-Wine/dp/B00UNV9TAI?tag=spoonacular-20"
+                    "id": 434686,
+                    "title": "Louis Roederer Cristal Brut",
+                    "description": "Cristal, the jewel and tête de cuvée of Champagne Louis Roederer, was created in 1876 for the Tsar Alexander II of Russia. It remains faithful to its origin, inspired by elegance and purity. Cristal is produced with regimented standards of winemaking that require a rigorous selection of crus, vintages, grapes, and wine.\nCristal is produced using only the finest vintages from crus guaranteed to originate from the Louis Roederer vineyard. All the exceptional characteristics of the 2002 vintage have literally been captured in this Cristal 2002, which is generous and lush, revealing perfect balance between concentration and finesse, freshness and vinosity, intensity and refinement. In three words: proud, rich and luxurious.\nCristal 2002 is brilliant yellow with light amber highlights and has a beautiful mousse with fine cordon of persistent and regular bubbles. The nose is intense and delicate, revealing a clean and well-blended mixture of flavors of honey, cocoa, lightly toasted hazelnuts, candied citrus fruit. A savory explosion of ripe fruit on the attack, the wine reveals red fruit, white chocolate, caramel and Danish pastry, typical of Cristal. Its silky, concentrated texture relies on its intense, powerful and vinous structure, but maintains refinement. The palate builds up to attain a delicious sensation of well-blended harmony of flavors. A fresh finish with a hint of bitterness makes it almost crunchy.",
+                    "price": "$299.0",
+                    "imageUrl": "https://spoonacular.com/productImages/434686-312x231.jpg",
+                    "averageRating": 0.9200000166893005,
+                    "ratingCount": 14.0,
+                    "score": 0.8967442027358121,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Flouis-roederer-cristal-brut-2002%2F95156"
                 }
             ]
         },
@@ -37429,18 +37429,18 @@ const aux = [
                 "sauvignon blanc",
                 "gruener veltliner"
             ],
-            "pairingText": "Salad works really well with Chardonnay, Sauvignon Blanc, and Gruener Veltliner. Sauvignon Blanc and Gruner Veltliner both have herby notes that complement salads with enough acid to match tart vinaigrettes, while a Chardonnay can be a good pick for creamy salad dressings. The Barefoot Bubbly Extra Dry with a 4.4 out of 5 star rating seems like a good match. It costs about 15 dollars per bottle.",
+            "pairingText": "Chardonnay, Sauvignon Blanc, and Gruener Veltliner are great choices for Salad. Sauvignon Blanc and Gruner Veltliner both have herby notes that complement salads with enough acid to match tart vinaigrettes, while a Chardonnay can be a good pick for creamy salad dressings. One wine you could try is NV Wilson Creek Almond Anniversary Edition. It has 5 out of 5 stars and a bottle costs about 22 dollars.",
             "productMatches": [
                 {
-                    "id": 432028,
-                    "title": "Barefoot Bubbly Extra Dry",
-                    "description": "Barefoot Bubbly Extra Dry Champagne offers aromas of ripe apple complemented by hints of citrus. Toasty flavors complement the creamy, lingering finish. Best served chilled (36-40 °F), this bubbly is perfectly balanced with multiple layers of fruit to delight the palate.",
-                    "price": "$14.989999771118164",
-                    "imageUrl": "https://spoonacular.com/productImages/432028-312x231.jpg",
-                    "averageRating": 0.8799999952316284,
-                    "ratingCount": 4.0,
-                    "score": 0.8030769183085515,
-                    "link": "https://www.amazon.com/Barefoot-Bubbly-California-Extra-Sparkling/dp/B01AMM2ND2?tag=spoonacular-20"
+                    "id": 430676,
+                    "title": "NV Wilson Creek Almond Anniversary Edition",
+                    "description": "This gold-medal winning champagne is also referred to as the \"OH MY GOSH\"® champagne. This white sparkling wine is naturally fermented, with just a hint of pure almond added so it's guaranteed to dazzle your guests. A must-have champagne to make any occasion extra special. Great with desserts, cuddling, hot tubs, picnics, fireplaces, brunches, and parties. Very popular at all the weddings here.",
+                    "price": "$21.950000762939453",
+                    "imageUrl": "https://spoonacular.com/productImages/430676-312x231.jpg",
+                    "averageRating": 1.0,
+                    "ratingCount": 1.0,
+                    "score": 0.75,
+                    "link": "https://www.amazon.com/Wilson-Creek-Almond-Sparkling-Anniversary/dp/B0131KZ3F2?tag=spoonacular-20"
                 }
             ]
         },
@@ -37694,18 +37694,18 @@ const aux = [
                 "riesling",
                 "sparkling rose"
             ],
-            "pairingText": "Anchovies on the menu? Try pairing with Sauvignon Blanc, Riesling, and Sparkling rosé. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. One wine you could try is Famille Vincent Cremant de Bourgogne. It has 4 out of 5 stars and a bottle costs about 24 dollars.",
+            "pairingText": "Sauvignon Blanc, Riesling, and Sparkling rosé are my top picks for Anchovies. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The Moet & Chandon White Star () with a 4.6 out of 5 star rating seems like a good match. It costs about 14 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 13029551,
-                    "title": "Famille Vincent Cremant de Bourgogne",
-                    "description": "From the Chardonnay grapes this sparkler allies freshness, body, and smoothness. The Cremant Brut is dry and offers fine bubbles (1.5 Million/30 minutes - we counted them but you do not have to believe me for this!), hints of flowers at the nose, crisp and fruity on the palate. It is a great Classic for all festive occasions.",
-                    "price": "$23.989999771118164",
-                    "imageUrl": "https://spoonacular.com/productImages/13029551-312x231.jpg",
-                    "averageRating": 0.800000011920929,
-                    "ratingCount": 88.0,
-                    "score": 0.7962264270152686,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Ffamille-vincent-cremant-de-bourgogne%2F166470"
+                    "id": 436684,
+                    "title": "Moet & Chandon White Star ()",
+                    "description": "White Star is a softer champagne. It is well balanced and harmonious, with subtle aromas of warm toast and gingerbread. The finish is sustained with a hint of honey.",
+                    "price": "$13.989999771118164",
+                    "imageUrl": "https://spoonacular.com/productImages/436684-312x231.jpg",
+                    "averageRating": 0.9200000166893005,
+                    "ratingCount": 10.0,
+                    "score": 0.8877419521731715,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fmoet-and-chandon-white-star-187ml%2F25889"
                 }
             ]
         },
@@ -38100,18 +38100,18 @@ const aux = [
                 "riesling",
                 "sparkling rose"
             ],
-            "pairingText": "Anchovies on the menu? Try pairing with Sauvignon Blanc, Riesling, and Sparkling rosé. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. You could try Bollinger Brut Special Cuvee. Reviewers quite like it with a 4.2 out of 5 star rating and a price of about 60 dollars per bottle.",
+            "pairingText": "Anchovies can be paired with Sauvignon Blanc, Riesling, and Sparkling rosé. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The NV Ruinart , Wine with a 5 out of 5 star rating seems like a good match. It costs about 89 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 433020,
-                    "title": "Bollinger Brut Special Cuvee",
-                    "description": "A golden color, distinctive of black grape varieties. Very fine bubbles. On the nose, it has a beautiful aromatic complexity, ripe fruit and spicy aromas, with hints of roasted apples, apple compote and peaches. On the palate, there is a subtle combination of structure, length and vivacity. The bubbles are like velvet. Flavors of pear, brioche and spicy aromas, notes of fresh walnut.Pair with all fish, especially sushi and sashimi, shellfish such as shrimp, prawns, crayfish and grilled lobster, poultry and white meat, cashews, parmesan or prosciutto.",
-                    "price": "$59.9900016784668",
-                    "imageUrl": "https://spoonacular.com/productImages/433020-312x231.jpg",
-                    "averageRating": 0.8399999737739563,
-                    "ratingCount": 63.0,
-                    "score": 0.8347368158792194,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fbollinger-brut-special-cuvee%2F513"
+                    "id": 430390,
+                    "title": "NV Ruinart , Wine",
+                    "description": null,
+                    "price": "$88.98999786376953",
+                    "imageUrl": "https://spoonacular.com/productImages/430390-312x231.jpg",
+                    "averageRating": 1.0,
+                    "ratingCount": 1.0,
+                    "score": 0.75,
+                    "link": "https://www.amazon.com/Ruinart-Ros%C3%A9-Champagne-750-Wine/dp/B00UNV9TAI?tag=spoonacular-20"
                 }
             ]
         },
@@ -38983,18 +38983,18 @@ const aux = [
                 "verdicchio",
                 "trebbiano"
             ],
-            "pairingText": "Italian on the menu? Try pairing with Chianti, Verdicchio, and Trebbiano. Italians know food and they know wine. Trebbiano and Verdicchio are Italian white wines that pair well with fish and white meat, while Chianti is a great Italian red for heavier, bolder dishes. You could try Weinert Cavas de Weinert. Reviewers quite like it with a 4.7 out of 5 star rating and a price of about 26 dollars per bottle.",
+            "pairingText": "Italian works really well with Chianti, Verdicchio, and Trebbiano. Italians know food and they know wine. Trebbiano and Verdicchio are Italian white wines that pair well with fish and white meat, while Chianti is a great Italian red for heavier, bolder dishes. One wine you could try is Bollinger Brut Special Cuvee. It has 4.2 out of 5 stars and a bottle costs about 60 dollars.",
             "productMatches": [
                 {
-                    "id": 436255,
-                    "title": "Weinert Cavas de Weinert",
-                    "description": "Deep ruby tone with purple sparkles springs up its stable and vigorous structure. Its tannic richness guarantees its longevity, but discreet ripe fruit prevails. A balanced full-bodied wine that has reminiscente fragrantes of oak on the long finish. A blend of Cabernet Sauvignon, Malbec and Merlot.",
-                    "price": "$25.989999771118164",
-                    "imageUrl": "https://spoonacular.com/productImages/436255-312x231.jpg",
-                    "averageRating": 0.9399999976158142,
-                    "ratingCount": 5.0,
-                    "score": 0.8774999976158142,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fweinert-cavas-de-weinert-2004%2F113527"
+                    "id": 433020,
+                    "title": "Bollinger Brut Special Cuvee",
+                    "description": "A golden color, distinctive of black grape varieties. Very fine bubbles. On the nose, it has a beautiful aromatic complexity, ripe fruit and spicy aromas, with hints of roasted apples, apple compote and peaches. On the palate, there is a subtle combination of structure, length and vivacity. The bubbles are like velvet. Flavors of pear, brioche and spicy aromas, notes of fresh walnut.Pair with all fish, especially sushi and sashimi, shellfish such as shrimp, prawns, crayfish and grilled lobster, poultry and white meat, cashews, parmesan or prosciutto.",
+                    "price": "$59.9900016784668",
+                    "imageUrl": "https://spoonacular.com/productImages/433020-312x231.jpg",
+                    "averageRating": 0.8399999737739563,
+                    "ratingCount": 63.0,
+                    "score": 0.8347368158792194,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fbollinger-brut-special-cuvee%2F513"
                 }
             ]
         },
@@ -40754,18 +40754,18 @@ const aux = [
                 "riesling",
                 "pinot grigio"
             ],
-            "pairingText": "Sauvignon Blanc, Riesling, and Pinot Grigio are great choices for Shrimp. These crisp white wines work well with shrimp prepared in a variety of ways, whether grilled, fried, or in garlic sauce. You could try NV Wilson Creek Almond Anniversary Edition. Reviewers quite like it with a 5 out of 5 star rating and a price of about 22 dollars per bottle.",
+            "pairingText": "Shrimp on the menu? Try pairing with Sauvignon Blanc, Riesling, and Pinot Grigio. These crisp white wines work well with shrimp prepared in a variety of ways, whether grilled, fried, or in garlic sauce. One wine you could try is Berlucchi Franciacorta '61 Extra Brut. It has 4.3 out of 5 stars and a bottle costs about 34 dollars.",
             "productMatches": [
                 {
-                    "id": 430676,
-                    "title": "NV Wilson Creek Almond Anniversary Edition",
-                    "description": "This gold-medal winning champagne is also referred to as the \"OH MY GOSH\"® champagne. This white sparkling wine is naturally fermented, with just a hint of pure almond added so it's guaranteed to dazzle your guests. A must-have champagne to make any occasion extra special. Great with desserts, cuddling, hot tubs, picnics, fireplaces, brunches, and parties. Very popular at all the weddings here.",
-                    "price": "$21.950000762939453",
-                    "imageUrl": "https://spoonacular.com/productImages/430676-312x231.jpg",
-                    "averageRating": 1.0,
-                    "ratingCount": 1.0,
-                    "score": 0.75,
-                    "link": "https://www.amazon.com/Wilson-Creek-Almond-Sparkling-Anniversary/dp/B0131KZ3F2?tag=spoonacular-20"
+                    "id": 13029339,
+                    "title": "Berlucchi Franciacorta '61 Extra Brut",
+                    "description": "Extra Brut '61 is a tribute to the birth of Franciacorta in 1961—the year Berlucchi produced the first of this classic method sparkling wine. This fun and lively sparkler offers citrus fruit and a crisp, clean finish.Blend: 85% Chardonnay, 15% Pinot Nero*The label for Franciacorta '61 Extra Brut is in the process of changing. You may receive either of these two labels featured above. Specific labels cannot be requested.",
+                    "price": "$33.9900016784668",
+                    "imageUrl": "https://spoonacular.com/productImages/13029339-312x231.jpg",
+                    "averageRating": 0.8600000143051147,
+                    "ratingCount": 6.0,
+                    "score": 0.8073684353577464,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fsoter-vineyards-north-valley-reserve-pinot-noir-2012%2F147401"
                 }
             ]
         },
@@ -41253,18 +41253,18 @@ const aux = [
                 "shiraz",
                 "barbera wine"
             ],
-            "pairingText": "Sangiovese, Shiraz, and Barbera Wine are my top picks for Pizza. The best wine for pizza depends on the toppings! Red sauce pizza will call for a red wine with some acidity, such as a barberan or sangiovese. Add pepperoni or sausage and you can go bolder with a syrah. You could try Bollinger Brut Special Cuvee. Reviewers quite like it with a 4.2 out of 5 star rating and a price of about 60 dollars per bottle.",
+            "pairingText": "Sangiovese, Shiraz, and Barbera Wine are my top picks for Pizza. The best wine for pizza depends on the toppings! Red sauce pizza will call for a red wine with some acidity, such as a barberan or sangiovese. Add pepperoni or sausage and you can go bolder with a syrah. One wine you could try is Barefoot Bubbly Extra Dry. It has 4.4 out of 5 stars and a bottle costs about 15 dollars.",
             "productMatches": [
                 {
-                    "id": 433020,
-                    "title": "Bollinger Brut Special Cuvee",
-                    "description": "A golden color, distinctive of black grape varieties. Very fine bubbles. On the nose, it has a beautiful aromatic complexity, ripe fruit and spicy aromas, with hints of roasted apples, apple compote and peaches. On the palate, there is a subtle combination of structure, length and vivacity. The bubbles are like velvet. Flavors of pear, brioche and spicy aromas, notes of fresh walnut.Pair with all fish, especially sushi and sashimi, shellfish such as shrimp, prawns, crayfish and grilled lobster, poultry and white meat, cashews, parmesan or prosciutto.",
-                    "price": "$59.9900016784668",
-                    "imageUrl": "https://spoonacular.com/productImages/433020-312x231.jpg",
-                    "averageRating": 0.8399999737739563,
-                    "ratingCount": 63.0,
-                    "score": 0.8347368158792194,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fbollinger-brut-special-cuvee%2F513"
+                    "id": 432028,
+                    "title": "Barefoot Bubbly Extra Dry",
+                    "description": "Barefoot Bubbly Extra Dry Champagne offers aromas of ripe apple complemented by hints of citrus. Toasty flavors complement the creamy, lingering finish. Best served chilled (36-40 °F), this bubbly is perfectly balanced with multiple layers of fruit to delight the palate.",
+                    "price": "$14.989999771118164",
+                    "imageUrl": "https://spoonacular.com/productImages/432028-312x231.jpg",
+                    "averageRating": 0.8799999952316284,
+                    "ratingCount": 4.0,
+                    "score": 0.8030769183085515,
+                    "link": "https://www.amazon.com/Barefoot-Bubbly-California-Extra-Sparkling/dp/B01AMM2ND2?tag=spoonacular-20"
                 }
             ]
         },
@@ -42359,18 +42359,18 @@ const aux = [
                 "riesling",
                 "sparkling rose"
             ],
-            "pairingText": "Pinot Noir, Riesling, and Sparkling rosé are my top picks for Mexican. Acidic white wines like riesling or low-tannin reds like pinot noir can work well with Mexican dishes. Sparkling rosé is a safe pairing too. One wine you could try is Perrier-Jouet Grand Brut. It has 4.3 out of 5 stars and a bottle costs about 57 dollars.",
+            "pairingText": "Mexican on the menu? Try pairing with Pinot Noir, Riesling, and Sparkling rosé. Acidic white wines like riesling or low-tannin reds like pinot noir can work well with Mexican dishes. Sparkling rosé is a safe pairing too. One wine you could try is Medici Ermete Concerto Lambrusco Reggiano. It has 5 out of 5 stars and a bottle costs about 23 dollars.",
             "productMatches": [
                 {
-                    "id": 430436,
-                    "title": "Perrier-Jouet Grand Brut",
-                    "description": "The striking freshness and vivacity of the floral and fruity fragrances (yellow fruits and fresh fruits) take root, before giving way to subtle notes of vanilla and butter, lending the wine a fruity and consistent character. The notes of cherry plum, lemon and bergamot orange emerge first, then make way for the flowers of fruit trees, such as lime and honeysuckle. These are followed by notes of butter, madeleine cakes and vanilla sugar. Lingering notes of grapefruit, white peaches, green pears, apple trees and green hazelnuts round off the taste.",
-                    "price": "$57.0",
-                    "imageUrl": "https://spoonacular.com/productImages/430436-312x231.jpg",
-                    "averageRating": 0.8600000143051147,
-                    "ratingCount": 36.0,
-                    "score": 0.8508257023785093,
-                    "link": "https://www.amazon.com/Perrier-Jou%C3%ABt-Champagne-France-Grand-750ml/dp/B072W5LQKS?tag=spoonacular-20"
+                    "id": 433011,
+                    "title": "Medici Ermete Concerto Lambrusco Reggiano",
+                    "description": "Intensely ruby red with pleasant aromas that are persistent and fruity. Dry but fruity at the same time. Soft and fresh on the palate.",
+                    "price": "$22.989999771118164",
+                    "imageUrl": "https://spoonacular.com/productImages/433011-312x231.jpg",
+                    "averageRating": 1.0,
+                    "ratingCount": 5.0,
+                    "score": 0.9375,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fmedici-ermete-concerto-lambrusco-reggiano-2014%2F147752"
                 }
             ]
         },
@@ -42990,18 +42990,18 @@ const aux = [
                 "merlot",
                 "rose wine"
             ],
-            "pairingText": "Pinot Noir, Merlot, and rosé Wine are great choices for Tuna. Though fish is often paired with white wine, 'meatier' fish like tuna can absolutely go with red wine. A Rosé will also pair nicely, particularly if your tunan is prepared with ingredients better suited to a white wine. One wine you could try is Iron Horse Wedding Cuvee. It has 4.1 out of 5 stars and a bottle costs about 39 dollars.",
+            "pairingText": "Pinot Noir, Merlot, and rosé Wine are great choices for Tuna. Though fish is often paired with white wine, 'meatier' fish like tuna can absolutely go with red wine. A Rosé will also pair nicely, particularly if your tunan is prepared with ingredients better suited to a white wine. You could try Billecart-Salmon Blanc de Blancs Grand Cru. Reviewers quite like it with a 4.7 out of 5 star rating and a price of about 80 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 436666,
-                    "title": "Iron Horse Wedding Cuvee",
-                    "description": "This is Iron Horse's most romantic bubbly. We describe it as dangerously, deliciously easy to drink, fruit forward, dry and elegant, with tiny bubbles and a remarkabley long finish.",
-                    "price": "$38.9900016784668",
-                    "imageUrl": "https://spoonacular.com/productImages/436666-312x231.jpg",
-                    "averageRating": 0.8199999928474426,
-                    "ratingCount": 34.0,
-                    "score": 0.810291254983365,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Firon-horse-wedding-cuvee-2013%2F235756"
+                    "id": 436961,
+                    "title": "Billecart-Salmon Blanc de Blancs Grand Cru",
+                    "description": "The fine mousse of delicate bubbles elegantly accompanies the glints of its gold color. A cuvée that will surprise you with its pure intensity of dry fruits aromas, almonds and fresh hazelnuts mixed with those of fruits of white flesh. The creamy sensation of the bubble associated to aromas of buttered brioche and mineral aromas. Persistent finish with a fresh and elegant sweetness.This great bottle will make a perfect marriage with caviar or fine oysters but also with grilled fish and seafood.",
+                    "price": "$79.98999786376953",
+                    "imageUrl": "https://spoonacular.com/productImages/436961-312x231.jpg",
+                    "averageRating": 0.9399999976158142,
+                    "ratingCount": 5.0,
+                    "score": 0.8774999976158142,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fbillecart-salmon-blanc-de-blancs-grand-cru%2F25061"
                 }
             ]
         },
@@ -43305,18 +43305,18 @@ const aux = [
                 "pinot grigio",
                 "gruener veltliner"
             ],
-            "pairingText": "Cod works really well with Pinot Noir, Pinot Grigio, and Gruener Veltliner. Fish is as diverse as wine, so it's hard to pick wines that go with every fish. A crisp white wine, such as a pinot grigio or Grüner Veltliner, will suit any delicately flavored white fish. Meaty, strongly flavored fish such as salmon and tuna can even handle a light red wine, such as a pinot noir. You could try Billecart-Salmon Blanc de Blancs Grand Cru. Reviewers quite like it with a 4.7 out of 5 star rating and a price of about 80 dollars per bottle.",
+            "pairingText": "Pinot Noir, Pinot Grigio, and Gruener Veltliner are great choices for Cod. Fish is as diverse as wine, so it's hard to pick wines that go with every fish. A crisp white wine, such as a pinot grigio or Grüner Veltliner, will suit any delicately flavored white fish. Meaty, strongly flavored fish such as salmon and tuna can even handle a light red wine, such as a pinot noir. You could try Moet & Chandon White Star (). Reviewers quite like it with a 4.6 out of 5 star rating and a price of about 14 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 436961,
-                    "title": "Billecart-Salmon Blanc de Blancs Grand Cru",
-                    "description": "The fine mousse of delicate bubbles elegantly accompanies the glints of its gold color. A cuvée that will surprise you with its pure intensity of dry fruits aromas, almonds and fresh hazelnuts mixed with those of fruits of white flesh. The creamy sensation of the bubble associated to aromas of buttered brioche and mineral aromas. Persistent finish with a fresh and elegant sweetness.This great bottle will make a perfect marriage with caviar or fine oysters but also with grilled fish and seafood.",
-                    "price": "$79.98999786376953",
-                    "imageUrl": "https://spoonacular.com/productImages/436961-312x231.jpg",
-                    "averageRating": 0.9399999976158142,
-                    "ratingCount": 5.0,
-                    "score": 0.8774999976158142,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fbillecart-salmon-blanc-de-blancs-grand-cru%2F25061"
+                    "id": 436684,
+                    "title": "Moet & Chandon White Star ()",
+                    "description": "White Star is a softer champagne. It is well balanced and harmonious, with subtle aromas of warm toast and gingerbread. The finish is sustained with a hint of honey.",
+                    "price": "$13.989999771118164",
+                    "imageUrl": "https://spoonacular.com/productImages/436684-312x231.jpg",
+                    "averageRating": 0.9200000166893005,
+                    "ratingCount": 10.0,
+                    "score": 0.8877419521731715,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fmoet-and-chandon-white-star-187ml%2F25889"
                 }
             ]
         },
@@ -44370,18 +44370,18 @@ const aux = [
                 "riesling",
                 "sparkling rose"
             ],
-            "pairingText": "Anchovies works really well with Sauvignon Blanc, Riesling, and Sparkling rosé. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The Louis Roederer Cristal Brut with a 4.6 out of 5 star rating seems like a good match. It costs about 299 dollars per bottle.",
+            "pairingText": "Sauvignon Blanc, Riesling, and Sparkling rosé are great choices for Anchovies. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. The Perrier-Jouet Grand Brut with a 4.3 out of 5 star rating seems like a good match. It costs about 57 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 434686,
-                    "title": "Louis Roederer Cristal Brut",
-                    "description": "Cristal, the jewel and tête de cuvée of Champagne Louis Roederer, was created in 1876 for the Tsar Alexander II of Russia. It remains faithful to its origin, inspired by elegance and purity. Cristal is produced with regimented standards of winemaking that require a rigorous selection of crus, vintages, grapes, and wine.\nCristal is produced using only the finest vintages from crus guaranteed to originate from the Louis Roederer vineyard. All the exceptional characteristics of the 2002 vintage have literally been captured in this Cristal 2002, which is generous and lush, revealing perfect balance between concentration and finesse, freshness and vinosity, intensity and refinement. In three words: proud, rich and luxurious.\nCristal 2002 is brilliant yellow with light amber highlights and has a beautiful mousse with fine cordon of persistent and regular bubbles. The nose is intense and delicate, revealing a clean and well-blended mixture of flavors of honey, cocoa, lightly toasted hazelnuts, candied citrus fruit. A savory explosion of ripe fruit on the attack, the wine reveals red fruit, white chocolate, caramel and Danish pastry, typical of Cristal. Its silky, concentrated texture relies on its intense, powerful and vinous structure, but maintains refinement. The palate builds up to attain a delicious sensation of well-blended harmony of flavors. A fresh finish with a hint of bitterness makes it almost crunchy.",
-                    "price": "$299.0",
-                    "imageUrl": "https://spoonacular.com/productImages/434686-312x231.jpg",
-                    "averageRating": 0.9200000166893005,
-                    "ratingCount": 14.0,
-                    "score": 0.8967442027358121,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Flouis-roederer-cristal-brut-2002%2F95156"
+                    "id": 430436,
+                    "title": "Perrier-Jouet Grand Brut",
+                    "description": "The striking freshness and vivacity of the floral and fruity fragrances (yellow fruits and fresh fruits) take root, before giving way to subtle notes of vanilla and butter, lending the wine a fruity and consistent character. The notes of cherry plum, lemon and bergamot orange emerge first, then make way for the flowers of fruit trees, such as lime and honeysuckle. These are followed by notes of butter, madeleine cakes and vanilla sugar. Lingering notes of grapefruit, white peaches, green pears, apple trees and green hazelnuts round off the taste.",
+                    "price": "$57.0",
+                    "imageUrl": "https://spoonacular.com/productImages/430436-312x231.jpg",
+                    "averageRating": 0.8600000143051147,
+                    "ratingCount": 36.0,
+                    "score": 0.8508257023785093,
+                    "link": "https://www.amazon.com/Perrier-Jou%C3%ABt-Champagne-France-Grand-750ml/dp/B072W5LQKS?tag=spoonacular-20"
                 }
             ]
         },
@@ -44654,18 +44654,18 @@ const aux = [
                 "sparkling wine",
                 "sparkling rose"
             ],
-            "pairingText": "Antipasti can be paired with Sparkling Wine and Sparkling rosé. If you're serving a selection of appetizers, you can't go wrong with these. Both are very food friendly and complement a variety of flavors. The Bollinger Brut Special Cuvee with a 4.2 out of 5 star rating seems like a good match. It costs about 60 dollars per bottle.",
+            "pairingText": "Sparkling Wine and Sparkling rosé are great choices for Antipasti. If you're serving a selection of appetizers, you can't go wrong with these. Both are very food friendly and complement a variety of flavors. The NV Ruinart , Wine with a 5 out of 5 star rating seems like a good match. It costs about 89 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 433020,
-                    "title": "Bollinger Brut Special Cuvee",
-                    "description": "A golden color, distinctive of black grape varieties. Very fine bubbles. On the nose, it has a beautiful aromatic complexity, ripe fruit and spicy aromas, with hints of roasted apples, apple compote and peaches. On the palate, there is a subtle combination of structure, length and vivacity. The bubbles are like velvet. Flavors of pear, brioche and spicy aromas, notes of fresh walnut.Pair with all fish, especially sushi and sashimi, shellfish such as shrimp, prawns, crayfish and grilled lobster, poultry and white meat, cashews, parmesan or prosciutto.",
-                    "price": "$59.9900016784668",
-                    "imageUrl": "https://spoonacular.com/productImages/433020-312x231.jpg",
-                    "averageRating": 0.8399999737739563,
-                    "ratingCount": 63.0,
-                    "score": 0.8347368158792194,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fbollinger-brut-special-cuvee%2F513"
+                    "id": 430390,
+                    "title": "NV Ruinart , Wine",
+                    "description": null,
+                    "price": "$88.98999786376953",
+                    "imageUrl": "https://spoonacular.com/productImages/430390-312x231.jpg",
+                    "averageRating": 1.0,
+                    "ratingCount": 1.0,
+                    "score": 0.75,
+                    "link": "https://www.amazon.com/Ruinart-Ros%C3%A9-Champagne-750-Wine/dp/B00UNV9TAI?tag=spoonacular-20"
                 }
             ]
         },
@@ -45097,18 +45097,18 @@ const aux = [
                 "sauvignon blanc",
                 "gruener veltliner"
             ],
-            "pairingText": "Chardonnay, Sauvignon Blanc, and Gruener Veltliner are my top picks for Salad. Sauvignon Blanc and Gruner Veltliner both have herby notes that complement salads with enough acid to match tart vinaigrettes, while a Chardonnay can be a good pick for creamy salad dressings. One wine you could try is Barefoot Bubbly Pink Moscato. It has 4.9 out of 5 stars and a bottle costs about 15 dollars.",
+            "pairingText": "Chardonnay, Sauvignon Blanc, and Gruener Veltliner are my top picks for Salad. Sauvignon Blanc and Gruner Veltliner both have herby notes that complement salads with enough acid to match tart vinaigrettes, while a Chardonnay can be a good pick for creamy salad dressings. The Medici Ermete Concerto Lambrusco Reggiano with a 5 out of 5 star rating seems like a good match. It costs about 23 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 428175,
-                    "title": "Barefoot Bubbly Pink Moscato",
-                    "description": "Barefoot Bubbly Pink Moscato is sweet & juicy with explosive aromas and flavors. Best served chilled (36-40 degrees F), this bubbly has aromas and flavors of jasmine and Mandarin orange complemented by red raspberry, strawberry and pomegranate. Enjoy the creamy and juicy finish!",
-                    "price": "$14.989999771118164",
-                    "imageUrl": "https://spoonacular.com/productImages/428175-312x231.jpg",
-                    "averageRating": 0.9800000190734863,
-                    "ratingCount": 14.0,
-                    "score": 0.9567442051199979,
-                    "link": "https://www.amazon.com/Barefoot-Bubbly-California-Sparkling-Wine/dp/B01ATURGE8?tag=spoonacular-20"
+                    "id": 433011,
+                    "title": "Medici Ermete Concerto Lambrusco Reggiano",
+                    "description": "Intensely ruby red with pleasant aromas that are persistent and fruity. Dry but fruity at the same time. Soft and fresh on the palate.",
+                    "price": "$22.989999771118164",
+                    "imageUrl": "https://spoonacular.com/productImages/433011-312x231.jpg",
+                    "averageRating": 1.0,
+                    "ratingCount": 5.0,
+                    "score": 0.9375,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fmedici-ermete-concerto-lambrusco-reggiano-2014%2F147752"
                 }
             ]
         },
@@ -46444,18 +46444,18 @@ const aux = [
                 "albarino",
                 "gavi"
             ],
-            "pairingText": "Pinot Grigio, Albarino, and Gavi are my top picks for Caesar Salad. We recommend a crisp, dry white wine such as a Gavi, Albariño, or Pinot Grigio. These wines stand up to the pungent dressing and complement the other flavors. The Berlucchi Franciacorta '61 Extra Brut with a 4.3 out of 5 star rating seems like a good match. It costs about 34 dollars per bottle.",
+            "pairingText": "Caesar Salad on the menu? Try pairing with Pinot Grigio, Albarino, and Gavi. We recommend a crisp, dry white wine such as a Gavi, Albariño, or Pinot Grigio. These wines stand up to the pungent dressing and complement the other flavors. The Billecart-Salmon Blanc de Blancs Grand Cru with a 4.7 out of 5 star rating seems like a good match. It costs about 80 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 13029339,
-                    "title": "Berlucchi Franciacorta '61 Extra Brut",
-                    "description": "Extra Brut '61 is a tribute to the birth of Franciacorta in 1961—the year Berlucchi produced the first of this classic method sparkling wine. This fun and lively sparkler offers citrus fruit and a crisp, clean finish.Blend: 85% Chardonnay, 15% Pinot Nero*The label for Franciacorta '61 Extra Brut is in the process of changing. You may receive either of these two labels featured above. Specific labels cannot be requested.",
-                    "price": "$33.9900016784668",
-                    "imageUrl": "https://spoonacular.com/productImages/13029339-312x231.jpg",
-                    "averageRating": 0.8600000143051147,
-                    "ratingCount": 6.0,
-                    "score": 0.8073684353577464,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fsoter-vineyards-north-valley-reserve-pinot-noir-2012%2F147401"
+                    "id": 436961,
+                    "title": "Billecart-Salmon Blanc de Blancs Grand Cru",
+                    "description": "The fine mousse of delicate bubbles elegantly accompanies the glints of its gold color. A cuvée that will surprise you with its pure intensity of dry fruits aromas, almonds and fresh hazelnuts mixed with those of fruits of white flesh. The creamy sensation of the bubble associated to aromas of buttered brioche and mineral aromas. Persistent finish with a fresh and elegant sweetness.This great bottle will make a perfect marriage with caviar or fine oysters but also with grilled fish and seafood.",
+                    "price": "$79.98999786376953",
+                    "imageUrl": "https://spoonacular.com/productImages/436961-312x231.jpg",
+                    "averageRating": 0.9399999976158142,
+                    "ratingCount": 5.0,
+                    "score": 0.8774999976158142,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fbillecart-salmon-blanc-de-blancs-grand-cru%2F25061"
                 }
             ]
         },
@@ -46757,18 +46757,18 @@ const aux = [
                 "merlot",
                 "cabernet sauvignon"
             ],
-            "pairingText": "Pinot Noir, Merlot, and Cabernet Sauvignon are my top picks for Skirt Steak. Beef and red wine are a classic combination. Generally, leaner cuts of beef go well with light or medium-bodied reds, such as pinot noir or merlot, while fattier cuts can handle a bold red, such as cabernet sauvingnon. You could try Taittinger Brut La Francaise. Reviewers quite like it with a 4.3 out of 5 star rating and a price of about 45 dollars per bottle.",
+            "pairingText": "Pinot Noir, Merlot, and Cabernet Sauvignon are great choices for Skirt Steak. Beef and red wine are a classic combination. Generally, leaner cuts of beef go well with light or medium-bodied reds, such as pinot noir or merlot, while fattier cuts can handle a bold red, such as cabernet sauvingnon. You could try Iron Horse Wedding Cuvee. Reviewers quite like it with a 4.1 out of 5 star rating and a price of about 39 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 436781,
-                    "title": "Taittinger Brut La Francaise",
-                    "description": "This Champagne is a blend of some 30 Chardonnay and Pinot Noir vineyards, respectively 40% and 60% of the total, from several harvests of perfectly ripened grapes.",
-                    "price": "$44.9900016784668",
-                    "imageUrl": "https://spoonacular.com/productImages/436781-312x231.jpg",
-                    "averageRating": 0.8600000143051147,
-                    "ratingCount": 17.0,
-                    "score": 0.8407692450743455,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Ftaittinger-brut-la-francaise%2F526"
+                    "id": 436666,
+                    "title": "Iron Horse Wedding Cuvee",
+                    "description": "This is Iron Horse's most romantic bubbly. We describe it as dangerously, deliciously easy to drink, fruit forward, dry and elegant, with tiny bubbles and a remarkabley long finish.",
+                    "price": "$38.9900016784668",
+                    "imageUrl": "https://spoonacular.com/productImages/436666-312x231.jpg",
+                    "averageRating": 0.8199999928474426,
+                    "ratingCount": 34.0,
+                    "score": 0.810291254983365,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Firon-horse-wedding-cuvee-2013%2F235756"
                 }
             ]
         },
@@ -48950,18 +48950,18 @@ const aux = [
                 "sauvignon blanc",
                 "gruener veltliner"
             ],
-            "pairingText": "Salad on the menu? Try pairing with Chardonnay, Sauvignon Blanc, and Gruener Veltliner. Sauvignon Blanc and Gruner Veltliner both have herby notes that complement salads with enough acid to match tart vinaigrettes, while a Chardonnay can be a good pick for creamy salad dressings. You could try Blanc de Bleu Cuvee Mousseux. Reviewers quite like it with a 4.2 out of 5 star rating and a price of about 16 dollars per bottle.",
+            "pairingText": "Chardonnay, Sauvignon Blanc, and Gruener Veltliner are my top picks for Salad. Sauvignon Blanc and Gruner Veltliner both have herby notes that complement salads with enough acid to match tart vinaigrettes, while a Chardonnay can be a good pick for creamy salad dressings. The Billecart-Salmon Blanc de Blancs Grand Cru with a 4.7 out of 5 star rating seems like a good match. It costs about 80 dollars per bottle.",
             "productMatches": [
                 {
-                    "id": 436158,
-                    "title": "Blanc de Bleu Cuvee Mousseux",
-                    "description": "Blanc de Bleu is a premium California Chardonnay wine with an added hint of blueberries and is a delicate sparkling wine reserved for memorable celebrations. It offers seductive flavors and fresh aromatic effervescence - vividly pasteled with blueberries. All of this is contained in an impressively sexy bottle with tasteful flair.The fruit for Blanc de Bleu is grown in the quiet vineyards of Northern California, known for their cool and clear breezes - ideal conditions for the exclusive grapes and soils that accentuate the profoundly flavorful characteristics. This sparkling wine pairs well with appetizers, sushi and very light meals.",
-                    "price": "$15.989999771118164",
-                    "imageUrl": "https://spoonacular.com/productImages/436158-312x231.jpg",
-                    "averageRating": 0.8399999737739563,
-                    "ratingCount": 25.0,
-                    "score": 0.8268420790371142,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fblanc-de-bleu-cuvee-mousseux%2F140728"
+                    "id": 436961,
+                    "title": "Billecart-Salmon Blanc de Blancs Grand Cru",
+                    "description": "The fine mousse of delicate bubbles elegantly accompanies the glints of its gold color. A cuvée that will surprise you with its pure intensity of dry fruits aromas, almonds and fresh hazelnuts mixed with those of fruits of white flesh. The creamy sensation of the bubble associated to aromas of buttered brioche and mineral aromas. Persistent finish with a fresh and elegant sweetness.This great bottle will make a perfect marriage with caviar or fine oysters but also with grilled fish and seafood.",
+                    "price": "$79.98999786376953",
+                    "imageUrl": "https://spoonacular.com/productImages/436961-312x231.jpg",
+                    "averageRating": 0.9399999976158142,
+                    "ratingCount": 5.0,
+                    "score": 0.8774999976158142,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fbillecart-salmon-blanc-de-blancs-grand-cru%2F25061"
                 }
             ]
         },
@@ -49394,18 +49394,18 @@ const aux = [
                 "sparkling wine",
                 "sparkling rose"
             ],
-            "pairingText": "Sparkling Wine and Sparkling rosé are great choices for Antipasti. If you're serving a selection of appetizers, you can't go wrong with these. Both are very food friendly and complement a variety of flavors. The Bollinger Brut Special Cuvee with a 4.2 out of 5 star rating seems like a good match. It costs about 60 dollars per bottle.",
+            "pairingText": "Antipasti works really well with Sparkling Wine and Sparkling rosé. If you're serving a selection of appetizers, you can't go wrong with these. Both are very food friendly and complement a variety of flavors. One wine you could try is Barefoot Bubbly Extra Dry. It has 4.4 out of 5 stars and a bottle costs about 15 dollars.",
             "productMatches": [
                 {
-                    "id": 433020,
-                    "title": "Bollinger Brut Special Cuvee",
-                    "description": "A golden color, distinctive of black grape varieties. Very fine bubbles. On the nose, it has a beautiful aromatic complexity, ripe fruit and spicy aromas, with hints of roasted apples, apple compote and peaches. On the palate, there is a subtle combination of structure, length and vivacity. The bubbles are like velvet. Flavors of pear, brioche and spicy aromas, notes of fresh walnut.Pair with all fish, especially sushi and sashimi, shellfish such as shrimp, prawns, crayfish and grilled lobster, poultry and white meat, cashews, parmesan or prosciutto.",
-                    "price": "$59.9900016784668",
-                    "imageUrl": "https://spoonacular.com/productImages/433020-312x231.jpg",
-                    "averageRating": 0.8399999737739563,
-                    "ratingCount": 63.0,
-                    "score": 0.8347368158792194,
-                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fbollinger-brut-special-cuvee%2F513"
+                    "id": 432028,
+                    "title": "Barefoot Bubbly Extra Dry",
+                    "description": "Barefoot Bubbly Extra Dry Champagne offers aromas of ripe apple complemented by hints of citrus. Toasty flavors complement the creamy, lingering finish. Best served chilled (36-40 °F), this bubbly is perfectly balanced with multiple layers of fruit to delight the palate.",
+                    "price": "$14.989999771118164",
+                    "imageUrl": "https://spoonacular.com/productImages/432028-312x231.jpg",
+                    "averageRating": 0.8799999952316284,
+                    "ratingCount": 4.0,
+                    "score": 0.8030769183085515,
+                    "link": "https://www.amazon.com/Barefoot-Bubbly-California-Extra-Sparkling/dp/B01AMM2ND2?tag=spoonacular-20"
                 }
             ]
         },
@@ -49575,6 +49575,3466 @@ const aux = [
         },
         "openLicense": 0,
         "suspiciousDataScore": 0.0,
+        "approved": 2,
+        "unknownIngredients": [],
+        "userTags": [],
+        "originalId": null
+    },
+    {
+        "vegetarian": false,
+        "vegan": false,
+        "glutenFree": false,
+        "dairyFree": false,
+        "veryHealthy": true,
+        "cheap": false,
+        "veryPopular": false,
+        "sustainable": false,
+        "lowFodmap": false,
+        "weightWatcherSmartPoints": 28,
+        "gaps": "no",
+        "preparationMinutes": -1,
+        "cookingMinutes": -1,
+        "aggregateLikes": 1,
+        "healthScore": 87,
+        "creditsText": "Joy the Baker",
+        "sourceName": "Joy the Baker",
+        "pricePerServing": 540.39,
+        "extendedIngredients": [
+            {
+                "id": 15001,
+                "aisle": "Seafood",
+                "image": "anchovies.jpg",
+                "consistency": "SOLID",
+                "name": "anchovies",
+                "nameClean": "boquerones",
+                "original": "4-5 x anchovies",
+                "originalName": "x anchovies",
+                "amount": 4.0,
+                "unit": "",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 4.0,
+                        "unitShort": "",
+                        "unitLong": ""
+                    },
+                    "metric": {
+                        "amount": 4.0,
+                        "unitShort": "",
+                        "unitLong": ""
+                    }
+                }
+            },
+            {
+                "id": 15001,
+                "aisle": "Seafood",
+                "image": "fresh-anchovies.jpg",
+                "consistency": "SOLID",
+                "name": "anchovies",
+                "nameClean": "boquerones",
+                "original": "4-5 x anchovies",
+                "originalName": "x anchovies",
+                "amount": 4.0,
+                "unit": "",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 4.0,
+                        "unitShort": "",
+                        "unitLong": ""
+                    },
+                    "metric": {
+                        "amount": 4.0,
+                        "unitShort": "",
+                        "unitLong": ""
+                    }
+                }
+            },
+            {
+                "id": 10211215,
+                "aisle": "Produce",
+                "image": "garlic.jpg",
+                "consistency": "SOLID",
+                "name": "cloves garlic",
+                "nameClean": "whole garlic cloves",
+                "original": "2 x cloves garlic, halved",
+                "originalName": "x cloves garlic, halved",
+                "amount": 2.0,
+                "unit": "",
+                "meta": [
+                    "halved"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 2.0,
+                        "unitShort": "",
+                        "unitLong": ""
+                    },
+                    "metric": {
+                        "amount": 2.0,
+                        "unitShort": "",
+                        "unitLong": ""
+                    }
+                }
+            },
+            {
+                "id": 1102047,
+                "aisle": "Spices and Seasonings",
+                "image": "salt-and-pepper.jpg",
+                "consistency": "SOLID",
+                "name": "coarse salt and pepper",
+                "nameClean": "salt and pepper",
+                "original": "Coarse salt and freshly ground pepper, to taste",
+                "originalName": "Coarse salt and freshly ground pepper, to taste",
+                "amount": 2.0,
+                "unit": "servings",
+                "meta": [
+                    "freshly ground",
+                    "to taste"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 2.0,
+                        "unitShort": "servings",
+                        "unitLong": "servings"
+                    },
+                    "metric": {
+                        "amount": 2.0,
+                        "unitShort": "servings",
+                        "unitLong": "servings"
+                    }
+                }
+            },
+            {
+                "id": 1002047,
+                "aisle": "Spices and Seasonings",
+                "image": "salt.jpg",
+                "consistency": "SOLID",
+                "name": "coarse salt",
+                "nameClean": "coarse salt",
+                "original": "Coarse salt (to taste)",
+                "originalName": "Coarse salt (to taste)",
+                "amount": 2.0,
+                "unit": "servings",
+                "meta": [
+                    "to taste"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 2.0,
+                        "unitShort": "servings",
+                        "unitLong": "servings"
+                    },
+                    "metric": {
+                        "amount": 2.0,
+                        "unitShort": "servings",
+                        "unitLong": "servings"
+                    }
+                }
+            },
+            {
+                "id": 10018029,
+                "aisle": "Bakery/Bread",
+                "image": "crusty-bread.jpg",
+                "consistency": "SOLID",
+                "name": "another crusty bread",
+                "nameClean": "crusty bread",
+                "original": "6 slices (1-inch) ciabatta or another crusty white bread, cut into 3/4-inch cubes",
+                "originalName": "(1-inch) ciabatta or another crusty white bread, cut into 3/4-inch cubes",
+                "amount": 6.0,
+                "unit": "slices",
+                "meta": [
+                    "white",
+                    "cut into 3/4-inch cubes",
+                    "(1-inch)"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 6.0,
+                        "unitShort": "slice",
+                        "unitLong": "slices"
+                    },
+                    "metric": {
+                        "amount": 6.0,
+                        "unitShort": "slice",
+                        "unitLong": "slices"
+                    }
+                }
+            },
+            {
+                "id": 1032046,
+                "aisle": "Condiments",
+                "image": "dijon-mustard.jpg",
+                "consistency": "LIQUID",
+                "name": "dijon mustard",
+                "nameClean": "dijon mustard",
+                "original": "1 tbsp dijon mustard",
+                "originalName": "dijon mustard",
+                "amount": 1.0,
+                "unit": "tbsp",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 1.0,
+                        "unitShort": "Tbsp",
+                        "unitLong": "Tbsp"
+                    },
+                    "metric": {
+                        "amount": 1.0,
+                        "unitShort": "Tbsp",
+                        "unitLong": "Tbsp"
+                    }
+                }
+            },
+            {
+                "id": 1125,
+                "aisle": "Milk, Eggs, Other Dairy",
+                "image": "egg-yolk.jpg",
+                "consistency": "SOLID",
+                "name": "egg yolks",
+                "nameClean": "egg yolk",
+                "original": "2 large egg yolks",
+                "originalName": "egg yolks",
+                "amount": 2.0,
+                "unit": "large",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 2.0,
+                        "unitShort": "large",
+                        "unitLong": "larges"
+                    },
+                    "metric": {
+                        "amount": 2.0,
+                        "unitShort": "large",
+                        "unitLong": "larges"
+                    }
+                }
+            },
+            {
+                "id": 10211297,
+                "aisle": "Produce",
+                "image": "parsley.jpg",
+                "consistency": "SOLID",
+                "name": "flat-leaf parsley",
+                "nameClean": "fresh flat leaf parsley",
+                "original": "1 tbsp fresh flat-leaf parsley, minced",
+                "originalName": "fresh flat-leaf parsley, minced",
+                "amount": 1.0,
+                "unit": "tbsp",
+                "meta": [
+                    "fresh",
+                    "minced"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 1.0,
+                        "unitShort": "Tbsp",
+                        "unitLong": "Tbsp"
+                    },
+                    "metric": {
+                        "amount": 1.0,
+                        "unitShort": "Tbsp",
+                        "unitLong": "Tbsp"
+                    }
+                }
+            },
+            {
+                "id": 11215,
+                "aisle": "Produce",
+                "image": "garlic.png",
+                "consistency": "SOLID",
+                "name": "garlic",
+                "nameClean": "garlic",
+                "original": "1 tsp minced garlic",
+                "originalName": "minced garlic",
+                "amount": 1.0,
+                "unit": "tsp",
+                "meta": [
+                    "minced"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 1.0,
+                        "unitShort": "tsp",
+                        "unitLong": "teaspoon"
+                    },
+                    "metric": {
+                        "amount": 1.0,
+                        "unitShort": "tsp",
+                        "unitLong": "teaspoon"
+                    }
+                }
+            },
+            {
+                "id": 9152,
+                "aisle": "Produce",
+                "image": "lemon-juice.jpg",
+                "consistency": "LIQUID",
+                "name": "lemon juice",
+                "nameClean": "lemon juice",
+                "original": "2 tbsp freshly squeezed lemon juice",
+                "originalName": "freshly squeezed lemon juice",
+                "amount": 2.0,
+                "unit": "tbsp",
+                "meta": [
+                    "freshly squeezed"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 2.0,
+                        "unitShort": "Tbsps",
+                        "unitLong": "Tbsps"
+                    },
+                    "metric": {
+                        "amount": 2.0,
+                        "unitShort": "Tbsps",
+                        "unitLong": "Tbsps"
+                    }
+                }
+            },
+            {
+                "id": 1034053,
+                "aisle": "Oil, Vinegar, Salad Dressing",
+                "image": "olive-oil.jpg",
+                "consistency": "LIQUID",
+                "name": "olive oil",
+                "nameClean": "extra virgin olive oil",
+                "original": "3 tbsp extra-virgin olive oil",
+                "originalName": "extra-virgin olive oil",
+                "amount": 3.0,
+                "unit": "tbsp",
+                "meta": [
+                    "extra-virgin"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 3.0,
+                        "unitShort": "Tbsps",
+                        "unitLong": "Tbsps"
+                    },
+                    "metric": {
+                        "amount": 3.0,
+                        "unitShort": "Tbsps",
+                        "unitLong": "Tbsps"
+                    }
+                }
+            },
+            {
+                "id": 1032,
+                "aisle": "Cheese",
+                "image": "parmesan.jpg",
+                "consistency": "LIQUID",
+                "name": "parmesan cheese",
+                "nameClean": "grated parmesan cheese",
+                "original": "Grated Parmesan cheese (to taste)",
+                "originalName": "Grated Parmesan cheese (to taste)",
+                "amount": 2.0,
+                "unit": "servings",
+                "meta": [
+                    "grated",
+                    "to taste"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 2.0,
+                        "unitShort": "servings",
+                        "unitLong": "servings"
+                    },
+                    "metric": {
+                        "amount": 2.0,
+                        "unitShort": "servings",
+                        "unitLong": "servings"
+                    }
+                }
+            },
+            {
+                "id": 10111251,
+                "aisle": "Produce",
+                "image": "romaine.jpg",
+                "consistency": "SOLID",
+                "name": "romaine lettuce",
+                "nameClean": "romaine",
+                "original": "2 heads romaine lettuce, washed and dried thoroughly and torn into 2-inch pieces",
+                "originalName": "romaine lettuce, washed and dried thoroughly and torn into 2-inch pieces",
+                "amount": 2.0,
+                "unit": "heads",
+                "meta": [
+                    "washed and dried thoroughly and torn into 2-inch pieces"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 2.0,
+                        "unitShort": "heads",
+                        "unitLong": "heads"
+                    },
+                    "metric": {
+                        "amount": 2.0,
+                        "unitShort": "heads",
+                        "unitLong": "heads"
+                    }
+                }
+            }
+        ],
+        "id": 107,
+        "title": "The Perfect Caesar Salad",
+        "readyInMinutes": 15,
+        "servings": 2,
+        "sourceUrl": "http://www.joythebaker.com/blog/2009/01/the-perfect-caesar-salad/",
+        "image": "https://spoonacular.com/recipeImages/107-556x370.jpg",
+        "imageType": "jpg",
+        "summary": "The Perfect Caesar Salad might be just the main course you are searching for. For <b>$5.4 per serving</b>, this recipe <b>covers 58%</b> of your daily requirements of vitamins and minerals. This recipe makes 2 servings with <b>1021 calories</b>, <b>42g of protein</b>, and <b>41g of fat</b> each. 1 person were glad they tried this recipe. From preparation to the plate, this recipe takes roughly <b>15 minutes</b>. A mixture of dijon mustard, cloves garlic, romaine lettuce, and a handful of other ingredients are all it takes to make this recipe so yummy. It is a <b>pricey</b> recipe for fans of American food. It is brought to you by Joy the Baker. It is a good option if you're following a <b>pescatarian</b> diet. Overall, this recipe earns an <b>outstanding spoonacular score of 90%</b>. <a href=\"https://spoonacular.com/recipes/perfect-caesar-salad-1090668\">Perfect Caesar salad</a>, <a href=\"https://spoonacular.com/recipes/perfect-caesar-salad-recipe-1106030\">Perfect Caesar Salad recipe</a>, and <a href=\"https://spoonacular.com/recipes/perfect-caesar-dressing-583406\">Perfect Caesar Dressing</a> are very similar to this recipe.",
+        "cuisines": [
+            "American"
+        ],
+        "dishTypes": [
+            "side dish",
+            "lunch",
+            "main course",
+            "salad",
+            "main dish",
+            "dinner"
+        ],
+        "diets": [
+            "pescatarian"
+        ],
+        "occasions": [],
+        "winePairing": {
+            "pairedWines": [
+                "pinot grigio",
+                "albarino",
+                "gavi"
+            ],
+            "pairingText": "Caesar Salad can be paired with Pinot Grigio, Albarino, and Gavi. We recommend a crisp, dry white wine such as a Gavi, Albariño, or Pinot Grigio. These wines stand up to the pungent dressing and complement the other flavors. You could try NV Ruinart , Wine. Reviewers quite like it with a 5 out of 5 star rating and a price of about 89 dollars per bottle.",
+            "productMatches": [
+                {
+                    "id": 430390,
+                    "title": "NV Ruinart , Wine",
+                    "description": null,
+                    "price": "$88.98999786376953",
+                    "imageUrl": "https://spoonacular.com/productImages/430390-312x231.jpg",
+                    "averageRating": 1.0,
+                    "ratingCount": 1.0,
+                    "score": 0.75,
+                    "link": "https://www.amazon.com/Ruinart-Ros%C3%A9-Champagne-750-Wine/dp/B00UNV9TAI?tag=spoonacular-20"
+                }
+            ]
+        },
+        "instructions": null,
+        "analyzedInstructions": [],
+        "report": null,
+        "tips": {
+            "health": [
+                "You have probably heard by now that whole wheat bread is better for you than white bread. While this is true and definitely worth considering, you should be aware that all bread (especially your typical supermarket loaves) will raise your <a href=\"http://www.health.harvard.edu/newsweek/Glycemic_index_and_glycemic_load_for_100_foods.htm\">blood sugar</a> and should be eaten in moderation.",
+                "Egg yolks are high in cholesterol, leading some people to recommend eating only egg whites or limiting egg consumption to one egg per day. However, new research suggests you might go ahead and eat your whole eggs. It turns out egg yolk contains valuable nutrients (the cartenoids that make it yellow are great for eye health, folic acid is great for brain health, and it has vitamins A, E, D, and K) and <a href=\"https://spoonacular.com/academy/cholesterol\">dietary cholesterol</a> seems to have little influence on blood cholesterol levels.",
+                "The great thing about parmesan cheese is that a little goes a long way, especially if you're buying <a href=\"http://www.forbes.com/sites/larryolmsted/2012/11/19/the-dark-side-of-parmesan-cheese-what-you-dont-know-might-hurt-you/\">the real deal</a>.",
+                "Sea salt is not healthier than table salt, contrary to what you may have heard. Sea salt is usually 97.5% sodium chloride (same as regular old table salt) and the minerals accounting for the rest are too insignificant to make a difference?unless you plan on consuming sea salt by the pound, in which case the health benefits from the minerals will definitely be outweighed by the negative effects of all the sodium you are consuming!",
+                "Before you pass up garlic because you don't want the bad breath that comes with it, keep in mind that the compounds that cause garlic breath also offer a lot of health benefits. Garlic has anti-inflammatory, antioxidant, antibacterial, and antiviral properties. If you really want to get the most health benefits out of your garlic, choose Spanish garlic, which contains the most allicin (one of garlic's most beneficial compounds).",
+                "Although the body needs salt to survive, most of us get too much. The problem with consuming too much salt (what chemists call \"sodium chloride\") is actually the <a href=\"https://spoonacular.com/academy/sodium\">sodium</a> part, which is why people concerned about high blood pressure go on low-sodium diets. If you are trying to reduce salt in your diet, you can try salt substitutes like potassium chloride or try to make do with less salt by using more black pepper, herbs, and spices."
+            ],
+            "price": [
+                "Sea salt can add a unique texture or provide bursts of salty goodness, but ONLY when it isn't being dissolved. So if you have expensive sea salt, save it for sprinkling on salads or dark chocolate cookies, don't try to use it in your pasta sauce or soup. Once sea salt dissolves, the flavor is indistinguishable from table salt from the shaker (after all, they are chemically the same thing, sodium chloride). ",
+                "Most dairy products stay good well past their sell-by date. Instead of throwing out perfectly safe food that is just a few days or maybe even a week or two old, make sure the product smells fine, has a normal texture, and doesn't taste funny. Sniff testing isn't exactly rocket science and it can keep you from wasting food (and money)."
+            ],
+            "cooking": [
+                "Don't waste any egg yolks or egg whites left over from separating eggs. Both can be frozen and used later (ice cube trays come in handy here!)",
+                "Here's a trick for peeling garlic quickly. Put the garlic clove on your cutting board. Take a knife with a thick blade and place the blade flat across the garlic clove (the clove should be closer to the handle than the middle of the blade). Whack down on the flat side of the blade with your free hand to smoosh the garlic a bit. Done correctly, the skin will peel right off.",
+                "The average fresh lemon contains between 2 to 3 tablespoons of lemon juice (just in case you are substituting bottled lemon juice).",
+                "If parmesan plays a big role in the flavor of your dish (or if you're a serious foodie or serious about avoiding additivies) it might be worth your time to track down <a href=\"http://www.forbes.com/sites/larryolmsted/2012/11/19/the-dark-side-of-parmesan-cheese-what-you-dont-know-might-hurt-you\">\"true\" parmesan</a>, Parmigiano Reggiano.",
+                "Extra-virgin olive oil is the least refined type of olive oil and therefore contains more of the beneficial compounds that get lost during processing. However, its minimal processing could also mean it has a lower smoke point than other olive oils. Once an oil starts to smoke, it begins to break down, producing a bad flavor and potentially harmful compounds. Unfortunately, the smoke point of an oil depends on so many factors that it is hard to say what the smoke point of an oil really is. For extra-virgin olive oil, it could be anywhere between 200-400 degrees Fahrenheit. Most people recommend using extra-virgin olive oil to add flavor to a finished dish or in cold dishes to be on the safe side. More refined olive oils, canola oil,  coconut oil, and <a href=\"https://spoonacular.com/academy/butter\">clarified butter/ghee</a> are better options for high temperature cooking."
+            ],
+            "green": [
+                "Parmesan cheese is traditionally made using rennet, an animal-derived enzyme. For this reason, true parmesan cheese is not suitable for vegetarians. You might be able to find a vegetarian hard cheese to substitute."
+            ]
+        },
+        "openLicense": 0,
+        "suspiciousDataScore": 596.7637,
+        "approved": 2,
+        "unknownIngredients": [],
+        "userTags": [],
+        "originalId": null
+    },
+    {
+        "vegetarian": false,
+        "vegan": false,
+        "glutenFree": false,
+        "dairyFree": true,
+        "veryHealthy": false,
+        "cheap": false,
+        "veryPopular": false,
+        "sustainable": false,
+        "lowFodmap": false,
+        "weightWatcherSmartPoints": 23,
+        "gaps": "no",
+        "preparationMinutes": -1,
+        "cookingMinutes": -1,
+        "aggregateLikes": 7,
+        "healthScore": 36,
+        "creditsText": "Norecipes",
+        "sourceName": "Norecipes",
+        "pricePerServing": 266.72,
+        "extendedIngredients": [
+            {
+                "id": 15001,
+                "aisle": "Seafood",
+                "image": "anchovies.jpg",
+                "consistency": "SOLID",
+                "name": "anchovies",
+                "nameClean": "boquerones",
+                "original": "small handful of dried anchovies",
+                "originalName": "dried anchovies",
+                "amount": 1.0,
+                "unit": "small handful",
+                "meta": [
+                    "dried"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 1.0,
+                        "unitShort": "small handful",
+                        "unitLong": "small handful"
+                    },
+                    "metric": {
+                        "amount": 1.0,
+                        "unitShort": "small handful",
+                        "unitLong": "small handful"
+                    }
+                }
+            },
+            {
+                "id": 15001,
+                "aisle": "Seafood",
+                "image": "fresh-anchovies.jpg",
+                "consistency": "SOLID",
+                "name": "anchovies",
+                "nameClean": "boquerones",
+                "original": "small handful of dried anchovies",
+                "originalName": "dried anchovies",
+                "amount": 1.0,
+                "unit": "small handful",
+                "meta": [
+                    "dried"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 1.0,
+                        "unitShort": "small handful",
+                        "unitLong": "small handful"
+                    },
+                    "metric": {
+                        "amount": 1.0,
+                        "unitShort": "small handful",
+                        "unitLong": "small handful"
+                    }
+                }
+            },
+            {
+                "id": 11024,
+                "aisle": "Produce",
+                "image": "bitter-melon.jpg",
+                "consistency": "SOLID",
+                "name": "bitter melon",
+                "nameClean": "bitter gourd",
+                "original": "1 small bitter melon",
+                "originalName": "bitter melon",
+                "amount": 1.0,
+                "unit": "small",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 1.0,
+                        "unitShort": "small",
+                        "unitLong": "small"
+                    },
+                    "metric": {
+                        "amount": 1.0,
+                        "unitShort": "small",
+                        "unitLong": "small"
+                    }
+                }
+            },
+            {
+                "id": 99210,
+                "aisle": "Ethnic Foods",
+                "image": "douchi.jpg",
+                "consistency": "SOLID",
+                "name": "black bean sauce",
+                "nameClean": "black bean sauce",
+                "original": "2 Tbs black bean sauce",
+                "originalName": "black bean sauce",
+                "amount": 2.0,
+                "unit": "Tbs",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 2.0,
+                        "unitShort": "Tbs",
+                        "unitLong": "Tbs"
+                    },
+                    "metric": {
+                        "amount": 2.0,
+                        "unitShort": "Tbs",
+                        "unitLong": "Tbs"
+                    }
+                }
+            },
+            {
+                "id": 11215,
+                "aisle": "Produce",
+                "image": "garlic.png",
+                "consistency": "SOLID",
+                "name": "garlic",
+                "nameClean": "garlic",
+                "original": "1 clove of garlic minced",
+                "originalName": "garlic minced",
+                "amount": 1.0,
+                "unit": "clove",
+                "meta": [
+                    "minced"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 1.0,
+                        "unitShort": "clove",
+                        "unitLong": "clove"
+                    },
+                    "metric": {
+                        "amount": 1.0,
+                        "unitShort": "clove",
+                        "unitLong": "clove"
+                    }
+                }
+            },
+            {
+                "id": 10219,
+                "aisle": "Meat",
+                "image": "meat-ground.jpg",
+                "consistency": "SOLID",
+                "name": "ground pork",
+                "nameClean": "ground pork",
+                "original": "1/2 lbs ground pork",
+                "originalName": "ground pork",
+                "amount": 0.5,
+                "unit": "lbs",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 0.5,
+                        "unitShort": "lb",
+                        "unitLong": "pounds"
+                    },
+                    "metric": {
+                        "amount": 226.796,
+                        "unitShort": "g",
+                        "unitLong": "grams"
+                    }
+                }
+            },
+            {
+                "id": 93830,
+                "aisle": "Ethnic Foods",
+                "image": "mirin.jpg",
+                "consistency": "SOLID",
+                "name": "mirin",
+                "nameClean": "mirin",
+                "original": "1 Tbs mirin",
+                "originalName": "mirin",
+                "amount": 1.0,
+                "unit": "Tbs",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 1.0,
+                        "unitShort": "Tbs",
+                        "unitLong": "Tb"
+                    },
+                    "metric": {
+                        "amount": 1.0,
+                        "unitShort": "Tbs",
+                        "unitLong": "Tb"
+                    }
+                }
+            },
+            {
+                "id": 16112,
+                "aisle": "Ethnic Foods",
+                "image": "miso.jpg",
+                "consistency": "SOLID",
+                "name": "miso",
+                "nameClean": "miso",
+                "original": "1 Tsp miso",
+                "originalName": "miso",
+                "amount": 1.0,
+                "unit": "Tsp",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 1.0,
+                        "unitShort": "tsp",
+                        "unitLong": "teaspoon"
+                    },
+                    "metric": {
+                        "amount": 1.0,
+                        "unitShort": "tsp",
+                        "unitLong": "teaspoon"
+                    }
+                }
+            },
+            {
+                "id": 19335,
+                "aisle": "Baking",
+                "image": "sugar-in-bowl.png",
+                "consistency": "SOLID",
+                "name": "sugar",
+                "nameClean": "sugar",
+                "original": "1 Tsp sugar",
+                "originalName": "sugar",
+                "amount": 1.0,
+                "unit": "Tsp",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 1.0,
+                        "unitShort": "tsp",
+                        "unitLong": "teaspoon"
+                    },
+                    "metric": {
+                        "amount": 1.0,
+                        "unitShort": "tsp",
+                        "unitLong": "teaspoon"
+                    }
+                }
+            }
+        ],
+        "id": 109,
+        "title": "Bittermelon With Pork And Blackbean Sauce",
+        "readyInMinutes": 45,
+        "servings": 1,
+        "sourceUrl": "http://norecipes.com/blog/2008/09/05/bittermelon-with-pork-and-blackbean-sauce/",
+        "image": "https://spoonacular.com/recipeImages/109-556x370.jpg",
+        "imageType": "jpg",
+        "summary": "If you want to add more <b>dairy free</b> recipes to your repertoire, Bittermelon With Pork And Blackbean Sauce might be a recipe you should try. For <b>$2.67 per serving</b>, this recipe <b>covers 31%</b> of your daily requirements of vitamins and minerals. This main course has <b>709 calories</b>, <b>43g of protein</b>, and <b>49g of fat</b> per serving. This recipe serves 1. 7 people found this recipe to be scrumptious and satisfying. A mixture of garlic, bitter melon, sugar, and a handful of other ingredients are all it takes to make this recipe so tasty. It is brought to you by Norecipes. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. Overall, this recipe earns a <b>solid spoonacular score of 78%</b>. Users who liked this recipe also liked <a href=\"https://spoonacular.com/recipes/steam-salmon-w-blackbean-sauce-1090669\">Steam Salmon w Blackbean Sauce</a>, <a href=\"https://spoonacular.com/recipes/uptown-pork-chops-and-apple-sauce-roast-pork-tenderloins-with-escalloped-apples-1221971\">Uptown Pork Chops and Apple Sauce: Roast Pork Tenderloins with Escalloped Apples</a>, and <a href=\"https://spoonacular.com/recipes/uptown-pork-chops-and-apple-sauce-roast-pork-tenderloins-with-escalloped-apples-1220333\">Uptown Pork Chops and Apple Sauce: Roast Pork Tenderloins with Escalloped Apples</a>.",
+        "cuisines": [],
+        "dishTypes": [
+            "lunch",
+            "main course",
+            "main dish",
+            "dinner"
+        ],
+        "diets": [
+            "dairy free"
+        ],
+        "occasions": [],
+        "winePairing": {
+            "pairedWines": [],
+            "pairingText": "",
+            "productMatches": []
+        },
+        "instructions": null,
+        "analyzedInstructions": [],
+        "report": null,
+        "tips": {
+            "health": [
+                "Before you pass up garlic because you don't want the bad breath that comes with it, keep in mind that the compounds that cause garlic breath also offer a lot of health benefits. Garlic has anti-inflammatory, antioxidant, antibacterial, and antiviral properties. If you really want to get the most health benefits out of your garlic, choose Spanish garlic, which contains the most allicin (one of garlic's most beneficial compounds).",
+                "If you're trying to <a href=\"https://spoonacular.com/academy/sugar-nutrient\">cut back on sugar</a>, consider replacing some of the sugar in this recipe with a sweetener like Stevia or Splenda. If you're against these kinds of sweeteners, start reducing the amount of real sugar you use until your tastebuds adjust. ",
+                "If you prefer lean meat and you can't find ground pork (which is generally leaner than ground beef), look for extra lean ground beef, ground turkey, or even ground bison."
+            ],
+            "price": [
+                "If you find meat (especially grassfed and/or organic meat!) on sale, stock up and <a href\"http://www.foodsafety.gov/keep/charts/storagetimes.html\">freeze it</a>. Ground meat will stay good 3-4 months, while steaks, chops, etc., will be fine for at least 4 months."
+            ],
+            "cooking": [
+                "Here's a trick for peeling garlic quickly. Put the garlic clove on your cutting board. Take a knife with a thick blade and place the blade flat across the garlic clove (the clove should be closer to the handle than the middle of the blade). Whack down on the flat side of the blade with your free hand to smoosh the garlic a bit. Done correctly, the skin will peel right off.",
+                "Make sure you cook ground meat thoroughly. Grinding meat creates a lot of surface area that bacteria can grow on, so eating undercooked ground meat poses a real health risk.",
+                "Mirin is a common ingredient in <a href=\"https://spoonacular.com/academy/japanese\">Japanese cuisine</a>. It is a rice cooking wine with a low alcohol content that lends a sweet note to the dish. If you don't have mirin, the closest substitute would be sake and sugar, but you can also use <a href=\"http://seattletimes.com/html/foodwine/2009252736_zfoo27qanda.html\">white wine and a little sugar</a>."
+            ],
+            "green": [
+                "Choose organic, pasture raised pork to avoid antibiotics, hormones, and genetically modified feed. It is better for your health, for the animals, and for the planet. If you're worried about your grocery budget, try eating <a href=\"http://spoonacular.com/vegetarian+dinner\">vegetarian meals</a> more often during the week so you can splurge on better meat on the weekends. "
+            ]
+        },
+        "openLicense": 0,
+        "suspiciousDataScore": 100.0,
+        "approved": 2,
+        "unknownIngredients": [],
+        "userTags": [],
+        "originalId": null
+    },
+    {
+        "vegetarian": false,
+        "vegan": false,
+        "glutenFree": false,
+        "dairyFree": true,
+        "veryHealthy": false,
+        "cheap": false,
+        "veryPopular": false,
+        "sustainable": false,
+        "lowFodmap": false,
+        "weightWatcherSmartPoints": 10,
+        "gaps": "no",
+        "preparationMinutes": -1,
+        "cookingMinutes": -1,
+        "aggregateLikes": 1,
+        "healthScore": 35,
+        "creditsText": "SippitySup",
+        "sourceName": "SippitySup",
+        "pricePerServing": 140.11,
+        "extendedIngredients": [
+            {
+                "id": 15001,
+                "aisle": "Seafood",
+                "image": "anchovies.jpg",
+                "consistency": "SOLID",
+                "name": "anchovy",
+                "nameClean": "boquerones",
+                "original": "6 anchovy fillets",
+                "originalName": "anchovy fillets",
+                "amount": 6.0,
+                "unit": "fillet",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 6.0,
+                        "unitShort": "fillet",
+                        "unitLong": "fillets"
+                    },
+                    "metric": {
+                        "amount": 6.0,
+                        "unitShort": "fillet",
+                        "unitLong": "fillets"
+                    }
+                }
+            },
+            {
+                "id": 15001,
+                "aisle": "Seafood",
+                "image": "fresh-anchovies.jpg",
+                "consistency": "SOLID",
+                "name": "anchovy",
+                "nameClean": "boquerones",
+                "original": "6 anchovy fillets",
+                "originalName": "anchovy fillets",
+                "amount": 6.0,
+                "unit": "fillet",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 6.0,
+                        "unitShort": "fillet",
+                        "unitLong": "fillets"
+                    },
+                    "metric": {
+                        "amount": 6.0,
+                        "unitShort": "fillet",
+                        "unitLong": "fillets"
+                    }
+                }
+            },
+            {
+                "id": 11135,
+                "aisle": "Produce",
+                "image": "cauliflower.jpg",
+                "consistency": "SOLID",
+                "name": "cauliflower",
+                "nameClean": "cauliflower",
+                "original": "1 head cauliflower",
+                "originalName": "cauliflower",
+                "amount": 1.0,
+                "unit": "head",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 1.0,
+                        "unitShort": "head",
+                        "unitLong": "head"
+                    },
+                    "metric": {
+                        "amount": 1.0,
+                        "unitShort": "head",
+                        "unitLong": "head"
+                    }
+                }
+            },
+            {
+                "id": 11215,
+                "aisle": "Produce",
+                "image": "garlic.png",
+                "consistency": "SOLID",
+                "name": "clv garlic",
+                "nameClean": "garlic",
+                "original": "2 clv garlic, peeled and roughly chopped",
+                "originalName": "clv garlic, peeled and roughly chopped",
+                "amount": 2.0,
+                "unit": "",
+                "meta": [
+                    "peeled",
+                    "roughly chopped"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 2.0,
+                        "unitShort": "",
+                        "unitLong": ""
+                    },
+                    "metric": {
+                        "amount": 2.0,
+                        "unitShort": "",
+                        "unitLong": ""
+                    }
+                }
+            },
+            {
+                "id": 9152,
+                "aisle": "Produce",
+                "image": "lemon-juice.jpg",
+                "consistency": "LIQUID",
+                "name": "lemon zest",
+                "nameClean": "lemon juice",
+                "original": "0.5 lemon juice and zest, separated",
+                "originalName": "lemon juice and zest, separated",
+                "amount": 0.5,
+                "unit": "",
+                "meta": [
+                    "separated"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 0.5,
+                        "unitShort": "",
+                        "unitLong": ""
+                    },
+                    "metric": {
+                        "amount": 0.5,
+                        "unitShort": "",
+                        "unitLong": ""
+                    }
+                }
+            },
+            {
+                "id": 1034053,
+                "aisle": "Oil, Vinegar, Salad Dressing",
+                "image": "olive-oil.jpg",
+                "consistency": "LIQUID",
+                "name": "olive oil",
+                "nameClean": "extra virgin olive oil",
+                "original": "0.5 c good quality extra-virgin olive oil",
+                "originalName": "good quality extra-virgin olive oil",
+                "amount": 0.5,
+                "unit": "c",
+                "meta": [
+                    "extra-virgin"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 0.5,
+                        "unitShort": "cups",
+                        "unitLong": "cups"
+                    },
+                    "metric": {
+                        "amount": 108.0,
+                        "unitShort": "ml",
+                        "unitLong": "milliliters"
+                    }
+                }
+            },
+            {
+                "id": 1002030,
+                "aisle": "Spices and Seasonings",
+                "image": "pepper.jpg",
+                "consistency": "SOLID",
+                "name": "salt and pepper",
+                "nameClean": "black pepper",
+                "original": "0 salt and freshly ground black pepper, to taste",
+                "originalName": "salt and freshly ground black pepper, to taste",
+                "amount": 0.0,
+                "unit": "",
+                "meta": [
+                    "black",
+                    "freshly ground",
+                    "to taste"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 0.0,
+                        "unitShort": "",
+                        "unitLong": ""
+                    },
+                    "metric": {
+                        "amount": 0.0,
+                        "unitShort": "",
+                        "unitLong": ""
+                    }
+                }
+            },
+            {
+                "id": 18376,
+                "aisle": "Baking",
+                "image": "breadcrumbs.jpg",
+                "consistency": "SOLID",
+                "name": "seasoned breadcrumbs",
+                "nameClean": "seasoned breadcrumbs",
+                "original": "0.5 c seasoned breadcrumbs",
+                "originalName": "seasoned breadcrumbs",
+                "amount": 0.5,
+                "unit": "c",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 0.5,
+                        "unitShort": "cups",
+                        "unitLong": "cups"
+                    },
+                    "metric": {
+                        "amount": 60.0,
+                        "unitShort": "g",
+                        "unitLong": "grams"
+                    }
+                }
+            },
+            {
+                "id": 14412,
+                "aisle": "Beverages",
+                "image": "water.png",
+                "consistency": "LIQUID",
+                "name": "water",
+                "nameClean": "water",
+                "original": "0.5 c water",
+                "originalName": "water",
+                "amount": 0.5,
+                "unit": "c",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 0.5,
+                        "unitShort": "cups",
+                        "unitLong": "cups"
+                    },
+                    "metric": {
+                        "amount": 118.294,
+                        "unitShort": "ml",
+                        "unitLong": "milliliters"
+                    }
+                }
+            }
+        ],
+        "id": 110,
+        "title": "Roasted Cauliflower With Lemon And Anchovies",
+        "readyInMinutes": 60,
+        "servings": 4,
+        "sourceUrl": "http://www.sippitysup.com/roasted-cauliflower-lemon-and-anchovies",
+        "image": "https://spoonacular.com/recipeImages/110-556x370.jpg",
+        "imageType": "jpg",
+        "summary": "Roasted Cauliflower With Lemon And Anchovies is a side dish that serves 4. One portion of this dish contains roughly <b>6g of protein</b>, <b>29g of fat</b>, and a total of <b>343 calories</b>. For <b>$1.4 per serving</b>, this recipe <b>covers 15%</b> of your daily requirements of vitamins and minerals. If you have anchovy, cauliflower, seasoned breadcrumbs, and a few other ingredients on hand, you can make it. This recipe is liked by 1 foodies and cooks. From preparation to the plate, this recipe takes about <b>1 hour</b>. It is brought to you by SippitySup. It is a good option if you're following a <b>dairy free and pescatarian</b> diet. Taking all factors into account, this recipe <b>earns a spoonacular score of 77%</b>, which is solid. Try <a href=\"https://spoonacular.com/recipes/roasted-cauliflower-with-lemon-and-anchovies-257009\">Roasted Cauliflower with Lemon and Anchovies</a>, <a href=\"https://spoonacular.com/recipes/slow-roasted-cauliflower-with-pounded-anchovies-115\">Slow-roasted Cauliflower With Pounded Anchovies</a>, and <a href=\"https://spoonacular.com/recipes/cauliflower-anchovies-and-tomatoes-23\">Cauliflower, Anchovies and Tomatoes</a> for similar recipes.",
+        "cuisines": [],
+        "dishTypes": [
+            "side dish"
+        ],
+        "diets": [
+            "dairy free",
+            "pescatarian"
+        ],
+        "occasions": [],
+        "winePairing": {
+            "pairedWines": [],
+            "pairingText": "",
+            "productMatches": []
+        },
+        "instructions": null,
+        "analyzedInstructions": [],
+        "report": null,
+        "tips": {
+            "health": [
+                "Before you pass up garlic because you don't want the bad breath that comes with it, keep in mind that the compounds that cause garlic breath also offer a lot of health benefits. Garlic has anti-inflammatory, antioxidant, antibacterial, and antiviral properties. If you really want to get the most health benefits out of your garlic, choose Spanish garlic, which contains the most allicin (one of garlic's most beneficial compounds)."
+            ],
+            "price": [],
+            "cooking": [
+                "Here's a trick for peeling garlic quickly. Put the garlic clove on your cutting board. Take a knife with a thick blade and place the blade flat across the garlic clove (the clove should be closer to the handle than the middle of the blade). Whack down on the flat side of the blade with your free hand to smoosh the garlic a bit. Done correctly, the skin will peel right off.",
+                "The average fresh lemon contains between 2 to 3 tablespoons of lemon juice (just in case you are substituting bottled lemon juice).",
+                "Extra-virgin olive oil is the least refined type of olive oil and therefore contains more of the beneficial compounds that get lost during processing. However, its minimal processing could also mean it has a lower smoke point than other olive oils. Once an oil starts to smoke, it begins to break down, producing a bad flavor and potentially harmful compounds. Unfortunately, the smoke point of an oil depends on so many factors that it is hard to say what the smoke point of an oil really is. For extra-virgin olive oil, it could be anywhere between 200-400 degrees Fahrenheit. Most people recommend using extra-virgin olive oil to add flavor to a finished dish or in cold dishes to be on the safe side. More refined olive oils, canola oil,  coconut oil, and <a href=\"https://spoonacular.com/academy/butter\">clarified butter/ghee</a> are better options for high temperature cooking.",
+                "Fresh cauliflower should be white without any discoloration. If its leaves are attached, they should be green and not wilty. Store cauliflower in the crisper in your fridge and use within 5-7 days."
+            ],
+            "green": []
+        },
+        "openLicense": 0,
+        "suspiciousDataScore": 0.0,
+        "approved": 1,
+        "unknownIngredients": [],
+        "userTags": [],
+        "originalId": null
+    },
+    {
+        "vegetarian": false,
+        "vegan": false,
+        "glutenFree": false,
+        "dairyFree": false,
+        "veryHealthy": true,
+        "cheap": false,
+        "veryPopular": false,
+        "sustainable": false,
+        "lowFodmap": false,
+        "weightWatcherSmartPoints": 7,
+        "gaps": "no",
+        "preparationMinutes": -1,
+        "cookingMinutes": -1,
+        "aggregateLikes": 12,
+        "healthScore": 100,
+        "creditsText": "Bijouxs",
+        "sourceName": "Bijouxs",
+        "pricePerServing": 440.22,
+        "extendedIngredients": [
+            {
+                "id": 18033,
+                "aisle": "Bakery/Bread",
+                "image": "half-baguette.jpg",
+                "consistency": "SOLID",
+                "name": "sourdough baguette",
+                "nameClean": "thin baguette",
+                "original": "1/2 sourdough baguette, cut into 1/2 cubes (about 1 1/2 cups)",
+                "originalName": "sourdough baguette, cut into 1/2 cubes (about 1 1/2 cups)",
+                "amount": 0.5,
+                "unit": "",
+                "meta": [
+                    "cut into 1/2 cubes ( 1 1/2 cups)"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 0.5,
+                        "unitShort": "",
+                        "unitLong": ""
+                    },
+                    "metric": {
+                        "amount": 0.5,
+                        "unitShort": "",
+                        "unitLong": ""
+                    }
+                }
+            },
+            {
+                "id": 1002030,
+                "aisle": "Spices and Seasonings",
+                "image": "pepper.jpg",
+                "consistency": "SOLID",
+                "name": "pepper",
+                "nameClean": "black pepper",
+                "original": "Freshly ground black pepper",
+                "originalName": "Freshly ground black pepper",
+                "amount": 3.0,
+                "unit": "servings",
+                "meta": [
+                    "black",
+                    "freshly ground"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 3.0,
+                        "unitShort": "servings",
+                        "unitLong": "servings"
+                    },
+                    "metric": {
+                        "amount": 3.0,
+                        "unitShort": "servings",
+                        "unitLong": "servings"
+                    }
+                }
+            },
+            {
+                "id": 1032068,
+                "aisle": "Oil, Vinegar, Salad Dressing",
+                "image": "vinegar-(white).jpg",
+                "consistency": "LIQUID",
+                "name": "champagne vinegar",
+                "nameClean": "champagne vinegar",
+                "original": "3 Tbsps Champagne vinegar",
+                "originalName": "Champagne vinegar",
+                "amount": 3.0,
+                "unit": "Tbsps",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 3.0,
+                        "unitShort": "Tbsps",
+                        "unitLong": "Tbsps"
+                    },
+                    "metric": {
+                        "amount": 3.0,
+                        "unitShort": "Tbsps",
+                        "unitLong": "Tbsps"
+                    }
+                }
+            },
+            {
+                "id": 1032046,
+                "aisle": "Condiments",
+                "image": "dijon-mustard.jpg",
+                "consistency": "LIQUID",
+                "name": "dijon mustard",
+                "nameClean": "dijon mustard",
+                "original": "1 tsp Dijon mustard",
+                "originalName": "Dijon mustard",
+                "amount": 1.0,
+                "unit": "tsp",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 1.0,
+                        "unitShort": "tsp",
+                        "unitLong": "teaspoon"
+                    },
+                    "metric": {
+                        "amount": 1.0,
+                        "unitShort": "tsp",
+                        "unitLong": "teaspoon"
+                    }
+                }
+            },
+            {
+                "id": 1034053,
+                "aisle": "Oil, Vinegar, Salad Dressing",
+                "image": "olive-oil.jpg",
+                "consistency": "LIQUID",
+                "name": "extra virgin olive oil",
+                "nameClean": "extra virgin olive oil",
+                "original": "1/2 cup extra virgin olive oil",
+                "originalName": "extra virgin olive oil",
+                "amount": 0.5,
+                "unit": "cup",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 0.5,
+                        "unitShort": "cups",
+                        "unitLong": "cups"
+                    },
+                    "metric": {
+                        "amount": 108.0,
+                        "unitShort": "ml",
+                        "unitLong": "milliliters"
+                    }
+                }
+            },
+            {
+                "id": 9152,
+                "aisle": "Produce",
+                "image": "lemon-juice.jpg",
+                "consistency": "LIQUID",
+                "name": "juice of lemon",
+                "nameClean": "lemon juice",
+                "original": "Juice of 1 large lemon (about 2 Tbsps)",
+                "originalName": "Juice of 1 large lemon (about",
+                "amount": 2.0,
+                "unit": "",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 2.0,
+                        "unitShort": "",
+                        "unitLong": ""
+                    },
+                    "metric": {
+                        "amount": 2.0,
+                        "unitShort": "",
+                        "unitLong": ""
+                    }
+                }
+            },
+            {
+                "id": 15002,
+                "aisle": "Canned and Jarred",
+                "image": "anchovies.jpg",
+                "consistency": "SOLID",
+                "name": "anchovy fillets in olive oil",
+                "nameClean": "canned anchovies",
+                "original": "1 tin anchovy fillets in olive oil (2 oz)",
+                "originalName": "tinned anchovy fillets in olive oil",
+                "amount": 2.0,
+                "unit": "oz",
+                "meta": [
+                    "canned"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 2.0,
+                        "unitShort": "oz",
+                        "unitLong": "ounces"
+                    },
+                    "metric": {
+                        "amount": 56.699,
+                        "unitShort": "g",
+                        "unitLong": "grams"
+                    }
+                }
+            },
+            {
+                "id": 1032,
+                "aisle": "Cheese",
+                "image": "parmesan.jpg",
+                "consistency": "LIQUID",
+                "name": "parmesan cheese",
+                "nameClean": "grated parmesan cheese",
+                "original": "1/4 cup freshly grated Parmesan cheese, plus extra for serving",
+                "originalName": "freshly grated Parmesan cheese, plus extra for serving",
+                "amount": 0.25,
+                "unit": "cup",
+                "meta": [
+                    "freshly grated",
+                    "for serving"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 0.25,
+                        "unitShort": "cups",
+                        "unitLong": "cups"
+                    },
+                    "metric": {
+                        "amount": 25.0,
+                        "unitShort": "ml",
+                        "unitLong": "milliliters"
+                    }
+                }
+            },
+            {
+                "id": 10111251,
+                "aisle": "Produce",
+                "image": "romaine.jpg",
+                "consistency": "SOLID",
+                "name": "romaine lettuce",
+                "nameClean": "romaine",
+                "original": "4 heads of Little Gem or small romaine lettuce, sliced in half",
+                "originalName": "Little Gem or small romaine lettuce, sliced in half",
+                "amount": 4.0,
+                "unit": "heads",
+                "meta": [
+                    "sliced in half"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 4.0,
+                        "unitShort": "heads",
+                        "unitLong": "heads"
+                    },
+                    "metric": {
+                        "amount": 4.0,
+                        "unitShort": "heads",
+                        "unitLong": "heads"
+                    }
+                }
+            },
+            {
+                "id": 1012047,
+                "aisle": "Spices and Seasonings",
+                "image": "salt.jpg",
+                "consistency": "SOLID",
+                "name": "sea salt",
+                "nameClean": "coarse sea salt",
+                "original": "Maldon or flaked sea salt for finishing",
+                "originalName": "Maldon or flaked sea salt for finishing",
+                "amount": 3.0,
+                "unit": "servings",
+                "meta": [
+                    "flaked",
+                    "for finishing"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 3.0,
+                        "unitShort": "servings",
+                        "unitLong": "servings"
+                    },
+                    "metric": {
+                        "amount": 3.0,
+                        "unitShort": "servings",
+                        "unitLong": "servings"
+                    }
+                }
+            },
+            {
+                "id": 10211215,
+                "aisle": "Produce",
+                "image": "garlic.jpg",
+                "consistency": "SOLID",
+                "name": "garlic",
+                "nameClean": "whole garlic cloves",
+                "original": "3 whole cloves of garlic, crushed",
+                "originalName": "whole cloves of garlic, crushed",
+                "amount": 3.0,
+                "unit": "cloves",
+                "meta": [
+                    "whole",
+                    "crushed"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 3.0,
+                        "unitShort": "cloves",
+                        "unitLong": "cloves"
+                    },
+                    "metric": {
+                        "amount": 3.0,
+                        "unitShort": "cloves",
+                        "unitLong": "cloves"
+                    }
+                }
+            },
+            {
+                "id": 6971,
+                "aisle": "Condiments",
+                "image": "dark-sauce.jpg",
+                "consistency": "LIQUID",
+                "name": "worcestershire sauce",
+                "nameClean": "worcestershire sauce",
+                "original": "1 tsp Worcestershire sauce",
+                "originalName": "Worcestershire sauce",
+                "amount": 1.0,
+                "unit": "tsp",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 1.0,
+                        "unitShort": "tsp",
+                        "unitLong": "teaspoon"
+                    },
+                    "metric": {
+                        "amount": 1.0,
+                        "unitShort": "tsp",
+                        "unitLong": "teaspoon"
+                    }
+                }
+            }
+        ],
+        "id": 111,
+        "title": "Little Gem Lettuce With House Caesar Dressing",
+        "readyInMinutes": 45,
+        "servings": 3,
+        "sourceUrl": "http://bijouxs.com/2012/11/04/little-gem-lettuce-with-house-caesar-dressing/",
+        "image": "https://spoonacular.com/recipeImages/111-556x370.jpg",
+        "imageType": "jpg",
+        "summary": "Little Gem Lettuce With House Caesar Dressing could be just the <b>pescatarian</b> recipe you've been looking for. For <b>$4.4 per serving</b>, this recipe <b>covers 44%</b> of your daily requirements of vitamins and minerals. One portion of this dish contains about <b>22g of protein</b>, <b>15g of fat</b>, and a total of <b>403 calories</b>. This recipe serves 3. This recipe from Bijouxs requires parmesan cheese, sea salt, extra virgin olive oil, and romaine lettuce. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. 12 people were glad they tried this recipe. It works well as a main course. Overall, this recipe earns a <b>tremendous spoonacular score of 97%</b>. Users who liked this recipe also liked <a href=\"https://spoonacular.com/recipes/gem-lettuce-wedges-with-sundried-tomato-caesar-dressing-972826\">Gem Lettuce Wedges with Sundried Tomato Caesar Dressing</a>, <a href=\"https://spoonacular.com/recipes/little-gem-lettuce-salad-167230\">Little Gem Lettuce Salad</a>, and <a href=\"https://spoonacular.com/recipes/asian-chicken-with-little-gem-lettuce-359197\">Asian Chicken with Little Gem Lettuce</a>.",
+        "cuisines": [],
+        "dishTypes": [
+            "lunch",
+            "main course",
+            "main dish",
+            "dinner"
+        ],
+        "diets": [
+            "pescatarian"
+        ],
+        "occasions": [],
+        "winePairing": {
+            "pairedWines": [],
+            "pairingText": "",
+            "productMatches": []
+        },
+        "instructions": null,
+        "analyzedInstructions": [],
+        "report": null,
+        "tips": {
+            "health": [
+                "You have probably heard by now that whole wheat bread is better for you than white bread. While this is true and definitely worth considering, you should be aware that all bread (especially your typical supermarket loaves) will raise your <a href=\"http://www.health.harvard.edu/newsweek/Glycemic_index_and_glycemic_load_for_100_foods.htm\">blood sugar</a> and should be eaten in moderation.",
+                "The great thing about parmesan cheese is that a little goes a long way, especially if you're buying <a href=\"http://www.forbes.com/sites/larryolmsted/2012/11/19/the-dark-side-of-parmesan-cheese-what-you-dont-know-might-hurt-you/\">the real deal</a>.",
+                "Sea salt is not healthier than table salt, contrary to what you may have heard. Sea salt is usually 97.5% sodium chloride (same as regular old table salt) and the minerals accounting for the rest are too insignificant to make a difference?unless you plan on consuming sea salt by the pound, in which case the health benefits from the minerals will definitely be outweighed by the negative effects of all the sodium you are consuming!",
+                "If you're following a gluten-free diet, make sure your bread (and all other ingredients) is truly gluten free.",
+                "Although the body needs salt to survive, most of us get too much. The problem with consuming too much salt (what chemists call \"sodium chloride\") is actually the <a href=\"https://spoonacular.com/academy/sodium\">sodium</a> part, which is why people concerned about high blood pressure go on low-sodium diets. If you are trying to reduce salt in your diet, you can try salt substitutes like potassium chloride or try to make do with less salt by using more black pepper, herbs, and spices."
+            ],
+            "price": [
+                "Sea salt can add a unique texture or provide bursts of salty goodness, but ONLY when it isn't being dissolved. So if you have expensive sea salt, save it for sprinkling on salads or dark chocolate cookies, don't try to use it in your pasta sauce or soup. Once sea salt dissolves, the flavor is indistinguishable from table salt from the shaker (after all, they are chemically the same thing, sodium chloride). ",
+                "Most dairy products stay good well past their sell-by date. Instead of throwing out perfectly safe food that is just a few days or maybe even a week or two old, make sure the product smells fine, has a normal texture, and doesn't taste funny. Sniff testing isn't exactly rocket science and it can keep you from wasting food (and money)."
+            ],
+            "cooking": [
+                "The average fresh lemon contains between 2 to 3 tablespoons of lemon juice (just in case you are substituting bottled lemon juice).",
+                "If parmesan plays a big role in the flavor of your dish (or if you're a serious foodie or serious about avoiding additivies) it might be worth your time to track down <a href=\"http://www.forbes.com/sites/larryolmsted/2012/11/19/the-dark-side-of-parmesan-cheese-what-you-dont-know-might-hurt-you\">\"true\" parmesan</a>, Parmigiano Reggiano.",
+                "Extra-virgin olive oil is the least refined type of olive oil and therefore contains more of the beneficial compounds that get lost during processing. However, its minimal processing could also mean it has a lower smoke point than other olive oils. Once an oil starts to smoke, it begins to break down, producing a bad flavor and potentially harmful compounds. Unfortunately, the smoke point of an oil depends on so many factors that it is hard to say what the smoke point of an oil really is. For extra-virgin olive oil, it could be anywhere between 200-400 degrees Fahrenheit. Most people recommend using extra-virgin olive oil to add flavor to a finished dish or in cold dishes to be on the safe side. More refined olive oils, canola oil,  coconut oil, and <a href=\"https://spoonacular.com/academy/butter\">clarified butter/ghee</a> are better options for high temperature cooking."
+            ],
+            "green": [
+                "Parmesan cheese is traditionally made using rennet, an animal-derived enzyme. For this reason, true parmesan cheese is not suitable for vegetarians. You might be able to find a vegetarian hard cheese to substitute.",
+                "<a href=\"https://spoonacular.com/academy/worcestershire-sauce\">Worcestershire sauce</a> often contains anchovies, so if you are vegan, vegetarian, or allergic to seafood, be sure to look for a brand that doesn't!"
+            ]
+        },
+        "openLicense": 0,
+        "suspiciousDataScore": 100.0,
+        "approved": 2,
+        "unknownIngredients": [],
+        "userTags": [],
+        "originalId": null
+    },
+    {
+        "vegetarian": false,
+        "vegan": false,
+        "glutenFree": false,
+        "dairyFree": false,
+        "veryHealthy": false,
+        "cheap": false,
+        "veryPopular": false,
+        "sustainable": false,
+        "lowFodmap": false,
+        "weightWatcherSmartPoints": 12,
+        "gaps": "no",
+        "preparationMinutes": -1,
+        "cookingMinutes": -1,
+        "aggregateLikes": 1,
+        "healthScore": 13,
+        "creditsText": "kitchenist.com",
+        "sourceName": "kitchenist.com",
+        "pricePerServing": 130.68,
+        "extendedIngredients": [
+            {
+                "id": 15001,
+                "aisle": "Seafood",
+                "image": "fresh-anchovies.jpg",
+                "consistency": "SOLID",
+                "name": "anchovy",
+                "nameClean": "boquerones",
+                "original": "4-5 anchovy fillets, rinsed and chopped",
+                "originalName": "anchovy fillets, rinsed and chopped",
+                "amount": 4.0,
+                "unit": "fillet",
+                "meta": [
+                    "rinsed",
+                    "chopped"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 4.0,
+                        "unitShort": "fillet",
+                        "unitLong": "fillets"
+                    },
+                    "metric": {
+                        "amount": 4.0,
+                        "unitShort": "fillet",
+                        "unitLong": "fillets"
+                    }
+                }
+            },
+            {
+                "id": 15001,
+                "aisle": "Seafood",
+                "image": "anchovies.jpg",
+                "consistency": "SOLID",
+                "name": "anchovy",
+                "nameClean": "boquerones",
+                "original": "4-5 anchovy fillets, rinsed and chopped",
+                "originalName": "anchovy fillets, rinsed and chopped",
+                "amount": 4.0,
+                "unit": "fillet",
+                "meta": [
+                    "rinsed",
+                    "chopped"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 4.0,
+                        "unitShort": "fillet",
+                        "unitLong": "fillets"
+                    },
+                    "metric": {
+                        "amount": 4.0,
+                        "unitShort": "fillet",
+                        "unitLong": "fillets"
+                    }
+                }
+            },
+            {
+                "id": 2044,
+                "aisle": "Produce",
+                "image": "fresh-basil.jpg",
+                "consistency": "SOLID",
+                "name": "basil",
+                "nameClean": "fresh basil",
+                "original": "10-15 leaves basil, torn",
+                "originalName": "basil, torn",
+                "amount": 10.0,
+                "unit": "leaves",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 10.0,
+                        "unitShort": "leaf",
+                        "unitLong": "leaves"
+                    },
+                    "metric": {
+                        "amount": 10.0,
+                        "unitShort": "leaf",
+                        "unitLong": "leaves"
+                    }
+                }
+            },
+            {
+                "id": 2044,
+                "aisle": "Produce",
+                "image": "basil.jpg",
+                "consistency": "SOLID",
+                "name": "basil",
+                "nameClean": "fresh basil",
+                "original": "10-15 leaves basil, torn",
+                "originalName": "basil, torn",
+                "amount": 10.0,
+                "unit": "leaves",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 10.0,
+                        "unitShort": "leaf",
+                        "unitLong": "leaves"
+                    },
+                    "metric": {
+                        "amount": 10.0,
+                        "unitShort": "leaf",
+                        "unitLong": "leaves"
+                    }
+                }
+            },
+            {
+                "id": 1123,
+                "aisle": "Milk, Eggs, Other Dairy",
+                "image": "egg.png",
+                "consistency": "SOLID",
+                "name": "egg",
+                "nameClean": "egg",
+                "original": "1 egg",
+                "originalName": "egg",
+                "amount": 1.0,
+                "unit": "",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 1.0,
+                        "unitShort": "",
+                        "unitLong": ""
+                    },
+                    "metric": {
+                        "amount": 1.0,
+                        "unitShort": "",
+                        "unitLong": ""
+                    }
+                }
+            },
+            {
+                "id": 1026,
+                "aisle": "Cheese",
+                "image": "mozzarella.png",
+                "consistency": "SOLID",
+                "name": "mozzarella cheese",
+                "nameClean": "mozzarella",
+                "original": "125g mozzarella cheese, torn into small pieces",
+                "originalName": "mozzarella cheese, torn into small pieces",
+                "amount": 125.0,
+                "unit": "g",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 4.409,
+                        "unitShort": "oz",
+                        "unitLong": "ounces"
+                    },
+                    "metric": {
+                        "amount": 125.0,
+                        "unitShort": "g",
+                        "unitLong": "grams"
+                    }
+                }
+            },
+            {
+                "id": 4053,
+                "aisle": "Oil, Vinegar, Salad Dressing",
+                "image": "olive-oil.jpg",
+                "consistency": "LIQUID",
+                "name": "olive oil",
+                "nameClean": "olive oil",
+                "original": "1 Tbs. olive oil (plus extra for brushing)",
+                "originalName": "olive oil (plus extra for brushing)",
+                "amount": 1.0,
+                "unit": "Tbs",
+                "meta": [
+                    "for brushing",
+                    "(plus extra )"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 1.0,
+                        "unitShort": "Tbs",
+                        "unitLong": "Tb"
+                    },
+                    "metric": {
+                        "amount": 1.0,
+                        "unitShort": "Tbs",
+                        "unitLong": "Tb"
+                    }
+                }
+            },
+            {
+                "id": 2027,
+                "aisle": "Produce",
+                "image": "oregano.jpg",
+                "consistency": "SOLID",
+                "name": "oregano",
+                "nameClean": "oregano",
+                "original": "1/4 tsp. dried oregano",
+                "originalName": "dried oregano",
+                "amount": 0.25,
+                "unit": "tsp",
+                "meta": [
+                    "dried"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 0.25,
+                        "unitShort": "tsps",
+                        "unitLong": "teaspoons"
+                    },
+                    "metric": {
+                        "amount": 0.25,
+                        "unitShort": "tsps",
+                        "unitLong": "teaspoons"
+                    }
+                }
+            },
+            {
+                "id": 20081,
+                "aisle": "Baking",
+                "image": "flour.png",
+                "consistency": "SOLID",
+                "name": "flour",
+                "nameClean": "wheat flour",
+                "original": "100g plain flour",
+                "originalName": "plain flour",
+                "amount": 100.0,
+                "unit": "g",
+                "meta": [
+                    "plain"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 3.527,
+                        "unitShort": "oz",
+                        "unitLong": "ounces"
+                    },
+                    "metric": {
+                        "amount": 100.0,
+                        "unitShort": "g",
+                        "unitLong": "grams"
+                    }
+                }
+            },
+            {
+                "id": 11352,
+                "aisle": "Produce",
+                "image": "potatoes-yukon-gold.png",
+                "consistency": "SOLID",
+                "name": "potato pizza",
+                "nameClean": "potato",
+                "original": "Potato Pizza",
+                "originalName": "Potato Pizza",
+                "amount": 4.0,
+                "unit": "servings",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 4.0,
+                        "unitShort": "servings",
+                        "unitLong": "servings"
+                    },
+                    "metric": {
+                        "amount": 4.0,
+                        "unitShort": "servings",
+                        "unitLong": "servings"
+                    }
+                }
+            },
+            {
+                "id": 11352,
+                "aisle": "Produce",
+                "image": "potatoes-yukon-gold.png",
+                "consistency": "SOLID",
+                "name": "floury potatoes",
+                "nameClean": "potato",
+                "original": "500g floury potatoes, peeled",
+                "originalName": "floury potatoes, peeled",
+                "amount": 500.0,
+                "unit": "g",
+                "meta": [
+                    "peeled"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 1.102,
+                        "unitShort": "lb",
+                        "unitLong": "pounds"
+                    },
+                    "metric": {
+                        "amount": 500.0,
+                        "unitShort": "g",
+                        "unitLong": "grams"
+                    }
+                }
+            },
+            {
+                "id": 11641,
+                "aisle": "Produce",
+                "image": "yellow-squash.jpg",
+                "consistency": "SOLID",
+                "name": "adapted from recipes from an summer",
+                "nameClean": "summer squash",
+                "original": "adapted from Recipes from an Italian Summer",
+                "originalName": "adapted from Recipes from an Italian Summer",
+                "amount": 4.0,
+                "unit": "servings",
+                "meta": [
+                    "italian"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 4.0,
+                        "unitShort": "servings",
+                        "unitLong": "servings"
+                    },
+                    "metric": {
+                        "amount": 4.0,
+                        "unitShort": "servings",
+                        "unitLong": "servings"
+                    }
+                }
+            },
+            {
+                "id": 11529,
+                "aisle": "Produce",
+                "image": "tomato.png",
+                "consistency": "SOLID",
+                "name": "tomatoes",
+                "nameClean": "tomato",
+                "original": "3 medium tomatoes, chopped",
+                "originalName": "tomatoes, chopped",
+                "amount": 3.0,
+                "unit": "medium",
+                "meta": [
+                    "chopped"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 3.0,
+                        "unitShort": "medium",
+                        "unitLong": "mediums"
+                    },
+                    "metric": {
+                        "amount": 3.0,
+                        "unitShort": "medium",
+                        "unitLong": "mediums"
+                    }
+                }
+            },
+            {
+                "id": 1145,
+                "aisle": "Milk, Eggs, Other Dairy",
+                "image": "butter-sliced.jpg",
+                "consistency": "SOLID",
+                "name": "butter",
+                "nameClean": "unsalted butter",
+                "original": "25g unsalted butter",
+                "originalName": "unsalted butter",
+                "amount": 25.0,
+                "unit": "g",
+                "meta": [
+                    "unsalted"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 0.882,
+                        "unitShort": "oz",
+                        "unitLong": "ounces"
+                    },
+                    "metric": {
+                        "amount": 25.0,
+                        "unitShort": "g",
+                        "unitLong": "grams"
+                    }
+                }
+            }
+        ],
+        "id": 112,
+        "title": "Challenging Misconceptions: Potato Pizza – A cooking blog - Kitchenist",
+        "readyInMinutes": 45,
+        "servings": 4,
+        "sourceUrl": "http://www.kitchenist.com/cooking/baked-mains/challenging-misconceptions-potato-pizza/2423",
+        "image": "https://spoonacular.com/recipeImages/112-556x370.jpg",
+        "imageType": "jpg",
+        "summary": "Challenging Misconceptions: Potato Pizza – A cooking blog - Kitchenist takes about <b>45 minutes</b> from beginning to end. This recipe serves 4 and costs $1.31 per serving. Watching your figure? This pescatarian recipe has <b>396 calories</b>, <b>15g of protein</b>, and <b>17g of fat</b> per serving. 1 person has tried and liked this recipe. Not a lot of people really liked this Mediterranean dish. This recipe from kitchenist.com requires flour, butter, olive oil, and mozzarella cheese. It works well as a rather inexpensive main course. All things considered, we decided this recipe <b>deserves a spoonacular score of 58%</b>. This score is solid. Similar recipes are <a href=\"https://spoonacular.com/recipes/challenging-misconceptions-potato-pizza-a-cooking-blog-kitchenist-1237451\">Challenging Misconceptions: Potato Pizza – A cooking blog - Kitchenist</a>, <a href=\"https://spoonacular.com/recipes/challenging-misconceptions-potato-pizza-a-cooking-blog-kitchenist-1205471\">Challenging Misconceptions: Potato Pizza – A cooking blog - Kitchenist</a>, and <a href=\"https://spoonacular.com/recipes/challenging-misconceptions-potato-pizza-a-cooking-blog-kitchenist-1200531\">Challenging Misconceptions: Potato Pizza – A cooking blog - Kitchenist</a>.",
+        "cuisines": [
+            "Mediterranean",
+            "Italian",
+            "European"
+        ],
+        "dishTypes": [
+            "lunch",
+            "main course",
+            "main dish",
+            "dinner"
+        ],
+        "diets": [
+            "pescatarian"
+        ],
+        "occasions": [],
+        "winePairing": {
+            "pairedWines": [
+                "sangiovese",
+                "shiraz",
+                "barbera wine"
+            ],
+            "pairingText": "Pizzan on the menu? Try pairing with Sangiovese, Shiraz, and Barbera Wine. The best wine for pizza depends on the toppings! Red sauce pizza will call for a red wine with some acidity, such as a barberan or sangiovese. Add pepperoni or sausage and you can go bolder with a syrah. The Weinert Cavas de Weinert with a 4.7 out of 5 star rating seems like a good match. It costs about 26 dollars per bottle.",
+            "productMatches": [
+                {
+                    "id": 436255,
+                    "title": "Weinert Cavas de Weinert",
+                    "description": "Deep ruby tone with purple sparkles springs up its stable and vigorous structure. Its tannic richness guarantees its longevity, but discreet ripe fruit prevails. A balanced full-bodied wine that has reminiscente fragrantes of oak on the long finish. A blend of Cabernet Sauvignon, Malbec and Merlot.",
+                    "price": "$25.989999771118164",
+                    "imageUrl": "https://spoonacular.com/productImages/436255-312x231.jpg",
+                    "averageRating": 0.9399999976158142,
+                    "ratingCount": 5.0,
+                    "score": 0.8774999976158142,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fweinert-cavas-de-weinert-2004%2F113527"
+                }
+            ]
+        },
+        "instructions": null,
+        "analyzedInstructions": [],
+        "report": null,
+        "tips": {
+            "health": [
+                "If you can, choose grassfed butter for a <a href=\"http://www.marksdailyapple.com/grass-fed-butter/#axzz3B6O62GgG\">better nutritional profile</a>&mdash;more vitamins, a favorable omega 3/6 ratio, etc.",
+                "To make baked goods lighter and sneak in some extra nutrition, you can swap half the butter or oil (sometimes even all of it!) with an equal amount of unsweetened applesauce.",
+                "Believe it or not, some sources say you can substitute avocado puree for butter when making brownies. Try it and let us know how it turns out!",
+                "If you're worried about cholesterol and heart disease, you may have heard you should limit your egg consumption to one egg per day or eat only egg whites. However, new research suggests you might go ahead and eat your whole eggs. It turns out egg yolk contains valuable nutrients (the cartenoids that make it yellow are great for eye health, folic acid is great for brain health, and it has vitamins A, E, D, and K) and <a href=\"https://spoonacular.com/academy/cholesterol\">dietary cholesterol</a> seems to have little influence on blood cholesterol levels.",
+                "You can easily swap half of the white flour in most recipes for whole wheat flour to add some fiber and protein. It does result in a heavier dough, so for cookies, cakes, etc., you might try swapping in whole wheat pastry flour.",
+                "Lycopene, the chemical in tomatoes that makes them red (and healthy), is fat soluble. This means eating tomatoes with a <a href=\"https://spoonacular.com/academy/fat\">fat</a> &mdash; say, avocado or olive oil?improves the body's ability to absorb the lycopene. Don't hesitate to include some healthy fats in this dish to get the most health benefits from the tomatoes!"
+            ],
+            "price": [
+                "Fresh herbs can be expensive, so don't let them go to waste. If you have any leftovers, you might be able to freeze them. The Kitchn recommends <a href=\"http://www.thekitchn.com/freeze-herbs-in-olive-oil-173648\">freezing hardy herbs</a> like rosemary and thyme in olive oil, while Better Homes and Gardens suggests using <a href=\"http://www.bhg.com/recipes/how-to/food-storage-safety/freezing-herbs/\">freezer bags</a> to freeze basil, chives, mint, and more.",
+                "Most dairy products stay good well past their sell-by date. Instead of throwing out perfectly safe food that is just a few days or maybe even a week or two old, make sure the product smells fine, has a normal texture, and doesn't taste funny. Sniff testing isn't exactly rocket science and it can keep you from wasting food (and money)."
+            ],
+            "cooking": [
+                "If you're using olive oil to cook at high temperatures, make sure that the olive oil you're using has a high smoke point because heating an oil past its smoke point can ruin the flavor and even release harmful compounds into your dish. Many people recommend saving extra-virgin olive oil for cold dishes or for adding the finishing touch to a warm dish. You could also use canola oil, coconut oil, or another good <a href=\"https://spoonacular.com/academy/vegetable-oil\">high-temperature oil</a> to be on the safe side.",
+                "Don't have fresh herbs? Substitute dried herbs, but use about 1/3 less because dried herbs are more potent than fresh.  ",
+                "You should not store your onions with your potatoes because the gases they emit will make each other spoil faster. For more information about selecting and storing onions, check out <a href=\"https://spoonacular.com/academy/onions\">this lesson about onions</a> in the academy.",
+                "Just a head's up: tomatoes shouldn't be refrigerated! They will lose their flavor and probably get mushy too. For more on selecting and storing tomatoes and other vegetables, check out the <a href=\"https://spoonacular.com/academy#Ingredients\">academy</a>.",
+                "Butter's incredible flavor has made it an extremely popular cooking fat, but it is important to know that butter has the lowest smoke point of almost any cooking fat. This means butter literally starts to smoke at a lower temperature than most other fats between 250-350 degrees Fahrenheit. So while butter is great for cooking at lower temperatures, you should probably use canola oil, coconut oil, or  <a href=\"https://spoonacular.com/academy/vegetable-oil\">another oil with a higher smoke point</a> for frying and other high temperature cooking.",
+                "Fresh herbs should be added toward the end of the cooking process &mdash; even at the very last minute?especially delicate herbs like cilantro, basil, and dill. Hardier herbs like bay leaves, rosemary, and thyme can be added earlier."
+            ],
+            "green": [
+                "Tomatoes, especially cherry tomatoes, should be bought <a href=\"http://www.ewg.org/foodnews/list.php\">organic</a> when possible. Moreover, buying tomatoes from your <a href=\"http://www.localharvest.org/farmers-markets/\">local farmers' market</a> when they are in season is going to make your dish much, much tastier, not to mention more eco-friendly. In fact, we recommend using canned &mdash; or better yet, jarred?tomato products when tomatoes aren't in season instead of buying imported or greenhouse-grown tomatoes.",
+                "Choose free range or organic eggs whenever possible! Even though they are more expensive, eggs are generally cheap to begin with, and eggs from cage-free chickens are worth the extra cost."
+            ]
+        },
+        "openLicense": 0,
+        "suspiciousDataScore": 0.0,
+        "approved": 2,
+        "unknownIngredients": [],
+        "userTags": [],
+        "originalId": null
+    },
+    {
+        "vegetarian": false,
+        "vegan": false,
+        "glutenFree": true,
+        "dairyFree": true,
+        "veryHealthy": false,
+        "cheap": false,
+        "veryPopular": false,
+        "sustainable": false,
+        "lowFodmap": false,
+        "weightWatcherSmartPoints": 6,
+        "gaps": "no",
+        "preparationMinutes": -1,
+        "cookingMinutes": -1,
+        "aggregateLikes": 0,
+        "healthScore": 14,
+        "creditsText": "Epicurious",
+        "sourceName": "Epicurious",
+        "pricePerServing": 137.25,
+        "extendedIngredients": [
+            {
+                "id": 15002,
+                "aisle": "Canned and Jarred",
+                "image": "anchovies.jpg",
+                "consistency": "SOLID",
+                "name": "anchovies",
+                "nameClean": "canned anchovies",
+                "original": "21/2 teaspoons chopped canned anchovies, or to taste",
+                "originalName": "chopped canned anchovies, or to taste",
+                "amount": 10.5,
+                "unit": "teaspoons",
+                "meta": [
+                    "canned",
+                    "chopped",
+                    "to taste"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 10.5,
+                        "unitShort": "tsps",
+                        "unitLong": "teaspoons"
+                    },
+                    "metric": {
+                        "amount": 10.5,
+                        "unitShort": "tsps",
+                        "unitLong": "teaspoons"
+                    }
+                }
+            },
+            {
+                "id": 10511297,
+                "aisle": "Produce",
+                "image": "parsley.jpg",
+                "consistency": "SOLID",
+                "name": "parsley",
+                "nameClean": "fresh parsley",
+                "original": "2 tablespoons chopped fresh parsley",
+                "originalName": "chopped fresh parsley",
+                "amount": 2.0,
+                "unit": "tablespoons",
+                "meta": [
+                    "fresh",
+                    "chopped"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 2.0,
+                        "unitShort": "Tbsps",
+                        "unitLong": "Tbsps"
+                    },
+                    "metric": {
+                        "amount": 2.0,
+                        "unitShort": "Tbsps",
+                        "unitLong": "Tbsps"
+                    }
+                }
+            },
+            {
+                "id": 10211215,
+                "aisle": "Produce",
+                "image": "garlic.jpg",
+                "consistency": "SOLID",
+                "name": "garlic cloves",
+                "nameClean": "whole garlic cloves",
+                "original": "3 garlic cloves, thinly sliced",
+                "originalName": "garlic cloves, thinly sliced",
+                "amount": 3.0,
+                "unit": "",
+                "meta": [
+                    "thinly sliced"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 3.0,
+                        "unitShort": "",
+                        "unitLong": ""
+                    },
+                    "metric": {
+                        "amount": 3.0,
+                        "unitShort": "",
+                        "unitLong": ""
+                    }
+                }
+            },
+            {
+                "id": 9297,
+                "aisle": "Dried Fruits",
+                "image": "golden-raisins.jpg",
+                "consistency": "SOLID",
+                "name": "golden raisins",
+                "nameClean": "golden raisins",
+                "original": "1/4 cup golden raisins",
+                "originalName": "golden raisins",
+                "amount": 0.25,
+                "unit": "cup",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 0.25,
+                        "unitShort": "cups",
+                        "unitLong": "cups"
+                    },
+                    "metric": {
+                        "amount": 36.25,
+                        "unitShort": "g",
+                        "unitLong": "grams"
+                    }
+                }
+            },
+            {
+                "id": 4053,
+                "aisle": "Oil, Vinegar, Salad Dressing",
+                "image": "olive-oil.jpg",
+                "consistency": "LIQUID",
+                "name": "olive oil",
+                "nameClean": "olive oil",
+                "original": "1/4 cup olive oil",
+                "originalName": "olive oil",
+                "amount": 0.25,
+                "unit": "cup",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 0.25,
+                        "unitShort": "cups",
+                        "unitLong": "cups"
+                    },
+                    "metric": {
+                        "amount": 54.0,
+                        "unitShort": "ml",
+                        "unitLong": "milliliters"
+                    }
+                }
+            },
+            {
+                "id": 12147,
+                "aisle": "Produce",
+                "image": "pine-nuts.png",
+                "consistency": "SOLID",
+                "name": "pine nuts",
+                "nameClean": "pine nuts",
+                "original": "1/4 cuppine nuts, toasted",
+                "originalName": "pine nuts, toasted",
+                "amount": 0.25,
+                "unit": "cup",
+                "meta": [
+                    "toasted"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 0.25,
+                        "unitShort": "cups",
+                        "unitLong": "cups"
+                    },
+                    "metric": {
+                        "amount": 33.75,
+                        "unitShort": "g",
+                        "unitLong": "grams"
+                    }
+                }
+            },
+            {
+                "id": 1032009,
+                "aisle": "Spices and Seasonings",
+                "image": "red-pepper-flakes.jpg",
+                "consistency": "SOLID",
+                "name": "pepper flakes",
+                "nameClean": "red pepper flakes",
+                "original": "1/4 teaspoon dried hot red pepper flakes",
+                "originalName": "dried hot red pepper flakes",
+                "amount": 0.25,
+                "unit": "teaspoon",
+                "meta": [
+                    "dried",
+                    "red",
+                    "hot"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 0.25,
+                        "unitShort": "tsps",
+                        "unitLong": "teaspoons"
+                    },
+                    "metric": {
+                        "amount": 0.25,
+                        "unitShort": "tsps",
+                        "unitLong": "teaspoons"
+                    }
+                }
+            }
+        ],
+        "id": 113,
+        "title": "Broccoflower with Anchovies and Garlic",
+        "readyInMinutes": 45,
+        "servings": 4,
+        "sourceUrl": "http://www.epicurious.com/recipes/food/views/Broccoflower-with-Anchovies-and-Garlic-107222",
+        "image": "https://spoonacular.com/recipeImages/113-556x370.jpg",
+        "imageType": "jpg",
+        "summary": "Broccoflower with Anchovies and Garlic takes approximately <b>45 minutes</b> from beginning to end. One serving contains <b>241 calories</b>, <b>6g of protein</b>, and <b>21g of fat</b>. This gluten free, dairy free, paleolithic, and primal recipe serves 4 and costs <b>$1.37 per serving</b>. 1 person has made this recipe and would make it again. It works well as a budget friendly side dish. It is brought to you by Epicurious. Head to the store and pick up anchovies, pepper flakes, garlic cloves, and a few other things to make it today. All things considered, we decided this recipe <b>deserves a spoonacular score of 68%</b>. This score is solid. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/broccoflower-with-anchovies-and-garlic-1228199\">Broccoflower with Anchovies and Garlic</a>, <a href=\"https://spoonacular.com/recipes/asparagus-with-anchovies-garlic-577\">Asparagus With Anchovies & Garlic</a>, and <a href=\"https://spoonacular.com/recipes/broccoli-with-garlic-and-anchovies-1283917\">Broccoli with Garlic and Anchovies</a>.",
+        "cuisines": [],
+        "dishTypes": [
+            "side dish"
+        ],
+        "diets": [
+            "gluten free",
+            "dairy free",
+            "paleolithic",
+            "primal",
+            "whole 30",
+            "pescatarian"
+        ],
+        "occasions": [],
+        "winePairing": {
+            "pairedWines": [],
+            "pairingText": "",
+            "productMatches": []
+        },
+        "instructions": "Preparation                                                        Cook broccoflower in 2 batches in a 5- to 6-quart pot of <\"\">boiling salted water<> until crisp-tender, about 5 minutes, then transfer with a slotted spoon to a large bowl of ice and cold water to stop cooking. Drain florets and pat dry with paper towels.                                                                Heat oil in a 12-inch nonstick skillet over moderately high heat until hot but not smoking, then sauté garlic, stirring, until golden, about 1 minute. Add anchovies and red pepper flakes and sauté, stirring, until anchovies are dissolved, about 1 minute, then add florets and toss to coat. Add pine nuts, raisins, and salt to taste and sauté, stirring, until heated through, about 2 minutes. Remove from heat and stir in parsley.",
+        "analyzedInstructions": [
+            {
+                "name": "",
+                "steps": [
+                    {
+                        "number": 1,
+                        "step": "Cook broccoflower in 2 batches in a 5- to 6-quart pot of boiling salted water until crisp-tender, about 5 minutes, then transfer with a slotted spoon to a large bowl of ice and cold water to stop cooking.",
+                        "ingredients": [
+                            {
+                                "id": 98938,
+                                "name": "romanesco",
+                                "localizedName": "romanesco",
+                                "image": "romanesco.png"
+                            },
+                            {
+                                "id": 14412,
+                                "name": "water",
+                                "localizedName": "water",
+                                "image": "water.png"
+                            },
+                            {
+                                "id": 10014412,
+                                "name": "ice",
+                                "localizedName": "ice",
+                                "image": "ice-cubes.png"
+                            }
+                        ],
+                        "equipment": [
+                            {
+                                "id": 404636,
+                                "name": "slotted spoon",
+                                "localizedName": "slotted spoon",
+                                "image": "slotted-spoon.jpg"
+                            },
+                            {
+                                "id": 404783,
+                                "name": "bowl",
+                                "localizedName": "bowl",
+                                "image": "bowl.jpg"
+                            },
+                            {
+                                "id": 404752,
+                                "name": "pot",
+                                "localizedName": "pot",
+                                "image": "stock-pot.jpg"
+                            }
+                        ],
+                        "length": {
+                            "number": 5,
+                            "unit": "minutes"
+                        }
+                    },
+                    {
+                        "number": 2,
+                        "step": "Drain florets and pat dry with paper towels.",
+                        "ingredients": [],
+                        "equipment": [
+                            {
+                                "id": 405895,
+                                "name": "paper towels",
+                                "localizedName": "paper towels",
+                                "image": "paper-towels.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "step": "Heat oil in a 12-inch nonstick skillet over moderately high heat until hot but not smoking, then sauté garlic, stirring, until golden, about 1 minute.",
+                        "ingredients": [
+                            {
+                                "id": 11215,
+                                "name": "garlic",
+                                "localizedName": "garlic",
+                                "image": "garlic.png"
+                            },
+                            {
+                                "id": 4582,
+                                "name": "cooking oil",
+                                "localizedName": "cooking oil",
+                                "image": "vegetable-oil.jpg"
+                            }
+                        ],
+                        "equipment": [
+                            {
+                                "id": 404645,
+                                "name": "frying pan",
+                                "localizedName": "frying pan",
+                                "image": "pan.png"
+                            }
+                        ],
+                        "length": {
+                            "number": 1,
+                            "unit": "minutes"
+                        }
+                    },
+                    {
+                        "number": 4,
+                        "step": "Add anchovies and red pepper flakes and sauté, stirring, until anchovies are dissolved, about 1 minute, then add florets and toss to coat.",
+                        "ingredients": [
+                            {
+                                "id": 1032009,
+                                "name": "red pepper flakes",
+                                "localizedName": "red pepper flakes",
+                                "image": "red-pepper-flakes.jpg"
+                            },
+                            {
+                                "id": 15001,
+                                "name": "anchovies",
+                                "localizedName": "anchovies",
+                                "image": "anchovies.jpg"
+                            }
+                        ],
+                        "equipment": [],
+                        "length": {
+                            "number": 1,
+                            "unit": "minutes"
+                        }
+                    },
+                    {
+                        "number": 5,
+                        "step": "Add pine nuts, raisins, and salt to taste and sauté, stirring, until heated through, about 2 minutes.",
+                        "ingredients": [
+                            {
+                                "id": 12147,
+                                "name": "pine nuts",
+                                "localizedName": "pine nuts",
+                                "image": "pine-nuts.png"
+                            },
+                            {
+                                "id": 9299,
+                                "name": "raisins",
+                                "localizedName": "raisins",
+                                "image": "raisins.jpg"
+                            },
+                            {
+                                "id": 2047,
+                                "name": "salt",
+                                "localizedName": "salt",
+                                "image": "salt.jpg"
+                            }
+                        ],
+                        "equipment": [],
+                        "length": {
+                            "number": 2,
+                            "unit": "minutes"
+                        }
+                    },
+                    {
+                        "number": 6,
+                        "step": "Remove from heat and stir in parsley.",
+                        "ingredients": [
+                            {
+                                "id": 11297,
+                                "name": "parsley",
+                                "localizedName": "parsley",
+                                "image": "parsley.jpg"
+                            }
+                        ],
+                        "equipment": []
+                    }
+                ]
+            }
+        ],
+        "report": null,
+        "tips": {
+            "health": [],
+            "price": [
+                "Pine nuts are pretty expensive. If you're on a budget, you might try substituting other nuts or seeds, such as walnuts or sunflower seeds.",
+                "Dried fruit can be expensive, especially if you opt for organic. Your own dehydrator could be a great investment if you eat dried fruits regularly!"
+            ],
+            "cooking": [
+                "If you're using olive oil to cook at high temperatures, make sure that the olive oil you're using has a high smoke point because heating an oil past its smoke point can ruin the flavor and even release harmful compounds into your dish. Many people recommend saving extra-virgin olive oil for cold dishes or for adding the finishing touch to a warm dish. You could also use canola oil, coconut oil, or another good <a href=\"https://spoonacular.com/academy/vegetable-oil\">high-temperature oil</a> to be on the safe side.",
+                "If you're baking with raisins, you can add them to hot water for 10 minutes or so to plump them up, then drain. You can also use some of the flour the recipes calls for to coat the raisins before mixing them into the dough so they won't all end up at the bottom."
+            ],
+            "green": []
+        },
+        "openLicense": 0,
+        "suspiciousDataScore": 0.0,
+        "approved": 2,
+        "unknownIngredients": [],
+        "userTags": [],
+        "originalId": null
+    },
+    {
+        "vegetarian": false,
+        "vegan": false,
+        "glutenFree": true,
+        "dairyFree": false,
+        "veryHealthy": false,
+        "cheap": false,
+        "veryPopular": false,
+        "sustainable": false,
+        "lowFodmap": false,
+        "weightWatcherSmartPoints": 5,
+        "gaps": "no",
+        "preparationMinutes": -1,
+        "cookingMinutes": -1,
+        "aggregateLikes": 0,
+        "healthScore": 6,
+        "creditsText": "Epicurious",
+        "sourceName": "Epicurious",
+        "pricePerServing": 160.05,
+        "extendedIngredients": [
+            {
+                "id": 15001,
+                "aisle": "Seafood",
+                "image": "anchovies.jpg",
+                "consistency": "SOLID",
+                "name": "anchovy",
+                "nameClean": "boquerones",
+                "original": "2 anchovy fillets in oil",
+                "originalName": "anchovy fillets in oil",
+                "amount": 2.0,
+                "unit": "fillet",
+                "meta": [
+                    "in oil"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 2.0,
+                        "unitShort": "fillet",
+                        "unitLong": "fillets"
+                    },
+                    "metric": {
+                        "amount": 2.0,
+                        "unitShort": "fillet",
+                        "unitLong": "fillets"
+                    }
+                }
+            },
+            {
+                "id": 15001,
+                "aisle": "Seafood",
+                "image": "fresh-anchovies.jpg",
+                "consistency": "SOLID",
+                "name": "anchovy",
+                "nameClean": "boquerones",
+                "original": "2 anchovy fillets in oil",
+                "originalName": "anchovy fillets in oil",
+                "amount": 2.0,
+                "unit": "fillet",
+                "meta": [
+                    "in oil"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 2.0,
+                        "unitShort": "fillet",
+                        "unitLong": "fillets"
+                    },
+                    "metric": {
+                        "amount": 2.0,
+                        "unitShort": "fillet",
+                        "unitLong": "fillets"
+                    }
+                }
+            },
+            {
+                "id": 5062,
+                "aisle": "Meat",
+                "image": "chicken-breasts.png",
+                "consistency": "SOLID",
+                "name": "chicken breasts",
+                "nameClean": "chicken breast",
+                "original": "12 oz, about 2 boneless chicken breasts",
+                "originalName": "about 2 boneless chicken breasts",
+                "amount": 12.0,
+                "unit": "oz",
+                "meta": [
+                    "boneless"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 12.0,
+                        "unitShort": "oz",
+                        "unitLong": "ounces"
+                    },
+                    "metric": {
+                        "amount": 340.194,
+                        "unitShort": "g",
+                        "unitLong": "grams"
+                    }
+                }
+            },
+            {
+                "id": 1001056,
+                "aisle": "Milk, Eggs, Other Dairy",
+                "image": "sour-cream.jpg",
+                "consistency": "SOLID",
+                "name": "crème fraîche",
+                "nameClean": "creme fraiche",
+                "original": "1/2 cup crème fraîche",
+                "originalName": "crème fraîche",
+                "amount": 0.5,
+                "unit": "cup",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 0.5,
+                        "unitShort": "cups",
+                        "unitLong": "cups"
+                    },
+                    "metric": {
+                        "amount": 115.0,
+                        "unitShort": "ml",
+                        "unitLong": "milliliters"
+                    }
+                }
+            },
+            {
+                "id": 9152,
+                "aisle": "Produce",
+                "image": "lemon-juice.jpg",
+                "consistency": "LIQUID",
+                "name": "lemon juice",
+                "nameClean": "lemon juice",
+                "original": "2 tbsp lemon juice",
+                "originalName": "lemon juice",
+                "amount": 2.0,
+                "unit": "tbsp",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 2.0,
+                        "unitShort": "Tbsps",
+                        "unitLong": "Tbsps"
+                    },
+                    "metric": {
+                        "amount": 2.0,
+                        "unitShort": "Tbsps",
+                        "unitLong": "Tbsps"
+                    }
+                }
+            },
+            {
+                "id": 9156,
+                "aisle": "Produce",
+                "image": "zest-lemon.jpg",
+                "consistency": "SOLID",
+                "name": "lemon zest",
+                "nameClean": "lemon peel",
+                "original": "1 tsp lemon zest",
+                "originalName": "lemon zest",
+                "amount": 1.0,
+                "unit": "tsp",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 1.0,
+                        "unitShort": "tsp",
+                        "unitLong": "teaspoon"
+                    },
+                    "metric": {
+                        "amount": 1.0,
+                        "unitShort": "tsp",
+                        "unitLong": "teaspoon"
+                    }
+                }
+            },
+            {
+                "id": 4053,
+                "aisle": "Oil, Vinegar, Salad Dressing",
+                "image": "olive-oil.jpg",
+                "consistency": "LIQUID",
+                "name": "olive oil",
+                "nameClean": "olive oil",
+                "original": "1 tbsp olive oil",
+                "originalName": "olive oil",
+                "amount": 1.0,
+                "unit": "tbsp",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 1.0,
+                        "unitShort": "Tbsp",
+                        "unitLong": "Tbsp"
+                    },
+                    "metric": {
+                        "amount": 1.0,
+                        "unitShort": "Tbsp",
+                        "unitLong": "Tbsp"
+                    }
+                }
+            },
+            {
+                "id": 1032,
+                "aisle": "Cheese",
+                "image": "parmesan.jpg",
+                "consistency": "LIQUID",
+                "name": "parmesan cheese",
+                "nameClean": "grated parmesan cheese",
+                "original": "2 tbsp grated parmesan cheese",
+                "originalName": "grated parmesan cheese",
+                "amount": 2.0,
+                "unit": "tbsp",
+                "meta": [
+                    "grated"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 2.0,
+                        "unitShort": "Tbsps",
+                        "unitLong": "Tbsps"
+                    },
+                    "metric": {
+                        "amount": 2.0,
+                        "unitShort": "Tbsps",
+                        "unitLong": "Tbsps"
+                    }
+                }
+            },
+            {
+                "id": 1102047,
+                "aisle": "Spices and Seasonings",
+                "image": "salt-and-pepper.jpg",
+                "consistency": "SOLID",
+                "name": "salt and pepper",
+                "nameClean": "salt and pepper",
+                "original": "Salt and pepper to taste",
+                "originalName": "Salt and pepper to taste",
+                "amount": 4.0,
+                "unit": "servings",
+                "meta": [
+                    "to taste"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 4.0,
+                        "unitShort": "servings",
+                        "unitLong": "servings"
+                    },
+                    "metric": {
+                        "amount": 4.0,
+                        "unitShort": "servings",
+                        "unitLong": "servings"
+                    }
+                }
+            },
+            {
+                "id": 2041,
+                "aisle": "Spices and Seasonings",
+                "image": "tarragon.jpg",
+                "consistency": "SOLID",
+                "name": "tarragon",
+                "nameClean": "tarragon",
+                "original": "1 pinch tarragon",
+                "originalName": "tarragon",
+                "amount": 1.0,
+                "unit": "pinch",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 1.0,
+                        "unitShort": "pinch",
+                        "unitLong": "pinch"
+                    },
+                    "metric": {
+                        "amount": 1.0,
+                        "unitShort": "pinch",
+                        "unitLong": "pinch"
+                    }
+                }
+            },
+            {
+                "id": 2041,
+                "aisle": "Spices and Seasonings",
+                "image": "tarragon.jpg",
+                "consistency": "SOLID",
+                "name": "tarragon",
+                "nameClean": "tarragon",
+                "original": "2 tbsp chopped tarragon",
+                "originalName": "chopped tarragon",
+                "amount": 2.0,
+                "unit": "tbsp",
+                "meta": [
+                    "chopped"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 2.0,
+                        "unitShort": "Tbsps",
+                        "unitLong": "Tbsps"
+                    },
+                    "metric": {
+                        "amount": 2.0,
+                        "unitShort": "Tbsps",
+                        "unitLong": "Tbsps"
+                    }
+                }
+            },
+            {
+                "id": -1,
+                "aisle": "?",
+                "image": null,
+                "consistency": "SOLID",
+                "name": "chopsticks",
+                "nameClean": null,
+                "original": "4 chopsticks, lacquered for color",
+                "originalName": "chopsticks, lacquered for color",
+                "amount": 4.0,
+                "unit": "",
+                "meta": [
+                    "for color"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 4.0,
+                        "unitShort": "",
+                        "unitLong": ""
+                    },
+                    "metric": {
+                        "amount": 4.0,
+                        "unitShort": "",
+                        "unitLong": ""
+                    }
+                }
+            },
+            {
+                "id": -1,
+                "aisle": "?",
+                "image": null,
+                "consistency": "SOLID",
+                "name": "chopsticks",
+                "nameClean": null,
+                "original": "4 chopsticks, lacquered for color",
+                "originalName": "chopsticks, lacquered for color",
+                "amount": 4.0,
+                "unit": "",
+                "meta": [
+                    "for color"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 4.0,
+                        "unitShort": "",
+                        "unitLong": ""
+                    },
+                    "metric": {
+                        "amount": 4.0,
+                        "unitShort": "",
+                        "unitLong": ""
+                    }
+                }
+            }
+        ],
+        "id": 114,
+        "title": "Tarragon Chicken with Anchovy Cream",
+        "readyInMinutes": 45,
+        "servings": 4,
+        "sourceUrl": "http://www.epicurious.com/recipes/food/views/Tarragon-Chicken-with-Anchovy-Cream-242386",
+        "image": "https://spoonacular.com/recipeImages/114-556x370.jpg",
+        "imageType": "jpg",
+        "summary": "If you want to add more <b>gluten free and primal</b> recipes to your recipe box, Tarragon Chicken with Anchovy Cream might be a recipe you should try. For <b>$1.6 per serving</b>, you get a main course that serves 4. One serving contains <b>203 calories</b>, <b>20g of protein</b>, and <b>12g of fat</b>. A mixture of parmesan cheese, salt and pepper, chopsticks, and a handful of other ingredients are all it takes to make this recipe so yummy. 1 person were glad they tried this recipe. It is brought to you by Epicurious. From preparation to the plate, this recipe takes around <b>45 minutes</b>. With a spoonacular <b>score of 37%</b>, this dish is not so great. Try <a href=\"https://spoonacular.com/recipes/dinner-tonight-cod-with-tarragon-anchovy-breadcrumbs-347\">Dinner Tonight: Cod with Tarragon-Anchovy Breadcrumbs</a>, <a href=\"https://spoonacular.com/recipes/tarragon-cream-chicken-450097\">Tarragon-Cream Chicken</a>, and <a href=\"https://spoonacular.com/recipes/chicken-with-tarragon-cream-sauce-1197633\">Chicken with Tarragon Cream Sauce</a> for similar recipes.",
+        "cuisines": [],
+        "dishTypes": [
+            "lunch",
+            "main course",
+            "main dish",
+            "dinner"
+        ],
+        "diets": [
+            "gluten free",
+            "primal"
+        ],
+        "occasions": [],
+        "winePairing": {
+            "pairedWines": [
+                "sauvignon blanc",
+                "riesling",
+                "sparkling rose"
+            ],
+            "pairingText": "Sauvignon Blanc, Riesling, and Sparkling rosé are my top picks for Anchovies. In general, crisp white wines and sparkling wine pair well with strongly flavored, oily fish. You could try Medici Ermete Concerto Lambrusco Reggiano. Reviewers quite like it with a 5 out of 5 star rating and a price of about 23 dollars per bottle.",
+            "productMatches": [
+                {
+                    "id": 433011,
+                    "title": "Medici Ermete Concerto Lambrusco Reggiano",
+                    "description": "Intensely ruby red with pleasant aromas that are persistent and fruity. Dry but fruity at the same time. Soft and fresh on the palate.",
+                    "price": "$22.989999771118164",
+                    "imageUrl": "https://spoonacular.com/productImages/433011-312x231.jpg",
+                    "averageRating": 1.0,
+                    "ratingCount": 5.0,
+                    "score": 0.9375,
+                    "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fmedici-ermete-concerto-lambrusco-reggiano-2014%2F147752"
+                }
+            ]
+        },
+        "instructions": "Preparation                                        1. Cut the chicken breasts into 1 inch cubes. Place in a Ziploc bag and add the rest of the ingredients. Seal and let marinate in the refrigerator for at least an hour.                                                                            2. Turn your oven to broil and skewer the cubes on the chopsticks. If the chopsticks are not lacquered then place them in water for an hour before use, so they won't char in the oven.                                                                            3. Grill the skewers in the top of your oven for about 12 minutes or until completely cooked through. Turn after half the time.                                    Anchovy Cream                                        1. Heat the olive oil in a small saucepan. Add the anchovy fillets and stir them until they melt.                                                                            2. Remove the saucepan from the heat and add the rest of the ingredients. Salt and pepper to taste. Add more lemon juice if you want.                                    Serving tip!                                        The skewers can be served both warm and cold.                                    Simplify:                                        The sauce tastes better the longer it gets to absorb the flavors, so it can easily be prepared the day before. The same goes for the marinated skewers. Prepare and marinate the day before and just grill before the guests arrive.                                    For a challenge:                                        If you have access to a grill, then of course that adds to the flavor. Don't forget to soak nonlacquered skewers beforehand so that they don't catch fire.                                                                From Perfect Parties by Linnea Johansson,  October 2007. Skyhorse Publishing",
+        "analyzedInstructions": [
+            {
+                "name": "",
+                "steps": [
+                    {
+                        "number": 1,
+                        "step": "Cut the chicken breasts into 1 inch cubes.",
+                        "ingredients": [
+                            {
+                                "id": 5062,
+                                "name": "chicken breast",
+                                "localizedName": "chicken breast",
+                                "image": "chicken-breasts.png"
+                            }
+                        ],
+                        "equipment": []
+                    },
+                    {
+                        "number": 2,
+                        "step": "Place in a Ziploc bag and add the rest of the ingredients. Seal and let marinate in the refrigerator for at least an hour.",
+                        "ingredients": [],
+                        "equipment": []
+                    },
+                    {
+                        "number": 3,
+                        "step": "Turn your oven to broil and skewer the cubes on the chopsticks. If the chopsticks are not lacquered then place them in water for an hour before use, so they won't char in the oven.",
+                        "ingredients": [
+                            {
+                                "id": 14412,
+                                "name": "water",
+                                "localizedName": "water",
+                                "image": "water.png"
+                            }
+                        ],
+                        "equipment": [
+                            {
+                                "id": 405596,
+                                "name": "chopsticks",
+                                "localizedName": "chopsticks",
+                                "image": "chopsticks.jpg"
+                            },
+                            {
+                                "id": 3065,
+                                "name": "skewers",
+                                "localizedName": "skewers",
+                                "image": "wooden-skewers.jpg"
+                            },
+                            {
+                                "id": 404784,
+                                "name": "oven",
+                                "localizedName": "oven",
+                                "image": "oven.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "step": "Grill the skewers in the top of your oven for about 12 minutes or until completely cooked through. Turn after half the time.",
+                        "ingredients": [],
+                        "equipment": [
+                            {
+                                "id": 3065,
+                                "name": "skewers",
+                                "localizedName": "skewers",
+                                "image": "wooden-skewers.jpg"
+                            },
+                            {
+                                "id": 404706,
+                                "name": "grill",
+                                "localizedName": "grill",
+                                "image": "grill.jpg"
+                            },
+                            {
+                                "id": 404784,
+                                "name": "oven",
+                                "localizedName": "oven",
+                                "image": "oven.jpg"
+                            }
+                        ],
+                        "length": {
+                            "number": 12,
+                            "unit": "minutes"
+                        }
+                    },
+                    {
+                        "number": 5,
+                        "step": "Anchovy Cream",
+                        "ingredients": [
+                            {
+                                "id": 15001,
+                                "name": "anchovies",
+                                "localizedName": "anchovies",
+                                "image": "anchovies.jpg"
+                            },
+                            {
+                                "id": 1053,
+                                "name": "cream",
+                                "localizedName": "cream",
+                                "image": "fluid-cream.jpg"
+                            }
+                        ],
+                        "equipment": []
+                    },
+                    {
+                        "number": 6,
+                        "step": "Heat the olive oil in a small saucepan.",
+                        "ingredients": [
+                            {
+                                "id": 4053,
+                                "name": "olive oil",
+                                "localizedName": "olive oil",
+                                "image": "olive-oil.jpg"
+                            }
+                        ],
+                        "equipment": [
+                            {
+                                "id": 404669,
+                                "name": "sauce pan",
+                                "localizedName": "sauce pan",
+                                "image": "sauce-pan.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "step": "Add the anchovy fillets and stir them until they melt.",
+                        "ingredients": [
+                            {
+                                "id": 15001,
+                                "name": "anchovy fillets",
+                                "localizedName": "anchovy fillets",
+                                "image": "anchovies.jpg"
+                            }
+                        ],
+                        "equipment": []
+                    },
+                    {
+                        "number": 8,
+                        "step": "Remove the saucepan from the heat and add the rest of the ingredients. Salt and pepper to taste.",
+                        "ingredients": [
+                            {
+                                "id": 1102047,
+                                "name": "salt and pepper",
+                                "localizedName": "salt and pepper",
+                                "image": "salt-and-pepper.jpg"
+                            }
+                        ],
+                        "equipment": [
+                            {
+                                "id": 404669,
+                                "name": "sauce pan",
+                                "localizedName": "sauce pan",
+                                "image": "sauce-pan.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 9,
+                        "step": "Add more lemon juice if you want.",
+                        "ingredients": [
+                            {
+                                "id": 9152,
+                                "name": "lemon juice",
+                                "localizedName": "lemon juice",
+                                "image": "lemon-juice.jpg"
+                            }
+                        ],
+                        "equipment": []
+                    },
+                    {
+                        "number": 10,
+                        "step": "Serving tip!",
+                        "ingredients": [],
+                        "equipment": []
+                    },
+                    {
+                        "number": 11,
+                        "step": "The skewers can be served both warm and cold.",
+                        "ingredients": [],
+                        "equipment": [
+                            {
+                                "id": 3065,
+                                "name": "skewers",
+                                "localizedName": "skewers",
+                                "image": "wooden-skewers.jpg"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Simplify",
+                "steps": [
+                    {
+                        "number": 1,
+                        "step": "The sauce tastes better the longer it gets to absorb the flavors, so it can easily be prepared the day before. The same goes for the marinated skewers. Prepare and marinate the day before and just grill before the guests arrive.",
+                        "ingredients": [
+                            {
+                                "id": 0,
+                                "name": "sauce",
+                                "localizedName": "sauce",
+                                "image": ""
+                            }
+                        ],
+                        "equipment": [
+                            {
+                                "id": 3065,
+                                "name": "skewers",
+                                "localizedName": "skewers",
+                                "image": "wooden-skewers.jpg"
+                            },
+                            {
+                                "id": 404706,
+                                "name": "grill",
+                                "localizedName": "grill",
+                                "image": "grill.jpg"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "For a challenge",
+                "steps": [
+                    {
+                        "number": 1,
+                        "step": "If you have access to a grill, then of course that adds to the flavor. Don't forget to soak nonlacquered skewers beforehand so that they don't catch fire.",
+                        "ingredients": [],
+                        "equipment": [
+                            {
+                                "id": 3065,
+                                "name": "skewers",
+                                "localizedName": "skewers",
+                                "image": "wooden-skewers.jpg"
+                            },
+                            {
+                                "id": 404706,
+                                "name": "grill",
+                                "localizedName": "grill",
+                                "image": "grill.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "step": "From Perfect Parties by Linnea Johansson,  October 200",
+                        "ingredients": [],
+                        "equipment": []
+                    },
+                    {
+                        "number": 3,
+                        "step": "Skyhorse Publishing",
+                        "ingredients": [],
+                        "equipment": []
+                    }
+                ]
+            }
+        ],
+        "report": null,
+        "tips": {
+            "health": [
+                "The great thing about parmesan cheese is that a little goes a long way, especially if you're buying <a href=\"http://www.forbes.com/sites/larryolmsted/2012/11/19/the-dark-side-of-parmesan-cheese-what-you-dont-know-might-hurt-you/\">the real deal</a>.",
+                "Many people will tell you to remove the skin on your chicken to cut down on fat. This is true, but if you like the taste, leave it on! You're only gaining a little fat for a lot of flavor. Plus, a little over half of the fat in chicken skin is monounsatured fat (that's a heart-healthy kind) and the notion that saturated fat is unhealthy is being <a href=\"http://www.nhs.uk/news/2014/03March/Pages/Saturated-fats-and-heart-disease-link-unproven.aspx\">questioned</a> too. So in our opinion: dig in, skin and all!"
+            ],
+            "price": [
+                "Fresh herbs can be expensive, so don't let them go to waste. If you have any leftovers, you might be able to freeze them. The Kitchn recommends <a href=\"http://www.thekitchn.com/freeze-herbs-in-olive-oil-173648\">freezing hardy herbs</a> like rosemary and thyme in olive oil, while Better Homes and Gardens suggests using <a href=\"http://www.bhg.com/recipes/how-to/food-storage-safety/freezing-herbs/\">freezer bags</a> to freeze basil, chives, mint, and more.",
+                "If you find meat (especially grassfed and/or organic meat!) on sale, stock up and <a href\"http://www.foodsafety.gov/keep/charts/storagetimes.html\">freeze it</a>. Ground meat will stay good 3-4 months, while steaks, chops, etc., will be fine for at least 4 months.",
+                "Most dairy products stay good well past their sell-by date. Instead of throwing out perfectly safe food that is just a few days or maybe even a week or two old, make sure the product smells fine, has a normal texture, and doesn't taste funny. Sniff testing isn't exactly rocket science and it can keep you from wasting food (and money)."
+            ],
+            "cooking": [
+                "The average fresh lemon contains between 2 to 3 tablespoons of lemon juice (just in case you are substituting bottled lemon juice).",
+                "If parmesan plays a big role in the flavor of your dish (or if you're a serious foodie or serious about avoiding additivies) it might be worth your time to track down <a href=\"http://www.forbes.com/sites/larryolmsted/2012/11/19/the-dark-side-of-parmesan-cheese-what-you-dont-know-might-hurt-you\">\"true\" parmesan</a>, Parmigiano Reggiano.",
+                "Fresh herbs should be added toward the end of the cooking process &mdash; even at the very last minute?especially delicate herbs like cilantro, basil, and dill. Hardier herbs like bay leaves, rosemary, and thyme can be added earlier.",
+                "If you normally <a href=\"http://www.npr.org/blogs/thesalt/2013/08/31/216948010/dont-panic-your-questions-on-not-washing-raw-chickens\">rinse your chicken</a>?stop! You could be spreading bacteria around your kitchen and it isn't really necessary.",
+                "If you're using olive oil to cook at high temperatures, make sure that the olive oil you're using has a high smoke point because heating an oil past its smoke point can ruin the flavor and even release harmful compounds into your dish. Many people recommend saving extra-virgin olive oil for cold dishes or for adding the finishing touch to a warm dish. You could also use canola oil, coconut oil, or another good <a href=\"https://spoonacular.com/academy/vegetable-oil\">high-temperature oil</a> to be on the safe side.",
+                "Rumor has it you can freeze whole lemons and grate them while still frozen whenever you want to pump up the lemon flavor in a dish. Next time you have some lemons not getting used, give it a try (and let us know how it goes).",
+                "Don't have fresh herbs? Substitute dried herbs, but use about 1/3 less because dried herbs are more potent than fresh.  ",
+                "Confused by the <a href=\"https://spoonacular.com/academy/cream\">different types of cream</a> &mdash; Most differences arise from the fat content of the cream, and whether or not the cream has been \"soured\" by adding lactic acid bacteria to give it a tangy flavor.",
+                "An average lemon yields about one tablespoon of lemon zest. If you're using a bunch of lemons to make lemonade or something, zest them first and freeze the zest for later.",
+                "If you find that you're always missing lemon zest, purchase lemon extract and substitute a 1/2 teaspoon extract for every tablespoon zest."
+            ],
+            "green": [
+                "Choose pasture-raised chicken if it is available. If it is not at your supermarket, visit a <a href=\"http://www.localharvest.org/farmers-markets/\">farmers' market</a> and ask around.",
+                "Parmesan cheese is traditionally made using rennet, an animal-derived enzyme. For this reason, true parmesan cheese is not suitable for vegetarians. You might be able to find a vegetarian hard cheese to substitute.",
+                "Since pesticide residue is most likely to be stored in the skin/rind, it might be advisable to buy organic lemons if you're using them for zest."
+            ]
+        },
+        "openLicense": 0,
+        "suspiciousDataScore": 100.0,
+        "approved": 2,
+        "unknownIngredients": [
+            {
+                "name": "chopsticks",
+                "longName": "chopsticks",
+                "amount": 4.0,
+                "unit": "",
+                "originalString": "4 chopsticks, lacquered for color",
+                "originalStringClean": "chopsticks",
+                "originalName": "chopsticks, lacquered for color",
+                "metaInformation": [
+                    "for color"
+                ],
+                "sourceLanguage": "ENGLISH",
+                "id": -1,
+                "aisle": null,
+                "image": null,
+                "consistency": "SOLID",
+                "ontologyName": null,
+                "amountAndUnitMetric": null,
+                "amountAndUnitUs": null,
+                "ingredientId": null,
+                "comparableName": "chopsticks",
+                "nutritionId": null,
+                "pricePerAmount": 0.0,
+                "amountForPrice": null,
+                "price": 0.0,
+                "sustainable": false,
+                "vegetarian": false,
+                "vegan": false,
+                "glutenFree": false,
+                "dairyFree": false,
+                "nutrients": {},
+                "foodProperties": {},
+                "flavonoids": {},
+                "possibleUnits": [],
+                "ontologyConcept": null,
+                "relevance": 0.0,
+                "refuse": 0.0,
+                "multiplier": 1.0,
+                "immutable": false,
+                "amountWithUnit": "4",
+                "unitLong": "",
+                "unitShort": "",
+                "metaInformationForDb": "for color"
+            },
+            {
+                "name": "chopsticks",
+                "longName": "chopsticks",
+                "amount": 4.0,
+                "unit": "",
+                "originalString": "4 chopsticks, lacquered for color",
+                "originalStringClean": "chopsticks",
+                "originalName": "chopsticks, lacquered for color",
+                "metaInformation": [
+                    "for color"
+                ],
+                "sourceLanguage": "ENGLISH",
+                "id": -1,
+                "aisle": null,
+                "image": null,
+                "consistency": "SOLID",
+                "ontologyName": null,
+                "amountAndUnitMetric": null,
+                "amountAndUnitUs": null,
+                "ingredientId": null,
+                "comparableName": "chopsticks",
+                "nutritionId": null,
+                "pricePerAmount": 0.0,
+                "amountForPrice": null,
+                "price": 0.0,
+                "sustainable": false,
+                "vegetarian": false,
+                "vegan": false,
+                "glutenFree": false,
+                "dairyFree": false,
+                "nutrients": {},
+                "foodProperties": {},
+                "flavonoids": {},
+                "possibleUnits": [],
+                "ontologyConcept": null,
+                "relevance": 0.0,
+                "refuse": 0.0,
+                "multiplier": 1.0,
+                "immutable": false,
+                "amountWithUnit": "4",
+                "unitLong": "",
+                "unitShort": "",
+                "metaInformationForDb": "for color"
+            }
+        ],
+        "userTags": [],
+        "originalId": null
+    },
+    {
+        "vegetarian": false,
+        "vegan": false,
+        "glutenFree": false,
+        "dairyFree": true,
+        "veryHealthy": false,
+        "cheap": false,
+        "veryPopular": false,
+        "sustainable": false,
+        "lowFodmap": false,
+        "weightWatcherSmartPoints": 15,
+        "gaps": "no",
+        "preparationMinutes": -1,
+        "cookingMinutes": -1,
+        "aggregateLikes": 0,
+        "healthScore": 55,
+        "creditsText": "inpraiseofsardines.com",
+        "sourceName": "inpraiseofsardines.com",
+        "pricePerServing": 404.83,
+        "extendedIngredients": [
+            {
+                "id": 15001,
+                "aisle": "Seafood",
+                "image": "fresh-anchovies.jpg",
+                "consistency": "SOLID",
+                "name": "anchovy",
+                "nameClean": "boquerones",
+                "original": "2 anchovy fillets, preferably Spanish, packed in olive oil",
+                "originalName": "anchovy fillets, preferably Spanish, packed in olive oil",
+                "amount": 2.0,
+                "unit": "fillet",
+                "meta": [
+                    "spanish",
+                    "packed in olive oil"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 2.0,
+                        "unitShort": "fillet",
+                        "unitLong": "fillets"
+                    },
+                    "metric": {
+                        "amount": 2.0,
+                        "unitShort": "fillet",
+                        "unitLong": "fillets"
+                    }
+                }
+            },
+            {
+                "id": 15001,
+                "aisle": "Seafood",
+                "image": "anchovies.jpg",
+                "consistency": "SOLID",
+                "name": "anchovy",
+                "nameClean": "boquerones",
+                "original": "2 anchovy fillets, preferably Spanish, packed in olive oil",
+                "originalName": "anchovy fillets, preferably Spanish, packed in olive oil",
+                "amount": 2.0,
+                "unit": "fillet",
+                "meta": [
+                    "spanish",
+                    "packed in olive oil"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 2.0,
+                        "unitShort": "fillet",
+                        "unitLong": "fillets"
+                    },
+                    "metric": {
+                        "amount": 2.0,
+                        "unitShort": "fillet",
+                        "unitLong": "fillets"
+                    }
+                }
+            },
+            {
+                "id": 18064,
+                "aisle": "Bakery/Bread",
+                "image": "white-bread.jpg",
+                "consistency": "SOLID",
+                "name": "country bread",
+                "nameClean": "bread",
+                "original": "1 slice country bread, crusts removed",
+                "originalName": "country bread, crusts removed",
+                "amount": 1.0,
+                "unit": "slice",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 1.0,
+                        "unitShort": "slice",
+                        "unitLong": "slice"
+                    },
+                    "metric": {
+                        "amount": 1.0,
+                        "unitShort": "slice",
+                        "unitLong": "slice"
+                    }
+                }
+            },
+            {
+                "id": 11135,
+                "aisle": "Produce",
+                "image": "cauliflower.jpg",
+                "consistency": "SOLID",
+                "name": "cauliflower",
+                "nameClean": "cauliflower",
+                "original": "1 medium head of cauliflower",
+                "originalName": "cauliflower",
+                "amount": 1.0,
+                "unit": "medium head",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 1.0,
+                        "unitShort": "medium head",
+                        "unitLong": "medium head"
+                    },
+                    "metric": {
+                        "amount": 1.0,
+                        "unitShort": "medium head",
+                        "unitLong": "medium head"
+                    }
+                }
+            },
+            {
+                "id": 1034053,
+                "aisle": "Oil, Vinegar, Salad Dressing",
+                "image": "olive-oil.jpg",
+                "consistency": "LIQUID",
+                "name": "extra virgin olive oil",
+                "nameClean": "extra virgin olive oil",
+                "original": "3-4 T extra virgin olive oil",
+                "originalName": "extra virgin olive oil",
+                "amount": 3.0,
+                "unit": "T",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 3.0,
+                        "unitShort": "Tbsps",
+                        "unitLong": "Tbsps"
+                    },
+                    "metric": {
+                        "amount": 3.0,
+                        "unitShort": "Tbsps",
+                        "unitLong": "Tbsps"
+                    }
+                }
+            },
+            {
+                "id": 11215,
+                "aisle": "Produce",
+                "image": "garlic.png",
+                "consistency": "SOLID",
+                "name": "garlic",
+                "nameClean": "garlic",
+                "original": "¼ clove of garlic",
+                "originalName": "garlic",
+                "amount": 0.25,
+                "unit": "clove",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 0.25,
+                        "unitShort": "clove",
+                        "unitLong": "cloves"
+                    },
+                    "metric": {
+                        "amount": 0.25,
+                        "unitShort": "clove",
+                        "unitLong": "cloves"
+                    }
+                }
+            },
+            {
+                "id": 11297,
+                "aisle": "Produce",
+                "image": "parsley.jpg",
+                "consistency": "SOLID",
+                "name": "parsley",
+                "nameClean": "parsley",
+                "original": "1 T parsley, chopped",
+                "originalName": "parsley, chopped",
+                "amount": 1.0,
+                "unit": "T",
+                "meta": [
+                    "chopped"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 0.95,
+                        "unitShort": "Tbsps",
+                        "unitLong": "Tbsps"
+                    },
+                    "metric": {
+                        "amount": 0.95,
+                        "unitShort": "Tbsps",
+                        "unitLong": "Tbsps"
+                    }
+                }
+            },
+            {
+                "id": 1002030,
+                "aisle": "Spices and Seasonings",
+                "image": "pepper.jpg",
+                "consistency": "SOLID",
+                "name": "pepper",
+                "nameClean": "black pepper",
+                "original": "freshly ground pepper",
+                "originalName": "freshly ground pepper",
+                "amount": 1.0,
+                "unit": "serving",
+                "meta": [
+                    "freshly ground"
+                ],
+                "measures": {
+                    "us": {
+                        "amount": 1.0,
+                        "unitShort": "serving",
+                        "unitLong": "serving"
+                    },
+                    "metric": {
+                        "amount": 1.0,
+                        "unitShort": "serving",
+                        "unitLong": "serving"
+                    }
+                }
+            },
+            {
+                "id": 1012047,
+                "aisle": "Spices and Seasonings",
+                "image": "salt.jpg",
+                "consistency": "SOLID",
+                "name": "sea salt",
+                "nameClean": "coarse sea salt",
+                "original": "sea salt",
+                "originalName": "sea salt",
+                "amount": 1.0,
+                "unit": "serving",
+                "meta": [],
+                "measures": {
+                    "us": {
+                        "amount": 1.0,
+                        "unitShort": "serving",
+                        "unitLong": "serving"
+                    },
+                    "metric": {
+                        "amount": 1.0,
+                        "unitShort": "serving",
+                        "unitLong": "serving"
+                    }
+                }
+            }
+        ],
+        "id": 115,
+        "title": "Slow-roasted Cauliflower With Pounded Anchovies",
+        "readyInMinutes": 135,
+        "servings": 1,
+        "sourceUrl": "http://www.inpraiseofsardines.com/blogs/2005/12/least_popular_r.html",
+        "image": "https://spoonacular.com/recipeImages/115-556x370.jpg",
+        "imageType": "jpg",
+        "summary": "Slow-roasted Cauliflower With Pounded Anchovies is a side dish that serves 1. For <b>$4.05 per serving</b>, this recipe <b>covers 35%</b> of your daily requirements of vitamins and minerals. One portion of this dish contains roughly <b>16g of protein</b>, <b>45g of fat</b>, and a total of <b>605 calories</b>. 1 person found this recipe to be tasty and satisfying. It is brought to you by inpraiseofsardines.com. It is a good option if you're following a <b>dairy free and pescatarian</b> diet. If you have parsley, country bread, cauliflower, and a few other ingredients on hand, you can make it. From preparation to the plate, this recipe takes approximately <b>2 hours and 15 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 84%</b>. This score is amazing. Similar recipes are <a href=\"https://spoonacular.com/recipes/roasted-cauliflower-with-lemon-and-anchovies-257009\">Roasted Cauliflower with Lemon and Anchovies</a>, <a href=\"https://spoonacular.com/recipes/carrots-cauliflower-and-anchovies-1228191\">Carrots, Cauliflower And Anchovies</a>, and <a href=\"https://spoonacular.com/recipes/cauliflower-anchovies-and-tomatoes-23\">Cauliflower, Anchovies and Tomatoes</a>.",
+        "cuisines": [],
+        "dishTypes": [
+            "side dish"
+        ],
+        "diets": [
+            "dairy free",
+            "pescatarian"
+        ],
+        "occasions": [],
+        "winePairing": {
+            "pairedWines": [],
+            "pairingText": "",
+            "productMatches": []
+        },
+        "instructions": null,
+        "analyzedInstructions": [],
+        "report": null,
+        "tips": {
+            "health": [
+                "Before you pass up garlic because you don't want the bad breath that comes with it, keep in mind that the compounds that cause garlic breath also offer a lot of health benefits. Garlic has anti-inflammatory, antioxidant, antibacterial, and antiviral properties. If you really want to get the most health benefits out of your garlic, choose Spanish garlic, which contains the most allicin (one of garlic's most beneficial compounds).",
+                "Sea salt is not healthier than table salt, contrary to what you may have heard. Sea salt is usually 97.5% sodium chloride (same as regular old table salt) and the minerals accounting for the rest are too insignificant to make a difference?unless you plan on consuming sea salt by the pound, in which case the health benefits from the minerals will definitely be outweighed by the negative effects of all the sodium you are consuming!",
+                "If you're following a gluten-free diet, make sure your bread (and all other ingredients) is truly gluten free.",
+                "Although the body needs salt to survive, most of us get too much. The problem with consuming too much salt (what chemists call \"sodium chloride\") is actually the <a href=\"https://spoonacular.com/academy/sodium\">sodium</a> part, which is why people concerned about high blood pressure go on low-sodium diets. If you are trying to reduce salt in your diet, you can try salt substitutes like potassium chloride or try to make do with less salt by using more black pepper, herbs, and spices."
+            ],
+            "price": [
+                "Sea salt can add a unique texture or provide bursts of salty goodness, but ONLY when it isn't being dissolved. So if you have expensive sea salt, save it for sprinkling on salads or dark chocolate cookies, don't try to use it in your pasta sauce or soup. Once sea salt dissolves, the flavor is indistinguishable from table salt from the shaker (after all, they are chemically the same thing, sodium chloride). "
+            ],
+            "cooking": [
+                "Here's a trick for peeling garlic quickly. Put the garlic clove on your cutting board. Take a knife with a thick blade and place the blade flat across the garlic clove (the clove should be closer to the handle than the middle of the blade). Whack down on the flat side of the blade with your free hand to smoosh the garlic a bit. Done correctly, the skin will peel right off.",
+                "Extra-virgin olive oil is the least refined type of olive oil and therefore contains more of the beneficial compounds that get lost during processing. However, its minimal processing could also mean it has a lower smoke point than other olive oils. Once an oil starts to smoke, it begins to break down, producing a bad flavor and potentially harmful compounds. Unfortunately, the smoke point of an oil depends on so many factors that it is hard to say what the smoke point of an oil really is. For extra-virgin olive oil, it could be anywhere between 200-400 degrees Fahrenheit. Most people recommend using extra-virgin olive oil to add flavor to a finished dish or in cold dishes to be on the safe side. More refined olive oils, canola oil,  coconut oil, and <a href=\"https://spoonacular.com/academy/butter\">clarified butter/ghee</a> are better options for high temperature cooking.",
+                "Fresh cauliflower should be white without any discoloration. If its leaves are attached, they should be green and not wilty. Store cauliflower in the crisper in your fridge and use within 5-7 days."
+            ],
+            "green": []
+        },
+        "openLicense": 0,
+        "suspiciousDataScore": 100.0,
         "approved": 2,
         "unknownIngredients": [],
         "userTags": [],
