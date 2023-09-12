@@ -15,9 +15,12 @@ const Nav = () => {
                 <h1 className={style.greeting}>Hi {name}!...</h1>
                 <h1 className={style.greeting}>search recipe:</h1>
                 <input type="text" className={style.input} placeholder='your recipe here...'/>
-                <Link to={'/home'}>
+                {
+                    pathname !== '/home' &&
+                    <Link to={'/home'}>
                     <img src={home} className={style.home} title='home'/>
-                </Link>
+                    </Link>
+                }
                 <Link to={'/'} className={style.linklogOut}>
                     <img src={logOut} className={style.logOut} title='log out'/>
                 </Link>

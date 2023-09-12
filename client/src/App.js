@@ -8,7 +8,7 @@ import Welcome from './components/welcome/Welcome';
 import Nav from './components/nav/Nav';
 import Cards from './components/cards/Cards';
 import Form from './components/form/Form';
-import recipeAux from './Auxi';
+import recipeAux from './Auxi100'; //! >>API LOCAL PARA BORRAR<<
 
 
 function App() {

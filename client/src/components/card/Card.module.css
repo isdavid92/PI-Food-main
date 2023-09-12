@@ -1,5 +1,5 @@
 .card{
-  background-color: white;
+  
   height: 11em;
   flex-basis: calc(28% - 50px);
   margin: 5px;
@@ -10,36 +10,52 @@
   margin: auto;
   width: min-content;
   height: 11em;
-  
-  &:hover {
-    visibility: visible;
-    background-color: bisque;
-    height: auto;
-    cursor: pointer;
-    position: relative;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .image{
   width: 16.5em;
+  position: absolute;
+  z-index: 2;
+  border-radius: 5px;
+  &:hover {
+    z-index: 1;
+  }
 }
 
 .nameDiets{
-  background-color: rgba(0,255,255, 0.5);
-  transform: translateY(-110%);
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  width: 16.5em;
+  position: absolute;
+  height: 11em;
+  z-index: 1; /*! ESTE A 2 para configurar name y diets*/
+  &:hover {
+    z-index: 2;
+  }
 }
 
 @font-face {
   font-family: name;
-  src: url('./assets/fonts/5/2TEXAT\ BOLD\ PERSONAL\ USE___.otf');
+  src: url('./assets/fonts/5/Texas\ Sauce.ttf');
 }
 .name{
   font-family: name;
-  margin: 0;
-  font-size: 0.9em;
+  margin: 5px;
+  font-size: 1.5em;
+  color: orange;
+  -webkit-text-stroke: 1px black;
+}
+
+.dietsTit{
+  margin-top: 0.5em;
+  margin-bottom: 0px;
 }
 
 .diets{
   margin: 0;
   font-size: 1em;
+  color: rgb(1, 82, 1);
 }

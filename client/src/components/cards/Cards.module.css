@@ -1,5 +1,22 @@
 .cards{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around
+    justify-content: space-around;
+    height: 73vh;
+}
+
+.pag{
+    background-color: rgba(17, 255, 0, 0.5);
+    display: flex;
+    margin: 10px auto auto auto;
+    width: 30%;
+}
+
+.num{
+    background-color: rgba(0, 255, 255, .5);
+    width: max-content;
+    margin: 1px auto 1px auto;
+    &:hover {
+        cursor: pointer;
+    }
 }

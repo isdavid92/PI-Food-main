@@ -15,6 +15,7 @@ const Card = ({ recipe }) => {
                 <img src={recipe.image} className={style.image}/>
                 <div className={style.nameDiets}>
                     <h1 className={style.name}>{recipe.title}</h1>
+                    <h4 className={style.dietsTit}>Diets:</h4>
                     <h3 className={style.diets}>{diets}</h3>
                 </div>
             </div>
