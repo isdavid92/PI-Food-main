@@ -1,11 +1,12 @@
-import { ADD_NAME, ADD_PAGE, GET_RECIPES, GET_RECIPES_TITLE, ADD_RECIPE, REMOVE_RECIPE, FILTER, ORDER } from "./actions_types";
+import { ADD_NAME, ADD_PAGE, ADD_DIET, GET_RECIPES, GET_RECIPES_TITLE, ADD_RECIPE, REMOVE_RECIPE, FILTER, ORDER } from "./actions_types";
 
 const inicialState = {
     recipes: [],
     allRecipes: [],
     recipesFound:[],
     name:'',
-    page:1
+    page:1,
+    diets:[]
 }
 
 const reducer = (state = inicialState, { type, payload }) => {
@@ -27,6 +28,12 @@ const reducer = (state = inicialState, { type, payload }) => {
             return {
                 ...state,
                 page: payload,
+            }
+
+        case ADD_DIET:
+            return {
+                ...state,
+                diets: [...state.diets, payload]
             }
 
         case GET_RECIPES:

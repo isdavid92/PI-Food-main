@@ -1,16 +1,15 @@
-
-
-@font-face {
-    font-family: chef;
-    src: url('./assets/fonts/1/CelebrityChefDemoRegular.ttf');
+.info{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    height: 70vh;
 }
-.chef{
-    font-family: chef;
-    margin: 0 ;
-    margin-left: 1em;
-    margin-top: 1em;
-    max-width:max-content;
-    font-size: 2em;
-    color: yellow;
-    -webkit-text-stroke: 0.2px black;
+
+.title{
+    font-family: name;
+    color: orange;
+    -webkit-text-stroke: 1px black;
+    font-size: 3.5em;
+    margin: 0px 0px 10px 0px;
 }

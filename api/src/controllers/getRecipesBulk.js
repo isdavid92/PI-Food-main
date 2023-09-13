@@ -6,8 +6,8 @@ const URL_BASE = 'https://api.spoonacular.com/recipes/';
 
 const getRecipesBulk = async (req, res) => {
     try {
-        const idsApi = Array.from({length: 2}, (_, i) => i + 1).join(',');
-        const response = await axios(`${URL_BASE}informationBulk?ids=${idsApi}&apiKey=${API_KEY}`);
+        const ids = req.params.ids
+        const response = await axios(`${URL_BASE}informationBulk?ids=${ids}&apiKey=${API_KEY}`);
         const data = [];
         
         for (let i = 0; i < response.data.length; i++) {

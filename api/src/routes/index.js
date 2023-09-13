@@ -12,7 +12,7 @@ router.use(express.json());
 
 // Configurar los routers
 // Ejemplo: router.use('/auth', authRouter);
-router.get('/recipes', getRecipesBulk);
+router.get('/recipes/bulk/:ids', getRecipesBulk);
 router.get('/recipes/:id', getRecipeById);
 router.get('/recipes/title/:title', getRecipeByTitle);
 router.get('/diets', getDiets);

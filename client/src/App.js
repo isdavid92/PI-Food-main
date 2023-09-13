@@ -18,6 +18,7 @@ function App() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const recipes = useSelector(state => state.allRecipes);
+  const recipesFound = useSelector(state => state.recipesFound);
   const [ recipe, setRecipe ] = useState([]);
   const [ page, setPage ] = useState(1);
 
@@ -32,24 +33,25 @@ function App() {
   };
 
   const handleDetail = (id, page) => {
-    const recip = recipes.filter(recipe => recipe.id===id);
+    let recip = recipes.filter(recipe => recipe.id===id);
+    if(recip.length===0) recip = recipesFound.filter(recipe => recipe.id===id);
     setRecipe(recip);
     setPage(page);
   }
 
-
+  console.log('APP'); //! BORAR  
   return (
     <div className={style.App}>
 
       {pathname !== '/' &&
         <>
           <Nav/>
-          <Form/>
         </>
       }
       <Routes>
         <Route path='/' element={<Welcome login={login}/>}/>
         <Route path='/home' element={<Cards handleDetail={handleDetail}/>}/>
+        <Route path='/search' element={<Cards handleDetail={handleDetail}/>}/>
         <Route path='/form' element={<Form/>}/>
         <Route path='/detail' element={<Detail recipe={recipe[0]} page={page}/>}/>
         <Route path='*' element={<Error404/>}/>

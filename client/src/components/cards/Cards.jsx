@@ -2,24 +2,32 @@ import Card from '../card/Card';
 import { useSelector } from 'react-redux';
 import { useEffect, useState } from 'react';
 import style from './Cards.module.css';
+import { useLocation } from 'react-router-dom';
 
 const Cards = ({ handleDetail }) => {
 
     const recipes = useSelector(state => state.allRecipes);
+    const recipesFound = useSelector(state => state.recipesFound);
     const pageState = useSelector(state => state.page);
     const [ nineRecipes, setNineRecipes ] = useState([]);
     const [ page, setPage ] = useState(pageState);
-    const numPages = Math.ceil(recipes.length/9)
-
+    const { pathname } = useLocation();
+    
+    const funNumPages = () => {
+        if (pathname=='/home') return Math.ceil(recipes.length/9);
+        if (pathname=='/search') return Math.ceil(recipesFound.length/9)
+    };
+    const numPages = funNumPages();
 
     useEffect(() => {
         handleRender(page)
-      }, [page]);
+      }, [page,pathname,recipesFound]);
 
     const handleRender = (pag) => {
         let pos1 = (0 + 9)*(pag-1);
         let pos2 = pos1 + 9;
-        setNineRecipes(recipes.slice(pos1,pos2))
+        if (pathname=='/home') setNineRecipes(recipes.slice(pos1,pos2));
+        if (pathname=='/search') setNineRecipes(recipesFound.slice(pos1,pos2));
     };
 
     const handleArrow = (order) => {

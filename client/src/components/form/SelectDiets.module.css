@@ -1,0 +1,10 @@
+.diets{
+    background-color: rgba(0, 255, 255, 0.5);
+    width: 31%;
+    margin: auto;
+}
+
+.diet{
+    margin: auto;
+    font-size: 10px;
+}

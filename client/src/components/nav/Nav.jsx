@@ -4,7 +4,7 @@ import home from './assets/img/buttonHome.png';
 import search from './assets/img/search.png'
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from 'react-redux';
-import { addPage, getRecipesTitle } from '../../redux/actions';
+import { addPage, getRecipesTitle, } from '../../redux/actions';
 import { useState } from 'react';
 
 const Nav = () => {
@@ -13,7 +13,6 @@ const Nav = () => {
     const dispatch = useDispatch();
     const { pathname } = useLocation();
     const [ title, setTitle ] = useState('');
-    const recipesFound = useSelector(state => state.recipesFound);
 
     const handleHome = () => {
         dispatch(addPage(1));
@@ -30,8 +29,9 @@ const Nav = () => {
           }
     }
 
-    const handleSearch = async () => {
-        await dispatch(getRecipesTitle(title));
+    const handleSearch = () => {
+        dispatch(getRecipesTitle(title));
+        navigate('/search')
     }
 
     return(
@@ -57,7 +57,7 @@ const Nav = () => {
                     <>
                         <Link to={'/form'} className={style.Linkcreate}>
                             <h1 className={style.shadeCreate}>{'create your recipe here O'}</h1>
-                            <h1 className={style.create}>{'create your recipe here🍽️'}</h1>
+                            <h1 className={style.create}>{'create your recipe here🥧'}</h1>
                         </Link>
                         <Link to={'/filter'} className={style.linkFilter}>
                             <h1 className={style.shadeFilter}>{'filter and sort >>'}</h1>
