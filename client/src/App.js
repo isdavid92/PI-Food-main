@@ -1,5 +1,5 @@
 import style from './App.module.css';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Routes, Route, useLocation, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from 'react-redux';
 import { getRecipes, addName, addRecipe } from './redux/actions';
@@ -17,18 +17,25 @@ function App() {
   const { pathname } = useLocation();
   const navigate = useNavigate();
   const dispatch = useDispatch();
+  const recipes = useSelector(state => state.allRecipes);
+  const [ recipe, setRecipe ] = useState([]);
+  const [ page, setPage ] = useState(1);
 
   useEffect(() => {
     // dispatch(getRecipes())
     dispatch(addRecipe(recipeAux))
   }, []);
-
-  console.log('App');
   
   const login = (name) => {
     navigate('/home');
     dispatch(addName(name))
   };
+
+  const handleDetail = (id, page) => {
+    const recip = recipes.filter(recipe => recipe.id===id);
+    setRecipe(recip);
+    setPage(page);
+  }
 
 
   return (
@@ -42,9 +49,9 @@ function App() {
       }
       <Routes>
         <Route path='/' element={<Welcome login={login}/>}/>
-        <Route path='/home' element={<Cards/>}/>
+        <Route path='/home' element={<Cards handleDetail={handleDetail}/>}/>
         <Route path='/form' element={<Form/>}/>
-        <Route path='/detail' element={<Detail/>}/>
+        <Route path='/detail' element={<Detail recipe={recipe[0]} page={page}/>}/>
         <Route path='*' element={<Error404/>}/>
       </Routes>
     </div>

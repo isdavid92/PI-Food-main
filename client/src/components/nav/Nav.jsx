@@ -1,12 +1,20 @@
 import style from './Nav.module.css';
 import logOut from './assets/img/buttonLogOut.png';
 import home from './assets/img/buttonHome.png';
-import { Link, useLocation } from "react-router-dom";
-import { useSelector } from 'react-redux';
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import { useSelector, useDispatch } from 'react-redux';
+import { addPage } from '../../redux/actions';
 
 const Nav = () => {
     const name = useSelector(state => state.name);
+    const navigate = useNavigate();
+    const dispatch = useDispatch();
     const { pathname } = useLocation();
+
+    const handleHome = () => {
+        dispatch(addPage(1));
+        navigate('/home')
+    }
 
     return(
         <nav>
@@ -17,9 +25,7 @@ const Nav = () => {
                 <input type="text" className={style.input} placeholder='your recipe here...'/>
                 {
                     pathname !== '/home' &&
-                    <Link to={'/home'}>
-                    <img src={home} className={style.home} title='home'/>
-                    </Link>
+                    <img src={home} className={style.home} title='home' onClick={() => handleHome()}/>
                 }
                 <Link to={'/'} className={style.linklogOut}>
                     <img src={logOut} className={style.logOut} title='log out'/>

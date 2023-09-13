@@ -1,0 +1,124 @@
+.detail{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 95%;
+    margin: auto;
+    border-radius: 5px;
+    height: 76vh;
+}
+
+.info1{
+    border-radius: 5px;
+    display: flex;
+}
+
+.back{
+    width: 2.5em;
+    position: absolute;
+    transform: translateX(-10em) translateY(-3.8em);
+    &:hover {
+        background-color: yellow;
+        cursor: pointer;
+        border-radius: 3em;
+    }
+}
+
+.title{
+    width: 70%;
+    height: 20em;
+}
+
+.name{
+    font-family: name;
+    color: orange;
+    -webkit-text-stroke: 1px black;
+}
+
+.id{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-2.5em);
+    color: red;
+    -webkit-text-stroke: 1.5px black;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 0px 9px;
+    border-radius: 5px;
+}
+
+.healthDiets{
+    background-color: blueviolet;
+    display: flex;
+    color: white;
+}
+
+.health{
+    margin: auto;
+}
+
+.diets{
+    margin: auto;
+}
+
+.summary{
+    margin: 10px 10px auto 10px;
+    font-size: 0.9em;
+    background-color: rgba(0, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.image{
+    width: 30%;
+    border-radius: 5px;
+}
+
+.info2{
+    margin:0 10px;
+    border-radius: 10px;
+    height: 15em;
+    transform: translatey(-0.5em);
+}
+
+.noSteps{
+    margin: 2.8em;
+    color: white;
+    padding: 5px;
+}
+
+.stepsTitle{
+    font-family: greeting;
+    font-size: 1.8em;
+    margin: auto;
+    color: white;
+    -webkit-text-stroke: 1.5px black;
+}
+
+.steps{
+    background-color: rgba(64, 1, 79, 0.762);
+    border-radius: 5px;
+}
+
+.step{
+    display: flex;
+    margin: 0;
+}
+
+.stepNum{
+    margin: 1px;
+    text-decoration: underline;
+    width: 5%;
+    padding: 0;
+    position: absolute;
+    font-size: 16px;
+    color: white;
+}
+
+.stepStep{
+    width: 93%;
+    margin: 0;
+    transform: translateX(6.5em);
+    font-size: 13px;
+    text-align: left;
+    color: white;
+    padding: 1px;
+}

@@ -34,6 +34,7 @@
   z-index: 1; /*! ESTE A 2 para configurar name y diets*/
   &:hover {
     z-index: 2;
+    cursor: pointer;
   }
 }
 

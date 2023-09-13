@@ -3,10 +3,12 @@ import { useSelector } from 'react-redux';
 import { useEffect, useState } from 'react';
 import style from './Cards.module.css';
 
-const Cards = () => {
+const Cards = ({ handleDetail }) => {
+
     const recipes = useSelector(state => state.allRecipes);
+    const pageState = useSelector(state => state.page);
     const [ nineRecipes, setNineRecipes ] = useState([]);
-    const [ page, setPage ] = useState(1);
+    const [ page, setPage ] = useState(pageState);
     const numPages = Math.ceil(recipes.length/9)
 
 
@@ -42,7 +44,7 @@ const Cards = () => {
             {
                 nineRecipes.map((recipe, index) => {
                     return(
-                        <Card key={index} recipe={recipe}/>     
+                        <Card key={index} recipe={recipe} handleDetail={handleDetail} page={page}/>     
                     )
                 })
             }
