@@ -28,7 +28,7 @@ const Detail = ({ recipe, page}) => {
             const steps = recipe.analyzedInstructions[0].steps;
             return steps.map(step => {
                 return(
-                    <div className={style.step}>
+                    <div className={style.step} key={step.number}>
                         <h3 className={style.stepNum}>Step {step.number}:</h3>
                         <h3 className={style.stepStep}>{step.step}</h3>
                     </div>

@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { ADD_NAME, ADD_PAGE, GET_RECIPES, ADD_RECIPE, REMOVE_RECIPE, FILTER, ORDER } from "./actions_types";
+import { ADD_NAME, ADD_PAGE, GET_RECIPES, GET_RECIPES_TITLE, ADD_RECIPE, REMOVE_RECIPE, FILTER, ORDER } from "./actions_types";
 
 const URL = 'http://localhost:3001/recipes';
 
@@ -35,6 +35,20 @@ export const getRecipes = () => {
             const { data } = await axios.get(`${URL}`);
             return dispatch({
                 type: GET_RECIPES,
+                payload: data
+            })
+        }
+    } catch (error) {
+        console.log(error);
+    } 
+};
+
+export const getRecipesTitle = (title) => {
+    try {
+        return async (dispatch) => {
+            const { data } = await axios.get(`${URL}/title/${title}`);
+            return dispatch({
+                type: GET_RECIPES_TITLE,
                 payload: data
             })
         }

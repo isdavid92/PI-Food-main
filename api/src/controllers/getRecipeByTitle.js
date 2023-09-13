@@ -16,14 +16,6 @@ const getRecipeByTitle = async (req, res) => {
         return result
     };
 
-    const filterResults = (results) => {
-        const resultFilter = [];
-        for (let i = 0; i < results.length; i++) {
-            const { id, title } = results[i];
-            resultFilter[i] = { id, title };
-        };
-        return resultFilter
-    };
 
     try {
         const response = await axios(`${URL_BASE}${titleRecipe}&number=25&apiKey=${API_KEY}`);
@@ -31,9 +23,8 @@ const getRecipeByTitle = async (req, res) => {
         const resultDB = await searchDB();
         
         const results = [...resultDB, ...resultApi];
-        const resultFilter = filterResults(results);
 
-        return res.status(200).json(resultFilter)
+        return res.status(200).json(results)
     } catch (error) {
         errorHandler(res, error)
     }

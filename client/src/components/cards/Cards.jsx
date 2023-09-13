@@ -53,7 +53,7 @@ const Cards = ({ handleDetail }) => {
                 <h3 className={style.shadeArrow}>{'<<'}</h3>
                 {
                     Array.from({length: numPages}, (_, i) => i + 1).map(num => (
-                        <h4 className={handleClassName(num)}>{num}</h4>
+                        <h4 className={handleClassName(num)} key={num}>{num}</h4>
                     ))
                 }
                 <h3 className={style.shadeArrow}>{'>>'}</h3>
@@ -62,7 +62,7 @@ const Cards = ({ handleDetail }) => {
                 <h3 className={style.num} onClick={() => handleArrow('<')}>{'<<'}</h3>
                 {
                     Array.from({length: numPages}, (_, i) => i + 1).map(num => (
-                        <h4 className={style.num} onClick={() => setPage(num)}>{num}</h4>
+                        <h4 className={style.num} onClick={() => setPage(num)} key={num}>{num}</h4>
                     ))
                 }
                 <h3 className={style.num} onClick={() => handleArrow('>')}>{'>>'}</h3>
