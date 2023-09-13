@@ -11,13 +11,12 @@ const SelectDiets = () => {
     
     const handleChange = (event) => {
         setDiet(event.target.value);
-    }
+    };
 
     const handleSelect = async () => {
-        if (diets.includes(diet)) return; 
+        if (diets.includes(diet)) return;
         await dispatch(addDiet(diet))
-        console.log(diets); //! PARA BORRAR
-    }
+    };
     
     return (
         <div className={style.selectDiets}>
@@ -39,7 +38,7 @@ const SelectDiets = () => {
                 {
                     diets.map((die) => {
                         return (
-                            <h5 className={style.diet}>{die}</h5>
+                            <h5 className={style.diet} key={die}>{die}</h5>
                         )
                     })
                 }
