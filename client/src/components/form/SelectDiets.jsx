@@ -20,7 +20,7 @@ const SelectDiets = () => {
     
     return (
         <div className={style.selectDiets}>
-            <select name="diets" id="1" onChange={handleChange}>
+            <select className={style.selec} name="diets" id="1" onChange={handleChange}>
                 <option value="">--- diet ---</option>
                 <option value="gluten free">gluten free</option>
                 <option value="dairy free">dairy free</option>
@@ -33,7 +33,7 @@ const SelectDiets = () => {
                 <option value="vegan">vegan</option>
                 <option value="ketogenic">ketogenic</option>
             </select>
-            <button onClick={() => handleSelect()}>add</button>
+            <button className={style.add} onClick={() => handleSelect()}>add</button>
             <div className={style.diets}>
                 {
                     diets.map((die) => {

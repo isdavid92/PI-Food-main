@@ -15,6 +15,19 @@
   align-items: center;
 }
 
+.origin{
+  width: max-content;
+  margin: auto 1em 0.5em 1em;
+  color: blue;
+  z-index: 3;
+  font-size: 1.1em;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  &:hover {
+    z-index: 0;
+  }
+}
+
 .image{
   width: 16.5em;
   position: absolute;
@@ -33,7 +46,7 @@
   height: 11em;
   z-index: 1; /*! ESTE A 2 para configurar name y diets*/
   &:hover {
-    z-index: 2;
+    z-index: 3;
     cursor: pointer;
   }
 }

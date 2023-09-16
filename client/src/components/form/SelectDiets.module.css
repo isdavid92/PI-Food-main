@@ -1,10 +1,31 @@
 .diets{
     background-color: rgba(0, 255, 255, 0.5);
-    width: 31%;
+    width: 50%;
     margin: auto;
+    border-radius: 5px;
+}
+
+.selec{
+    font-family: input;
+    font-size: 1em;
+    -webkit-text-stroke: 0.8px black;
+}
+
+.add{
+    font-family: name;
+    font-size: 1.1em;
+    border-radius: 5em;
+    background-color: yellow;
+    &:hover {
+        background-color: rgb(194, 194, 6);
+        cursor: pointer;
+        border-radius: 5em;
+    }
 }
 
 .diet{
     margin: auto;
     font-size: 10px;
+    font-family: input;
+    font-size: 1em;
 }

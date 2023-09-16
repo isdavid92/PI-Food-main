@@ -1,7 +1,8 @@
 export const ADD_NAME = 'GET_RECIPE';
 export const ADD_PAGE = 'ADD_PAGE';
 export const ADD_DIET = 'ADD_DIET';
-export const GET_RECIPES = 'GET_RECIPES';
+export const SET_DIETS = 'SET_DIETS';
+export const GET_RECIPESDB = 'GET_RECIPESDB';
 export const GET_RECIPES_TITLE = 'GET_RECIPES_TITLE';
 export const ADD_RECIPE = 'ADD_RECIPE';
 export const REMOVE_RECIPE = 'REMOVE_RECIPE';

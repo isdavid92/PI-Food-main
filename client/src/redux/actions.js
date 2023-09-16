@@ -1,7 +1,7 @@
 import axios from 'axios';
-import { ADD_NAME, ADD_PAGE, ADD_DIET, GET_RECIPES, GET_RECIPES_TITLE, ADD_RECIPE, REMOVE_RECIPE, FILTER, ORDER } from "./actions_types";
+import { ADD_NAME, ADD_PAGE, ADD_DIET, SET_DIETS, GET_RECIPESDB, GET_RECIPES_TITLE, ADD_RECIPE, REMOVE_RECIPE, FILTER, ORDER } from "./actions_types";
 
-const URL = 'http://localhost:3001/recipes';
+const URL = 'http://localhost:3001/';
 
 export const addName = (name) => {
     try {
@@ -42,13 +42,24 @@ export const addDiet = (diet) => {
     } 
 };
 
-export const getRecipes = () => {
+export const setDiets = () => {
     try {
-        const idsApi = Array.from({length: 2}, (_, i) => i + 1).join(','); //! ESTA ESTA PENDIENTE
         return async (dispatch) => {
-            const { data } = await axios.get(`${URL}`);
             return dispatch({
-                type: GET_RECIPES,
+                type: SET_DIETS
+            })
+        }
+    } catch (error) {
+        console.log(error);
+    } 
+};
+
+export const getRecipesDB = async () => {
+    try {
+        const { data } = await axios.get(`${URL}database`);
+        return async (dispatch) => {
+            return dispatch({
+                type: GET_RECIPESDB,
                 payload: data
             })
         }
@@ -60,40 +71,51 @@ export const getRecipes = () => {
 export const getRecipesTitle = (title) => {
     try {
         return async (dispatch) => {
-            const { data } = await axios.get(`${URL}/title/${title}`);
-            const ids = data.map(recipe => recipe.id).join(',');
-            const recipes = await axios.get(`${URL}/bulk/${ids}`);
-            const dataFound = recipes.data;
-            console.log(dataFound); //! ENCONTRADOS
-            return dispatch({
-                type: GET_RECIPES_TITLE,
-                payload: dataFound
-            })
+            const num = Number(title)
+            if (!isNaN(num)) {
+                const response = await axios.get(`${URL}recipes/${num}`);
+                const data = [response.data]
+                return dispatch({
+                    type: GET_RECIPES_TITLE,
+                    payload: data
+                })
+            } else {
+                const { data } = await axios.get(`${URL}recipes/title/${title}`);
+                const ids = data.map(recipe => recipe.id).join(',');
+                const recipes = await axios.get(`${URL}recipes/bulk/${ids}`);
+                const dataFound = recipes.data;
+                return dispatch({
+                    type: GET_RECIPES_TITLE,
+                    payload: dataFound
+                })
+            }
         }
     } catch (error) {
         console.log(error);
     } 
 };
 
-export const addRecipe = (recipe) => {
+export const addRecipe = (recipe, origin) => {
     try {
         return async (dispatch) => {
-            // await axios.post(URL, recipe);
+            if (origin==='form') await axios.post(`${URL}recipes`, recipe);
             return dispatch({
                         type: ADD_RECIPE,
                         payload: recipe
                     })
-    
         };
     } catch (error) {
         console.log(error);
     }
 };
 
+
+
+
 export const removeRecipe = (id) => {
     try {
         return async (dispatch) => {
-            const { data } = await axios.delete(`${URL}/${id}`);
+            const { data } = await axios.delete(`${URL}recipes/${id}`);
             return dispatch({
                 type: REMOVE_RECIPE,
                 payload: data

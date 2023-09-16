@@ -13,9 +13,9 @@ const getRecipeByTitle = async (req, res) => {
         const result = recipes.filter((recipe) => {
             return recipe.title.toLowerCase().startsWith(titleRecipe.toLowerCase())
         });
+        console.log(result);
         return result
     };
-
 
     try {
         const response = await axios(`${URL_BASE}${titleRecipe}&number=25&apiKey=${API_KEY}`);

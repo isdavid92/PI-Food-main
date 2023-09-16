@@ -8,7 +8,7 @@ import Welcome from './components/welcome/Welcome';
 import Nav from './components/nav/Nav';
 import Cards from './components/cards/Cards';
 import Form from './components/form/Form';
-import recipeAux from './Auxi100'; //! >>API LOCAL PARA BORRAR<<
+import recipeAux from './Auxi100'; //! >> API LOCAL <<
 import Detail from './components/detail/Detail';
 
 
@@ -23,7 +23,7 @@ function App() {
   const [ page, setPage ] = useState(1);
 
   useEffect(() => {
-    // dispatch(getRecipes())
+    // dispatch(getRecipes()) //! ESTA ES PARA LA API
     dispatch(addRecipe(recipeAux))
   }, []);
   

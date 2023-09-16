@@ -8,7 +8,6 @@ const dietsToString = (diets) => {
     return diets.join(', ') + ' and ' + lastDiet
 };
 
-
 const Card = ({ recipe, handleDetail, page }) => {
     
     const diets = dietsToString(recipe.diets);
@@ -19,10 +18,19 @@ const Card = ({ recipe, handleDetail, page }) => {
         handleDetail(recipe.id, page)
     };
 
+    const handleOrigin = () => {
+        if (recipe.origin) {
+            return (
+                <h4 className={style.origin}>"Data Base"</h4>
+            )
+        }
+    }
+
     return (
         <div className={style.card}>
             <div className={style.info}>
                 <img src={recipe.image} className={style.image}/>
+                {handleOrigin()}
                 <div className={style.nameDiets} onClick={() => handleDetailId()}>
                     <h1 className={style.name}>{recipe.title}</h1>
                     <h4 className={style.dietsTit}>Diets:</h4>
