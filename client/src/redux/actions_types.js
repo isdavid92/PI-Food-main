@@ -4,6 +4,7 @@ export const ADD_DIET = 'ADD_DIET';
 export const SET_DIETS = 'SET_DIETS';
 export const GET_RECIPESDB = 'GET_RECIPESDB';
 export const GET_RECIPES_TITLE = 'GET_RECIPES_TITLE';
+export const SET_RECIPES_FOUND = 'SET_RECIPES_FOUND';
 export const ADD_RECIPE = 'ADD_RECIPE';
 export const REMOVE_RECIPE = 'REMOVE_RECIPE';
 export const FILTER = 'FILTER';

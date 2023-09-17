@@ -36,11 +36,16 @@ const getRecipesBulk = async (req, res) => {
                 data.push(recipeDB)
             }
         };
-
+        
         for (let i = 0; i < response.data.length; i++) {
             const { id, title, image, summary, healthScore, analyzedInstructions, diets } = response.data[i];
-            const steps = analyzedInstructions[0].steps;
-            data.push({ id, title, image, summary, healthScore, steps, diets });
+            if (analyzedInstructions.length>0) {
+                const steps = analyzedInstructions[0].steps;
+                data.push({ id, title, image, summary, healthScore, steps, diets })
+              } else {
+                const steps = [];
+                data.push({ id, title, image, summary, healthScore, steps, diets });
+              }
         };
         return res.status(200).json(data)
     } catch (error) {

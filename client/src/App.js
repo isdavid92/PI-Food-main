@@ -20,11 +20,25 @@ function App() {
   const recipes = useSelector(state => state.allRecipes);
   const recipesFound = useSelector(state => state.recipesFound);
   const [ recipe, setRecipe ] = useState([]);
-  const [ page, setPage ] = useState(1);
+
+  const handleRecipeAux = (recipesAux) => {
+    const recipesApi = [];
+    for (let i = 0; i < recipesAux.length; i++) {
+      const { id, title, image, summary, healthScore, analyzedInstructions, diets } = recipesAux[i];
+      if (analyzedInstructions.length>0) {
+        const steps = analyzedInstructions[0].steps;
+        recipesApi.push({ id, title, image, summary, healthScore, steps, diets })
+      } else {
+        const steps = [];
+        recipesApi.push({ id, title, image, summary, healthScore, steps, diets })
+      }
+  };
+    return recipesApi
+  }
 
   useEffect(() => {
     // dispatch(getRecipes()) //! ESTA ES PARA LA API
-    dispatch(addRecipe(recipeAux));
+    dispatch(addRecipe(handleRecipeAux(recipeAux)));
     dispatch(getRecipesDB())
   }, []);
   
@@ -33,11 +47,10 @@ function App() {
     dispatch(addName(name))
   };
 
-  const handleDetail = (id, page) => {
+  const handleDetail = (id) => {
     let recip = recipes.filter(recipe => recipe.id===id);
     if(recip.length===0) recip = recipesFound.filter(recipe => recipe.id===id);
     setRecipe(recip);
-    setPage(page);
   }
 
   console.log('APP'); //! BORAR  
@@ -54,7 +67,7 @@ function App() {
         <Route path='/home' element={<Cards handleDetail={handleDetail}/>}/>
         <Route path='/search' element={<Cards handleDetail={handleDetail}/>}/>
         <Route path='/form' element={<Form/>}/>
-        <Route path='/detail' element={<Detail recipe={recipe[0]} page={page}/>}/>
+        <Route path='/detail' element={<Detail recipe={recipe[0]}/>}/>
         <Route path='*' element={<Error404/>}/>
       </Routes>
     </div>

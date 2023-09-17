@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { ADD_NAME, ADD_PAGE, ADD_DIET, SET_DIETS, GET_RECIPESDB, GET_RECIPES_TITLE, ADD_RECIPE, REMOVE_RECIPE, FILTER, ORDER } from "./actions_types";
+import { ADD_NAME, ADD_PAGE, ADD_DIET, SET_DIETS, GET_RECIPESDB, GET_RECIPES_TITLE, SET_RECIPES_FOUND, ADD_RECIPE, REMOVE_RECIPE, FILTER, ORDER } from "./actions_types";
 
 const URL = 'http://localhost:3001/';
 
@@ -82,13 +82,33 @@ export const getRecipesTitle = (title) => {
             } else {
                 const { data } = await axios.get(`${URL}recipes/title/${title}`);
                 const ids = data.map(recipe => recipe.id).join(',');
-                const recipes = await axios.get(`${URL}recipes/bulk/${ids}`);
-                const dataFound = recipes.data;
-                return dispatch({
-                    type: GET_RECIPES_TITLE,
-                    payload: dataFound
-                })
-            }
+                if (data.length>0) {
+                    const recipes = await axios.get(`${URL}recipes/bulk/${ids}`);
+                    const dataFound = recipes.data;
+                    return dispatch({
+                        type: GET_RECIPES_TITLE,
+                        payload: dataFound
+                    })
+                } else {
+                    const recipeNoFound = ['There are no matches with the name and the recipe'];
+                    return dispatch({
+                        type: GET_RECIPES_TITLE,
+                        payload: recipeNoFound
+                    })
+                }
+            } 
+        }
+    } catch (error) {
+        console.log(error);
+    } 
+};
+
+export const setRecipesFound = () => {
+    try {
+        return async (dispatch) => {
+            return dispatch({
+                type: SET_RECIPES_FOUND,
+            }) 
         }
     } catch (error) {
         console.log(error);

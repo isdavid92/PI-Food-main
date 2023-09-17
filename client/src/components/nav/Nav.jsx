@@ -4,7 +4,7 @@ import home from './assets/img/buttonHome.png';
 import search from './assets/img/search.png'
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from 'react-redux';
-import { addPage, getRecipesTitle, } from '../../redux/actions';
+import { addPage, getRecipesTitle } from '../../redux/actions';
 import { useState } from 'react';
 
 const Nav = () => {
@@ -30,8 +30,9 @@ const Nav = () => {
     }
 
     const handleSearch = () => {
+        dispatch(addPage(1));
         dispatch(getRecipesTitle(title));
-        navigate('/search')
+        navigate('/search');
     }
 
     return(

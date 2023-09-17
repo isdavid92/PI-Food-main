@@ -1,7 +1,7 @@
 import style from './Card.module.css';
 import { useNavigate } from 'react-router-dom';
 
-const Card = ({ recipe, handleDetail, page }) => {
+const Card = ({ recipe, handleDetail }) => {
     
     const diets = () => {
         if (recipe.diets.length===0) return '';
@@ -14,7 +14,7 @@ const Card = ({ recipe, handleDetail, page }) => {
     
     const handleDetailId = () => {
         navigate('/detail');
-        handleDetail(recipe.id, page)
+        handleDetail(recipe.id)
     };
 
     const handleOrigin = () => {

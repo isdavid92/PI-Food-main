@@ -28,10 +28,15 @@ const getRecipeById = async (req, res) => {
         } else {
             const response = await axios(`${URL_BASE}${id}/information?apiKey=${API_KEY}`);
             const { title, image, summary, healthScore, analyzedInstructions, diets } = response.data;
-            const steps = analyzedInstructions[0].steps;
-            const recipeApi = { id, title, image, summary, healthScore, steps, diets };
-
-            return res.status(200).json(recipeApi)
+            if (analyzedInstructions.length>0) {
+                const steps = analyzedInstructions[0].steps;
+                const recipeApi = { id, title, image, summary, healthScore, steps, diets };
+                return res.status(200).json(recipeApi)
+              } else {
+                const steps = [];
+                const recipeApi = { id, title, image, summary, healthScore, steps, diets };
+                return res.status(200).json(recipeApi)
+              }
         } 
         
     } catch (error) {

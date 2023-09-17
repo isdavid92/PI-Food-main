@@ -13,7 +13,6 @@ const getRecipeByTitle = async (req, res) => {
         const result = recipes.filter((recipe) => {
             return recipe.title.toLowerCase().startsWith(titleRecipe.toLowerCase())
         });
-        console.log(result);
         return result
     };
 

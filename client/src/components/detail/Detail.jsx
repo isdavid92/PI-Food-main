@@ -1,12 +1,9 @@
 import style from './Detail.module.css';
 import back from './assets/img/back.png';
 import { useNavigate } from 'react-router-dom';
-import { useDispatch } from 'react-redux';
-import { addPage } from '../../redux/actions';
 
-const Detail = ({ recipe, page}) => {
+const Detail = ({ recipe }) => {
 
-    const dispatch = useDispatch();
     const navigate = useNavigate();
     let summaryHtml = recipe.summary;
     let div = document.createElement('h5');
@@ -38,8 +35,7 @@ const Detail = ({ recipe, page}) => {
     }
 
     const handleBack = () => {
-        dispatch(addPage(page));
-        navigate('/home')
+        navigate(-1)
     };
 
     const handleOrigin = () => {
