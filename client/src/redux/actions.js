@@ -54,18 +54,18 @@ export const setDiets = () => {
     } 
 };
 
-export const getRecipesDB = async () => {
-    try {
-        const { data } = await axios.get(`${URL}database`);
-        return async (dispatch) => {
+export const getRecipesDB = () => {
+    return async (dispatch) => {
+        try {
+            const { data } = await axios.get(`${URL}database`);
             return dispatch({
                 type: GET_RECIPESDB,
                 payload: data
-            })
+            });
+        } catch (error) {
+            console.log(error);
         }
-    } catch (error) {
-        console.log(error);
-    } 
+    };
 };
 
 export const getRecipesTitle = (title) => {

@@ -93,6 +93,14 @@
     -webkit-text-stroke: 1.5px black;
 }
 
+.origin{
+    width: max-content;
+    margin: auto auto 0.5em auto;
+    color: blue;
+    z-index: 3;
+    font-size: 2em;
+  }
+
 .steps{
     background-color: rgba(64, 1, 79, 0.762);
     border-radius: 5px;

@@ -30,6 +30,7 @@
 
 .image{
   width: 16.5em;
+  height: 11em;
   position: absolute;
   z-index: 2;
   border-radius: 5px;

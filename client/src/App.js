@@ -2,7 +2,7 @@ import style from './App.module.css';
 import { useEffect, useState } from 'react';
 import { Routes, Route, useLocation, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from 'react-redux';
-import { getRecipes, addName, addRecipe } from './redux/actions';
+import { getRecipesDB, addName, addRecipe } from './redux/actions';
 import Error404 from './components/error 404/Error404';
 import Welcome from './components/welcome/Welcome';
 import Nav from './components/nav/Nav';
@@ -24,7 +24,8 @@ function App() {
 
   useEffect(() => {
     // dispatch(getRecipes()) //! ESTA ES PARA LA API
-    dispatch(addRecipe(recipeAux))
+    dispatch(addRecipe(recipeAux));
+    dispatch(getRecipesDB())
   }, []);
   
   const login = (name) => {

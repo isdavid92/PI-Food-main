@@ -22,10 +22,10 @@ const Detail = ({ recipe, page}) => {
     const diets = dietsToString(recipe.diets);
     
     const handleSteps = () => {
-        if (recipe.analyzedInstructions.length===0) {
+        if (recipe.steps.length===0) {
             return <h2 className={style.noSteps}>(There are no steps)</h2>
         } else {
-            const steps = recipe.analyzedInstructions[0].steps;
+            const steps = recipe.steps;
             return steps.map(step => {
                 return(
                     <div className={style.step} key={step.number}>
@@ -40,6 +40,14 @@ const Detail = ({ recipe, page}) => {
     const handleBack = () => {
         dispatch(addPage(page));
         navigate('/home')
+    };
+
+    const handleOrigin = () => {
+        if (recipe.origin) {
+            return(
+                <h4 className={style.origin}>"Data Base"</h4>
+            )
+        }
     }
 
     return(
@@ -54,6 +62,7 @@ const Detail = ({ recipe, page}) => {
                         <h3 className={style.diets}>Diets: {diets}</h3>
                     </div>
                     <h5 className={style.summary}>Summary: {summary}</h5>
+                    { handleOrigin() }
                 </div>
                 <img src={recipe.image} className={style.image}/>
             </div>

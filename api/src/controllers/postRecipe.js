@@ -15,7 +15,8 @@ const postRecipe = async (req, res) => {
     
         await loadDBdiets();
 
-        const { title, image, summary, health_score, steps, diets } = req.body;
+        const { title, image, summary, healthScore, steps, diets } = req.body;
+        const health_score = healthScore;
         const id = await idDB();
         const newRecipe = await Recipe.create({ id, title, image, summary, health_score, steps });
         newRecipe.addDiet(diets);
