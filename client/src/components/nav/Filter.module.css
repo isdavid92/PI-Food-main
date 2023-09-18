@@ -1,13 +1,12 @@
 .filter{
     margin: auto;
-    width: 85%;
-    background-color: white;
+    width: 98%;
     height: 4em;
+    display: flex;
 }
 
 .filClose{
-    background-color: aqua;
-    margin: 1em auto 1em 1em;
+    margin: auto auto auto auto;
     height: 2.2em;
     width: 7.3em;
     &:hover{
@@ -19,7 +18,7 @@
     width: max-content;
     color: aqua;
     font-family: create;
-    -webkit-text-stroke: 0.1px aqua;
+    -webkit-text-stroke: 2px aqua;
     font-size: 2.1em;
     filter: blur(3px);
     position: absolute;
@@ -38,4 +37,94 @@
     font-size: 2.1em;
     position: absolute;
     margin: 0 auto;
+}
+
+.fil{
+    margin: auto;
+    height: 2.2em;
+    width: 27em;
+}
+
+.label{
+    font-family: greeting;
+    font-size: 2.1em;
+    color: yellow;
+    -webkit-text-stroke: 2px black;
+}
+
+.selecFilter{
+    font-family: input;
+    font-size: 1.4em;
+    height: 1.3em;
+    margin: auto 0;
+    border-radius: 5px;
+    transform: translateY(-4px);
+    background-color: rgba(0, 255, 255, 0.56);
+    -webkit-text-stroke: 0.8px black;
+}
+
+.selecDietsOrigin{
+    margin: auto;
+    display: inline-block;
+}
+
+.selecFilterDiet{
+    font-family: input;
+    font-size: 1.4em;
+    height: 1.3em;
+    margin: auto 0;
+    border-radius: 5px;
+    transform: translateY(-4px);
+    background-color: rgba(0, 255, 255, 0.56);
+    -webkit-text-stroke: 0.8px black;
+}
+
+.selecFilterOrigin{
+    font-family: input;
+    font-size: 1.4em;
+    height: 1.3em;
+    margin: auto 1.75em auto 1.75em;
+    border-radius: 5px;
+    transform: translateY(-3px);
+    background-color: rgba(0, 255, 255, 0.56);
+    -webkit-text-stroke: 0.8px black;
+}
+
+.ord{
+    margin: auto;
+    height: 2.2em;
+    width: 32em;
+}
+
+.selecOrder{
+    font-family: input;
+    font-size: 1.4em;
+    height: 1.3em;
+    margin: auto 0;
+    border-radius: 5px;
+    transform: translateY(-4px);
+    background-color: rgba(0, 255, 255, 0.56);
+    -webkit-text-stroke: 0.8px black;
+}
+
+.selecOrderAZ{
+    font-family: input;
+    font-size: 1.4em;
+    height: 1.3em;
+    margin: auto 3.17em auto 3.17em;
+    border-radius: 5px;
+    transform: translateY(-4px);
+    background-color: rgba(0, 255, 255, 0.56);
+    -webkit-text-stroke: 0.8px black;
+}
+
+.selecOrderLS{
+    font-family: input;
+    font-size: 1.4em;
+    height: 1.3em;
+    margin: auto 0;
+    border-radius: 5px;
+    transform: translateY(-4px);
+    background-color: rgba(0, 255, 255, 0.56);
+    -webkit-text-stroke: 0.8px black;
 }

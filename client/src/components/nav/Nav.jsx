@@ -32,6 +32,7 @@ const Nav = () => {
     }
 
     const handleSearch = () => {
+        if (title=='') return alert('¡Enter some ID or recipe name!')
         dispatch(addPage(1));
         dispatch(getRecipesTitle(title));
         navigate('/search');
