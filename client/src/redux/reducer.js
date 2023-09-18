@@ -1,10 +1,11 @@
-import { ADD_NAME, ADD_PAGE, ADD_DIET, SET_DIETS, GET_RECIPESDB, GET_RECIPES_TITLE, SET_RECIPES_FOUND, ADD_RECIPE, REMOVE_RECIPE, FILTER, ORDER } from "./actions_types";
+import { ADD_NAME, ADD_PAGE, SET_LAST_ROUTE, ADD_DIET, SET_DIETS, GET_RECIPESDB, GET_RECIPES_TITLE, SET_RECIPES_FOUND, ADD_RECIPES, ADD_RECIPE, REMOVE_RECIPE, FILTER, ORDER } from "./actions_types";
 
 const inicialState = {
     recipes: [],
     allRecipes: [],
     recipesDB:[],
     recipesFound:[],
+    lastRoute:'',
     name:'',
     page:1,
     diets:[]
@@ -31,6 +32,12 @@ const reducer = (state = inicialState, { type, payload }) => {
                 name: payload,
             }
 
+        case SET_LAST_ROUTE:
+        return {
+            ...state,
+            lastRoute: payload,
+        }
+
         case ADD_PAGE:
             return {
                 ...state,
@@ -54,11 +61,18 @@ const reducer = (state = inicialState, { type, payload }) => {
                 allRecipes: [...payload, ...state.allRecipes]
             }
 
+        case ADD_RECIPES:
+        return {
+            ...state,
+            recipes: payload,
+            allRecipes: [...state.allRecipes,...payload]
+        }
+
         case ADD_RECIPE:
             return {
                 ...state,
                 recipes: payload,
-                allRecipes: payload
+                allRecipes: [payload, ...state.allRecipes]
             }
 
         case REMOVE_RECIPE:

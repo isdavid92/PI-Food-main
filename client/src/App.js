@@ -2,7 +2,7 @@ import style from './App.module.css';
 import { useEffect, useState } from 'react';
 import { Routes, Route, useLocation, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from 'react-redux';
-import { getRecipesDB, addName, addRecipe } from './redux/actions';
+import { getRecipesDB, addName, addRecipes } from './redux/actions';
 import Error404 from './components/error 404/Error404';
 import Welcome from './components/welcome/Welcome';
 import Nav from './components/nav/Nav';
@@ -37,9 +37,8 @@ function App() {
   }
 
   useEffect(() => {
-    // dispatch(getRecipes()) //! ESTA ES PARA LA API
-    dispatch(addRecipe(handleRecipeAux(recipeAux)));
-    dispatch(getRecipesDB())
+    dispatch(getRecipesDB());
+    dispatch(addRecipes(handleRecipeAux(recipeAux)))
   }, []);
   
   const login = (name) => {
@@ -52,8 +51,8 @@ function App() {
     if(recip.length===0) recip = recipesFound.filter(recipe => recipe.id===id);
     setRecipe(recip);
   }
-
-  console.log('APP'); //! BORAR  
+ 
+  console.log('APP');
   return (
     <div className={style.App}>
 
@@ -66,6 +65,7 @@ function App() {
         <Route path='/' element={<Welcome login={login}/>}/>
         <Route path='/home' element={<Cards handleDetail={handleDetail}/>}/>
         <Route path='/search' element={<Cards handleDetail={handleDetail}/>}/>
+        <Route path='/filter' element={<Cards handleDetail={handleDetail}/>}/>
         <Route path='/form' element={<Form/>}/>
         <Route path='/detail' element={<Detail recipe={recipe[0]}/>}/>
         <Route path='*' element={<Error404/>}/>

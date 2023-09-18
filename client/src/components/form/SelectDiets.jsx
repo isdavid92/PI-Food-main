@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import style from './SelectDiets.module.css';
 import { useDispatch, useSelector } from 'react-redux';
-import { addDiet } from '../../redux/actions';
+import { addDiet, setDiets } from '../../redux/actions';
 
 const SelectDiets = () => {
     
@@ -13,9 +13,13 @@ const SelectDiets = () => {
         setDiet(event.target.value);
     };
 
-    const handleSelect = async () => {
+    const handleSelect = () => {
         if (diets.includes(diet)) return;
-        await dispatch(addDiet(diet))
+        dispatch(addDiet(diet))
+    };
+
+    const handleSet = async () => {
+        dispatch(setDiets())
     };
     
     return (
@@ -34,6 +38,7 @@ const SelectDiets = () => {
                 <option value="ketogenic">ketogenic</option>
             </select>
             <button className={style.add} onClick={() => handleSelect()}>add</button>
+            <button className={style.set} onClick={() => handleSet()}>set</button>
             <div className={style.diets}>
                 {
                     diets.map((die) => {

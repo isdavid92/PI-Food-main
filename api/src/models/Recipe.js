@@ -20,14 +20,14 @@ module.exports = (sequelize) => {
         allowNull:false
       },
       summary:{
-        type: DataTypes.STRING,
+        type: DataTypes.STRING(300),
         allowNull:true
       },
       health_score:{
         type: DataTypes.INTEGER
       },
       steps:{
-        type: DataTypes.STRING
+        type: DataTypes.STRING(1000)
       }
     },
     { 

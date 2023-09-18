@@ -1,0 +1,41 @@
+.filter{
+    margin: auto;
+    width: 85%;
+    background-color: white;
+    height: 4em;
+}
+
+.filClose{
+    background-color: aqua;
+    margin: 1em auto 1em 1em;
+    height: 2.2em;
+    width: 7.3em;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.shadeFilter{
+    width: max-content;
+    color: aqua;
+    font-family: create;
+    -webkit-text-stroke: 0.1px aqua;
+    font-size: 2.1em;
+    filter: blur(3px);
+    position: absolute;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: create;
+    src: url('./assets/fonts/4/Foodlist-Regular.ttf');
+}
+.filt{
+    width: max-content;
+    color: rgb(0, 0, 0);
+    font-family: create;
+    -webkit-text-stroke: 0.1px black;
+    font-size: 2.1em;
+    position: absolute;
+    margin: 0 auto;
+}

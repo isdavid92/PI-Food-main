@@ -43,15 +43,16 @@ const Form = () => {
     },[diets])
 
     const handleAddRecipe =  async() => {
+        console.log(recipeData);
         if(!recipeData.title.length) return alert("Please enter a name!");
         if(errors.healthScore) return alert("Enter a health score between 1 and 100!");
         if(!diets.length) return alert("Choose at least one diet!");
         if(errors.image) return alert("Enter a valid image link!");
         if(!recipeData.summary.length) return alert("Enter the recipe summary!");
-        console.log(recipeData);
-        dispatch(addRecipe(recipeData,'form'));
+        dispatch(addRecipe(recipeData));
         dispatch(setDiets());
-        setRecipeData({})
+        setRecipeData({}); //! DEBERIA SETEAR LOS INPUTS
+        alert('Your recipe has been successfully uploaded')
     }
 
     return (
@@ -65,6 +66,7 @@ const Form = () => {
                         type="text"
                         placeholder='name recipe here...'
                         name="title"
+                        value={recipeData.title || ''}
                         onChange={hadleChange}
                     />
                     <br />
@@ -79,6 +81,7 @@ const Form = () => {
                         min="1"
                         max="100"
                         name="healthScore"
+                        value={recipeData.healthScore || ''}
                         onChange={hadleChange}
                     />
                     <br />
@@ -95,6 +98,7 @@ const Form = () => {
                         placeholder='link of your image...'
                         name="image"
                         onChange={hadleChange}
+                        value={recipeData.image || ''}
                     />
                     <br />
                     <span className={style.span}>{errors.image}</span>
@@ -108,6 +112,7 @@ const Form = () => {
                         cols="50"
                         rows="5"
                         placeholder='summary of your food...'
+                        value={recipeData.summary || ''}
                         onChange={hadleChange}
                     ></textarea>
                     <br />
@@ -122,6 +127,7 @@ const Form = () => {
                         cols="50"
                         rows="5"
                         placeholder='preparation instructions...'
+                        value={recipeData.steps || ''}
                         onChange={hadleChange}
                     ></textarea>
                     <br />

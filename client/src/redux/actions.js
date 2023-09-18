@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { ADD_NAME, ADD_PAGE, ADD_DIET, SET_DIETS, GET_RECIPESDB, GET_RECIPES_TITLE, SET_RECIPES_FOUND, ADD_RECIPE, REMOVE_RECIPE, FILTER, ORDER } from "./actions_types";
+import { ADD_NAME, ADD_PAGE, SET_LAST_ROUTE, ADD_DIET, SET_DIETS, GET_RECIPESDB, GET_RECIPES_TITLE, SET_RECIPES_FOUND, ADD_RECIPES, ADD_RECIPE, REMOVE_RECIPE, FILTER, ORDER } from "./actions_types";
 
 const URL = 'http://localhost:3001/';
 
@@ -22,6 +22,19 @@ export const addPage = (page) => {
             return dispatch({
                 type: ADD_PAGE,
                 payload: page
+            })
+        }
+    } catch (error) {
+        console.log(error);
+    } 
+};
+
+export const setLastRoute = (route) => {
+    try {
+        return async (dispatch) => {
+            return dispatch({
+                type: SET_LAST_ROUTE,
+                payload: route
             })
         }
     } catch (error) {
@@ -115,13 +128,45 @@ export const setRecipesFound = () => {
     } 
 };
 
-export const addRecipe = (recipe, origin) => {
+export const addRecipes = (recipes) => {
     try {
         return async (dispatch) => {
-            if (origin==='form') await axios.post(`${URL}recipes`, recipe);
+            return dispatch({
+                        type: ADD_RECIPES,
+                        payload: recipes
+                    })
+        };
+    } catch (error) {
+        console.log(error);
+    }
+};
+
+export const addRecipe = (recipe) => {
+    try {
+        const dietToString = (dits) => {
+            const ToStringdiets = dits.map(diet => {
+                if (diet == 1) return "gluten free";
+                if (diet == 2) return "dairy free";
+                if (diet == 3) return "paleolithic";
+                if (diet == 4) return "primal";
+                if (diet == 5) return "fodmap friendly";
+                if (diet == 6) return "whole 30";
+                if (diet == 7) return "pescatarian";
+                if (diet == 8) return "pescatarian";
+                if (diet == 9) return "vegan";
+                if (diet == 10) return "ketogenic";
+            });
+            return ToStringdiets 
+        };
+        return async (dispatch) => {
+            const origin = 'data base'
+            const steps = [{number:1, step:recipe.steps}];
+            const diets = dietToString(recipe.diets)
+            const recipeOrigin = {...recipe, origin, steps, diets };
+            await axios.post(`${URL}recipes`, recipe);
             return dispatch({
                         type: ADD_RECIPE,
-                        payload: recipe
+                        payload: recipeOrigin
                     })
         };
     } catch (error) {

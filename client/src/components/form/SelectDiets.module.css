@@ -23,6 +23,19 @@
     }
 }
 
+.set{
+    font-family: name;
+    font-size: 1.1em;
+    border-radius: 5em;
+    color: white;
+    background-color: red;
+    -webkit-text-stroke: 0.8px red;
+    &:hover {
+        background-color: rgb(155, 4, 4);
+        border-radius: 5em;
+    }
+}
+
 .diet{
     margin: auto;
     font-size: 10px;
