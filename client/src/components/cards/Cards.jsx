@@ -7,7 +7,7 @@ import { addPage, setRecipesFound, setLastRoute } from '../../redux/actions';
 
 const Cards = ({ handleDetail }) => {
 
-    const recipesAll = useSelector(state => state.allRecipes);
+    const recipesState = useSelector(state => state.recipes);
     const recipesFound = useSelector(state => state.recipesFound);
     const [ nineRecipes, setNineRecipes ] = useState([]);
     const { pathname } = useLocation();
@@ -17,6 +17,13 @@ const Cards = ({ handleDetail }) => {
     const pageState = useSelector(state => state.page);
     const [ page, setPage ] = useState();
     const [ recipes, setRecipes ] = useState([]);
+
+    useEffect(() => {
+        console.log(recipesState.length);
+        setRecipes(recipesState)
+        setPage(pageState);
+        handleRender(page)
+      }, [page,pathname,recipesFound,pageState,recipes,recipesState,lastRoute]);
 
     useEffect(() => {
         if (pathname=='/home'||pathname=='/search'){
@@ -31,23 +38,15 @@ const Cards = ({ handleDetail }) => {
         if (pathname=='/home') return Math.ceil(recipes.length/9);
         if (pathname=='/search') return Math.ceil(recipesFound.length/9)
         if (pathname=='/filter'||pathname=='/detail') {
-            console.log(lastRoute);
             if (lastRoute=='/home') return Math.ceil(recipes.length/9);
             if (lastRoute=='/search') return Math.ceil(recipesFound.length/9)
         }
     };
     const numPages = funNumPages();
 
-    useEffect(() => {
-        setRecipes(recipesAll)
-        setPage(pageState);
-        handleRender(page)
-      }, [page,pathname,recipesFound,pageState,recipes,recipesAll,lastRoute]);
-
     const handleRender = (pag) => {
         let pos1 = (0 + 9)*(pag-1);
         let pos2 = pos1 + 9;
-        console.log(recipes.length);
         if (pathname=='/home') setNineRecipes(recipes.slice(pos1,pos2));
         if (pathname=='/search') {
             if (typeof recipesFound[0]==='string'){
@@ -58,6 +57,9 @@ const Cards = ({ handleDetail }) => {
             }
         };
         if (pathname=='/filter'||pathname=='/detail') {
+            console.log('apiDB '+recipes.length);
+            console.log('found '+recipesFound.length); 
+            console.log(lastRoute); 
             if (lastRoute=='/home') setNineRecipes(recipes.slice(pos1,pos2));
             if (lastRoute=='/search') setNineRecipes(recipesFound.slice(pos1,pos2));
         }

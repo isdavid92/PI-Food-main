@@ -37,8 +37,8 @@ function App() {
   }
 
   useEffect(() => {
-    dispatch(getRecipesDB());
     dispatch(addRecipes(handleRecipeAux(recipeAux)))
+    dispatch(getRecipesDB());
   }, []);
   
   const login = (name) => {

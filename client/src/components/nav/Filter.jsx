@@ -1,10 +1,17 @@
 import { useEffect, useState } from 'react';
 import style from './Filter.module.css';
 import { useNavigate } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+import { filterRecipesByDiets, addRecipes } from '../../redux/actions';
 
 const Filter = () => {
 
     const navigate = useNavigate();
+    const dispatch = useDispatch();
+    const lastRoute = useSelector(state => state.lastRoute);
+    const allRecipes = useSelector(state => state.allRecipes);
+    const recipes = useSelector(state => state.recipes);
+    const recipesFound = useSelector(state => state.recipesFound);
     const [selectFil, setSelectFil] = useState('');
     const [selectDiet, setSelectDiet] = useState('');
     const [selectOrigin, setSelectOrigin] = useState('');
@@ -12,25 +19,28 @@ const Filter = () => {
     const [selectOrderAZ, setSelectOrderAZ] = useState('');
     const [selectOrderLS, setSelectOrderLS] = useState('');
 
-
     useEffect(() => {
         setSelectFil('diet')
         setSelectOrder('alphabetical order')
-    },[])
+    }, []);
 
-    const handleChangeFill = (event) => {  //! FILTER
+    useEffect(() => {
+        if (selectDiet.length>0) handlefilterDiet(selectDiet);
+    }, [selectDiet]);
+
+    const handleChangeFill = (event) => {  //! FILTER CHANGE
         setSelectFil(event.target.value)
     };
 
     const handleChangeFillDiet = (event) => {
         setSelectDiet(event.target.value)
     };
-    
+
     const handleChangeFillOrigin = (event) => {
         setSelectOrigin(event.target.value)
     };
 
-    const handleChangeOrder = (event) => {  //! ORDER
+    const handleChangeOrder = (event) => {  //! ORDER CHANGE
         setSelectOrder(event.target.value)
     };
 
@@ -40,6 +50,26 @@ const Filter = () => {
 
     const handleChangeOrderLS = (event) => {
         setSelectOrderLS(event.target.value)
+    };
+
+    const handlefilterDiet = (diet) => {        //? FILTER DIET
+        dispatch(addRecipes(allRecipes));
+        if (lastRoute=='/home') {
+            const filterRecipes = recipes.filter(recipe => recipe.diets.includes(diet));
+            dispatch(filterRecipesByDiets(filterRecipes))
+        }
+    };
+
+    const handlefilterOrigin = (arg) => {      //? FILTER ORIGIN
+        dispatch()
+    };
+
+    const handleOrderAZ = (arg) => {           //todo ORDER AZ
+        dispatch()
+    };
+
+    const handleOrderLS = (arg) => {           //todo ORDER LM
+        dispatch()
     };
 
     const handleBack = () => {
@@ -101,6 +131,7 @@ const Filter = () => {
                         selectOrder == 'alphabetical order' &&
                         <>
                             <select name="alphabetical order" id="5" className={style.selecOrderAZ} onChange={handleChangeOrderAZ}>
+                                <option value="">---</option>
                                 <option value="a-z">A-Z</option>
                                 <option value="z-a">Z-A</option>
                             </select>
@@ -110,6 +141,7 @@ const Filter = () => {
                         selectOrder == 'health score' &&
                         <>
                             <select name="health score" id="6" className={style.selecOrderLS} onChange={handleChangeOrderLS}>
+                                <option value="">---------LM--------</option>
                                 <option value="largest to smallest">Largest to smallest</option>
                                 <option value="smallest to largest">Smallest to largest</option>
                             </select>

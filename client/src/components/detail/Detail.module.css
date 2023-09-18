@@ -104,6 +104,7 @@
 .steps{
     background-color: rgba(64, 1, 79, 0.762);
     border-radius: 5px;
+    padding: 0.5em;
 }
 
 .step{

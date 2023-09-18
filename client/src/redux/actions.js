@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { ADD_NAME, ADD_PAGE, SET_LAST_ROUTE, ADD_DIET, SET_DIETS, GET_RECIPESDB, GET_RECIPES_TITLE, SET_RECIPES_FOUND, ADD_RECIPES, ADD_RECIPE, REMOVE_RECIPE, FILTER, ORDER } from "./actions_types";
+import { ADD_NAME, ADD_PAGE, SET_LAST_ROUTE, ADD_DIET, SET_DIETS, GET_RECIPESDB, GET_RECIPES_TITLE, SET_RECIPES_FOUND, ADD_RECIPES, ADD_RECIPE, REMOVE_RECIPE, FILTER_DIETS, FILTER_ORIGIN, ORDER_AZ, ORDER_LM } from "./actions_types";
 
 const URL = 'http://localhost:3001/';
 
@@ -174,33 +174,44 @@ export const addRecipe = (recipe) => {
     }
 };
 
+// export const removeRecipe = (id) => {
+//     try {
+//         return async (dispatch) => {
+//             const { data } = await axios.delete(`${URL}recipes/${id}`);
+//             return dispatch({
+//                 type: REMOVE_RECIPE,
+//                 payload: data
+//             })
+//         };
+//     } catch (error) {
+//         console.log(error);
+//     }
+// };
 
-
-
-export const removeRecipe = (id) => {
-    try {
-        return async (dispatch) => {
-            const { data } = await axios.delete(`${URL}recipes/${id}`);
-            return dispatch({
-                type: REMOVE_RECIPE,
-                payload: data
-            })
-        };
-    } catch (error) {
-        console.log(error);
+export const filterRecipesByDiets = (recipes) => {
+    return {
+        type: FILTER_DIETS,
+        payload: recipes
     }
 };
 
-export const filterRecipes = (gender) => {
+export const filterRecipesByOrigin = (gender) => {
     return {
-        type: FILTER,
+        type: FILTER_ORIGIN,
         payload: gender
     }
 };
 
-export const orderRecipes = (orden) => {
+export const orderRecipesAZ = (orden) => {
     return {
-        type: ORDER,
+        type: ORDER_AZ,
+        payload: orden
+    }
+};
+
+export const orderRecipesLM = (orden) => {
+    return {
+        type: ORDER_LM,
         payload: orden
     }
 };

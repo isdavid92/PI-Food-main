@@ -4,11 +4,13 @@ import home from './assets/img/buttonHome.png';
 import search from './assets/img/search.png'
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from 'react-redux';
-import { addPage, getRecipesTitle, setRecipesFound } from '../../redux/actions';
+import { addPage, getRecipesTitle, setRecipesFound, addRecipes } from '../../redux/actions';
 import { useState } from 'react';
 import Filter from './Filter';
 
 const Nav = () => {
+
+    const AllRecipes = useSelector(state => state.allRecipes);
     const name = useSelector(state => state.name);
     const navigate = useNavigate();
     const dispatch = useDispatch();
@@ -16,6 +18,7 @@ const Nav = () => {
     const [ title, setTitle ] = useState('');
 
     const handleHome = () => {
+        dispatch(addRecipes(AllRecipes));
         dispatch(addPage(1));
         navigate('/home');
         dispatch(setRecipesFound())
@@ -55,6 +58,7 @@ const Nav = () => {
                 </Link>
             </div>
             <div className={style.options}>
+                {pathname == '/detail' && <h3 className={style.chef}>The Chef´s Secret</h3>}
                 {
                     (pathname == '/home' || pathname == '/search') &&
                     <>
