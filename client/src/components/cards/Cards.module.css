@@ -26,7 +26,7 @@
 
 .shadeArrow{
     color: red;
-    -webkit-text-stroke: 9px red;
+    -webkit-text-stroke: 6px red;
     filter: blur(3px);
     width: max-content;
     margin: 1px auto 1px auto;

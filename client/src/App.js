@@ -26,10 +26,11 @@ function App() {
       const { id, title, image, summary, healthScore, analyzedInstructions, diets } = recipesAux[i];
       if (analyzedInstructions.length>0) {
         const steps = analyzedInstructions[0].steps;
-        recipesApi.push({ id, title, image, summary, healthScore, steps, diets })
+        const origin = 'api';
+        recipesApi.push({ id, title, image, summary, healthScore, steps, diets, origin })
       } else {
         const steps = [];
-        const origin = 'api'
+        const origin = 'api';
         recipesApi.push({ id, title, image, summary, healthScore, steps, diets, origin })
       }
   };

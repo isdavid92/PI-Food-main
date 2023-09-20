@@ -11,6 +11,7 @@ const Filter = () => {
     const recipesState = useSelector(state => state.recipes);
     const lastRoute = useSelector(state => state.lastRoute);
     const [recips, setRecips] = useState([]);       //! RECIPES
+    const [reciByDiets, setReciByDiets] = useState([]);
     const [selectFil, setSelectFil] = useState('');        //*PARA MOSTRAR EL INPUT
     const [selectDiet, setSelectDiet] = useState('');
     const [selectOrigin, setSelectOrigin] = useState('');
@@ -19,12 +20,11 @@ const Filter = () => {
     const [selectOrderLS, setSelectOrderLS] = useState('');
 
     useEffect(() => {
+        console.log('FILTER');
         setRecips(recipesState);
         if (lastRoute!=='/detail') dispatch(addPage(1));
-        if (lastRoute!=='/detail') {
-            setSelectFil('diet');
-            setSelectOrder('alphabetical order')
-        }
+        setSelectFil('diet');
+        setSelectOrder('alphabetical order')
     },[]);
 
     useEffect(() => {
@@ -38,7 +38,7 @@ const Filter = () => {
     useEffect(() => {
         if (selectOrigin=="todas") {
             dispatch(addPage(1));
-            dispatch(setRecipes(recips))
+            dispatch(setRecipes(reciByDiets))
         };
         if (selectOrigin.length>0 && selectOrigin!=="todas") handlefilterOrigin(selectOrigin);
     }, [selectOrigin]);
@@ -80,13 +80,14 @@ const Filter = () => {
         dispatch(addPage(1));
         dispatch(setRecipes(recips));
         const filterRecipes = recips.filter(recipe => recipe.diets.includes(diet));
+        setReciByDiets(filterRecipes);
         dispatch(setRecipes(filterRecipes))
     };
     
     const handlefilterOrigin = (origin) => {      //? FILTER ORIGIN
         dispatch(addPage(1));
-        dispatch(setRecipes(recips));
-        const filterRecipes = recips.filter(recipe => recipe.origin==origin);
+        dispatch(setRecipes(reciByDiets));
+        const filterRecipes = reciByDiets.filter(recipe => recipe.origin==origin);
         dispatch(setRecipes(filterRecipes))
     };
     

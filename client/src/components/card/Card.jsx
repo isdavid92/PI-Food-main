@@ -29,7 +29,7 @@ const Card = ({ recipe, handleDetail }) => {
             return (
                 <h4 className={style.origin}>"Data Base"</h4>
             )
-        } else {
+        } else if (recipe.origin=='api'){
             return (
                 <h4 className={style.api}>"API"</h4>
             )
