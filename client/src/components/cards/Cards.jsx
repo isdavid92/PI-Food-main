@@ -51,7 +51,6 @@ const Cards = ({ handleDetail }) => {
             <div className={style.cards}>
                 {
                     nineRecipes.map((recipe, index) => {
-                        console.log(recipe.origin);
                         return (
                             <Card key={index} recipe={recipe} handleDetail={handleDetail} page={page} />
                         )

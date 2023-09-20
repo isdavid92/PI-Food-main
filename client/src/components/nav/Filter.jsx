@@ -21,8 +21,10 @@ const Filter = () => {
     useEffect(() => {
         setRecips(recipesState);
         if (lastRoute!=='/detail') dispatch(addPage(1));
-        setSelectFil('diet');
-        setSelectOrder('alphabetical order')
+        if (lastRoute!=='/detail') {
+            setSelectFil('diet');
+            setSelectOrder('alphabetical order')
+        }
     },[]);
 
     useEffect(() => {

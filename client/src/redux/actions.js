@@ -87,11 +87,20 @@ export const getRecipesTitle = (title) => {
             const num = Number(title)
             if (!isNaN(num)) {
                 const response = await axios.get(`${URL}recipes/${num}`);
-                const data = [response.data]
-                return dispatch({
-                    type: GET_RECIPES_TITLE,
-                    payload: data
-                })
+                console.log(response.data);
+                if (typeof response.data == 'string') {
+                    const data = [`Sorry, there is no recipe with the ID: ${num}`];
+                    return dispatch({
+                        type: GET_RECIPES_TITLE,
+                        payload: data
+                    })
+                } else {
+                    const data = [response.data];
+                    return dispatch({
+                        type: GET_RECIPES_TITLE,
+                        payload: data
+                    })
+                }
             } else {
                 const { data } = await axios.get(`${URL}recipes/title/${title}`);
                 const ids = data.map(recipe => recipe.id).join(',');
@@ -119,7 +128,6 @@ export const getRecipesTitle = (title) => {
 export const addRecipes = (recipes) => {
     try {
         return async (dispatch) => {
-            console.log('addRecipes'+recipes.length);
             return dispatch({
                         type: ADD_RECIPES,
                         payload: recipes
