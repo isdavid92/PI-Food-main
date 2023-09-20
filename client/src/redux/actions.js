@@ -5,7 +5,7 @@ const URL = 'http://localhost:3001/';
 
 export const addName = (name) => {
     try {
-        return async (dispatch) => {
+        return (dispatch) => {
             return dispatch({
                 type: ADD_NAME,
                 payload: name
@@ -18,7 +18,7 @@ export const addName = (name) => {
 
 export const addPage = (page) => {
     try {
-        return async (dispatch) => {
+        return (dispatch) => {
             return dispatch({
                 type: ADD_PAGE,
                 payload: page
@@ -29,13 +29,21 @@ export const addPage = (page) => {
     } 
 };
 
-export const addDiet = (diet) => {
+export const addDiet = ({diet,origin}) => {
     try {
         return async (dispatch) => {
-            return dispatch({
-                type: ADD_DIET,
-                payload: diet
-            })
+            if (origin=='nav') {
+                const { data } = await axios.get(`${URL}diets`);
+                return dispatch({
+                    type: ADD_DIET,
+                    payload: data
+                })
+            } else {
+                return dispatch({
+                    type: ADD_DIET,
+                    payload: diet
+                })
+            }
         }
     } catch (error) {
         console.log(error);
@@ -44,7 +52,7 @@ export const addDiet = (diet) => {
 
 export const setDiets = () => {
     try {
-        return async (dispatch) => {
+        return (dispatch) => {
             return dispatch({
                 type: SET_DIETS
             })
@@ -56,7 +64,7 @@ export const setDiets = () => {
 
 export const setLastRoute = (route) => {
     try {
-        return async (dispatch) => {
+        return (dispatch) => {
             return dispatch({
                 type: SET_LASTROUTE,
                 payload: route
@@ -127,7 +135,7 @@ export const getRecipesTitle = (title) => {
 
 export const addRecipes = (recipes) => {
     try {
-        return async (dispatch) => {
+        return (dispatch) => {
             return dispatch({
                         type: ADD_RECIPES,
                         payload: recipes
@@ -140,7 +148,7 @@ export const addRecipes = (recipes) => {
 
 export const setRecipes = (recipes) => {
     try {
-        return async (dispatch) => {
+        return (dispatch) => {
             return dispatch({
                         type: SET_RECIPES,
                         payload: recipes
@@ -187,7 +195,7 @@ export const addRecipe = (recipe) => {
 export const removeRecipe = ({id,recipesState}) => {
     try {
         const newRecipes = recipesState.filter(recipe=>recipe.id!==id)
-        return async (dispatch) => {
+        return (dispatch) => {
             return dispatch({
                 type: REMOVE_RECIPE,
                 payload: newRecipes

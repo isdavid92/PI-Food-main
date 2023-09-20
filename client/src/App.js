@@ -10,6 +10,7 @@ import Cards from './components/cards/Cards';
 import Form from './components/form/Form';
 import recipeAux from './Auxi100'; //! >> API LOCAL <<
 import Detail from './components/detail/Detail';
+import Diets from './components/diets/Diets';
 
 
 function App() {
@@ -68,6 +69,7 @@ function App() {
         <Route path='/filter' element={<Cards handleDetail={handleDetail}/>}/>
         <Route path='/form' element={<Form/>}/>
         <Route path='/detail' element={<Detail recipe={recipe[0]}/>}/>
+        <Route path='/diets' element={<Diets/>}/>
         <Route path='*' element={<Error404/>}/>
       </Routes>
     </div>

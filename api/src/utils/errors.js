@@ -6,7 +6,6 @@ module.exports = (res, error) => {
         const statusCode = status || 404;
         const errorMessage = data.error || "This recipe does not exist";
         if (statusCode===404) {
-            console.log('AQUI SI');
             return res.status(204).send(errorMessage)
         }
         

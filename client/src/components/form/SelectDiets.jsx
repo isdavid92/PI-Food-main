@@ -15,7 +15,7 @@ const SelectDiets = () => {
 
     const handleSelect = () => {
         if (diets.includes(diet)) return;
-        dispatch(addDiet(diet))
+        dispatch(addDiet({diet}))
     };
 
     const handleSet = async () => {

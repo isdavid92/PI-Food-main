@@ -20,7 +20,6 @@ const Filter = () => {
     const [selectOrderLS, setSelectOrderLS] = useState('');
 
     useEffect(() => {
-        console.log('FILTER');
         setRecips(recipesState);
         if (lastRoute!=='/detail') dispatch(addPage(1));
         setSelectFil('diet');
