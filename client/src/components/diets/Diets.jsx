@@ -30,7 +30,7 @@ const Diets = () => {
                     {
                         dits && dits.map(diet => {
                             return (
-                                <h2 className={style.id}>ID: {diet.id} {diet.name}</h2>
+                                <h2 className={style.id} key={diet.id}>ID: {diet.id} {diet.name}</h2>
                             )
                         })
                     }
