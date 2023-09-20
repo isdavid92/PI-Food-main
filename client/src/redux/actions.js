@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { ADD_NAME, ADD_PAGE, ADD_DIET, SET_DIETS, GET_RECIPESDB, GET_RECIPES_TITLE, ADD_RECIPES, ADD_RECIPE, SET_RECIPES, REMOVE_RECIPE, FILTER_DIETS, FILTER_ORIGIN, ORDER_AZ, ORDER_LS } from "./actions_types";
+import { ADD_NAME, ADD_PAGE, ADD_DIET, SET_LASTROUTE, SET_DIETS, GET_RECIPESDB, GET_RECIPES_TITLE, ADD_RECIPES, ADD_RECIPE, SET_RECIPES, REMOVE_RECIPE, FILTER_DIETS, FILTER_ORIGIN, ORDER_AZ, ORDER_LS } from "./actions_types";
 
 const URL = 'http://localhost:3001/';
 
@@ -47,6 +47,19 @@ export const setDiets = () => {
         return async (dispatch) => {
             return dispatch({
                 type: SET_DIETS
+            })
+        }
+    } catch (error) {
+        console.log(error);
+    } 
+};
+
+export const setLastRoute = (route) => {
+    try {
+        return async (dispatch) => {
+            return dispatch({
+                type: SET_LASTROUTE,
+                payload: route
             })
         }
     } catch (error) {

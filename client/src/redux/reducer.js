@@ -1,10 +1,11 @@
-import { ADD_NAME, ADD_PAGE, ADD_DIET, SET_DIETS, GET_RECIPESDB, GET_RECIPES_TITLE, ADD_RECIPES, ADD_RECIPE, SET_RECIPES, REMOVE_RECIPE, FILTER_ORIGIN, ORDER_AZ, ORDER_LS } from "./actions_types";
+import { ADD_NAME, ADD_PAGE, ADD_DIET, SET_DIETS, SET_LASTROUTE, GET_RECIPESDB, GET_RECIPES_TITLE, ADD_RECIPES, ADD_RECIPE, SET_RECIPES, REMOVE_RECIPE, FILTER_ORIGIN, ORDER_AZ, ORDER_LS } from "./actions_types";
 
 const inicialState = {
     recipes: [],
     allRecipes: [],
     recipesDB: [],
     render: 0,
+    lastRoute:'',
     name: '',
     page: 1,
     diets: []
@@ -36,11 +37,19 @@ const reducer = (state = inicialState, { type, payload }) => {
                 ...state,
                 diets: [...state.diets, payload]
             }
+
         case SET_DIETS:
             return {
                 ...state,
                 diets: []
             }
+
+        case SET_LASTROUTE:
+            return {
+                ...state,
+                lastRoute: payload
+            }
+
         case GET_RECIPESDB:
             return {
                 ...state,

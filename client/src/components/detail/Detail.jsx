@@ -1,10 +1,15 @@
+import { useDispatch } from 'react-redux';
 import style from './Detail.module.css';
 import back from './assets/img/back.png';
-import { useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
+import { setLastRoute } from '../../redux/actions';
 
 const Detail = ({ recipe }) => {
 
     const navigate = useNavigate();
+    const dispatch = useDispatch();
+    const { pathname } = useLocation();
+    dispatch(setLastRoute(pathname));
     let summaryHtml = recipe.summary;
     let div = document.createElement('h5');
     div.innerHTML = summaryHtml;
