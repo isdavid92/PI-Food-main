@@ -55,9 +55,10 @@ const Nav = () => {
     }
 
     const handleDiets = () => {
-        navigate('/diets');
         const origin = 'nav';
+        dispatch(setDiets())
         dispatch(addDiet({origin}))
+        navigate('/diets');
     }
 
     return(
@@ -97,7 +98,7 @@ const Nav = () => {
                             <h1 className={style.shadeCreate}>{'create your recipe here O'}</h1>
                             <h1 className={style.create}>{'create your recipe here🥧'}</h1>
                         </Link>
-                        <Link to={'/filter'} className={style.linkFilter} onClick={() => dispatch(setDiets())}>
+                        <Link to={'/filter'} className={style.linkFilter} onClick={() => handleDiets()}>
                             <h1 className={style.shadeFilter}>{'filter and sort >>'}</h1>
                             <h1 className={style.filter}>{'filter and sort >>'}</h1>
                         </Link>
