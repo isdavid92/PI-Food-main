@@ -10,10 +10,11 @@ const Card = ({ recipe, handleDetail }) => {
     const dispatch = useDispatch();
     
     const diets = () => {
+        const dietsCopy = [...recipe.diets];
         if (recipe.diets.length===0) return '';
         if (recipe.diets.length===1) return recipe.diets[0];
-        const lastDiet = recipe.diets.pop();
-        return recipe.diets.join(', ') + ' and ' + lastDiet
+        const lastDiet = dietsCopy.pop();
+        return dietsCopy.join(', ') + ' and ' + lastDiet
     };
     
     const navigate = useNavigate();
