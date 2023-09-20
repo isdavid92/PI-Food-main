@@ -2,11 +2,12 @@ import style from './Card.module.css';
 import { useNavigate } from 'react-router-dom';
 import delt from './assets/img/delete.png';
 import { useDispatch, useSelector } from 'react-redux';
-import { removeRecipe } from '../../redux/actions';
+import { removeRecipe, addPage } from '../../redux/actions';
 
 const Card = ({ recipe, handleDetail }) => {
 
     const recipesState = useSelector(state => state.recipes);
+    const pageState = useSelector(state => state.page);
     const dispatch = useDispatch();
     
     const diets = () => {
@@ -38,7 +39,11 @@ const Card = ({ recipe, handleDetail }) => {
 
     const handleDelete = () => {
         const id = recipe.id;
-        dispatch(removeRecipe({ id,recipesState}))
+        dispatch(removeRecipe({ id,recipesState}));
+        const numRecipes = recipesState.length
+        const pages = Math.ceil(numRecipes / 9);
+        const lastRecipe = (numRecipes-1) % 9 === 0;
+        if (pageState===pages && lastRecipe) dispatch(addPage(pageState-1))
     }
 
     return (

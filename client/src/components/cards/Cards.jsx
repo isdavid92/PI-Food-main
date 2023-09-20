@@ -25,7 +25,7 @@ const Cards = ({ handleDetail }) => {
     }, [page, pathname, pageState, recipes, recipesState, render]);
 
     const handleRender = (pag) => {
-        let pos1 = (0 + 9) * (pag - 1);
+        let pos1 = (0 + 9) * (pag-1);
         let pos2 = pos1 + 9;
         setNineRecipes(recipes.slice(pos1, pos2));
     };
