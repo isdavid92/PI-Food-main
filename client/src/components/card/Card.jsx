@@ -1,7 +1,13 @@
 import style from './Card.module.css';
 import { useNavigate } from 'react-router-dom';
+import delt from './assets/img/delete.png';
+import { useDispatch, useSelector } from 'react-redux';
+import { removeRecipe } from '../../redux/actions';
 
 const Card = ({ recipe, handleDetail }) => {
+
+    const recipesState = useSelector(state => state.recipes);
+    const dispatch = useDispatch();
     
     const diets = () => {
         if (recipe.diets.length===0) return '';
@@ -29,11 +35,17 @@ const Card = ({ recipe, handleDetail }) => {
         }
     }
 
+    const handleDelete = () => {
+        const id = recipe.id;
+        dispatch(removeRecipe({ id,recipesState}))
+    }
+
     return (
         <div className={style.card}>
             <div className={style.info}>
                 <img src={recipe.image} className={style.image}/>
                 {handleOrigin()}
+                <img src={delt} className={style.delt} onClick={() => handleDelete()}/>
                 <div className={style.nameDiets} onClick={() => handleDetailId()}>
                     <h1 className={style.name}>{recipe.title}</h1>
                     <h4 className={style.dietsTit}>Diets:</h4>

@@ -119,7 +119,6 @@ export const addRecipes = (recipes) => {
 
 export const setRecipes = (recipes) => {
     try {
-        console.log('set recipes');
         return async (dispatch) => {
             return dispatch({
                         type: SET_RECIPES,
@@ -164,19 +163,19 @@ export const addRecipe = (recipe) => {
     }
 };
 
-// export const removeRecipe = (id) => {
-//     try {
-//         return async (dispatch) => {
-//             const { data } = await axios.delete(`${URL}recipes/${id}`);
-//             return dispatch({
-//                 type: REMOVE_RECIPE,
-//                 payload: data
-//             })
-//         };
-//     } catch (error) {
-//         console.log(error);
-//     }
-// };
+export const removeRecipe = ({id,recipesState}) => {
+    try {
+        const newRecipes = recipesState.filter(recipe=>recipe.id!==id)
+        return async (dispatch) => {
+            return dispatch({
+                type: REMOVE_RECIPE,
+                payload: newRecipes
+            })
+        };
+    } catch (error) {
+        console.log(error);
+    }
+};
 
 export const orderRecipesAZ = ({ order,recipesState }) => {
     if (order=='az') {

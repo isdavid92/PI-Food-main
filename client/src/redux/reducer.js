@@ -70,12 +70,11 @@ const reducer = (state = inicialState, { type, payload }) => {
                 allRecipes: [payload, ...state.allRecipes]
             }
 
-        // case REMOVE_RECIPE:
-        //     return {
-        //         ...state,
-        //         recipes: payload,
-        //         allRecipes: payload
-        //     }
+        case REMOVE_RECIPE:
+            return {
+                ...state,
+                recipes: payload,
+            }
 
         case FILTER_ORIGIN:
             if (payload === "todos") {

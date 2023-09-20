@@ -20,7 +20,6 @@ const Filter = () => {
     const [selectOrderLS, setSelectOrderLS] = useState('');
 
     useEffect(() => {
-        console.log('useEffect 1');
         setRecips(recipesState);
         setAllRecipes(allRecipesState)
         dispatch(addPage(1));
@@ -29,13 +28,16 @@ const Filter = () => {
     },[]);
 
     useEffect(() => {
-        if (selectDiet=="todas") dispatch(setRecipes(recips));
+        if (selectDiet=="todas") {
+            dispatch(addPage(1));
+            dispatch(setRecipes(recips))
+        };
         if (selectDiet.length>0 && selectDiet!=="todas") handlefilterDiet(selectDiet);
     }, [selectDiet]);
 
     useEffect(() => {
         if (selectOrigin=="todas") {
-            dispatch(addPage(1))
+            dispatch(addPage(1));
             dispatch(setRecipes(recips))
         };
         if (selectOrigin.length>0 && selectOrigin!=="todas") handlefilterOrigin(selectOrigin);

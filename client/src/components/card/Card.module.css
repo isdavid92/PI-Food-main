@@ -87,3 +87,14 @@
   font-size: 1em;
   color: rgb(1, 82, 1);
 }
+
+.delt{
+  z-index: 4;
+  width: 1.5em;
+  position: absolute;
+  transform: translateX(7em) translateY(4em);
+  &:hover {
+    cursor: pointer;
+    width: 2em;
+  }
+}
