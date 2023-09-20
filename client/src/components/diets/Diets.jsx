@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import style from './Diets.module.css';
 import { useEffect, useState } from 'react';
-import { addDiet, setDiets } from '../../redux/actions';
+import { addDiet } from '../../redux/actions';
 
 const Diets = () => {
 
@@ -10,7 +10,6 @@ const Diets = () => {
     const [ dits, setDits ] = useState([]);
 
     useEffect(() => {
-        console.log(dietsState);
         if (!dietsState||dietsState==[]){
             const origin = 'nav';
             dispatch(addDiet({origin}))

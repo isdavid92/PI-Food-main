@@ -46,7 +46,6 @@ const Form = () => {
     },[]);
 
     const handleAddRecipe =  async() => {
-        console.log(recipeData.title);
         if(!recipeData.title||!recipeData.title.length) return alert("Please enter a name!");
         if(errors.healthScore) return alert("Enter a health score between 1 and 100!");
         if(!diets.length) return alert("Choose at least one diet!");
