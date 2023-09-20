@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { ADD_NAME, ADD_PAGE, SET_LAST_ROUTE, ADD_DIET, SET_DIETS, GET_RECIPESDB, GET_RECIPES_TITLE, SET_RECIPES_FOUND, ADD_RECIPES, ADD_RECIPE, REMOVE_RECIPE, FILTER_DIETS, FILTER_ORIGIN, ORDER_AZ, ORDER_LM } from "./actions_types";
+import { ADD_NAME, ADD_PAGE, ADD_DIET, SET_DIETS, GET_RECIPESDB, GET_RECIPES_TITLE, ADD_RECIPES, ADD_RECIPE, SET_RECIPES, REMOVE_RECIPE, FILTER_DIETS, FILTER_ORIGIN, ORDER_AZ, ORDER_LS } from "./actions_types";
 
 const URL = 'http://localhost:3001/';
 
@@ -22,19 +22,6 @@ export const addPage = (page) => {
             return dispatch({
                 type: ADD_PAGE,
                 payload: page
-            })
-        }
-    } catch (error) {
-        console.log(error);
-    } 
-};
-
-export const setLastRoute = (route) => {
-    try {
-        return async (dispatch) => {
-            return dispatch({
-                type: SET_LAST_ROUTE,
-                payload: route
             })
         }
     } catch (error) {
@@ -116,23 +103,26 @@ export const getRecipesTitle = (title) => {
     } 
 };
 
-export const setRecipesFound = () => {
-    try {
-        return async (dispatch) => {
-            return dispatch({
-                type: SET_RECIPES_FOUND,
-            }) 
-        }
-    } catch (error) {
-        console.log(error);
-    } 
-};
-
 export const addRecipes = (recipes) => {
     try {
         return async (dispatch) => {
+            console.log('addRecipes'+recipes.length);
             return dispatch({
                         type: ADD_RECIPES,
+                        payload: recipes
+                    })
+        };
+    } catch (error) {
+        console.log(error);
+    }
+};
+
+export const setRecipes = (recipes) => {
+    try {
+        console.log('set recipes');
+        return async (dispatch) => {
+            return dispatch({
+                        type: SET_RECIPES,
                         payload: recipes
                     })
         };
@@ -188,30 +178,54 @@ export const addRecipe = (recipe) => {
 //     }
 // };
 
-export const filterRecipesByDiets = (recipes) => {
-    return {
-        type: FILTER_DIETS,
-        payload: recipes
+export const orderRecipesAZ = ({ order,recipesState }) => {
+    if (order=='az') {
+        const orderRecipesAZ = recipesState.sort((a, b) => {
+            if (a.title < b.title) {
+                return -1;
+            }
+            if (a.title > b.title) {
+                return 1;
+            }
+            return 0;
+        });
+        return {
+            type: ORDER_AZ,
+            payload: orderRecipesAZ
+        }
+        
+    } else if (order=='za') {
+        const orderRecipesZA = recipesState.sort((a, b) => {
+            if (a.title > b.title) {
+                return -1;
+            }
+            if (a.title < b.title) {
+                return 1;
+            }
+            return 0;
+        });
+        return {
+            type: ORDER_AZ,
+            payload: orderRecipesZA
+        }
+        
     }
 };
 
-export const filterRecipesByOrigin = (gender) => {
-    return {
-        type: FILTER_ORIGIN,
-        payload: gender
-    }
-};
-
-export const orderRecipesAZ = (orden) => {
-    return {
-        type: ORDER_AZ,
-        payload: orden
-    }
-};
-
-export const orderRecipesLM = (orden) => {
-    return {
-        type: ORDER_LM,
-        payload: orden
+export const orderRecipesLS = ({ order,recipesState }) => {
+    if (order=='ls'){
+        const orderRecipesLS = recipesState.sort((a, b) => b.healthScore - a.healthScore);
+        return {
+            type: ORDER_LS,
+            payload: orderRecipesLS
+        }
+    } else {
+        if (order=='sl'){
+            const orderRecipesSL = recipesState.sort((a, b) => a.healthScore - b.healthScore);
+            return {
+                type: ORDER_LS,
+                payload: orderRecipesSL
+            }
+        }
     }
 };

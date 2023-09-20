@@ -2,76 +2,102 @@ import { useEffect, useState } from 'react';
 import style from './Filter.module.css';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { filterRecipesByDiets, addRecipes } from '../../redux/actions';
+import { orderRecipesAZ, orderRecipesLS, addPage, setRecipes } from '../../redux/actions';
 
 const Filter = () => {
 
     const navigate = useNavigate();
     const dispatch = useDispatch();
-    const lastRoute = useSelector(state => state.lastRoute);
-    const allRecipes = useSelector(state => state.allRecipes);
-    const recipes = useSelector(state => state.recipes);
-    const recipesFound = useSelector(state => state.recipesFound);
-    const [selectFil, setSelectFil] = useState('');
+    const allRecipesState = useSelector(state => state.allRecipes);
+    const recipesState = useSelector(state => state.recipes);
+    const [recips, setRecips] = useState([]);       //! RECIPES
+    const [allRecipes, setAllRecipes] = useState([]); //! ALL
+    const [selectFil, setSelectFil] = useState('');        //*PARA MOSTRAR EL INPUT
     const [selectDiet, setSelectDiet] = useState('');
     const [selectOrigin, setSelectOrigin] = useState('');
-    const [selectOrder, setSelectOrder] = useState('');
+    const [selectOrder, setSelectOrder] = useState('');    //*PARA MOSTRAR EL INPUT
     const [selectOrderAZ, setSelectOrderAZ] = useState('');
     const [selectOrderLS, setSelectOrderLS] = useState('');
 
     useEffect(() => {
-        setSelectFil('diet')
+        console.log('useEffect 1');
+        setRecips(recipesState);
+        setAllRecipes(allRecipesState)
+        dispatch(addPage(1));
+        setSelectFil('diet');
         setSelectOrder('alphabetical order')
-    }, []);
+    },[]);
 
     useEffect(() => {
-        if (selectDiet.length>0) handlefilterDiet(selectDiet);
+        if (selectDiet=="todas") dispatch(setRecipes(recips));
+        if (selectDiet.length>0 && selectDiet!=="todas") handlefilterDiet(selectDiet);
     }, [selectDiet]);
 
+    useEffect(() => {
+        if (selectOrigin=="todas") {
+            dispatch(addPage(1))
+            dispatch(setRecipes(recips))
+        };
+        if (selectOrigin.length>0 && selectOrigin!=="todas") handlefilterOrigin(selectOrigin);
+    }, [selectOrigin]);
+
+    useEffect(() => {
+        if (selectOrderAZ.length>0) handleOrderAZ(selectOrderAZ);
+    }, [selectOrderAZ]);
+
+    useEffect(() => {
+        if (selectOrderLS.length>0) handleOrderLS(selectOrderLS);
+    }, [selectOrderLS]);
+    
+    
     const handleChangeFill = (event) => {  //! FILTER CHANGE
         setSelectFil(event.target.value)
     };
-
+    
     const handleChangeFillDiet = (event) => {
         setSelectDiet(event.target.value)
     };
-
+    
     const handleChangeFillOrigin = (event) => {
         setSelectOrigin(event.target.value)
     };
-
+    
     const handleChangeOrder = (event) => {  //! ORDER CHANGE
         setSelectOrder(event.target.value)
     };
-
+    
     const handleChangeOrderAZ = (event) => {
         setSelectOrderAZ(event.target.value)
     };
-
+    
     const handleChangeOrderLS = (event) => {
         setSelectOrderLS(event.target.value)
     };
-
+    
     const handlefilterDiet = (diet) => {        //? FILTER DIET
-        dispatch(addRecipes(allRecipes));
-        if (lastRoute=='/home') {
-            const filterRecipes = recipes.filter(recipe => recipe.diets.includes(diet));
-            dispatch(filterRecipesByDiets(filterRecipes))
-        }
+        dispatch(addPage(1));
+        dispatch(setRecipes(recips));
+        const filterRecipes = recips.filter(recipe => recipe.diets.includes(diet));
+        dispatch(setRecipes(filterRecipes))
     };
-
-    const handlefilterOrigin = (arg) => {      //? FILTER ORIGIN
-        dispatch()
+    
+    const handlefilterOrigin = (origin) => {      //? FILTER ORIGIN
+        dispatch(addPage(1));
+        dispatch(setRecipes(recips));
+        const filterRecipes = recips.filter(recipe => recipe.origin==origin);
+        dispatch(setRecipes(filterRecipes))
     };
-
-    const handleOrderAZ = (arg) => {           //todo ORDER AZ
-        dispatch()
+    
+    const handleOrderAZ = (order) => {           //todo ORDER AZ
+        dispatch(addPage(1));
+        dispatch(orderRecipesAZ({ order,recipesState }))
     };
-
-    const handleOrderLS = (arg) => {           //todo ORDER LM
-        dispatch()
+    
+    const handleOrderLS = (order) => {           //todo ORDER LS
+        dispatch(addPage(1));
+        dispatch(orderRecipesLS({ order,recipesState }))
     };
-
+    
     const handleBack = () => {
         navigate(-1)
     };
@@ -94,6 +120,7 @@ const Filter = () => {
                         <>
                             <select name="filter" id="2" className={style.selecFilterDiet} onChange={handleChangeFillDiet}>
                                 <option value="">-------- diets --------</option>
+                                <option value="todas">todas</option>
                                 <option value="gluten free">gluten free</option>
                                 <option value="dairy free">dairy free</option>
                                 <option value="paleolithic">paleolithic</option>
@@ -112,6 +139,7 @@ const Filter = () => {
                         <>
                             <select name="filter" id="3" className={style.selecFilterOrigin} onChange={handleChangeFillOrigin}>
                                 <option value="">--- origin ---</option>
+                                <option value="todas">todas</option>
                                 <option value="data base">Data base</option>
                                 <option value="api">API</option>
                             </select>
@@ -132,8 +160,8 @@ const Filter = () => {
                         <>
                             <select name="alphabetical order" id="5" className={style.selecOrderAZ} onChange={handleChangeOrderAZ}>
                                 <option value="">---</option>
-                                <option value="a-z">A-Z</option>
-                                <option value="z-a">Z-A</option>
+                                <option value="az">A-Z</option>
+                                <option value="za">Z-A</option>
                             </select>
                         </>
                     }
@@ -142,8 +170,8 @@ const Filter = () => {
                         <>
                             <select name="health score" id="6" className={style.selecOrderLS} onChange={handleChangeOrderLS}>
                                 <option value="">---------LM--------</option>
-                                <option value="largest to smallest">Largest to smallest</option>
-                                <option value="smallest to largest">Smallest to largest</option>
+                                <option value="ls">Largest to smallest</option>
+                                <option value="sl">Smallest to largest</option>
                             </select>
                         </>
                     }

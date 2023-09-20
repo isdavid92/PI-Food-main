@@ -39,9 +39,9 @@ const Detail = ({ recipe }) => {
     };
 
     const handleOrigin = () => {
-        if (recipe.origin) {
+        if (recipe.origin=='data base') {
             return(
-                <h4 className={style.origin}>"Data Base"</h4>
+                <h4 className={style.origin}>"origin: data base"</h4>
             )
         }
     }

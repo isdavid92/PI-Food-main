@@ -18,9 +18,13 @@ const Card = ({ recipe, handleDetail }) => {
     };
 
     const handleOrigin = () => {
-        if (recipe.origin) {
+        if (recipe.origin=='data base') {
             return (
                 <h4 className={style.origin}>"Data Base"</h4>
+            )
+        } else {
+            return (
+                <h4 className={style.api}>"API"</h4>
             )
         }
     }

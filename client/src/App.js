@@ -17,8 +17,7 @@ function App() {
   const { pathname } = useLocation();
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const recipes = useSelector(state => state.allRecipes);
-  const recipesFound = useSelector(state => state.recipesFound);
+  const recipes = useSelector(state => state.recipes);
   const [ recipe, setRecipe ] = useState([]);
 
   const handleRecipeAux = (recipesAux) => {
@@ -30,7 +29,8 @@ function App() {
         recipesApi.push({ id, title, image, summary, healthScore, steps, diets })
       } else {
         const steps = [];
-        recipesApi.push({ id, title, image, summary, healthScore, steps, diets })
+        const origin = 'api'
+        recipesApi.push({ id, title, image, summary, healthScore, steps, diets, origin })
       }
   };
     return recipesApi
@@ -48,7 +48,6 @@ function App() {
 
   const handleDetail = (id) => {
     let recip = recipes.filter(recipe => recipe.id===id);
-    if(recip.length===0) recip = recipesFound.filter(recipe => recipe.id===id);
     setRecipe(recip);
   }
  

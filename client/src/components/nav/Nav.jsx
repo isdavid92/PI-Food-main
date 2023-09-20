@@ -4,13 +4,14 @@ import home from './assets/img/buttonHome.png';
 import search from './assets/img/search.png'
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from 'react-redux';
-import { addPage, getRecipesTitle, setRecipesFound, addRecipes } from '../../redux/actions';
-import { useState } from 'react';
+import { addPage, getRecipesTitle, setRecipes } from '../../redux/actions';
+import { useEffect, useState } from 'react';
 import Filter from './Filter';
 
 const Nav = () => {
 
-    const AllRecipes = useSelector(state => state.allRecipes);
+    const AllRecipesState = useSelector(state => state.allRecipes);
+    const recipesState = useSelector(state => state.recipes);
     const name = useSelector(state => state.name);
     const navigate = useNavigate();
     const dispatch = useDispatch();
@@ -18,10 +19,10 @@ const Nav = () => {
     const [ title, setTitle ] = useState('');
 
     const handleHome = () => {
-        dispatch(addRecipes(AllRecipes));
+        dispatch(setRecipes(AllRecipesState));
         dispatch(addPage(1));
-        navigate('/home');
-        dispatch(setRecipesFound())
+        setTitle('');
+        navigate('/home')
     }
 
     const handleChange = (event) => {
@@ -35,11 +36,21 @@ const Nav = () => {
     }
 
     const handleSearch = () => {
-        if (title=='') return alert('¡Enter some ID or recipe name!')
+        if (title=='') return alert('¡Enter some ID or recipe name!');
+        dispatch(setRecipes([]));
         dispatch(addPage(1));
         dispatch(getRecipesTitle(title));
-        navigate('/search');
+        navigate('/search')
     }
+
+    useEffect(() => {
+        if (typeof recipesState[0]=='string') {
+            alert(recipesState[0]);
+            dispatch(setRecipes(AllRecipesState));
+            setTitle('');
+            navigate('/home')
+        }   
+    },[recipesState])
 
     return(
         <nav>
@@ -47,7 +58,14 @@ const Nav = () => {
             <div className={style.bar}>
                 <h1 className={style.greeting}>Hi {name}!...</h1>
                 <h1 className={style.greeting}>search recipe:</h1>
-                <input type="text" className={style.input} placeholder='your recipe here...' onChange={handleChange} onKeyPress={handleKeyPress}/>
+                <input
+                    type="text"
+                    className={style.input}
+                    placeholder='your recipe here...'
+                    onChange={handleChange}
+                    onKeyPress={handleKeyPress}
+                    value={title}
+                />
                 <img src={search} className={style.search} title='search' onClick={() => handleSearch()}/>
                 {
                     pathname !== '/home' &&
