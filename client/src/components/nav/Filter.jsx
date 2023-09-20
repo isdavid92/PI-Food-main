@@ -8,11 +8,9 @@ const Filter = () => {
 
     const navigate = useNavigate();
     const dispatch = useDispatch();
-    const allRecipesState = useSelector(state => state.allRecipes);
     const recipesState = useSelector(state => state.recipes);
     const lastRoute = useSelector(state => state.lastRoute);
     const [recips, setRecips] = useState([]);       //! RECIPES
-    const [allRecipes, setAllRecipes] = useState([]); //! ALL
     const [selectFil, setSelectFil] = useState('');        //*PARA MOSTRAR EL INPUT
     const [selectDiet, setSelectDiet] = useState('');
     const [selectOrigin, setSelectOrigin] = useState('');
@@ -22,7 +20,6 @@ const Filter = () => {
 
     useEffect(() => {
         setRecips(recipesState);
-        setAllRecipes(allRecipesState)
         if (lastRoute!=='/detail') dispatch(addPage(1));
         setSelectFil('diet');
         setSelectOrder('alphabetical order')

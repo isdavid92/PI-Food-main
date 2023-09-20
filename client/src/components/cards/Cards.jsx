@@ -9,7 +9,6 @@ const Cards = ({ handleDetail }) => {
 
     const recipesState = useSelector(state => state.recipes);
     const render = useSelector(state => state.render);
-    console.log('render' + recipesState.length);
     const pageState = useSelector(state => state.page);
     const { pathname } = useLocation();
     const dispatch = useDispatch();
@@ -52,8 +51,7 @@ const Cards = ({ handleDetail }) => {
             <div className={style.cards}>
                 {
                     nineRecipes.map((recipe, index) => {
-                        console.log(recipe.diets.length);
-                        console.log(recipe.diets);
+                        console.log(recipe.origin);
                         return (
                             <Card key={index} recipe={recipe} handleDetail={handleDetail} page={page} />
                         )

@@ -40,11 +40,13 @@ const getRecipesBulk = async (req, res) => {
         for (let i = 0; i < response.data.length; i++) {
             const { id, title, image, summary, healthScore, analyzedInstructions, diets } = response.data[i];
             if (analyzedInstructions.length>0) {
+                const origin = 'api';
                 const steps = analyzedInstructions[0].steps;
-                data.push({ id, title, image, summary, healthScore, steps, diets })
+                data.push({ id, title, image, summary, healthScore, steps, diets, origin })
               } else {
+                const origin = 'api';
                 const steps = [];
-                data.push({ id, title, image, summary, healthScore, steps, diets });
+                data.push({ id, title, image, summary, healthScore, steps, diets, origin });
               }
         };
         return res.status(200).json(data)

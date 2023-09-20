@@ -3,7 +3,6 @@ import { ADD_NAME, ADD_PAGE, ADD_DIET, SET_DIETS, SET_LASTROUTE, GET_RECIPESDB, 
 const inicialState = {
     recipes: [],
     allRecipes: [],
-    recipesDB: [],
     render: 0,
     lastRoute:'',
     name: '',
@@ -53,7 +52,6 @@ const reducer = (state = inicialState, { type, payload }) => {
         case GET_RECIPESDB:
             return {
                 ...state,
-                recipesDB: payload,
                 recipes: [...payload, ...state.recipes],
                 allRecipes: [...payload, ...state.allRecipes]
             }
