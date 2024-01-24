@@ -92,10 +92,9 @@ export const getRecipesDB = () => {
 export const getRecipesTitle = (title) => {
     try {
         return async (dispatch) => {
-            const num = Number(title)
+            const num = Number(title);
             if (!isNaN(num)) {
                 const response = await axios.get(`${URL}recipes/${num}`);
-                console.log(response.data);
                 if (typeof response.data == 'string') {
                     const data = [`Sorry, there is no recipe with the ID: ${num}`];
                     return dispatch({
